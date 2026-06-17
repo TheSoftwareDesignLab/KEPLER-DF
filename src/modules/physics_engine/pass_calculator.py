@@ -181,8 +181,6 @@ def compute_target_passes(
             continue
             
         final_duration = int((clipped_los - clipped_aos).total_seconds())
-        if final_duration < task.estimated_duration:
-            continue
             
         valid_passes.append({
             "satellite_id": satellite.norad_id,

@@ -8,6 +8,7 @@ except ImportError:
     yaml_available = False
 from src.modules.data_collector.main import data_collector_main
 from src.modules.physics_engine.main import physics_engine_main
+from src.modules.prompt_factory.main import prompt_factory_main
 
 
 def load_config(config_path: str) -> dict:
@@ -61,7 +62,7 @@ def main():
             "band_weights_map": band_map,  
             "min_sensors_per_sat": pay_cfg.get("min_sensors_per_sat", 1),
             "max_sensors_per_sat": pay_cfg.get("max_sensors_per_sat", 1),
-            "priority_weights": task_cfg.get("priority_weights"),  # Mapeo directo del vector de prioridades desde YAML
+            "priority_weights": task_cfg.get("priority_weights"),  
             "seed": sim_cfg.get("seed")
         }
         
@@ -96,10 +97,25 @@ def main():
                 print(f"      > ... and {len(context.targets) - 3} more structured target tasks in memory buffer.")
         
         print("\n" + "=" * 50)
+        print("Executing Semantic Prompt Generation Phase (Ollama Local Inferences)...")
+        print("=" * 50)
+        
+        prompt_cfg = task_cfg.get("prompt_generation")
+        ollama_model = sim_cfg.get("ollama_model", "llama3.1:8b")
+        ollama_temp = sim_cfg.get("ollama_temperature", 0.3)
+        
+        prompt_factory_main(
+            targets=context.targets,
+            prompt_config=prompt_cfg,
+            output_dir="data",
+            model_name=ollama_model,
+            temperature=ollama_temp
+        )
+        
+        print("\n" + "=" * 50)
         print("Executing Phase 2: Physics Matrix Propagation & Target Intersection...")
         print("=" * 50)
         
-        # Absolute timeline boundaries (24-hour baseline horizon)
         t0 = datetime(2026, 6, 15, 12, 0, 0, tzinfo=timezone.utc)
         tf = datetime(2026, 6, 16, 12, 0, 0, tzinfo=timezone.utc)
         

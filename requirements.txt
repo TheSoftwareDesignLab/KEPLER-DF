@@ -12,5 +12,5 @@ pyyaml==6.0.1       # Unified config.yaml parser for system-wide initialization
 pyproj==3.6.1       # Cartographic transformations and WGS84 ellipsoidal geometry
 
 # --- Network & Data Processing (Optional / Ecosystem Compatibility) ---
-# requests==2.31.0   # Standard client layer if fetching CelesTrak over raw HTTP
-# pandas==2.2.2      # Vectorized processing if manipulating heavy ground_station data pools
+ requests==2.31.0   # Standard client layer if fetching CelesTrak over raw HTTP
+ pandas==2.2.2      # Vectorized processing if manipulating heavy ground_station data pools

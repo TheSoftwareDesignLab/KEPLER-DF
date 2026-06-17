@@ -74,7 +74,6 @@ Upon a successful execution loop, the module serializes its memory buffers into 
       "region_tag": "colombia_andina",
       "priority": 1,
       "task_type": "polygon",
-      "estimated_duration_s": 22,
       "release_time_s": 142,
       "deadline_s": 3840,
       "coordinates": [

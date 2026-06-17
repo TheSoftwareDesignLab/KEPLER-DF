@@ -2,8 +2,10 @@ simulation:
   sat_k: 3
   sat_group_name: "weather"
   gs_k: 2
-  tasks_k: 15
+  tasks_k: 3
   seed: 42
+  ollama_model: "llama3.1:8b"
+  ollama_temperature: 0.3
 
 payload:
   sensors_pool:
@@ -11,7 +13,6 @@ payload:
     - SAR
     - TIR
   sensor_weights: [0.7, 0.2, 0.1]
-  
   bands_config:
     X:
       weight: 0.6
@@ -22,7 +23,6 @@ payload:
     Ka:
       weight: 0.2
       min_elevation_deg: 15.0
-
   min_sensors_per_sat: 1
   max_sensors_per_sat: 2
 
@@ -37,7 +37,6 @@ task_generation:
   min_lifetime: 1800
   max_lifetime: 7200
   priority_weights: [0.45, 0.25, 0.15, 0.10, 0.05]
-  
   bounding_boxes:
     - name: "colombia_andina"
       lat_envelope: [2.0, 8.0]
@@ -45,6 +44,25 @@ task_generation:
     - name: "panama_canal"
       lat_envelope: [7.5, 9.5]
       lon_envelope: [-80.5, -78.5]
+  prompt_generation:
+    system_instruction_template: "Return ONLY one block delimited by triple backticks with the language tag `prompt`.
+
+You are an Earth-observation mission operator talking to an automated planner for a LEO satellite constellation.
+
+Your task is to write a single, natural-sounding English request asking to schedule an acquisition for the target task provided below.
+
+Requirements:
+1. You must request a prioritized capture matching the specified location name and sensor type. Do not invent any other locations or sensors.
+2. You must explicitly state how much time is left until its deadline by REUSING the exact numeric string in the last column of the target task (the \"remaining\" field) exactly as it appears. Do not change the digits or units.
+3. Keep the tone conversational, compact, and professional.
+
+Target task:
+{tasks_dataset}
+
+Now output ONLY the final user request, inside:
+```prompt
+...your text here...
+"
 
 paths:
   gs_file_path: "data/ground_station.csv"

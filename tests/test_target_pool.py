@@ -33,7 +33,7 @@ def main():
         for t in tasks:
             print("-" * 81)
             print(f"     ID: {t.task_id:<12} | Region: {t.region_tag:<17} | Type: {t.task_type.upper():<7}")
-            print(f"     Sensors : {str(t.required_sensors):<20} | Min Duration Required: {t.estimated_duration}s")
+            print(f"     Sensors : {str(t.required_sensors):<20}")
             print(f"     Timeline: Release (t_arr): {t.release_time:<4}s | Deadline (t_dl): {t.deadline:<5}s | Lifetime: {t.deadline - t.release_time}s")
             
             # Formateo y auditoría de coordenadas geodésicas (Lat, Lon)
@@ -50,7 +50,6 @@ def main():
             
             # Strict validation checkpoints
             assert t.deadline > t.release_time, "Timeline fault: Deadline occurs before release."
-            assert (t.deadline - t.release_time) >= t.estimated_duration, "Task lifetime is too short for capture duration."
             
         print("=" * 81)
         print("  SUCCESS: Dynamic relative timelines and geospatial topologies are consistent.")
