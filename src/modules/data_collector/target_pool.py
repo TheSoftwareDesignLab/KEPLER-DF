@@ -11,8 +11,6 @@ def generate_dynamic_tasks(
     polygon_ratio: float = 0.5,
     min_area_deg: float = 0.05,
     max_area_deg: float = 0.20,
-    min_duration: int = 5,
-    max_duration: int = 30,
     min_release_delay: int = 0,
     max_release_delay: int = 7200,     
     min_lifetime: int = 1800,          
@@ -35,7 +33,7 @@ def generate_dynamic_tasks(
     rng = random.Random(seed)
     tasks = []
 
-    priorities_pool = [1, 2, 3, 4, 5]
+    priorities_pool = [1, 2, 3]
 
     for i in range(k):
         task_id = f"TASK_GEN_{i+1:03d}"
@@ -59,7 +57,7 @@ def generate_dynamic_tasks(
         center_lat = rng.uniform(lat_envelope[0], lat_envelope[1])
         center_lon = rng.uniform(lon_envelope[0], lon_envelope[1])
         
-        num_sensors = rng.randint(1, min(2, len(sensors)))
+        num_sensors = 1 #rng.randint(1, min(2, len(sensors)))
         required_sensors = rng.sample(sensors, num_sensors)
         
         is_polygon = rng.random() < polygon_ratio

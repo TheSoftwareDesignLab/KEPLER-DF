@@ -53,7 +53,8 @@ def _export_scenario_report(context: CollectedContext, report_path: str = "data/
                 "task_type": t.task_type,
                 "release_time_s": t.release_time,
                 "deadline_s": t.deadline,
-                "coordinates": t.coordinates
+                "coordinates": t.coordinates,
+                "sensor_requirements": t.required_sensors
             }
             for t in context.targets
         ]
@@ -72,8 +73,6 @@ def data_collector_main(
     polygon_ratio: float = 0.5,
     min_area_deg: float = 0.05,
     max_area_deg: float = 0.20,
-    min_duration: int = 5,
-    max_duration: int = 30,
     min_release_delay: int = 0,
     max_release_delay: int = 3600,
     min_lifetime: int = 1800,
@@ -86,7 +85,8 @@ def data_collector_main(
     min_sensors_per_sat: int = 1,
     max_sensors_per_sat: int = 1,
     priority_weights: Optional[List[float]] = None,
-    seed: Optional[int] = None
+    seed: Optional[int] = None,
+    output_path: str = "data/scenario_report.json"
 ) -> CollectedContext:
     """
     Unified local orchestrator for Phase 1. Sequences ground station sampling, 
@@ -142,8 +142,6 @@ def data_collector_main(
         polygon_ratio=polygon_ratio,
         min_area_deg=min_area_deg,
         max_area_deg=max_area_deg,
-        min_duration=min_duration,
-        max_duration=max_duration,
         min_release_delay=min_release_delay,
         max_release_delay=max_release_delay,
         min_lifetime=min_lifetime,
@@ -159,6 +157,6 @@ def data_collector_main(
         targets=targets
     )
     
-    _export_scenario_report(context)
+    _export_scenario_report(context, report_path=output_path)
 
     return context

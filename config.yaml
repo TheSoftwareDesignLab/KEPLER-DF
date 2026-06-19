@@ -1,18 +1,22 @@
 simulation:
+  dataset_name: "constellation_dataset_v1"
+  num_scenarios: 2
   sat_k: 3
   sat_group_name: "weather"
   gs_k: 2
-  tasks_k: 3
-  seed: 42
+  tasks_k: 10
+  seed: 2026
   ollama_model: "llama3.1:8b"
-  ollama_temperature: 0.4  # Un poco de temperatura ayuda a la diversidad del lenguaje natural
+  ollama_temperature: 0.4 
 
 payload:
   sensors_pool:
     - VIS
     - SAR
     - TIR
-  sensor_weights: [0.7, 0.2, 0.1]
+    - VNIR
+    - NIR
+  sensor_weights: [0.4, 0.2, 0.2, 0.1, 0.1]
   bands_config:
     X:
       weight: 0.6
@@ -34,9 +38,9 @@ task_generation:
   max_duration: 30
   min_release_delay: 0
   max_release_delay: 600
-  min_lifetime: 1800
-  max_lifetime: 7200
-  priority_weights: [0.45, 0.25, 0.15, 0.10, 0.05]
+  min_lifetime: 18000
+  max_lifetime: 345600
+  priority_weights: [0.5, 0.3, 0.2]
   bounding_boxes:
     - name: "colombia_andina"
       lat_envelope: [2.0, 8.0]
@@ -45,6 +49,13 @@ task_generation:
       lat_envelope: [7.5, 9.5]
       lon_envelope: [-80.5, -78.5]
   prompt_generation:
+    sensor_categories:
+      TIR: "thermal mapping heat signature surface temperature profile thermal anomaly detection"
+      VNIR: "multispectral vegetation analysis chlorophyll absorption level NDVI index"
+      SAR: "active radar scan microwave surface imaging cloud-penetrating capture"
+      NIR: "near-infrared reflection water body boundary mapping soil moisture assessment"
+      VISUAL: "high-resolution optical snapshot daylight photography RGB true-color imagery"
+      VIS: "high-resolution optical snapshot daylight photography RGB true-color imagery"
     system_instruction_template: |
       Return ONLY one block delimited by triple backticks with the language tag `prompt`.
 
@@ -60,18 +71,22 @@ task_generation:
          - Incorporate the landmark naturally into your geographical description if it contains a valid name.
          - If country, city, or landmark are "N/A", ignore them gracefully and describe the location using the remaining valid fields or the clean 'region_name'.
 
-      2. MISSION URGENCY (Interpret key 'priority_level'):
+      2. MISSION ALLOCATION PRIORITY (Interpret key 'priority_level'):
          - Do NOT mention raw priority numbers or technical urgency levels.
-         - Adjust your communication style, vocabulary, and operational tone to match the significance of the priority level:
-           * Priority 5 (Critical): Use an urgent, authoritative, and demanding tone to reflect an active emergency, environmental hazard, or time-critical scenario.
-           * Priority 3-4 (Operational): Use a professional, direct, and focused tone to reflect commercial operations, routine monitoring, or baseline updates.
-           * Priority 1-2 (Routine): Use a casual, relaxed, or low-priority tone to indicate flexible baseline tracking, archive collection, or non-urgent monitoring.
+         - Understand that priority indicates mission importance and scheduling hierarchy (which tasks to drop or defend if the constellation suffers from data bottlenecks, high orbital load, or conflicting visibility passes). This is NOT a time urgency or a metric of how close the deadline is.
+         - Adjust the operational tone, vocabulary, and assertiveness to reflect this ranking:
+           * Priority 3 (High Importance): Use an authoritative, explicit, and commanding tone. The language must signal that this collection is an institutional priority, a binding contract requirement, or a critical payload capture that cannot be preempted or deferred for other overlapping tasks.
+           * Priority 2 (Medium Importance): Use a professional, direct, and standard operational tone. Reflect standard commercial tasking, baseline pipeline tracking, or routine mission updates that have fixed parameters but normal operational status.
+           * Priority 1 (Low Importance): Use a casual, highly flexible, or opportunistic tone. The phrasing should indicate that this is a filler task, archive background capture, or non-essential testbed tracking that can be gracefully dropped or rescheduled at the satellite's convenience if a higher-priority task contends for the same slot.
 
       3. SENSORS AND PHYSICAL OBJECTIVES (Interpret key 'primary_sensor'):
-         - Do NOT output technical abbreviations. Translate the sensor type into physical operational objectives:
-           * VIS -> Request high-quality daylight photography, clear optical snapshots, or visual confirmation.
-           * SAR -> Request active radar scanning, microwave imaging to pierce cloud cover/precipitation, or night imaging.
-           * TIR -> Request thermal mapping, infrared sweep, or surface temperature profiling.
+         - Do NOT output technical abbreviations or acronyms (e.g., do NOT write VIS, SAR, TIR, VNIR, NIR).
+         - Translate the core asset into human operational objectives by describing what physical phenomenon needs to be observed:
+           * VIS: Implies standard visual spectrum verification. Explain the objective as capturing high-fidelity daylight features, clear optical imagery, or true-color visual documentation that relies on solar illumination.
+           * SAR: Implies microwave active radar profiling. Explain the objective as piercing heavy weather, capturing ground geometry through dense cloud cover/precipitation, or acquiring surface backscatter imagery regardless of day or night conditions.
+           * TIR: Implies long-wave thermal infrared profiling. Explain the objective as mapping heat emissions, surveying surface temperature distributions, or tracking thermal signatures and heat dissipation anomalies.
+           * VNIR: Implies visible and near-infrared boundary bands. Explain the objective as evaluating surface reflectance changes, analyzing agricultural or vegetative health signatures, or capturing vegetation indices.
+           * NIR: Implies pure near-infrared collection. Explain the objective as discriminating soil moisture gradients, mapping water bodies and coastlines clearly, or capturing high-contrast land-water boundaries.
 
       4. RELATIVE TIMEFRAMES (Interpret keys 'remaining_time' and 'deadline_local'):
          - Do NOT output raw UTC timestamps, Unix epochs, or remaining seconds.

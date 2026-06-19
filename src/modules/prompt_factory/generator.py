@@ -14,10 +14,8 @@ __all__ = ["generate_ollama_semantic_prompt", "build_single_task_string"]
 
 
 def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, str]:
-    print(f"\n[DEBUG GEOLOC] Iniciando geocodificación para coordenadas: lat={lat}, lon={lon}")
     
     if lat is None or lon is None:
-        print("[DEBUG GEOLOC] Error: Una o ambas coordenadas son None. Se retorna N/A.")
         return {"country": "N/A", "city": "N/A", "landmark": "N/A"}
     
     time.sleep(1.2)
@@ -37,13 +35,11 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
             "User-Agent": f"satellite_constellation_research_{int(time.time())}"
         }
         
-        print(f"[DEBUG GEOLOC] Realizando petición web directa con requests (verify=False) a {url}...")
         response = requests.get(url, params=params, headers=headers, verify=False, timeout=15)
         response.raise_for_status()
         raw_data = response.json()
         
         if raw_data and "address" in raw_data:
-            print(f"[DEBUG GEOLOC] Conexión exitosa. Dirección completa devuelta: {raw_data.get('display_name')}")
             
             address = raw_data["address"]
             country = address.get("country", "N/A")
@@ -70,7 +66,6 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
                 )
             )
             
-            print(f"[DEBUG GEOLOC] Valores extraídos -> country: '{country}', city: '{city}', landmark: '{landmark}'")
             
             return {
                 "country": country,
@@ -78,10 +73,10 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
                 "landmark": landmark
             }
         else:
-            print(f"[DEBUG GEOLOC] Nominatim retornó una estructura de respuesta inválida para: {lat}, {lon}")
+            print(f"[DEBUG GEOLOC] Invalid structure returned by Nominatim: {lat}, {lon}")
             
     except Exception as e:
-        print(f"[DEBUG GEOLOC ERROR] Excepción atrapada durante la geocodificación directa: {e}")
+        print(f"[DEBUG GEOLOC ERROR] Caught exception: {e}")
         
     return {"country": "N/A", "city": "N/A", "landmark": "N/A"}
 
@@ -150,7 +145,6 @@ def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
                 lat = sum(lat_env) / len(lat_env)
                 lon = sum(lon_env) / len(lon_env)
             
-    print(f"\n[DEBUG TASK BUILD] Coordenadas finales extraídas de la tarea ({task.task_id}): lat={lat}, lon={lon}")
     
     geo_info = _get_geocoded_info(lat, lon)
     priority = getattr(task, "priority", getattr(task, "priority_level", 3))
