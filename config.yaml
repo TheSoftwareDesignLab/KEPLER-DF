@@ -1,12 +1,12 @@
 simulation:
-  dataset_name: "constellation_dataset_v1"
-  num_scenarios: 2
-  sat_k: 3
+  dataset_name: "constellation_dataset_v1_phi3_5_3_8b"
+  num_scenarios: 100
+  sat_k: 5
   sat_group_name: "weather"
   gs_k: 2
-  tasks_k: 5
-  seed: 1029182
-  ollama_model: "deepseek-r1:32b"
+  tasks_k: 20
+  seed: 2026
+  ollama_model: "phi3.5:3.8b"
   ollama_temperature: 0.4 
 
 payload:

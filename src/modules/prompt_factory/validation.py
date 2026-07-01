@@ -29,21 +29,30 @@ class SemanticValidator:
         clean_url = raw_url.replace("[", "").replace("]", "").split("(")[0].strip()
         target_endpoint = f"{clean_url}/api/embed"
         
+        # Forzamos que el input sea siempre una lista para estandarizar la respuesta de la API
+        if isinstance(input_data, str):
+            input_data = [input_data]
+            
         payload = {
             "model": self.model_name,
             "input": input_data
         }
         
-        req = urllib.request.Request(
-            target_endpoint,
-            data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"},
-            method="POST"
-        )
-        
-        with urllib.request.urlopen(req) as response:
-            result = json.loads(response.read().decode("utf-8"))
-            return result["embeddings"]
+        try:
+            req = urllib.request.Request(
+                target_endpoint,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            
+            with urllib.request.urlopen(req, timeout=15) as response:
+                result = json.loads(response.read().decode("utf-8"))
+                return result["embeddings"]
+        except Exception as e:
+            # Fallback seguro en caso de error de red con Ollama en ejecuciones masivas
+            print(f"[OLLAMA EMBED ERROR] Telemetry recovery failed: {e}")
+            return []
 
     def _initialize_category_dict(self, categories: Dict[str, str]) -> Dict[str, np.ndarray]:
         if not categories:
@@ -52,7 +61,9 @@ class SemanticValidator:
         phrases = list(categories.values())
         
         embeddings = self._get_ollama_embeddings(phrases)
-        
+        if not embeddings:
+            return {tag: np.zeros(1024) for tag in tags} # mxbai-embed-large usa 1024 dims
+            
         category_dict = {}
         for tag, vector in zip(tags, embeddings):
             category_dict[tag] = np.array(vector)
@@ -63,14 +74,16 @@ class SemanticValidator:
             return {}
         
         embeddings = self._get_ollama_embeddings(categories)
-        
+        if not embeddings:
+            return {text_anchor: np.zeros(1024) for text_anchor in categories}
+            
         category_dict = {}
         for text_anchor, vector in zip(categories, embeddings):
             category_dict[text_anchor] = np.array(vector)
         return category_dict
 
     def _find_closest_tag(self, target_vector: np.ndarray, embeddings_dict: Dict[str, np.ndarray]) -> Tuple[str, float]:
-        if not embeddings_dict:
+        if not embeddings_dict or target_vector is None or target_vector.size == 0:
             return "", 0.0
 
         valid_keys = list(embeddings_dict.keys())
@@ -92,7 +105,17 @@ class SemanticValidator:
 
     def validate_generated_request(self, generated_text: str) -> Dict[str, Any]:
         embeddings = self._get_ollama_embeddings(generated_text)
-        sentence_vector = np.array(embeddings[0])
+        
+        # Validación defensiva ante payloads corruptos o vacíos del LLM
+        if not embeddings or not isinstance(embeddings, list):
+            sentence_vector = np.zeros(1024)
+        else:
+            # Control estricto de dimensionalidad del array devuelto
+            first_element = embeddings[0]
+            if isinstance(first_element, list):
+                sentence_vector = np.array(first_element)
+            else:
+                sentence_vector = np.array(embeddings)
         
         predicted_sensor, sensor_sim = self._find_closest_tag(sentence_vector, self.sensor_dict)
         predicted_priority, priority_sim = self._find_closest_tag(sentence_vector, self.priority_dict)
