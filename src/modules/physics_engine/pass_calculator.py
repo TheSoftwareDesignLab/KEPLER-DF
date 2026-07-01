@@ -11,6 +11,31 @@ def _get_timescale():
     return load.timescale()
 
 
+def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: float, c_lon: float) -> Tuple[float, float]:
+    geocentric = sat_object.at(t_skyfield)
+    r_sat = geocentric.position.km
+    v_sat = geocentric.velocity.km_per_s
+
+    target_topo = wgs84.latlon(c_lat, c_lon, elevation_m=0.0)
+    r_target = target_topo.at(t_skyfield).position.km
+
+    rho_inercial = r_target - r_sat
+
+    z_lvlh = -r_sat / np.linalg.norm(r_sat)
+    h_orbit = np.cross(r_sat, v_sat)
+    y_lvlh = -h_orbit / np.linalg.norm(h_orbit)
+    x_lvlh = np.cross(y_lvlh, z_lvlh)
+
+    R_inercial_to_lvlh = np.vstack([x_lvlh, y_lvlh, z_lvlh])
+    rho_lvlh = R_inercial_to_lvlh.dot(rho_inercial)
+    rx, ry, rz = rho_lvlh
+
+    pitch_deg = float(np.degrees(np.arctan2(rx, -rz)))
+    roll_deg = float(np.degrees(np.arctan2(ry, -rz)))
+
+    return pitch_deg, roll_deg
+
+
 def _refine_crossing(ts, sat, topo_target, t_before, t_after, target_el_deg, iterations=6):
     tb, ta = t_before, t_after
     for _ in range(iterations):
@@ -49,6 +74,8 @@ def _vectorized_pass_finder(
     start_dt: datetime,
     end_dt: datetime,
     min_el_deg: float,
+    c_lat: float,
+    c_lon: float,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
     ts = _get_timescale()
@@ -100,6 +127,8 @@ def _vectorized_pass_finder(
         los_dt = t_los.utc_datetime()
         duration_s = max(0, int((los_dt - aos_dt).total_seconds()))
 
+        pitch_required, roll_required = _calculate_lvlh_attitude(sat_object, t_max, c_lat, c_lon)
+
         discovered_passes.append({
             "aos_dt": aos_dt,
             "tmax_dt": t_max.utc_datetime(),
@@ -108,6 +137,8 @@ def _vectorized_pass_finder(
             "range_aos_km": float(range_aos),
             "range_los_km": float(range_los),
             "duration_s": duration_s,
+            "lvlh_pitch_deg": pitch_required,
+            "lvlh_roll_deg": roll_required
         })
 
     return discovered_passes
@@ -124,13 +155,20 @@ def compute_infrastructure_passes(
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     topo_target = wgs84.latlon(ground_station.latitude, ground_station.longitude, elevation_m=ground_station.elevation)
     
-    band_info = bands_config.get(satellite.band, {})
+    band_info = bands_config.get(satellite.band, {}) if satellite.band else {}
     min_el_deg = float(band_info.get("min_elevation_deg", 10.0))
     
-    raw_passes = _vectorized_pass_finder(sat_object, topo_target, start_dt_utc, end_dt_utc, min_el_deg, step_seconds)
+    raw_passes = _vectorized_pass_finder(
+        sat_object, topo_target, start_dt_utc, end_dt_utc, min_el_deg,
+        ground_station.latitude, ground_station.longitude, step_seconds
+    )
     
     formatted_passes = []
+    tx_rate = satellite.downlink_rate_mb_s if satellite.downlink_rate_mb_s is not None else 10.0
+
     for p in raw_passes:
+        max_downlink_capacity_mb = float(p["duration_s"] * tx_rate)
+
         formatted_passes.append({
             "satellite_id": satellite.norad_id,
             "ground_station_id": ground_station.id,
@@ -140,7 +178,10 @@ def compute_infrastructure_passes(
             "max_el_deg": p["max_el_deg"],
             "range_aos_km": p["range_aos_km"],
             "range_los_km": p["range_los_km"],
-            "duration_s": p["duration_s"]
+            "duration_s": p["duration_s"],
+            "lvlh_target_pitch_deg": p["lvlh_pitch_deg"],
+            "lvlh_target_roll_deg": p["lvlh_roll_deg"],
+            "estimated_transmission_capacity_mb": max_downlink_capacity_mb
         })
     return formatted_passes
 
@@ -160,7 +201,7 @@ def compute_target_passes(
     task_release_dt = simulation_start_utc + timedelta(seconds=task.release_time)
     task_deadline_dt = simulation_start_utc + timedelta(seconds=task.deadline)
     
-    raw_passes = _vectorized_pass_finder(sat_object, topo_target, task_release_dt, task_deadline_dt, min_el_deg, step_seconds)
+    raw_passes = _vectorized_pass_finder(sat_object, topo_target, task_release_dt, task_deadline_dt, min_el_deg, c_lat, c_lon, step_seconds)
     
     mean_motion_rad_min = sat_object.model.no
     satellite_speed_deg_s = (mean_motion_rad_min * (180.0 / np.pi)) / 60.0
@@ -170,6 +211,10 @@ def compute_target_passes(
         temporal_buffer = task_radius_deg / satellite_speed_deg_s
         
     valid_passes = []
+    primary_sensor = task.required_sensors[0] if task.required_sensors else "VIS"
+    rates_map = satellite.sensor_generation_rates if satellite.sensor_generation_rates is not None else {}
+    data_ingestion_rate = rates_map.get(primary_sensor, 30.0)
+
     for p in raw_passes:
         adjusted_aos = p["aos_dt"] - timedelta(seconds=temporal_buffer)
         adjusted_los = p["los_dt"] + timedelta(seconds=temporal_buffer)
@@ -181,6 +226,7 @@ def compute_target_passes(
             continue
             
         final_duration = int((clipped_los - clipped_aos).total_seconds())
+        generated_data_volume_mb = float(final_duration * data_ingestion_rate)
             
         valid_passes.append({
             "satellite_id": satellite.norad_id,
@@ -190,6 +236,9 @@ def compute_target_passes(
             "los_utc": clipped_los.strftime("%Y-%m-%d %H:%M:%S"),
             "max_el_deg": p["max_el_deg"],
             "duration_s": final_duration,
+            "lvlh_required_pitch_deg": p["lvlh_pitch_deg"],
+            "lvlh_required_roll_deg": p["lvlh_roll_deg"],
+            "estimated_onboard_data_generation_mb": generated_data_volume_mb,
             "is_feasible": True
         })
         

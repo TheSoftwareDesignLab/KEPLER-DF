@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Dict
 
 @dataclass
 class SatelliteConfig:
@@ -9,6 +9,9 @@ class SatelliteConfig:
     tle_line2: str
     band: Optional[str] = None
     sensors: List[str] = field(default_factory=list)
+    capacity_mb: Optional[float] = None
+    sensor_generation_rates: Dict[str, float] = field(default_factory=dict)
+    downlink_rate_mb_s: Optional[float] = None
 
 @dataclass
 class GroundStationConfig:
@@ -28,7 +31,9 @@ class TargetTask:
     coordinates: List[Tuple[float, float]] 
     required_sensors: List[str]
     release_time: int               
-    deadline: int                   
+    deadline: int      
+    assigned_lvlh_pitch_deg: Optional[float] = None
+    assigned_lvlh_roll_deg: Optional[float] = None             
 
 @dataclass
 class CollectedContext:

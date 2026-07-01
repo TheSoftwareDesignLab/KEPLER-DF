@@ -55,7 +55,6 @@ def main():
         base_seed = sim_cfg.get("seed", 42)
         
         bands_config = pay_cfg.get("bands_config", {})
-        band_map = {b: info.get("weight", 1.0) for b, info in bands_config.items()}
         
         print(f"[DATASET] Parent Dataset Directory: 'data/{dataset_name}'")
         print(f"[DATASET] Total iterations to generate: {num_scenarios}\n")
@@ -92,7 +91,9 @@ def main():
                 "gs_file_path": path_cfg.get("gs_file_path", "data/ground_station.csv"),
                 "available_sensors": pay_cfg.get("sensors_pool"),
                 "sensor_weights": pay_cfg.get("sensor_weights"),
-                "band_weights_map": band_map,  
+                "band_weights_map": bands_config,  
+                "storage_capacity_pool_mb": pay_cfg.get("storage_capacity_pool_mb"),
+                "sensor_generation_rates": pay_cfg.get("sensor_generation_rates"),
                 "min_sensors_per_sat": pay_cfg.get("min_sensors_per_sat", 1),
                 "max_sensors_per_sat": pay_cfg.get("max_sensors_per_sat", 1),
                 "priority_weights": task_cfg.get("priority_weights"),  

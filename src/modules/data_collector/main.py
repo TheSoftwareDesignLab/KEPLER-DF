@@ -11,9 +11,6 @@ __all__ = ["data_collector_main"]
 
 
 def _export_scenario_report(context: CollectedContext, report_path: str = "data/scenario_report.json") -> None:
-    """
-    Serializes the runtime generated context parameters into a persistent JSON report.
-    """
     path = pathlib.Path(report_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -30,7 +27,10 @@ def _export_scenario_report(context: CollectedContext, report_path: str = "data/
                 "tle_line1": sat.tle_line1,
                 "tle_line2": sat.tle_line2,
                 "assigned_band": sat.band,
-                "assigned_sensors": sat.sensors
+                "assigned_sensors": sat.sensors,
+                "ssr_capacity_mb": sat.capacity_mb,
+                "sensor_generation_rates": sat.sensor_generation_rates,
+                "downlink_rate_mb_s": sat.downlink_rate_mb_s
             }
             for sat in context.satellites
         ],
@@ -68,6 +68,8 @@ def data_collector_main(
     sat_k: int,
     gs_k: int,
     available_sensors: List[str],
+    storage_capacity_pool_mb: Optional[List[float]] = None,
+    sensor_generation_rates: Optional[Dict[str, float]] = None,
     tasks_k: int = 10,
     bounding_boxes: Optional[List[Dict[str, Any]]] = None,
     polygon_ratio: float = 0.5,
@@ -88,11 +90,6 @@ def data_collector_main(
     seed: Optional[int] = None,
     output_path: str = "data/scenario_report.json"
 ) -> CollectedContext:
-    """
-    Unified local orchestrator for Phase 1. Sequences ground station sampling, 
-    dynamic frequency constraint routing for satellite payload assignment, and 
-    procedural multi-box target mission generation.
-    """
     
     user_allowed_bands = list(band_weights_map.keys()) if band_weights_map else None
 
@@ -113,11 +110,15 @@ def data_collector_main(
     if not active_bands_pool:
         raise ValueError("The sampled ground stations do not provide any valid communication bands.")
 
-    active_band_weights = None
+    active_band_weights = []
+    band_downlink_rates = {}
     if band_weights_map:
-        active_band_weights = []
         for band in active_bands_pool:
-            active_band_weights.append(float(band_weights_map.get(band, 1.0)))
+            band_info = band_weights_map.get(band, {})
+            active_band_weights.append(float(band_info.get("weight", 1.0)))
+            band_downlink_rates[band] = float(band_info.get("downlink_rate_mb_s", 10.0))
+    else:
+        active_band_weights = [1.0] * len(active_bands_pool)
 
     raw_satellites = load_and_sample_satellites(file_path=sat_file_path, group_name=sat_group_name, k=sat_k, seed=seed)
 
@@ -125,8 +126,11 @@ def data_collector_main(
         satellites=raw_satellites,
         available_sensors=available_sensors,
         available_bands=active_bands_pool,  
+        available_capacities=storage_capacity_pool_mb,
         sensor_weights=sensor_weights,
         band_weights=active_band_weights,     
+        sensor_generation_rates=sensor_generation_rates,
+        band_downlink_rates=band_downlink_rates,
         min_sensors_per_sat=min_sensors_per_sat,
         max_sensors_per_sat=max_sensors_per_sat,
         seed=seed

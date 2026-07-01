@@ -39,10 +39,6 @@ def physics_engine_main(
     output_path: str = "data/physics_passes_report.json",
     step_seconds: int = 20
 ) -> None:
-    """
-    Main entry point for the physics engine module. Evaluates orbital positions 
-    and visibility matrices over ground assets and target regions.
-    """
     all_infra_passes = []
     for gs in context.ground_stations:
         for sat in context.satellites:
@@ -67,6 +63,10 @@ def physics_engine_main(
                 step_seconds=step_seconds
             )
             all_target_passes.extend(passes)
+
+            if passes:
+                task.assigned_lvlh_pitch_deg = passes[-1]["lvlh_required_pitch_deg"]
+                task.assigned_lvlh_roll_deg = passes[-1]["lvlh_required_roll_deg"]
 
     _export_physics_report(
         all_infra_passes=all_infra_passes,
