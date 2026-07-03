@@ -9,6 +9,17 @@ __all__ = ["physics_engine_main"]
 
 
 def _export_physics_report(all_infra_passes: list, all_target_passes: list, context: CollectedContext, simulation_start_utc: datetime, simulation_end_utc: datetime, output_path: str) -> None:
+    """
+    Exports a structured JSON compilation detailing computed line-of-sight access intervals.
+
+    Args:
+        all_infra_passes: List of compiled satellite-to-ground-station visibility data structures.
+        all_target_passes: List of compiled satellite-to-geographical-target access windows.
+        context: CollectedContext instance aggregating the constellation hardware and target registries.
+        simulation_start_utc: Anchor datetime specifying the lower boundary of the evaluation horizon.
+        simulation_end_utc: Anchor datetime specifying the upper boundary of the evaluation horizon.
+        output_path: System string path location defining where the JSON file report container will be written.
+    """
     path = pathlib.Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -41,6 +52,24 @@ def physics_engine_main(
     min_duration: int = 5,
     max_duration: int = 30
 ) -> None:
+    """
+    Orchestrates the orbital geometry simulation phase to discover geometric visibility intervals.
+
+    Evaluates the complete Cartesian product of the constellation fleet against down-selected 
+    ground tracking stations to discover down-link visibility windows. Concurrently propagates orbits 
+    over point and polygonal target envelopes to chart payload line-of-sight access passes, updating 
+    dynamic task coordinate alignments against the final localized LVLH pitch and roll geometric constraints.
+
+    Args:
+        context: CollectedContext aggregate mapping active space platforms, tracking hardware, and task geometries.
+        bands_config: Mapping reference defining hardware frequency properties and link budget constraints.
+        simulation_start_utc: Upper chronological anchor defining the start of the SGP4 propagation timeline.
+        simulation_end_utc: Lower chronological anchor defining the termination of the SGP4 propagation timeline.
+        output_path: System string path target defining where the compiled orbital visibility matrices are saved.
+        step_seconds: Temporal integration step size in seconds specifying the geometric sampling granularity.
+        min_duration: Minimum required window length in seconds for a target visibility pass to be considered viable.
+        max_duration: Maximum allowed capping limit in seconds for a single continuous target observation task.
+    """
     all_infra_passes = []
     for gs in context.ground_stations:
         for sat in context.satellites:

@@ -8,6 +8,15 @@ __all__ = ["load_and_sample_stations"]
 
 
 def _slugify(text: str) -> str:
+    """
+    Transforms an asset name string into a sanitized alphanumeric lower-snake-case identifier.
+
+    Args:
+        text: Raw name string under inspection.
+
+    Returns:
+        A lower-snake-case alphanumeric string sanitized for file system and registry tracking keys.
+    """
     clean = "".join(c.lower() if c.isalnum() or c.isspace() else "" for c in text)
     return "_".join(clean.split())
 
@@ -20,8 +29,21 @@ def load_and_sample_stations(
     custom_stations: Optional[List[GroundStationConfig]] = None
 ) -> List[GroundStationConfig]:
     """
-    Loads ground stations locally from a pre-enriched CSV file container, strictly 
-    filtering the asset pool to matching components present inside allowed_bands.
+    Loads ground stations locally from a pre-enriched CSV file container.
+
+    Parses geodetic, structural, and communication network payload properties, filtering
+    the active asset pool against supported telemetry bands, before extracting a stochastically
+    bounded cohort of target nodes using a reproducible random distribution.
+
+    Args:
+        file_path: Local system path string pointing to the ground station spreadsheet registry.
+        k: Optional precise integer defining the scale of the stochastically sampled tracking cohort.
+        allowed_bands: Optional list of communication frequency constraints used to isolate viable nodes.
+        seed: Optional integer used to lock the internal state of the pseudo-random generator.
+        custom_stations: Optional pre-compiled list of ground station structures bypassing file operations.
+
+    Returns:
+        A reproducibly sampled list of configured GroundStationConfig instances matching down-selection bounds.
     """
     if custom_stations is not None:
         return custom_stations

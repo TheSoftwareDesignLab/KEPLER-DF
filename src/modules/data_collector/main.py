@@ -14,12 +14,15 @@ __all__ = ["data_collector_main"]
 def _parse_tle_epoch(tle_line1: str) -> datetime:
     """
     Parses the orbital epoch directly from Line 1 of the standard NORAD TLE format.
-    
+
+    Extracts characters 18-32 from the first line of a standard Two-Line Element (TLE) string 
+    to determine the exact decimal day of the year and century-calibrated orbital reference time.
+
     Args:
-        tle_line1: The first line of the TLE string.
-        
+        tle_line1: The first line of the standard NORAD TLE string format.
+
     Returns:
-        A datetime object set to the exact UTC epoch extracted from the TLE.
+        A datetime object set to the exact UTC epoch extracted from the orbital elements.
     """
     try:
         epoch_str = tle_line1[18:32].strip()
@@ -35,6 +38,13 @@ def _parse_tle_epoch(tle_line1: str) -> datetime:
 
 
 def _export_scenario_report(context: CollectedContext, report_path: str = "data/scenario_report.json") -> None:
+    """
+    Exports a structured JSON data serialization containing all initialized metadata for the current simulation scenario.
+
+    Args:
+        context: CollectedContext object containing the assembled assets, infrastructure, and target registries.
+        report_path: System string path location defining where the JSON file report container will be written.
+    """
     path = pathlib.Path(report_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -117,9 +127,45 @@ def data_collector_main(
     **kwargs
 ) -> CollectedContext:
     """
-    Orchestrates the metadata collection phase by parsing physical assets,
-    assigning stochastic configurations, generating dynamic target regions,
-    and dynamically extracting the tracking timeline from the underlying TLE epoch.
+    Orchestrates the metadata collection phase by parsing physical assets and assigning stochastic configurations.
+
+    Initializes the data generation infrastructure by down-sampling localized ground station entries, 
+    matching available downlink communication bands, streaming active satellite elements, mapping stochastic 
+    payload parameters, and synthesizing target spatial geometries. Automatically anchors the internal timeline 
+    boundaries against the retrieved TLE orbital reference epoch to ensure orbital propagation consistency.
+
+    Args:
+        sat_k: Exact number of valid operational satellites to sample into the active constellation simulation pool.
+        gs_k: Exact number of localized ground tracking stations to select from the input catalog data source.
+        available_sensors: List of standard engineering payload names supported across the current factory run.
+        storage_capacity_pool_mb: Pool array defining the allowed Solid-State Recorder capacity bounds in Megabytes.
+        sensor_generation_rates: Map of default bit-stream data collection rates assigned to each active instrument.
+        tasks_k: Exact number of unique spatial target task instances to generate within the scenario bounds.
+        bounding_boxes: Geodetic boundaries used to define tracking envelopes over specific regions.
+        polygon_ratio: Stochastic threshold defining the balance of generated task geometries (polygons vs points).
+        min_area_deg: Lower area bound constraint in square degrees for synthetic polygonal target regions.
+        max_area_deg: Upper area bound constraint in square degrees for synthetic polygonal target regions.
+        min_release_delay: Minimum simulation time delta defining when a task enters the scheduling queue.
+        max_release_delay: Maximum simulation time delta defining when a task enters the scheduling queue.
+        min_lifetime: Minimum temporal lifespan constraint determining target expiration intervals.
+        max_lifetime: Maximum temporal lifespan constraint determining target expiration intervals.
+        sat_file_path: Optional path string pointing to a local file registry containing hardcoded satellite entries.
+        sat_group_name: Optional string corresponding to a predefined constellation array catalog.
+        gs_file_path: Path string to the delimited file registry mapping global ground station nodes.
+        sensor_weights: Distribution weights dictating the random assignment probability of instrument types.
+        band_weights_map: Dictionary defining available operational link profiles and corresponding download speeds.
+        min_sensors_per_sat: Minimum number of unique instruments assigned to each active satellite platform.
+        max_sensors_per_sat: Maximum number of unique instruments assigned to each active satellite platform.
+        priority_weights: Probability distribution vector for assigning integer priority metadata tags to tasks.
+        seed: Explicit initialization variable anchoring the pseudo-random number state for reproducible data splits.
+        output_path: System path target string location where the scenario metadata asset report is saved.
+        **kwargs: Catch-all keyword arguments dictionary to safely handle extra pipeline context or phase config data.
+
+    Returns:
+        A fully initialized CollectedContext dataclass instance populating the entire physical tracking environment.
+
+    Raises:
+        ValueError: If the sampled infrastructure yields zero valid matching communication links across the constellation.
     """
     user_allowed_bands = list(band_weights_map.keys()) if band_weights_map else None
 

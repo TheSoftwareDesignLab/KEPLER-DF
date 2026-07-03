@@ -13,6 +13,20 @@ from src.modules.prompt_factory.main import prompt_factory_main
 
 
 def load_config(config_path: str) -> dict:
+    """
+    Loads and parses the main system configuration file from a local YAML container.
+
+    Args:
+        config_path: System string path pointing to the YAML configuration file.
+
+    Returns:
+        A dictionary representation of the unmarshalled configuration hierarchy.
+
+    Raises:
+        ImportError: If the 'pyyaml' package is missing from the environment.
+        FileNotFoundError: If the specified file does not exist on the disk.
+        ValueError: If the configuration file is empty or unparseable.
+    """
     if not yaml_available:
         raise ImportError("The 'pyyaml' package is required to parse YAML configurations. Run 'pip install pyyaml'.")
     p = pathlib.Path(config_path)
@@ -26,6 +40,18 @@ def load_config(config_path: str) -> dict:
 
 
 def load_semantic_categories(categories_path: str) -> dict:
+    """
+    Loads text classification reference categories from a local JSON spreadsheet map.
+
+    Args:
+        categories_path: System string path to the semantic categories JSON definition file.
+
+    Returns:
+        A dictionary containing structured keyword anchors for multi-class cosine similarity scoring.
+
+    Raises:
+        FileNotFoundError: If the designated categories file does not exist.
+    """
     p = pathlib.Path(categories_path)
     if not p.exists():
         raise FileNotFoundError(f"Semantic categories JSON file not found at: {categories_path}")
@@ -38,7 +64,11 @@ def validate_config_bounds_sanity(task_cfg: dict) -> None:
     Validates structural bounds configuration parameters to avoid out-of-boundary mathematical values.
     
     Args:
-        task_cfg: Dictionary containing task generation parameters.
+        task_cfg: Dictionary containing task generation parameters under review.
+
+    Raises:
+        ValueError: If bounds are omitted, drop below zero, cross-validate inversely, 
+            or if the maximum lifespan threshold is initialized at zero.
     """
     min_release = task_cfg.get("min_release_delay")
     max_release = task_cfg.get("max_release_delay")
@@ -63,9 +93,18 @@ def validate_config_bounds_sanity(task_cfg: dict) -> None:
 
 
 def main():
-    print("==================================================")
-    print("Launching DatasetFactory Bulk Generation Pipeline...")
-    print("==================================================")
+    """
+    Executes the global benchmark execution workflow loop for KEPLER - DatasetFactory.
+    
+    Orchestrates the procedural generation pipeline across an arbitrary number of decoupled iterations.
+    Sequentially links Phase 1 (Data Collection & Fleet Ingestion), Phase 2 (Conversational Request Synthesizing 
+    via Local Ollama Inferences and Token Embedding Extraction), and Phase 3 (Analytical SGP4 Physics Pass 
+    Propagation & Swath Coordinate Intersection Mapping). Enforces independent seeding and directory isolation 
+    for each scenario run to build a verifiable, reproducible evaluation dataset.
+    """
+    print("===================================")
+    print("Launching Kepler: DatasetFactory...")
+    print("===================================")
     
     CONFIG_FILE = "config.yaml"
     CATEGORIES_FILE = "semantic_categories.json"

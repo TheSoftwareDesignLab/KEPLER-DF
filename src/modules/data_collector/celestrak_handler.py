@@ -17,6 +17,15 @@ HTTP_HEADERS = {
 
 
 def _load_cached_group(cache_path: pathlib.Path) -> List[SatelliteConfig]:
+    """
+    Deserializes a local JSON cache file containing standard orbital metadata parameters.
+
+    Args:
+        cache_path: Path object pointing to the local fallback JSON file registry.
+
+    Returns:
+        A list of pre-cached SatelliteConfig data objects representing known assets.
+    """
     satellites = []
     try:
         with cache_path.open("r", encoding="utf-8") as f:
@@ -30,12 +39,22 @@ def _load_cached_group(cache_path: pathlib.Path) -> List[SatelliteConfig]:
                         tle_line2=sat["tle_line2"]
                     )
                 )
-    except (json.JSONDecodeError, KeyError, KeyError):
+    except (json.JSONDecodeError, KeyError):
         pass
     return satellites
 
 
 def fetch_celestrak_metadata(norad_id: int) -> Optional[Dict[str, Any]]:
+    """
+    Queries CelesTrak's General Perturbations (GP) API to retrieve TLE data for a single asset.
+
+    Args:
+        norad_id: The unique five-digit catalog tracking number assigned by NORAD.
+
+    Returns:
+        A dictionary containing parsed metadata strings (norad_id, name, tle_line1, tle_line2) 
+        if the request succeeds, or None if network errors or missing entries are encountered.
+    """
     url = f"{CELESTRAK_GP_URL}?CATNR={norad_id}&FORMAT=2LE"
     try:
         response = requests.get(url, headers=HTTP_HEADERS, timeout=10)
@@ -61,6 +80,24 @@ def fetch_celestrak_metadata(norad_id: int) -> Optional[Dict[str, Any]]:
 
 
 def fetch_group_from_celestrak(group_name: str) -> List[SatelliteConfig]:
+    """
+    Retrieves a complete constellation group file from CelesTrak with internal JSON caching.
+
+    Attempts to pull raw multi-line TLE element structures from external servers. If the 
+    request succeeds, it rebuilds a local JSON payload cache and streams parsed satellite 
+    configurations. In the case of HTTP network blocks, timeouts, or 403 authorization failures, 
+    it falls back dynamically to the local cache registry.
+
+    Args:
+        group_name: Target constellation string tag corresponding to CelesTrak's text endpoint.
+
+    Returns:
+        A list of fully configured SatelliteConfig instances matching the requested orbital group.
+
+    Raises:
+        ConnectionError: If live synchronization protocols fail and no valid local JSON 
+            backup file can be read from the environment cache path.
+    """
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_path = CACHE_DIR / f"celestrak_{group_name}.json"
     url = f"https://celestrak.org/NORAD/elements/{group_name}.txt"

@@ -21,6 +21,30 @@ def prompt_factory_main(
     days_categories: Optional[List[str]] = None,
     hours_categories: Optional[List[str]] = None
 ) -> Dict[str, str]:
+    """
+    Main orchestration function for generating and semantically validating conversational asset requests.
+
+    Processes an incoming collection of TargetTask entities, computes localized ground truth evaluation tags,
+    triggers asynchronous LLM text generation via an Ollama local instance, maps output streams to local file containers,
+    and runs multi-category cosine similarity vector comparisons to log cross-validation performance metrics.
+
+    Args:
+        targets: Collection of structured target tracking configurations populating the current run.
+        prompt_config: Structural dictionary container capturing system and pipeline instruction templates.
+        output_dir: Local system directory path where independent text prompts and catalogs are written.
+        model_name: Local Large Language Model identification string deployed within the Ollama daemon.
+        temperature: Stochastic modifier parameter regulating natural language variation and generation diversity.
+        sensor_categories: Optional custom mapping binding physical sensor bands to enriched semantic anchor descriptions.
+        priority_categories: Optional array defining token chains used to cluster low, medium, and high mission weights.
+        days_categories: Optional array defining discrete categorical time tokens for relative calendar day windows.
+        hours_categories: Optional array defining discrete categorical time tokens for localized diurnal period frames.
+
+    Returns:
+        A dictionary matching unique task tracking identifiers to their corresponding conversational request strings.
+
+    Raises:
+        ValueError: If the required system instruction layout block is omitted from the prompt configuration.
+    """
     if prompt_config is None:
         return {}
 

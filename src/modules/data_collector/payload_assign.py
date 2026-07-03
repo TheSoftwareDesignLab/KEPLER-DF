@@ -5,7 +5,7 @@ __all__ = ["assign_satellite_payloads"]
 
 
 def assign_satellite_payloads(
-    satellites: List[any],
+    satellites: List[Any],
     available_sensors: List[str],
     available_bands: List[str],
     available_capacities: Optional[List[float]] = None,
@@ -17,7 +17,36 @@ def assign_satellite_payloads(
     min_sensors_per_sat: int = 1,
     max_sensors_per_sat: int = 1,
     seed: Optional[int] = None
-) -> List[any]:
+) -> List[Any]:
+    """
+    Stochastically configures and binds physical payload subsystems to a pool of raw satellite assets.
+
+    Iterates through a cluster of hardware configurations to dynamically assign core operational bounds,
+    including discrete downlink communication frequencies, localized data transmission data rates, solid-state 
+    storage capacity thresholds, and unique, non-overlapping instrument suites. Allocation frequencies are 
+    fully controlled by parameterized relative probability density distributions.
+
+    Args:
+        satellites: Collection of raw satellite configuration instances awaiting physical payload mapping.
+        available_sensors: Complete pool registry of instruments supported across the current factory run.
+        available_bands: Fleet-wide list of active RF communication bands to draw from.
+        available_capacities: Pool of discrete on-board memory limits modeling Solid-State Recorders.
+        capacities_weights: Probability density array dictating on-board memory storage pool selections.
+        sensor_weights: Probability density array controlling the relative distribution frequency of instruments.
+        band_weights: Probability density array dictating frequency allocations across the selected tracking pool.
+        sensor_generation_rates: Mapping dictionary linking discrete instrument strings to unique payload data generation rates.
+        band_downlink_rates: Mapping dictionary linking RF transmission band tags to nominal streaming speeds.
+        min_sensors_per_sat: Minimum number of independent instruments assigned to each active hardware bus.
+        max_sensors_per_sat: Maximum number of independent instruments assigned to each active hardware bus.
+        seed: Fixed pseudo-random initialization anchor used to guarantee experimental simulation reproducibility.
+
+    Returns:
+        A list of fully enriched satellite platform structures with populated and calibrated payload properties.
+
+    Raises:
+        ValueError: If hardware infrastructure resource pools are empty, or if sensor allocation bounds 
+            violate operational constraints.
+    """
     if not satellites:
         return []
         

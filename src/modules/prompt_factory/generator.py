@@ -12,6 +12,21 @@ __all__ = ["generate_ollama_semantic_prompt", "build_single_task_string"]
 
 
 def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, str]:
+    """
+    Queries the Nominatim OpenStreetMap API to reverse-geocode spatial coordinates.
+
+    Executes an unverified, rate-limited HTTP GET request against geographical databases 
+    to resolve raw decimal latitude and longitude parameters into localized country, 
+    city, and landmark metadata anchors.
+
+    Args:
+        lat: Optional geodetic latitude coordinate under inspection.
+        lon: Optional geodetic longitude coordinate under inspection.
+
+    Returns:
+        A dictionary containing extracted and fallback string entities for 'country', 
+        'city', and 'landmark'.
+    """
     if lat is None or lon is None:
         return {"country": "N/A", "city": "N/A", "landmark": "N/A"}
     
@@ -76,10 +91,23 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
 
 
 def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
+    """
+    Builds a minimized, standardized JSON metadata description mapping structural task parameters.
+
+    Extracts payload requirements, computes geodetic polygon center-mass coordinates, queries 
+    reverse-geocoding engines, and performs chronological classification mapping relative temporal offsets 
+    and target time zone diurnal windows into discrete categorical labels.
+
+    Args:
+        task: TargetTask dataclass instance populating simulation parameters.
+        now_utc: Precise anchor reference datetime tracking the current absolute simulation run t0.
+
+    Returns:
+        A serialized JSON string containing structured simulation data tags for the targeted asset.
+    """
     local_tz = ZoneInfo("America/Bogota")
     primary_sensor = task.required_sensors[0] if task.required_sensors else "VISUAL"
     
-    # --- CÁLCULO MATEMÁTICO TEMPORAL EN PYTHON ---
     raw_deadline = getattr(task, "deadline", getattr(task, "deadline_s", 0))
     deadline_epoch = now_utc.timestamp() + raw_deadline
     task_deadline_utc = datetime.fromtimestamp(deadline_epoch, tz=timezone.utc)
@@ -88,7 +116,6 @@ def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
     release_time = getattr(task, 'release_time', 0)
     remaining_hours = (raw_deadline - release_time) / 3600.0
 
-    # Clasificación robusta de días (Macro Targets)
     if remaining_hours < 12:
         day_tag = "today"
     elif remaining_hours < 36:
@@ -169,6 +196,24 @@ def generate_ollama_semantic_prompt(
     num_predict: int = 700,
     repeat_penalty: float = 1.05
 ) -> Dict[str, str]:
+    """
+    Queries an Ollama endpoint to generate conversational operators' tasking requests from structured metadata.
+
+    Iterates through the compiled target registry, formats the underlying constraints via serialized 
+    JSON snippets into a foundational instruction template, streams tokenized response packets, and 
+    extracts fenced markdown prompt elements into an isolated identifier lookup map.
+
+    Args:
+        targets: Collection of structured TargetTask objects defining individual task scenarios.
+        system_instruction_template: Structural instruction framework used to prompt the generator.
+        model_name: Target Large Language Model tag deployed locally under the Ollama environment.
+        temperature: Sampling temperature parameter governing response token stochastic diversity.
+        num_predict: Upper bounding threshold regulating the maximum number of predicted tokens.
+        repeat_penalty: Response penalty modifier parameter enforcing structural variation.
+
+    Returns:
+        A dictionary mapping task identifiers to sanitized, conversational English prompt strings.
+    """
     raw_url = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
     clean_url = raw_url.replace("[", "").replace("]", "").split("(")[0].strip()
     target_endpoint = f"{clean_url}/api/generate"

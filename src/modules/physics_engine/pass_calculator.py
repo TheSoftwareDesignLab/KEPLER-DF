@@ -8,21 +8,31 @@ __all__ = ["compute_infrastructure_passes", "compute_target_passes"]
 
 
 def _get_timescale():
+    """
+    Retrieves the global Skyfield timescale reference instance.
+
+    Returns:
+        A Skyfield Timescale object initialized for ephemeris time translations.
+    """
     return load.timescale()
 
 
 def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: float, c_lon: float) -> Tuple[float, float]:
     """
-    Computes the localized LVLH pitch and roll angles for pointing at a target.
-    
+    Computes the localized LVLH pitch and roll angles for pointing at a geodetic target.
+
+    Constructs a localized Local-Vertical Local-Horizontal (LVLH) reference frame tracking the 
+    satellite platform's current state vector in space. Projects the slant-range line-of-sight 
+    vector onto the coordinate axes to deduce pointing angles.
+
     Args:
-        sat_object: Skyfield EarthSatellite instance.
-        t_skyfield: Skyfield Time instance.
-        c_lat: Geodetic target latitude.
-        c_lon: Geodetic target longitude.
-        
+        sat_object: Skyfield EarthSatellite instance mapping the tracking asset.
+        t_skyfield: Skyfield Time instance defining the exact epoch of tracking evaluation.
+        c_lat: Geodetic geocentric latitude coordinate of the target node.
+        c_lon: Geodetic geocentric longitude coordinate of the target node.
+
     Returns:
-        A tuple containing (pitch_degrees, roll_degrees).
+        A tuple containing calculated (pitch_degrees, roll_degrees) platform orientation constraints.
     """
     geocentric = sat_object.at(t_skyfield)
     r_sat = geocentric.position.km
@@ -49,6 +59,21 @@ def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: floa
 
 
 def _refine_crossing(ts, sat, topo_target, t_before, t_after, target_el_deg, iterations=6):
+    """
+    Refines the exact crossing time of an elevation threshold using bisection.
+
+    Args:
+        ts: Skyfield Timescale reference instance.
+        sat: Skyfield EarthSatellite platform under evaluation.
+        topo_target: Skyfield GeographicPosition element defining the tracking site anchor.
+        t_before: Skyfield Time step when the satellite's elevation sits below the threshold.
+        t_after: Skyfield Time step when the satellite's elevation sits above the threshold.
+        target_el_deg: Target elevation limit bound in degrees defining the boundary crossing.
+        iterations: Total number of optimization cuts to execute for precision convergence.
+
+    Returns:
+        A refined Skyfield Time object capturing the instant of threshold intersection.
+    """
     tb, ta = t_before, t_after
     for _ in range(iterations):
         tm = ts.tdb_jd((tb.tdb + ta.tdb) / 2.0)
@@ -62,6 +87,15 @@ def _refine_crossing(ts, sat, topo_target, t_before, t_after, target_el_deg, ite
 
 
 def _calculate_geodetic_centroid_and_radius(task: TargetTask) -> Tuple[float, float, float]:
+    """
+    Extracts the geodetic center mass coordinate and tracking perimeter radius of a target task.
+
+    Args:
+        task: TargetTask dataclass object containing geodetic coordinates and envelope geometry data.
+
+    Returns:
+        A tuple mapping (centroid_latitude, centroid_longitude, maximum_radius_degrees).
+    """
     if task.task_type == "point":
         return task.coordinates[0][0], task.coordinates[0][1], 0.0
     
@@ -90,6 +124,26 @@ def _vectorized_pass_finder(
     c_lon: float,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
+    """
+    Executes a vectorized discrete-step sweep to detect geometric visibility intervals.
+
+    Evaluates the line-of-sight vectors across an array of time steps to isolate clusters
+    where the target node climbs above an elevation constraint. Automatically executes numerical 
+    bisection loops to discover highly precise Acquisition of Signal (AOS) and Loss of Signal (LOS) times.
+
+    Args:
+        sat_object: Pre-loaded Skyfield EarthSatellite tracking asset.
+        topo_target: Skyfield GeographicPosition geodetic location model.
+        start_dt: Chronological datetime lower boundary defining the sweep window.
+        end_dt: Chronological datetime upper boundary defining the sweep window.
+        min_el_deg: Minimum elevation mask cutoff boundary in degrees.
+        c_lat: Center latitude of the tracking node.
+        c_lon: Center longitude of the tracking node.
+        step_seconds: Time step interval in seconds used to discretize the evaluation matrix.
+
+    Returns:
+        A list of unformatted dictionaries reporting raw pass properties and duration values.
+    """
     ts = _get_timescale()
     total_seconds = (end_dt - start_dt).total_seconds()
     n_steps = int(total_seconds // step_seconds) + 1
@@ -160,6 +214,24 @@ def compute_infrastructure_passes(
     bands_config: dict,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
+    """
+    Computes satellite downlink contact windows over a selected ground station asset.
+
+    Initializes SGP4 structures from TLE inputs to discover tracking passes. Calibrates link limits 
+    against communications frequency profiles, computes geometric orientation limits at peak elevation, 
+    and determines transmission volumes based on hardware bit-rates.
+
+    Args:
+        satellite: Configuration model for the tracking satellite vehicle.
+        ground_station: Geodetic database model mapping target tracking station coordinates.
+        start_dt_utc: Start bound epoch defining the analytical horizon.
+        end_dt_utc: End bound epoch defining the analytical horizon.
+        bands_config: Configuration map matching telemetry tags to link elevation masks.
+        step_seconds: Temporal resolution in seconds specifying step slicing granularity.
+
+    Returns:
+        A list of unified dictionaries reporting validated network downlink window properties.
+    """
     ts = _get_timescale()
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     topo_target = wgs84.latlon(ground_station.latitude, ground_station.longitude, elevation_m=ground_station.elevation)
@@ -206,6 +278,26 @@ def compute_target_passes(
     min_duration: int = 5,
     max_duration: int = 30
 ) -> List[Dict[str, Any]]:
+    """
+    Calculates operational imaging access passes over a specified mission target.
+
+    Propagates the platform orbital vector strictly bounded between individual task availability 
+    release times and expiration deadlines. Computes swath transit time scales for polygonal targets 
+    or stochastic snapshot durations for discrete point coordinates, outputting estimated bit-stream 
+    data generation volumes and coordinate limits for subsequent optimization phases.
+
+    Args:
+        satellite: Configuration model for the candidate space platform.
+        task: TargetTask instance defining operational targets and timeline limits.
+        simulation_start_utc: Core reference epoch tracking the absolute t0 baseline.
+        min_el_deg: Minimum elevation mask cutoff value in degrees for the optical sensor.
+        step_seconds: Temporal step parameter in seconds for discrete sweep slicing.
+        min_duration: Absolute lower threshold for point-target scanning intervals.
+        max_duration: Absolute upper capping limit defining max continuous sensor activations.
+
+    Returns:
+        A list of fully resolved target pass dictionaries detailing imaging feasibility.
+    """
     ts = _get_timescale()
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     
@@ -252,7 +344,7 @@ def compute_target_passes(
             seed_hash = int(satellite.norad_id) + hash(task.task_id) + int(p["aos_dt"].timestamp())
             rng = np.random.default_rng(abs(seed_hash) % (2**32))
             
-            random_duration = rng.get_state() if False else rng.integers(int(min_duration), int(max_duration) + 1)
+            random_duration = rng.integers(int(min_duration), int(max_duration) + 1)
             sensor_active_duration_s = min(int(random_duration), visibility_duration_s)
             
             img_start_dt = p["tmax_dt"] - timedelta(seconds=sensor_active_duration_s / 2.0)

@@ -20,8 +20,34 @@ def generate_dynamic_tasks(
     seed: Optional[int] = None
 ) -> List[TargetTask]:
     """
-    Procedurally generates a deterministic list of TargetTasks with relative temporal 
-    windows (release time and deadline) anchored to t0 = 0 seconds.
+    Procedurally synthesizes an array of target observation requests across selected geographical regions.
+
+    Generates distinct, deterministically seeded metadata sets modeling Earth-observation tasks.
+    Each task configuration maps stochastically chosen properties, including mission allocation priority 
+    hierarchies, operational payload hardware sensor prerequisites, and localized geodetic tracking 
+    coordinates structured as discrete points or enclosed polygonal scan tracks. Timeline parameters 
+    (queue injection release time and strict expiration deadline bounds) are procedurally computed 
+    as relative integer offsets anchored to t0 = 0 seconds.
+
+    Args:
+        k: The exact number of unique target task configurations to procedurally generate.
+        bounding_boxes: List of geographical bounding envelope configurations containing lat/lon ranges.
+        polygon_ratio: Stochastic probability threshold controlling task geometry selection (polygon vs point).
+        min_area_deg: Lower bound delta constraint in degrees for generating polygonal perimeter dimensions.
+        max_area_deg: Upper bound delta constraint in degrees for generating polygonal perimeter dimensions.
+        min_release_delay: Lower bound relative time window in seconds for task availability injection.
+        max_release_delay: Upper bound relative time window in seconds for task availability injection.
+        min_lifetime: Lower bound operational lifespan limit in seconds determining expiration windows.
+        max_lifetime: Upper bound operational lifespan limit in seconds determining expiration windows.
+        available_sensors: Complete registry array of payload instrumentation suites supported in the current run.
+        priority_weights: Probability density distribution vector controlling the assignment frequency of task priorities.
+        seed: Fixed pseudo-random initialization anchor used to guarantee experimental simulation reproducibility.
+
+    Returns:
+        A list of procedurally generated and parameterized TargetTask dataclass objects.
+
+    Raises:
+        ValueError: If the bounding_boxes collection template is empty or unprovided.
     """
     if k <= 0:
         return []
@@ -56,7 +82,7 @@ def generate_dynamic_tasks(
         center_lat = rng.uniform(lat_envelope[0], lat_envelope[1])
         center_lon = rng.uniform(lon_envelope[0], lon_envelope[1])
         
-        num_sensors = 1 #rng.randint(1, min(2, len(sensors)))
+        num_sensors = 1
         required_sensors = rng.sample(sensors, num_sensors)
         
         is_polygon = rng.random() < polygon_ratio
