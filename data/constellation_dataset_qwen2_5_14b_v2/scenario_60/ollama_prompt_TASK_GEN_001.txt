@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for high-resolution optical snapshot coverage over Colombia, specifically focusing on the city of Colombia. This task should be executed as part of the baseline pipeline tracking with fixed parameters and represents normal operational status. The target capture window is set for the evening of the day after tomorrow.

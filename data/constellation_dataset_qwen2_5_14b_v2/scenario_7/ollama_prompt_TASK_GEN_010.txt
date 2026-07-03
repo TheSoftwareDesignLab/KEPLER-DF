@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for multispectral vegetation analysis over Capira, Panamá. This routine monitoring is part of the baseline pipeline tracking and requires fixed parameters to assess chlorophyll absorption levels and calculate the NDVI index. The capture should be executed in three days during the evening as per normal operational status.

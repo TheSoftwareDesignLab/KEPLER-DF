@@ -1,0 +1,1 @@
+Please allocate the standard operational tasking for thermal mapping over Puerto Parra, Colombia, specifically for capturing a surface temperature profile. This is part of our baseline pipeline tracking with fixed parameters representing normal operational status. Ensure this critical payload capture occurs the day after tomorrow, specifically overnight.

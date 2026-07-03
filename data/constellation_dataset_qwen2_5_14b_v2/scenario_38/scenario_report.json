@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "total_satellites": 5,
+    "total_ground_stations": 2,
+    "total_target_tasks": 15,
+    "anchored_tle_epoch_utc": "2026-07-01 03:56:06"
+  },
+  "satellites": [
+    {
+      "norad_id": 58702,
+      "name": "TIANMU-1 17",
+      "tle_line1": "1 58702U 24004C   26182.16396875  .00006046  00000+0  23171-3 0  9998",
+      "tle_line2": "2 58702  97.4638   8.0693 0004217 320.5360  39.5571 15.26887260137905",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "SAR"
+      ],
+      "ssr_capacity_mb": 512000.0,
+      "sensor_generation_rates": {
+        "SAR": 80.0
+      },
+      "downlink_rate_mb_s": 45.0
+    },
+    {
+      "norad_id": 43437,
+      "name": "SENTINEL-3B",
+      "tle_line1": "1 43437U 18039A   26182.14555551  .00000136  00000+0  74094-4 0  9999",
+      "tle_line2": "2 43437  98.6244 249.4773 0000810 116.7253 243.4011 14.26738783426114",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "TIR",
+        "NIR"
+      ],
+      "ssr_capacity_mb": 1024000.0,
+      "sensor_generation_rates": {
+        "TIR": 12.0,
+        "NIR": 20.0
+      },
+      "downlink_rate_mb_s": 45.0
+    },
+    {
+      "norad_id": 58663,
+      "name": "TIANMU-1 22",
+      "tle_line1": "1 58663U 23208D   26182.18889455  .00008751  00000+0  29246-3 0  9996",
+      "tle_line2": "2 58663  97.4518 298.4862 0002216 296.2582  63.8431 15.31250774139472",
+      "assigned_band": "Ka",
+      "assigned_sensors": [
+        "VIS",
+        "VNIR"
+      ],
+      "ssr_capacity_mb": 1024000.0,
+      "sensor_generation_rates": {
+        "VIS": 40.0,
+        "VNIR": 35.0
+      },
+      "downlink_rate_mb_s": 150.0
+    },
+    {
+      "norad_id": 59051,
+      "name": "METEOR-M2 4",
+      "tle_line1": "1 59051U 24039A   26182.18149181  .00000003  00000+0  21105-4 0  9995",
+      "tle_line2": "2 59051  98.7017 141.3040 0007979 123.8059 236.3880 14.22430893121254",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "VIS"
+      ],
+      "ssr_capacity_mb": 128000.0,
+      "sensor_generation_rates": {
+        "VIS": 40.0
+      },
+      "downlink_rate_mb_s": 2.0
+    },
+    {
+      "norad_id": 37849,
+      "name": "SUOMI NPP",
+      "tle_line1": "1 37849U 11061A   26182.15579959  .00000074  00000+0  56203-4 0  9999",
+      "tle_line2": "2 37849  98.7955 122.9365 0000760 319.2961  40.8158 14.19520173760426",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "NIR",
+        "SAR"
+      ],
+      "ssr_capacity_mb": 1024000.0,
+      "sensor_generation_rates": {
+        "NIR": 20.0,
+        "SAR": 80.0
+      },
+      "downlink_rate_mb_s": 2.0
+    }
+  ],
+  "ground_stations": [
+    {
+      "id": "atlas_columbus_ohio_usa",
+      "name": "Atlas Columbus, Ohio, USA*",
+      "latitude": 39.9888491,
+      "longitude": -83.1427413,
+      "elevation_m": 279.0,
+      "bands_supported": [
+        "S",
+        "X"
+      ]
+    },
+    {
+      "id": "hagerstown_teleport",
+      "name": "Hagerstown Teleport",
+      "latitude": 39.6417629,
+      "longitude": -77.7199932,
+      "elevation_m": 168.0,
+      "bands_supported": [
+        "Ka"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "task_id": "TASK_GEN_001",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 92,
+      "deadline_s": 256029,
+      "coordinates": [
+        [
+          5.009788462440842,
+          -72.84196933670917
+        ],
+        [
+          5.009788462440842,
+          -72.60421048924782
+        ],
+        [
+          4.774692347004835,
+          -72.60421048924782
+        ],
+        [
+          4.774692347004835,
+          -72.84196933670917
+        ],
+        [
+          5.009788462440842,
+          -72.84196933670917
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_002",
+      "region_tag": "panama_canal",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 198,
+      "deadline_s": 173416,
+      "coordinates": [
+        [
+          8.05324537010865,
+          -79.00018699799702
+        ],
+        [
+          8.05324537010865,
+          -78.87748872812932
+        ],
+        [
+          7.9471027669547585,
+          -78.87748872812932
+        ],
+        [
+          7.9471027669547585,
+          -79.00018699799702
+        ],
+        [
+          8.05324537010865,
+          -79.00018699799702
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_003",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 60,
+      "deadline_s": 256853,
+      "coordinates": [
+        [
+          7.6475942933316,
+          -74.8073796895254
+        ],
+        [
+          7.6475942933316,
+          -74.50191293740453
+        ],
+        [
+          7.260194872615959,
+          -74.50191293740453
+        ],
+        [
+          7.260194872615959,
+          -74.8073796895254
+        ],
+        [
+          7.6475942933316,
+          -74.8073796895254
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_004",
+      "region_tag": "panama_canal",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 333,
+      "deadline_s": 268751,
+      "coordinates": [
+        [
+          8.49459541192348,
+          -78.98395868255466
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_005",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 446,
+      "deadline_s": 258758,
+      "coordinates": [
+        [
+          4.825340079721942,
+          -73.08516313273384
+        ],
+        [
+          4.825340079721942,
+          -72.80656684055694
+        ],
+        [
+          4.698486536157333,
+          -72.80656684055694
+        ],
+        [
+          4.698486536157333,
+          -73.08516313273384
+        ],
+        [
+          4.825340079721942,
+          -73.08516313273384
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_006",
+      "region_tag": "panama_canal",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 504,
+      "deadline_s": 96521,
+      "coordinates": [
+        [
+          9.531250360293427,
+          -78.9144436311359
+        ],
+        [
+          9.531250360293427,
+          -78.71304063112939
+        ],
+        [
+          9.298563187913985,
+          -78.71304063112939
+        ],
+        [
+          9.298563187913985,
+          -78.9144436311359
+        ],
+        [
+          9.531250360293427,
+          -78.9144436311359
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_007",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 196,
+      "deadline_s": 31545,
+      "coordinates": [
+        [
+          7.205336559604799,
+          -74.20710422226914
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_008",
+      "region_tag": "panama_canal",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 312,
+      "deadline_s": 205486,
+      "coordinates": [
+        [
+          8.905912091162392,
+          -78.78750324238095
+        ],
+        [
+          8.905912091162392,
+          -78.39804156562107
+        ],
+        [
+          8.61438582084364,
+          -78.39804156562107
+        ],
+        [
+          8.61438582084364,
+          -78.78750324238095
+        ],
+        [
+          8.905912091162392,
+          -78.78750324238095
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_009",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 46,
+      "deadline_s": 138308,
+      "coordinates": [
+        [
+          5.789611365578517,
+          -76.33640229611422
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_010",
+      "region_tag": "panama_canal",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 250,
+      "deadline_s": 165115,
+      "coordinates": [
+        [
+          9.204479436889915,
+          -79.85564443514411
+        ],
+        [
+          9.204479436889915,
+          -79.69277513640296
+        ],
+        [
+          9.05432654475921,
+          -79.69277513640296
+        ],
+        [
+          9.05432654475921,
+          -79.85564443514411
+        ],
+        [
+          9.204479436889915,
+          -79.85564443514411
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_011",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 279,
+      "deadline_s": 201523,
+      "coordinates": [
+        [
+          4.494572233956172,
+          -74.03666894890769
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_012",
+      "region_tag": "panama_canal",
+      "priority": 2,
+      "task_type": "point",
+      "release_time_s": 134,
+      "deadline_s": 119289,
+      "coordinates": [
+        [
+          8.56912029153856,
+          -80.37604965073238
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_013",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 453,
+      "deadline_s": 303010,
+      "coordinates": [
+        [
+          6.962018293867784,
+          -73.18296912947197
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_014",
+      "region_tag": "panama_canal",
+      "priority": 3,
+      "task_type": "point",
+      "release_time_s": 349,
+      "deadline_s": 171461,
+      "coordinates": [
+        [
+          9.38503463121546,
+          -79.63702293590907
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_015",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 252,
+      "deadline_s": 317718,
+      "coordinates": [
+        [
+          4.43277708008285,
+          -76.98597917873552
+        ],
+        [
+          4.43277708008285,
+          -76.66040509730821
+        ],
+        [
+          4.119896063806841,
+          -76.66040509730821
+        ],
+        [
+          4.119896063806841,
+          -76.98597917873552
+        ],
+        [
+          4.43277708008285,
+          -76.98597917873552
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    }
+  ]
+}

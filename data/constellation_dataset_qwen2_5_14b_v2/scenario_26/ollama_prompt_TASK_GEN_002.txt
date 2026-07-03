@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for VNIR multispectral vegetation analysis over Portobelo, Panamá. The objective is to assess chlorophyll absorption levels and calculate the NDVI index. This task should be scheduled for the morning of the day after tomorrow as part of our baseline pipeline tracking.

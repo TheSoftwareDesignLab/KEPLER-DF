@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for high-resolution optical imagery over Silvia, Colombia, to be captured overnight in three days. This is part of our baseline pipeline tracking with fixed parameters representing normal operational status.

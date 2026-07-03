@@ -1,0 +1,1 @@
+Arrange for a low priority importance task to capture thermal mapping over Peque, Colombia. The objective is to gather a heat signature and surface temperature profile. This can be scheduled flexibly as a background survey, ideally sometime the day after tomorrow during the evening.

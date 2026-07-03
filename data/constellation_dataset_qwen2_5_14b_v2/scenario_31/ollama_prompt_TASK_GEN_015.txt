@@ -1,0 +1,1 @@
+Request a low priority importance background survey for multispectral vegetation analysis over Palmira, Colombia. This task should capture chlorophyll absorption levels and calculate the NDVI index for surface reflectance. Schedule this as an opportunistic capture sometime today around mid-day, dropping or rescheduling at convenience.

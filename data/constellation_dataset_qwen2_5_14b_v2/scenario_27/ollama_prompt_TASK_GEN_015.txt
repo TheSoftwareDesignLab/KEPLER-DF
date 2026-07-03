@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking to capture high-resolution optical imagery over Mogotes, Colombia. This is part of the baseline pipeline tracking with fixed parameters and represents normal operational status. The imaging should be scheduled for the day after tomorrow during the afternoon.

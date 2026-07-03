@@ -1,0 +1,18 @@
+"Hello, Automated Satellite Constellation Planner,
+
+We're requesting a high-resolution optical snapshot for daylight photography and clear optical imagery in Colombia's Nóvita city. This will be an active radar scan using microwave surface imaging to capture cloud-penetrating capture and ground geometry. We're looking to capture a heat signature, surface temperature profile, or thermal anomaly detection and mapping heat emissions.
+
+Our target day is in four days, specifically around mid-day. Please ensure the SAR sensor is operational and the system is configured for optimal performance. If there are any issues, please let us know as soon as possible so we can adjust our schedule accordingly.
+
+This is a critical payload capture mission, and we need to ensure it's executed promptly. We've allocated this task with a high priority level of 3, which means it's an absolute institutional priority. We're looking for a commanding tone that reflects the urgency of this operation. Please frame this as a binding contract requirement involving a critical payload capture or mandatory directive.
+
+We're also using a medium-priority level of 2 for our baseline pipeline tracking setup with fixed parameters representing normal operational status. This request is part of a standard tasking, commercial tasking, or routine monitoring part of a baseline pipeline tracking setup.
+
+Our primary sensor is SAR, and we need to capture a multispectral vegetation analysis to assess chlorophyll absorption level and calculate the vegetation NDVI index and surface reflectance. We're using the NIR sensor for water body boundary mapping and soil moisture assessment.
+
+We have a deadline local of tomorrow morning, but we can adjust our schedule if needed. Please deliver the temporal constraint using fluid, human-centric relative phrasing that integrates time expressions by rounding the constraint into a clean target window such as 'tomorrow morning', 'this afternoon', 'the day after tomorrow, specifically overnight', 'in three days during the evening', or 'sometime today around mid-day'.
+
+Thank you for your attention to this critical mission. We look forward to receiving your response.
+
+Best regards,
+Earth-observation mission operator"

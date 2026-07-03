@@ -1,0 +1,9 @@
+Task Request: High Priority Mission to Capture Critical Payload in Ponte-Novo, France
+
+We are seeking a high-priority mission allocation to capture a critical payload for our Earth-observation mission. The location is Ponte-Novo, France, and we require a VIS (daylight photography) snapshot of the city's landmarks and surroundings. This will be captured using a high-resolution optical sensor to provide clear and accurate visual documentation.
+
+The mission priority level is High Importance, indicating that this is a binding contract requirement for critical payload capture. The deadline is tomorrow morning, with a target diurnal period of overnight. Please note that this is an opportunistic request for a low-priority importance task, and we expect a flexible schedule for the capture.
+
+We are using a VIS sensor to capture high-resolution images of the city's landmarks and surroundings. This will be achieved through an active radar scan using microwave surface imaging, which will pierce heavy weather and provide ground geometry data. The goal is to capture a heat signature and surface temperature profile to detect thermal anomalies.
+
+Please deliver this task within three days during the evening, specifically around midnight. We appreciate your prompt attention to this request, and we look forward to receiving your response.

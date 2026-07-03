@@ -1,0 +1,1 @@
+Please allocate the standard operational tasking for a near-infrared reflection capture over La Celia, Colombia. This routine monitoring is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. Ensure this task is scheduled overnight tomorrow to meet the requirements for water body boundary mapping and soil moisture assessment.

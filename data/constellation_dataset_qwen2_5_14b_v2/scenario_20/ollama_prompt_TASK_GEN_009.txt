@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for a multispectral vegetation analysis over Jamundí, Colombia. This involves capturing a high-resolution optical snapshot to assess chlorophyll absorption levels and calculate the vegetation NDVI index. The mission is scheduled for tomorrow around mid-day as part of our baseline pipeline tracking setup with fixed parameters.

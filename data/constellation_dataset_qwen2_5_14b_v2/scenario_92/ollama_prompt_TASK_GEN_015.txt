@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for an active radar scan over Tierralta, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The mission should be executed during the afternoon of the day after tomorrow to capture cloud-penetrating imagery.

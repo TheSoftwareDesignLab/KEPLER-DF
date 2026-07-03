@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for VNIR multispectral vegetation analysis over the region of 24 de Diciembre, Panamá. This task is part of our baseline pipeline tracking and requires capturing a vegetation NDVI index and surface reflectance. Ensure this critical payload capture is scheduled for the day after tomorrow, specifically during the evening hours.

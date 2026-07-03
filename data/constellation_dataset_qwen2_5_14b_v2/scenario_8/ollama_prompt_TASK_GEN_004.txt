@@ -1,0 +1,1 @@
+Request a low priority importance task for VNIR multispectral vegetation analysis over Cristóbal, Panamá. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index. Capture this data sometime in three days during the evening as part of an opportunistic schedule, dropping or rescheduling at convenience.

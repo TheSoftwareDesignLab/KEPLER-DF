@@ -1,0 +1,1 @@
+Request a low priority importance task for opportunistic capture of multispectral vegetation analysis over Caldas, Colombia. This background survey should aim to assess chlorophyll absorption levels and calculate the NDVI index sometime tomorrow overnight. Drop or reschedule this non-essential background filler task at convenience.

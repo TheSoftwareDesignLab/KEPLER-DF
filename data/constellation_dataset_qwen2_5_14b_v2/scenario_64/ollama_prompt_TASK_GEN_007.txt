@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for high-resolution optical snapshot acquisition over Puerto Berrío, Colombia. This routine monitoring is part of our baseline pipeline tracking and requires fixed parameters. Ensure the critical payload capture occurs the day after tomorrow, specifically overnight.

@@ -1,0 +1,1 @@
+Please schedule a low priority importance task for VNIR multispectral vegetation analysis over La Pintada, Panamá. The objective is to capture chlorophyll absorption levels and calculate the NDVI index sometime in three days during the overnight hours. This can be dropped or rescheduled at your convenience as it serves as a background survey.

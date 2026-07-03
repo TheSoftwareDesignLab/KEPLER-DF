@@ -1,0 +1,38 @@
+Task Request: High-Importance SAR Mission Capture in Colombia's Génova City
+
+We require a high-resolution optical snapshot of the cityscape at dawn tomorrow morning, specifically overnight. This is a critical payload capture for our mission, and we need to ensure that the data is collected within the next 3 days during the evening. Please prioritize this task as an absolute institutional priority involving a critical payload capture or mandatory directive.
+
+Task Details:
+- Primary Sensor: Active Radar Scan (SAR)
+- Location: Génova City, Colombia
+- Priority Level: High Importance (Priority 3)
+- Target Day: Today
+- Target Diurnal Period: Overnight
+
+Please deliver this task within the next 48 hours from now. If feasible, please reschedule at convenience.
+
+Task Request: Medium-Importance SAR Mission Allocation in Colombia's Génova City
+
+We need a standard operational tasking for our commercial tasking, which includes monitoring the baseline pipeline tracking setup with fixed parameters representing normal operational status or a standard workflow update. Please frame this request as a routine monitoring part of a baseline pipeline tracking setup with standard parameters.
+
+Task Details:
+- Primary Sensor: Active Radar Scan (SAR)
+- Location: Génova City, Colombia
+- Priority Level: Medium Importance (Priority 2)
+- Target Day: Today
+- Target Diurnal Period: Overnight
+
+Please ensure that this task is completed within the next 12 hours from now.
+
+Task Request: Low-Importance SAR Mission Capture in Colombia's Génova City
+
+We need a flexible schedule for an opportunistic capture, treating it as a background survey or testbed tracking task. Please label this task as a non-essential background filler task where you explicitly note to drop or reschedule at convenience.
+
+Task Details:
+- Primary Sensor: Active Radar Scan (SAR)
+- Location: Génova City, Colombia
+- Priority Level: Low Importance (Priority 1)
+- Target Day: Today
+- Target Diurnal Period: Overnight
+
+Please complete this task as soon as possible.

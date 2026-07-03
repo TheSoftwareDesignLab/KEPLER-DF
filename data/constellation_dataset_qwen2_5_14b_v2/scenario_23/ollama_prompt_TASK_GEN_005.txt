@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for high-resolution optical snapshot coverage over Abejorral, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The imagery should be captured in three days during the afternoon.

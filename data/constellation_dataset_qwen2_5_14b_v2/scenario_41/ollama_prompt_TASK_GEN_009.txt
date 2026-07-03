@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for high-resolution optical snapshot acquisition over Anapoima, Colombia, to be executed in the morning of the day after tomorrow as part of our baseline pipeline tracking. This task is essential for maintaining normal operational status and requires fixed parameters for clear optical imagery.

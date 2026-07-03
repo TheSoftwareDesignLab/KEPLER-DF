@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for an active radar scan over Pueblo Nuevo, Colombia. The objective is to capture cloud-penetrating imagery using microwave surface imaging for critical infrastructure monitoring. This task should be scheduled for tomorrow evening as part of the baseline pipeline tracking setup.

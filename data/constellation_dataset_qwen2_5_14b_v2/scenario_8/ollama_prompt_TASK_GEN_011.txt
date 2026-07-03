@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for multispectral vegetation analysis over San Pablo, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index for the area. This task should be completed in three days during the evening as part of our baseline pipeline tracking setup with fixed parameters.

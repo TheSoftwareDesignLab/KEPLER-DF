@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for an active radar scan over La Esperanza, Colombia. The objective is to perform a cloud-penetrating capture using microwave surface imaging. This task should be scheduled for sometime today around mid-morning as part of the baseline pipeline tracking setup.

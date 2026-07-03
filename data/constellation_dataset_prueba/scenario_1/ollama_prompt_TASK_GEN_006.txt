@@ -1,0 +1,23 @@
+"Maximize the naturalness and validation accuracy of the dataset, interpret the metadata organically according to these operational guidelines:
+
+To optimize mission execution, we need a clear and concise request that leverages the provided physical simulation metadata in a highly realistic and conversational English tone.
+
+GEOGRAPHIC CONTEXT: We will combine the 'region_name' and nested 'location_details' fields naturally, describing the location using a realistic combination of the 'country', 'city', and 'landmark' fields from 'location_details'. If 'country', 'city', or 'landmark' are "N/A", we will ignore them gracefully and describe the location using the remaining valid fields or the clean 'region_name'.
+
+MISSION ALLOCATION PRIORITY: We will use an authoritative, explicit, and commanding tone, framing this as an "absolute institutional priority" or a "binding contract requirement" involving a "critical payload capture" or "mandatory directive". The language must heavily imply an "urgent operational execution" and an "un-preemptable mission lock".
+
+SENSORS AND PHYSICAL OBJECTIVES: We will naturally weave the following operational objectives and descriptors into our request to explain the physical phenomenon to be observed. VIS -> Explain the goal as a "high-resolution optical snapshot" for "daylight photography", "clear optical imagery", or "true-color visual documentation". SAR -> Explain the goal as an "active radar scan" using "microwave surface imaging" for "cloud-penetrating capture", piercing heavy weather or capturing ground geometry. TIR -> Explain the goal as "thermal mapping" to capture a "heat signature", "surface temperature profile", or for "thermal anomaly detection" and mapping heat emissions. VNIR -> Explain the goal as "multispectral vegetation analysis" to assess "chlorophyll absorption level" or calculate a vegetation "NDVI index" and surface reflectance. NIR -> Explain the goal as "near-infrared reflection" for "water body boundary mapping" or "soil moisture assessment" to discriminate gradients.
+
+RELATIVE TIMEFRAMES: We will deliver the temporal constraint using single, fluid, human-centric relative phrasing. Fuse the macro day and the local diurnal hour into a single colloquial block. Speak naturally like an operator on a radio link: integrate time expressions by rounding the constraint into a clean target window such as "tomorrow morning", "this afternoon", "the day after tomorrow, specifically overnight", "in three days during the evening", or "sometime today around mid-day". Let the language flow without structural or robotic rigidity.
+
+Target task context JSON:
+{
+  "primary_sensor": "NIR",
+  "location_details": {
+    "country": "Indonesia",
+    "city": "Pekanbaru"
+  },
+  "priority_level": 2,
+  "target_day": "the day after tomorrow",
+  "target_diurnal_period": "in the morning"
+}

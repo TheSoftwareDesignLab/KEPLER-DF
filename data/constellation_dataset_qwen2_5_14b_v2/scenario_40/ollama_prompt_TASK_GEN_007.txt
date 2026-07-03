@@ -1,0 +1,1 @@
+Request a low priority importance task for VNIR multispectral vegetation analysis over Remedios, Colombia. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index, with a flexible schedule to capture this data sometime today around mid-day.

@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for thermal mapping over Puerto Libertador, Colombia, focusing on capturing surface temperature profiles. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The task should be scheduled for the afternoon of the day after tomorrow.

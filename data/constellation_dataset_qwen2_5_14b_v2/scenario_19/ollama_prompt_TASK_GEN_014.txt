@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for multispectral vegetation analysis over Pajonal, Panamá. The objective is to assess chlorophyll absorption levels and calculate the NDVI index. This task should be completed during the overnight hours in three days as part of our baseline pipeline tracking setup with fixed parameters.

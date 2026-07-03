@@ -1,0 +1,1 @@
+Request a low priority importance task for an active radar scan over Algeciras, Colombia. This is a flexible schedule opportunistic capture with no preemption required. The mission should be executed sometime tomorrow overnight to ensure cloud-penetrating capture.

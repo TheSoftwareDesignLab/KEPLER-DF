@@ -1,0 +1,1 @@
+Please schedule a routine monitoring task for near-infrared reflection over Capira, Panamá. The objective is to map water body boundaries and assess soil moisture levels. This task should be executed as part of the baseline pipeline tracking with fixed parameters. Capture this imagery the day after tomorrow around mid-day.

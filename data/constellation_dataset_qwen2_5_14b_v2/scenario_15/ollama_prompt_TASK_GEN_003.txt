@@ -1,0 +1,1 @@
+Please allocate a standard operational tasking for an active radar scan over Segovia, Colombia. This mission is part of our baseline pipeline tracking and involves capturing cloud-penetrating imagery to ensure we maintain fixed parameters for normal operational status. The radar capture should be scheduled the day after tomorrow, specifically overnight.

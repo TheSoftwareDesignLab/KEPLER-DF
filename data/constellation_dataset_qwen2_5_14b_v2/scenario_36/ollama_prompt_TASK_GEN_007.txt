@@ -1,0 +1,1 @@
+Please schedule a low priority importance task for VNIR multispectral vegetation analysis over Perímetro Urbano Manizales, Colombia. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index. Capture this data sometime in three days during the afternoon, with flexibility to drop or reschedule at convenience.

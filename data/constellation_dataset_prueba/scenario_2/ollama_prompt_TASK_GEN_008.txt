@@ -1,0 +1,16 @@
+"Dear Automated Satellite Constellation Planner,
+
+We are requesting a high-resolution optical snapshot of the region of interest in Correggioli, Italy, to be captured by our satellite platform using a VIS sensor. This will provide a clear visual documentation of the landscape and ground geometry during the daylight period. We understand that this is a critical payload capture mission, and we kindly request an urgent operational execution to ensure the timely delivery of this data.
+
+We prioritize this task based on its importance in our baseline pipeline tracking setup. The deadline for this task is tomorrow morning, and we expect a specific overnight window to capture the required data. We understand that this may require some flexibility in scheduling, but we kindly request that you treat this as a low priority importance request with a flexible schedule for opportunistic capture.
+
+We are using a TIR sensor for this task, which will provide us with a heat signature of the surface temperature profile and thermal anomaly detection. We expect to capture a multispectral vegetation analysis using VNIR to assess chlorophyll absorption level and calculate a vegetation NDVI index. Finally, we will use NIR to discriminate gradients in water body boundary mapping and soil moisture assessment.
+
+We are allocating this task priority level 1, which means it is a low importance request with a flexible schedule for opportunistic capture. We understand that this may require some flexibility in scheduling, but we kindly request that you treat this as a background survey or testbed tracking task.
+
+Please deliver the temporal constraint using fluid, human-centric relative phrasing. We are targeting tomorrow morning, specifically overnight, to capture the required data. Please round the constraint into a clean target window such as "tomorrow morning", "this afternoon", "the day after tomorrow, specifically overnight", "in three days during the evening", or "sometime today around mid-day".
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+[Your Name]"

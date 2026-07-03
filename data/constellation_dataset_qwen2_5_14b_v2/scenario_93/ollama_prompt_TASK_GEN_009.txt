@@ -1,0 +1,1 @@
+Request a low priority importance task for opportunistic capture of multispectral vegetation analysis over Uribe, Colombia. This background survey should aim to assess chlorophyll absorption levels and calculate the vegetation NDVI index sometime today around mid-day. Please treat this as a non-essential background filler task that can be dropped or rescheduled at convenience.

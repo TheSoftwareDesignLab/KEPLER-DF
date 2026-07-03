@@ -1,0 +1,1 @@
+Please schedule a standard operational tasking for high-resolution optical snapshot acquisition over Facatativá, Colombia. This is part of our baseline pipeline tracking with fixed parameters representing normal operational status. The imagery should be captured the day after tomorrow around mid-day.
