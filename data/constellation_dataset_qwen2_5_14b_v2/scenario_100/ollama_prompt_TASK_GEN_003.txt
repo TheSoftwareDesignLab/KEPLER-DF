@@ -1,1 +1,0 @@
-Request a low priority importance task for opportunistic capture of multispectral vegetation analysis over San Martín, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index sometime tomorrow overnight. This can be dropped or rescheduled at convenience.

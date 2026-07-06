@@ -41,8 +41,8 @@ def physics_engine_main(
     min_duration: int = 5,
     max_duration: int = 30
 ) -> None:
-    t0_naive = simulation_start_utc.replace(tzinfo=None)
-    tf_naive = simulation_end_utc.replace(tzinfo=None)
+    t0_naive = simulation_start_utc.astimezone(timezone.utc).replace(tzinfo=None)
+    tf_naive = simulation_end_utc.astimezone(timezone.utc).replace(tzinfo=None)
 
     all_infra_passes = []
     for gs in context.ground_stations:
@@ -60,7 +60,8 @@ def physics_engine_main(
     all_target_passes = []
     for task in context.targets:
         for sat in context.satellites:
-            band_info = bands_config.get(sat.band, {}) if sat.band else {}
+            sat_band = getattr(sat, "assigned_band", getattr(sat, "band", None))
+            band_info = bands_config.get(sat_band, {}) if sat_band else {}
             dynamic_min_el_deg = float(band_info.get("min_elevation_deg", 10.0))
 
             passes = compute_target_passes(

@@ -1,1 +1,0 @@
-Please schedule a routine monitoring task to capture near-infrared reflection imagery over Panama Canal for water body boundary mapping and soil moisture assessment. This task should be executed as part of the baseline pipeline tracking with fixed parameters, specifically on the day after tomorrow during the evening.

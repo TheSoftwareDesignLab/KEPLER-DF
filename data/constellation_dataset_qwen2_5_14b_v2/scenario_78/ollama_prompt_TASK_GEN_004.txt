@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for multispectral vegetation analysis over Donoso, Panamá. The objective is to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This routine monitoring should be set up with fixed parameters for the day after tomorrow, specifically overnight.

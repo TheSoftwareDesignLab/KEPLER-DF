@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for multispectral vegetation analysis over Panama Canal to assess chlorophyll absorption levels and calculate the NDVI index. This routine monitoring should be completed in three days during the evening as part of our baseline pipeline tracking setup.

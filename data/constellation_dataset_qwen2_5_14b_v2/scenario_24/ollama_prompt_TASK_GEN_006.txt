@@ -1,1 +1,0 @@
-Please schedule a routine monitoring task for Donoso, Panamá, to capture near-infrared reflection data for water body boundary mapping and soil moisture assessment. This is part of the baseline pipeline tracking with fixed parameters and represents normal operational status. The capture should be executed tomorrow evening.

@@ -1,1 +1,0 @@
-Request a low priority importance VNIR task for tomorrow evening over La Cumbre, Colombia. This is a background survey to capture multispectral vegetation analysis data, focusing on chlorophyll absorption levels and NDVI index calculations. The mission can be dropped or rescheduled at convenience.

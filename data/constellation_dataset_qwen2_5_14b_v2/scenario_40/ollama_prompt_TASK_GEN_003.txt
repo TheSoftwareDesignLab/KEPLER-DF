@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for thermal mapping over Urrao, Colombia, to capture the surface temperature profile during the afternoon of the day after tomorrow. This is part of the baseline pipeline tracking with fixed parameters and represents normal operational status.

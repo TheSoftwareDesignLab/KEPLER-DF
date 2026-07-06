@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over El Tambo, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index during the evening of the day after tomorrow. This can be considered a background survey, so feel free to drop or reschedule it at convenience.

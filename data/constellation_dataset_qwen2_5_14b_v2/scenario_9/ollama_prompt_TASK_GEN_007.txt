@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for multispectral vegetation analysis over San Gil, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index during the overnight hours the day after tomorrow as part of our baseline pipeline tracking setup.

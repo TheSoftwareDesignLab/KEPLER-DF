@@ -2,7 +2,6 @@ import json
 import pathlib
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
-from zoneinfo import ZoneInfo
 from src.core.datatypes import TargetTask
 from .generator import generate_ollama_semantic_prompt, build_single_task_string
 from .validation import SemanticValidator
@@ -19,31 +18,15 @@ def prompt_factory_main(
     sensor_categories: Optional[Dict[str, str]] = None,
     priority_categories: Optional[List[str]] = None,
     days_categories: Optional[List[str]] = None,
-    hours_categories: Optional[List[str]] = None
+    hours_categories: Optional[List[str]] = None,
+    simulation_t0: Optional[datetime] = None
 ) -> Dict[str, str]:
     """
-    Main orchestration function for generating and semantically validating conversational asset requests.
+    Main orchestration function for generating and semantically validating asset requests.
 
-    Processes an incoming collection of TargetTask entities, computes localized ground truth evaluation tags,
-    triggers asynchronous LLM text generation via an Ollama local instance, maps output streams to local file containers,
-    and runs multi-category cosine similarity vector comparisons to log cross-validation performance metrics.
-
-    Args:
-        targets: Collection of structured target tracking configurations populating the current run.
-        prompt_config: Structural dictionary container capturing system and pipeline instruction templates.
-        output_dir: Local system directory path where independent text prompts and catalogs are written.
-        model_name: Local Large Language Model identification string deployed within the Ollama daemon.
-        temperature: Stochastic modifier parameter regulating natural language variation and generation diversity.
-        sensor_categories: Optional custom mapping binding physical sensor bands to enriched semantic anchor descriptions.
-        priority_categories: Optional array defining token chains used to cluster low, medium, and high mission weights.
-        days_categories: Optional array defining discrete categorical time tokens for relative calendar day windows.
-        hours_categories: Optional array defining discrete categorical time tokens for localized diurnal period frames.
-
-    Returns:
-        A dictionary matching unique task tracking identifiers to their corresponding conversational request strings.
-
-    Raises:
-        ValueError: If the required system instruction layout block is omitted from the prompt configuration.
+    Processes a collection of TargetTask entities, calculates reference labels based on UTC,
+    triggers asynchronous text generation via Ollama, saves the results locally,
+    and performs cosine similarity vector comparisons to record validation metrics.
     """
     if prompt_config is None:
         return {}
@@ -124,8 +107,8 @@ def prompt_factory_main(
     dir_path.mkdir(parents=True, exist_ok=True)
 
     task_lookup = {task.task_id: task for task in targets}
-    fixed_now_utc = datetime.now(timezone.utc)
-    local_tz = ZoneInfo("America/Bogota")
+    
+    fixed_now_utc = simulation_t0 if simulation_t0 is not None else datetime.now(timezone.utc)
 
     processed_tasks_list = []
     successful_sensor_matches = 0
@@ -163,19 +146,19 @@ def prompt_factory_main(
 
             deadline_epoch = fixed_now_utc.timestamp() + raw_deadline
             task_deadline_utc = datetime.fromtimestamp(deadline_epoch, tz=timezone.utc)
-            task_deadline_local = task_deadline_utc.astimezone(local_tz)
-            local_hour = task_deadline_local.hour
+            utc_hour = task_deadline_utc.hour 
 
-            if 6 <= local_hour < 11:
+            if 6 <= utc_hour < 11:
                 hour_tag = "in the morning"
-            elif 11 <= local_hour < 14:
+            elif 11 <= utc_hour < 14:
                 hour_tag = "around mid-day"
-            elif 14 <= local_hour < 18:
+            elif 14 <= utc_hour < 18:
                 hour_tag = "during the afternoon"
-            elif 18 <= local_hour < 23:
+            elif 18 <= utc_hour < 23:
                 hour_tag = "in the evening"
             else:
                 hour_tag = "overnight"
+            # --------------------------------------------------
 
             expected_day = day_mapping_to_category[day_tag]
             expected_hour = hour_mapping_to_category[hour_tag]

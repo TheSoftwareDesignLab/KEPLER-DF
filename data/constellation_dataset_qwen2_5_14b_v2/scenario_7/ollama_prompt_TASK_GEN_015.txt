@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for high-resolution optical snapshot acquisition over San Martín, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. Ensure this capture occurs in the morning three days from now.

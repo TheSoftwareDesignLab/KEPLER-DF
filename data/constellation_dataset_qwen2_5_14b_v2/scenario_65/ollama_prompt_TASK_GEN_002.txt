@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for multispectral vegetation analysis over Villa Lourdes, Panamá. The objective is to assess chlorophyll absorption levels and calculate the NDVI index for the area. This task should be scheduled in three days during the afternoon as part of our baseline pipeline tracking.

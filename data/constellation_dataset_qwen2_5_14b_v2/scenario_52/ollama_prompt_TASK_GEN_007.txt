@@ -1,1 +1,0 @@
-Please schedule a routine monitoring task for Colombia's Cáceres area for tomorrow evening. The objective is to capture near-infrared reflection data for water body boundary mapping and soil moisture assessment as part of our baseline pipeline tracking setup with fixed parameters.

@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for the VNIR sensor to capture multispectral vegetation analysis over El Litoral del San Juan in Colombia. This non-essential background filler task should be opportunistic and can be dropped or rescheduled at convenience. The target window is the day after tomorrow, specifically during the evening.

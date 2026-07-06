@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for thermal mapping over Valleriquito, Panamá. The objective is to capture a surface temperature profile using microwave surface imaging in the evening tomorrow as part of our baseline pipeline tracking setup with fixed parameters.

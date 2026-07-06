@@ -1,14 +1,14 @@
 simulation:
-  dataset_name: "constellation_dataset_qwen2_5_14b_v2"
-  num_scenarios: 100
+  dataset_name: "constellation_dataset_prueba"
+  num_scenarios: 2
   sat_k: 5
   sat_group_name: "weather"
   gs_k: 2
-  tasks_k: 15 
-  seed: 2026
-  ollama_model: "qwen2.5:14b"
+  tasks_k: 15
+  seed: 30432
+  ollama_model: "llama3.2:1b"
   ollama_temperature: 0.4
-  semantic_enabled: true
+  semantic_enabled: false
 
 payload:
   sensors_pool:

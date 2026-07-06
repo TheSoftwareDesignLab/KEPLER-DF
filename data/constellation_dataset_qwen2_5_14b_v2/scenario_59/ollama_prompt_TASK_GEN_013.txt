@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for a near-infrared reflection capture over El Retorno, Colombia. This mission is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. Ensure the active radar scan is scheduled for tomorrow afternoon to meet the routine monitoring requirements.

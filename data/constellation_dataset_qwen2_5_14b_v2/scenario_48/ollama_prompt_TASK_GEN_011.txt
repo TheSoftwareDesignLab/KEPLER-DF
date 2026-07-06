@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for high-resolution optical snapshot acquisition over Cimitarra, Colombia. This task is part of our baseline pipeline tracking and requires fixed parameters to ensure clear optical imagery. The capture should be scheduled for tomorrow overnight to meet the normal operational status requirements.

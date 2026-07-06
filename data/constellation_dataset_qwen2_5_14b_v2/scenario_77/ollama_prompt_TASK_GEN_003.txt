@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking to capture near-infrared reflection imagery over Santa Rosa del Sur, Colombia. This is part of our routine monitoring setup with fixed parameters for normal operational status. The imaging should be scheduled for the morning three days from now.

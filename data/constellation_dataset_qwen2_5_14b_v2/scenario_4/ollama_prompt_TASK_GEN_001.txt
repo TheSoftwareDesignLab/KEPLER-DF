@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for multispectral vegetation analysis over Calamar, Colombia. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index. Capture this data sometime in three days during the overnight hours, fitting it into the operational timeline as convenient.

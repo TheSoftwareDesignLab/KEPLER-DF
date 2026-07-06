@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for the constellation to capture near-infrared reflection imagery over La Hacienda, Colombia. This is part of our routine monitoring setup with fixed parameters and represents normal operational status. The critical payload capture is required the day after tomorrow, specifically overnight.

@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for multispectral vegetation analysis over Panama Canal, specifically targeting the chlorophyll absorption level and surface reflectance. This routine monitoring is part of the baseline pipeline tracking with fixed parameters and should be executed the day after tomorrow, specifically overnight.

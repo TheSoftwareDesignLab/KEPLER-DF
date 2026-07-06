@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for a near-infrared reflection capture over Las Garzas, Panamá. This request is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The critical payload capture should be scheduled the day after tomorrow in the morning.

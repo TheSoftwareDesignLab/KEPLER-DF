@@ -1,1 +1,0 @@
-Please allocate the standard operational tasking for a near-infrared reflection survey over Cali, Colombia. This routine monitoring is part of the baseline pipeline tracking with fixed parameters and represents normal operational status. The capture should be scheduled overnight in three days to ensure compliance with the established workflow.

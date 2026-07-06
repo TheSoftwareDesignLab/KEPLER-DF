@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over San Martín, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index sometime this afternoon on the day after tomorrow. This can be considered a background survey task, so feel free to drop or reschedule at convenience.

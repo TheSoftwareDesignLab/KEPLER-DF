@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over Cerro Cama, Panamá. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index sometime today around mid-day. Drop or reschedule this task at convenience.

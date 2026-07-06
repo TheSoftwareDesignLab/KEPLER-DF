@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over Chinácota, Colombia. This is a background survey to assess chlorophyll absorption levels and calculate the NDVI index. Capture this data sometime the day after tomorrow around morning, with flexibility to drop or reschedule at convenience.

@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for an active radar scan over Río Grande, Panamá. This mission is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The active radar scan should capture cloud-penetrating imagery in the morning three days from now.

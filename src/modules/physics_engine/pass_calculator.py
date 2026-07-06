@@ -10,12 +10,18 @@ _GLOBAL_TS = load.timescale()
 
 
 def _calculate_subsatellite_point(sat_object: EarthSatellite, t_skyfield) -> Tuple[float, float]:
+    """
+    Calcula el punto subsatelital (latitud y longitud geodésica) en un instante dado.
+    """
     geocentric = sat_object.at(t_skyfield)
     subpoint = wgs84.subpoint(geocentric)
     return float(subpoint.latitude.degrees), float(subpoint.longitude.degrees)
 
 
 def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: float, c_lon: float) -> Tuple[float, float]:
+    """
+    Calcula los ángulos de actitud (pitch y roll) en el sistema de referencia local LVLH.
+    """
     geocentric = sat_object.at(t_skyfield)
     r_sat = geocentric.position.km
     v_sat = geocentric.velocity.km_per_s
@@ -41,6 +47,9 @@ def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: floa
 
 
 def _refine_crossing(sat, topo_target, t_before, t_after, target_el_deg, iterations=6):
+    """
+    Refina numéricamente mediante bisección los instantes exactos de AOS y LOS.
+    """
     tb, ta = t_before, t_after
     for _ in range(iterations):
         tm = _GLOBAL_TS.tdb_jd((tb.tdb + ta.tdb) / 2.0)
@@ -54,6 +63,9 @@ def _refine_crossing(sat, topo_target, t_before, t_after, target_el_deg, iterati
 
 
 def _calculate_geodetic_centroid_and_radius(task: TargetTask) -> Tuple[float, float, float]:
+    """
+    Calcula el centroide geométrico de la tarea y su radio geodésico máximo.
+    """
     if task.task_type == "point":
         return task.coordinates[0][0], task.coordinates[0][1], 0.0
     
@@ -82,6 +94,9 @@ def _vectorized_pass_finder(
     c_lon: float,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
+    """
+    Buscador vectorial de pasadas geométricas sobre un objetivo topocéntrico.
+    """
     start_naive = start_dt.replace(tzinfo=None)
     end_naive = end_dt.replace(tzinfo=None)
     
@@ -118,37 +133,45 @@ def _vectorized_pass_finder(
         e1 = min(e + 1, len(times) - 1)
 
         try:
-            t_aos = _refine_crossing(sat_object, topo_target, times[s0], times[s], min_el_deg)
-            t_los = _refine_crossing(sat_object, topo_target, times[e], times[e1], min_el_deg)
+            t_aos_raw = _refine_crossing(sat_object, topo_target, times[s0], times[s], min_el_deg)
+            t_los_raw = _refine_crossing(sat_object, topo_target, times[e], times[e1], min_el_deg)
         except Exception:
             continue
 
+        t_aos = _GLOBAL_TS.utc(t_aos_raw.utc_datetime())
+        t_los = _GLOBAL_TS.utc(t_los_raw.utc_datetime())
+
+        alt_aos, az_aos, dist_aos = difference.at(t_aos).altaz()
+        alt_los, az_los, dist_los = difference.at(t_los).altaz()
+        
+        aos_dt = t_aos.utc_datetime().replace(tzinfo=None)
+        los_dt = t_los.utc_datetime().replace(tzinfo=None)
+        
         seg_alt = alt_deg[s:e + 1]
         if len(seg_alt) == 0 or np.all(np.isnan(seg_alt)):
             continue
 
         seg_idx_max = int(np.argmax(seg_alt))
         alt_max = float(seg_alt[seg_idx_max])
-        t_max = times[s + seg_idx_max]
-
-        range_aos = float(difference.at(t_aos).altaz()[2].km)
-        range_los = float(difference.at(t_los).altaz()[2].km)
-        
-        aos_dt = t_aos.utc_datetime().replace(tzinfo=None)
-        los_dt = t_los.utc_datetime().replace(tzinfo=None)
-        tmax_dt = t_max.utc_datetime().replace(tzinfo=None)
+        t_max_obj = times[s + seg_idx_max]
+        tmax_dt = t_max_obj.utc_datetime().replace(tzinfo=None)
         duration_s = max(0, int((los_dt - aos_dt).total_seconds()))
+
+        # Cálculo de la distancia de máximo acercamiento (Mínima distancia del paso)
+        alt_max_el, az_max_el, dist_max_el = difference.at(t_max_obj).altaz()
+        range_max_el_km = float(dist_max_el.km)
 
         discovered_passes.append({
             "t_aos_obj": t_aos,
             "t_los_obj": t_los,
-            "t_max_obj": t_max,
+            "t_max_obj": t_max_obj,
             "aos_dt": aos_dt,
             "tmax_dt": tmax_dt,
             "los_dt": los_dt,
             "max_el_deg": alt_max,
-            "range_aos_km": range_aos,
-            "range_los_km": range_los,
+            "range_aos_km": float(dist_aos.km),
+            "range_los_km": float(dist_los.km),
+            "range_max_el_km": range_max_el_km,
             "duration_s": duration_s
         })
 
@@ -163,10 +186,14 @@ def compute_infrastructure_passes(
     bands_config: dict,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
+    """
+    Calcula y filtra las pasadas de infraestructura sobre una estación terrena.
+    """
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     topo_target = wgs84.latlon(ground_station.latitude, ground_station.longitude, elevation_m=ground_station.elevation)
     
-    band_info = bands_config.get(satellite.band, {}) if satellite.band else {}
+    sat_band = getattr(satellite, "assigned_band", getattr(satellite, "band", None))
+    band_info = bands_config.get(sat_band, {}) if sat_band else {}
     min_el_deg = float(band_info.get("min_elevation_deg", 10.0))
     max_slant_range_km = float(band_info.get("max_slant_range_km", 999999.0))
     
@@ -175,17 +202,18 @@ def compute_infrastructure_passes(
         ground_station.latitude, ground_station.longitude, step_seconds
     )
     
-    print(f"[DEBUG INFRA] Sat: {satellite.norad_id} over GS: {ground_station.id} -> Found {len(raw_passes)} geometric passes at min_el: {min_el_deg}")
+    print(f"[DEBUG INFRA] Sat: {satellite.norad_id} over GS: {ground_station.id} -> Found {len(raw_passes)} geometric passes")
 
     formatted_passes = []
     tx_rate = satellite.downlink_rate_mb_s if satellite.downlink_rate_mb_s is not None else 10.0
-    difference = sat_object - topo_target
 
     for p in raw_passes:
-        distance_at_aos = float(difference.at(p["t_aos_obj"]).distance().km)
+        # CORRECCIÓN: Comparamos usando la distancia de máximo acercamiento (mínimo rango de la pasada)
+        # en lugar de la distancia de AOS que siempre es la más lejana (en el horizonte).
+        min_pass_distance_km = p["range_max_el_km"]
         
-        if distance_at_aos > max_slant_range_km:
-            print(f"  [DISCARD SLANT RANGE] Distance at AOS {distance_at_aos:.1f} km exceeds max threshold {max_slant_range_km} km")
+        if min_pass_distance_km > max_slant_range_km:
+            print(f"  [DISCARD SLANT RANGE] Closest distance during pass {min_pass_distance_km:.1f} km exceeds max threshold {max_slant_range_km} km")
             continue
 
         max_downlink_capacity_mb = float(p["duration_s"] * tx_rate)
@@ -203,6 +231,7 @@ def compute_infrastructure_passes(
             "max_el_deg": p["max_el_deg"],
             "range_aos_km": p["range_aos_km"],
             "range_los_km": p["range_los_km"],
+            "range_max_el_km": p["range_max_el_km"],
             "duration_s": p["duration_s"],
             "lvlh_target_pitch_deg": pitch_max,
             "lvlh_target_roll_deg": roll_max,
@@ -225,6 +254,9 @@ def compute_target_passes(
     min_duration: int = 5,
     max_duration: int = 30
 ) -> List[Dict[str, Any]]:
+    """
+    Calcula pasadas geométricas y ventanas de toma de imágenes para misiones/objetivos específicos.
+    """
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     
     c_lat, c_lon, task_radius_deg = _calculate_geodetic_centroid_and_radius(task)
@@ -235,7 +267,7 @@ def compute_target_passes(
     
     raw_passes = _vectorized_pass_finder(sat_object, topo_target, task_release_dt, task_deadline_dt, min_el_deg, c_lat, c_lon, step_seconds)
     
-    print(f"[DEBUG TARGET] Sat: {satellite.norad_id} over Task: {task.task_id} ({task.region_tag}) -> Found {len(raw_passes)} geometric passes at min_el: {min_el_deg}")
+    print(f"[DEBUG TARGET] Sat: {satellite.norad_id} over Task: {task.task_id} ({task.region_tag}) -> Found {len(raw_passes)} geometric passes")
 
     mean_motion_rad_min = sat_object.model.no
     satellite_speed_deg_s = (mean_motion_rad_min * (180.0 / np.pi)) / 60.0
@@ -260,7 +292,6 @@ def compute_target_passes(
         clipped_los = min(adjusted_los, task_deadline_dt)
         
         if clipped_los <= clipped_aos:
-            print(f"  [DISCARD LIFETIME] Pass skipped. Clipped window is invalid. Clipped AOS: {clipped_aos}, Clipped LOS: {clipped_los}")
             continue
             
         visibility_duration_s = int((clipped_los - clipped_aos).total_seconds())
@@ -279,6 +310,7 @@ def compute_target_passes(
             random_duration = rng.integers(int(min_duration), int(max_duration) + 1)
             sensor_active_duration_s = min(int(random_duration), visibility_duration_s)
             
+            # CORRECCIÓN: El fin de captura (img_end_dt) se suma simétricamente, abriendo la ventana temporal.
             img_start_dt = p["tmax_dt"] - timedelta(seconds=sensor_active_duration_s / 2.0)
             img_end_dt = p["tmax_dt"] + timedelta(seconds=sensor_active_duration_s / 2.0)
 
@@ -288,20 +320,15 @@ def compute_target_passes(
         
         generated_data_volume_mb = float(sensor_active_duration_s * data_ingestion_rate)
         
-        t_start_skyfield = _GLOBAL_TS.utc(img_start_dt.year, img_start_dt.month, img_start_dt.day,
-                                          img_start_dt.hour, img_start_dt.minute, img_start_dt.second)
-        t_end_skyfield = _GLOBAL_TS.utc(img_end_dt.year, img_end_dt.month, img_end_dt.day,
-                                        img_end_dt.hour, img_end_dt.minute, img_end_dt.second)
-        
-        pitch_start, roll_start = _calculate_lvlh_attitude(sat_object, t_start_skyfield, c_lat, c_lon)
-        pitch_end, roll_end = _calculate_lvlh_attitude(sat_object, t_end_skyfield, c_lat, c_lon)
+        pitch_start, roll_start = _calculate_lvlh_attitude(sat_object, p["t_aos_obj"], c_lat, c_lon)
+        pitch_end, roll_end = _calculate_lvlh_attitude(sat_object, p["t_los_obj"], c_lat, c_lon)
         
         if abs(roll_start) > max_look_angle or abs(roll_end) > max_look_angle:
             print(f"  [DISCARD ATTITUDE] Roll angles (Start: {roll_start:.2f}°, End: {roll_end:.2f}°) exceed sensor max look angle {max_look_angle}°")
             continue
 
-        aos_lat, aos_lon = _calculate_subsatellite_point(sat_object, t_start_skyfield)
-        los_lat, los_lon = _calculate_subsatellite_point(sat_object, t_end_skyfield)
+        aos_lat, aos_lon = _calculate_subsatellite_point(sat_object, p["t_aos_obj"])
+        los_lat, los_lon = _calculate_subsatellite_point(sat_object, p["t_los_obj"])
 
         valid_passes.append({
             "satellite_id": satellite.norad_id,

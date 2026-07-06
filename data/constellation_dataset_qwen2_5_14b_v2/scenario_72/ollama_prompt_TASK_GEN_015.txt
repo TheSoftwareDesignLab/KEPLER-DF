@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for near-infrared reflection imagery over Palermo, Colombia. This is part of our routine monitoring setup with fixed parameters and represents normal operational status. Capture this data sometime today around mid-morning to ensure we maintain our baseline pipeline tracking.

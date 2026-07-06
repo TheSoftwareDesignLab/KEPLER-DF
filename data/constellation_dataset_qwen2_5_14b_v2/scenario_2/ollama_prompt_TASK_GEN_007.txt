@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for a near-infrared reflection capture over San Joaquín, Colombia. This is part of our routine monitoring setup with fixed parameters and represents normal operational status. The mission should be executed tomorrow around mid-day to ensure compliance with the baseline pipeline tracking requirements.

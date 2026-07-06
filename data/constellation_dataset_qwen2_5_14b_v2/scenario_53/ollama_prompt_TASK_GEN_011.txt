@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for VNIR multispectral vegetation analysis over Macaravita, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index for routine monitoring purposes. This task should be scheduled for tomorrow evening as part of the baseline pipeline tracking setup.

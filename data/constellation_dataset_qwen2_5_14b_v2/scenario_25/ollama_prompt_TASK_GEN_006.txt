@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over Las Trancas, Panamá. This is a non-essential background filler task with a flexible schedule, so feel free to drop or reschedule at convenience. Capture the chlorophyll absorption level and calculate the NDVI index during the evening of the day after tomorrow.

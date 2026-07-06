@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for tomorrow evening to capture high-resolution multispectral vegetation analysis over Coello, Colombia. This will involve assessing chlorophyll absorption levels and calculating the NDVI index as part of our baseline pipeline tracking setup with fixed parameters.

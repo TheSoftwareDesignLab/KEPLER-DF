@@ -12,42 +12,20 @@ __all__ = ["data_collector_main"]
 
 
 def _parse_tle_epoch(tle_line1: str) -> datetime:
-    """
-    Parses the orbital epoch directly from Line 1 of the standard NORAD TLE format.
-
-    Extracts characters 18-32 from the first line of a standard Two-Line Element (TLE) string 
-    to determine the exact decimal day of the year and century-calibrated orbital reference time.
-
-    Args:
-        tle_line1: The first line of the standard NORAD TLE string format.
-
-    Returns:
-        A datetime object set to the exact UTC epoch extracted from the orbital elements.
-    """
     try:
         epoch_str = tle_line1[18:32].strip()
         year_two_digits = int(epoch_str[:2])
         year = 2000 + year_two_digits if year_two_digits < 57 else 1900 + year_two_digits
         day_of_year = float(epoch_str[2:])
-        
         base_date = datetime(year, 1, 1, tzinfo=timezone.utc)
-        epoch_datetime = base_date + timedelta(days=day_of_year - 1)
-        return epoch_datetime
+        return base_date + timedelta(days=day_of_year - 1)
     except Exception:
         return datetime.now(timezone.utc)
 
 
 def _export_scenario_report(context: CollectedContext, report_path: str = "data/scenario_report.json") -> None:
-    """
-    Exports a structured JSON data serialization containing all initialized metadata for the current simulation scenario.
-
-    Args:
-        context: CollectedContext object containing the assembled assets, infrastructure, and target registries.
-        report_path: System string path location defining where the JSON file report container will be written.
-    """
     path = pathlib.Path(report_path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    
     report_data = {
         "metadata": {
             "total_satellites": len(context.satellites),
@@ -94,7 +72,6 @@ def _export_scenario_report(context: CollectedContext, report_path: str = "data/
             for t in context.targets
         ]
     }
-    
     with path.open("w", encoding="utf-8") as f:
         json.dump(report_data, f, indent=2, ensure_ascii=False)
 
@@ -126,89 +103,48 @@ def data_collector_main(
     output_path: str = "data/scenario_report.json",
     **kwargs
 ) -> CollectedContext:
-    """
-    Orchestrates the metadata collection phase by parsing physical assets and assigning stochastic configurations.
+    user_allowed_bands = list(band_weights_map.keys()) if band_weights_map else ["S", "X", "Ka"]
+    
+    raw_satellites = load_and_sample_satellites(file_path=sat_file_path, group_name=sat_group_name, k=sat_k, seed=seed)
 
-    Initializes the data generation infrastructure by down-sampling localized ground station entries, 
-    matching available downlink communication bands, streaming active satellite elements, mapping stochastic 
-    payload parameters, and synthesizing target spatial geometries. Automatically anchors the internal timeline 
-    boundaries against the retrieved TLE orbital reference epoch to ensure orbital propagation consistency.
-
-    Args:
-        sat_k: Exact number of valid operational satellites to sample into the active constellation simulation pool.
-        gs_k: Exact number of localized ground tracking stations to select from the input catalog data source.
-        available_sensors: List of standard engineering payload names supported across the current factory run.
-        storage_capacity_pool_mb: Pool array defining the allowed Solid-State Recorder capacity bounds in Megabytes.
-        sensor_generation_rates: Map of default bit-stream data collection rates assigned to each active instrument.
-        tasks_k: Exact number of unique spatial target task instances to generate within the scenario bounds.
-        bounding_boxes: Geodetic boundaries used to define tracking envelopes over specific regions.
-        polygon_ratio: Stochastic threshold defining the balance of generated task geometries (polygons vs points).
-        min_area_deg: Lower area bound constraint in square degrees for synthetic polygonal target regions.
-        max_area_deg: Upper area bound constraint in square degrees for synthetic polygonal target regions.
-        min_release_delay: Minimum simulation time delta defining when a task enters the scheduling queue.
-        max_release_delay: Maximum simulation time delta defining when a task enters the scheduling queue.
-        min_lifetime: Minimum temporal lifespan constraint determining target expiration intervals.
-        max_lifetime: Maximum temporal lifespan constraint determining target expiration intervals.
-        sat_file_path: Optional path string pointing to a local file registry containing hardcoded satellite entries.
-        sat_group_name: Optional string corresponding to a predefined constellation array catalog.
-        gs_file_path: Path string to the delimited file registry mapping global ground station nodes.
-        sensor_weights: Distribution weights dictating the random assignment probability of instrument types.
-        band_weights_map: Dictionary defining available operational link profiles and corresponding download speeds.
-        min_sensors_per_sat: Minimum number of unique instruments assigned to each active satellite platform.
-        max_sensors_per_sat: Maximum number of unique instruments assigned to each active satellite platform.
-        priority_weights: Probability distribution vector for assigning integer priority metadata tags to tasks.
-        seed: Explicit initialization variable anchoring the pseudo-random number state for reproducible data splits.
-        output_path: System path target string location where the scenario metadata asset report is saved.
-        **kwargs: Catch-all keyword arguments dictionary to safely handle extra pipeline context or phase config data.
-
-    Returns:
-        A fully initialized CollectedContext dataclass instance populating the entire physical tracking environment.
-
-    Raises:
-        ValueError: If the sampled infrastructure yields zero valid matching communication links across the constellation.
-    """
-    user_allowed_bands = list(band_weights_map.keys()) if band_weights_map else None
-
-    ground_stations = load_and_sample_stations(
-        file_path=gs_file_path, 
-        k=gs_k, 
-        allowed_bands=user_allowed_bands, 
-        seed=seed
-    )
-
-    stations_supported_bands = set()
-    for gs in ground_stations:
-        for band in gs.bands_supported:
-            stations_supported_bands.add(band)
-            
-    active_bands_pool = sorted(list(stations_supported_bands))
-
-    if not active_bands_pool:
-        raise ValueError("The sampled ground stations do not provide any valid communication bands.")
-
-    active_band_weights = []
+    band_weights_list = []
     band_downlink_rates = {}
     if band_weights_map:
-        for band in active_bands_pool:
+        for band in user_allowed_bands:
             band_info = band_weights_map.get(band, {})
-            active_band_weights.append(float(band_info.get("weight", 1.0)))
+            band_weights_list.append(float(band_info.get("weight", 1.0)))
             band_downlink_rates[band] = float(band_info.get("downlink_rate_mb_s", 10.0))
     else:
-        active_band_weights = [1.0] * len(active_bands_pool)
-
-    raw_satellites = load_and_sample_satellites(file_path=sat_file_path, group_name=sat_group_name, k=sat_k, seed=seed)
+        band_weights_list = [1.0] * len(user_allowed_bands)
+        band_downlink_rates = {b: 10.0 for b in user_allowed_bands}
 
     configured_satellites = assign_satellite_payloads(
         satellites=raw_satellites,
         available_sensors=available_sensors,
-        available_bands=active_bands_pool,  
+        available_bands=user_allowed_bands,  
         available_capacities=storage_capacity_pool_mb,
         sensor_weights=sensor_weights,
-        band_weights=active_band_weights,     
+        band_weights=band_weights_list,     
         sensor_generation_rates=sensor_generation_rates,
         band_downlink_rates=band_downlink_rates,
         min_sensors_per_sat=min_sensors_per_sat,
         max_sensors_per_sat=max_sensors_per_sat,
+        seed=seed
+    )
+
+    active_satellite_bands = set()
+    for sat in configured_satellites:
+        if sat.band:
+            active_satellite_bands.add(sat.band)
+            
+    filtered_bands_pool = sorted(list(active_satellite_bands))
+    if not filtered_bands_pool:
+        filtered_bands_pool = user_allowed_bands
+
+    ground_stations = load_and_sample_stations(
+        file_path=gs_file_path, 
+        k=gs_k, 
+        allowed_bands=filtered_bands_pool, 
         seed=seed
     )
 

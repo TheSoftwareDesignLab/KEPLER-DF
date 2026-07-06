@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for an active radar scan over Pásiga, Panamá. This is part of our baseline pipeline tracking with fixed parameters. The mission should be executed overnight tomorrow to capture cloud-penetrating imagery as required.

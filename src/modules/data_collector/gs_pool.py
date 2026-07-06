@@ -8,15 +8,6 @@ __all__ = ["load_and_sample_stations"]
 
 
 def _slugify(text: str) -> str:
-    """
-    Transforms an asset name string into a sanitized alphanumeric lower-snake-case identifier.
-
-    Args:
-        text: Raw name string under inspection.
-
-    Returns:
-        A lower-snake-case alphanumeric string sanitized for file system and registry tracking keys.
-    """
     clean = "".join(c.lower() if c.isalnum() or c.isspace() else "" for c in text)
     return "_".join(clean.split())
 
@@ -28,23 +19,6 @@ def load_and_sample_stations(
     seed: Optional[int] = None,
     custom_stations: Optional[List[GroundStationConfig]] = None
 ) -> List[GroundStationConfig]:
-    """
-    Loads ground stations locally from a pre-enriched CSV file container.
-
-    Parses geodetic, structural, and communication network payload properties, filtering
-    the active asset pool against supported telemetry bands, before extracting a stochastically
-    bounded cohort of target nodes using a reproducible random distribution.
-
-    Args:
-        file_path: Local system path string pointing to the ground station spreadsheet registry.
-        k: Optional precise integer defining the scale of the stochastically sampled tracking cohort.
-        allowed_bands: Optional list of communication frequency constraints used to isolate viable nodes.
-        seed: Optional integer used to lock the internal state of the pseudo-random generator.
-        custom_stations: Optional pre-compiled list of ground station structures bypassing file operations.
-
-    Returns:
-        A reproducibly sampled list of configured GroundStationConfig instances matching down-selection bounds.
-    """
     if custom_stations is not None:
         return custom_stations
 
@@ -64,18 +38,17 @@ def load_and_sample_stations(
                     
                 raw_bands = row.get("Bands")
                 if raw_bands and str(raw_bands).strip().lower() != "nan":
-                    bands = [b.strip() for b in raw_bands.split(",")]
+                    stations_bands = [b.strip() for b in raw_bands.split(",")]
                 else:
-                    bands = ["S", "X"]
+                    stations_bands = ["S", "X"]
                     
                 if target_bands_set is not None:
-                    matching_bands = sorted(list(set(bands).intersection(target_bands_set)))
+                    matching_bands = sorted(list(set(stations_bands).intersection(target_bands_set)))
                     if not matching_bands:
                         continue
-                    bands = matching_bands
+                    stations_bands = matching_bands
 
                 name_str = row["Name"].strip()
-                
                 raw_elevation = row.get("Elevation")
                 try:
                     elevation_val = float(raw_elevation) if raw_elevation else 0.0
@@ -89,7 +62,7 @@ def load_and_sample_stations(
                         latitude=float(row["Latitude"]),
                         longitude=float(row["Longitude"]),
                         elevation=elevation_val,
-                        bands_supported=bands
+                        bands_supported=stations_bands
                     )
                 )
     except (KeyError, ValueError, csv.Error) as e:

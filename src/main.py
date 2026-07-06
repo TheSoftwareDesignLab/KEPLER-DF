@@ -2,17 +2,23 @@ import sys
 import pathlib
 import json
 from datetime import datetime, timezone, timedelta
+
+# Intentamos importar PyYAML de forma segura para dar soporte a las configuraciones
 yaml_available = True
 try:
     import yaml
 except ImportError:
     yaml_available = False
+
 from src.modules.data_collector.main import data_collector_main
 from src.modules.physics_engine.main import physics_engine_main
 from src.modules.prompt_factory.main import prompt_factory_main
 
 
 def load_config(config_path: str) -> dict:
+    """
+    Load the project's YAML configuration file.
+    """
     if not yaml_available:
         raise ImportError("The 'pyyaml' package is required to parse YAML configurations. Run 'pip install pyyaml'.")
     p = pathlib.Path(config_path)
@@ -26,6 +32,9 @@ def load_config(config_path: str) -> dict:
 
 
 def load_semantic_categories(categories_path: str) -> dict:
+    """
+    Upload the JSON file containing the semantic categories and anchor text.
+    """
     p = pathlib.Path(categories_path)
     if not p.exists():
         raise FileNotFoundError(f"Semantic categories JSON file not found at: {categories_path}")
@@ -34,6 +43,9 @@ def load_semantic_categories(categories_path: str) -> dict:
 
 
 def validate_config_bounds_sanity(task_cfg: dict) -> None:
+    """
+    Verify that the configuration limits and time frames are logically consistent.
+    """
     min_release = task_cfg.get("min_release_delay")
     max_release = task_cfg.get("max_release_delay")
     min_lifetime = task_cfg.get("min_lifetime")
@@ -167,7 +179,8 @@ def main():
                     sensor_categories=sem_categories.get("sensor_categories"),
                     priority_categories=sem_categories.get("priority_categories"),
                     days_categories=sem_categories.get("days_categories"),
-                    hours_categories=sem_categories.get("hours_categories")
+                    hours_categories=sem_categories.get("hours_categories"),
+                    simulation_t0=t0
                 )
             else:
                 print("\n[SKIP] Semantic Prompt Generation Phase disabled via configuration.")

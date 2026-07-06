@@ -1,1 +1,0 @@
-Arrange for a low priority importance VNIR capture of Dabeiba, Colombia, for a background survey. Ensure the multispectral vegetation analysis is scheduled sometime tomorrow overnight to assess chlorophyll absorption levels and calculate the NDVI index. Drop or reschedule this task at convenience if higher priorities arise.

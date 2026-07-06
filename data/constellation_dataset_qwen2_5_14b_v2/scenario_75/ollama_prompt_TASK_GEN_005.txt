@@ -1,1 +1,0 @@
-Please allocate the standard operational tasking for a commercial client requiring an active radar scan over Puerto Gaitán, Colombia. This task is part of the baseline pipeline tracking and involves fixed parameters for routine monitoring. Ensure that the microwave surface imaging is captured in three days during the evening to meet the normal operational status requirements.

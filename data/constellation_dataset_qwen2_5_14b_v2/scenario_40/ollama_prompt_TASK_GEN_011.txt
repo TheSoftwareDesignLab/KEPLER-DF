@@ -1,1 +1,0 @@
-Request a low priority importance task for opportunistic capture of multispectral vegetation analysis over Toledo, Colombia. This background survey should aim to assess chlorophyll absorption levels and calculate the NDVI index sometime tomorrow morning, with flexibility to drop or reschedule at convenience.

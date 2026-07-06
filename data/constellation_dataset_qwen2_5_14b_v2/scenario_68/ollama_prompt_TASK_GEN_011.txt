@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking for tomorrow morning to capture high-resolution multispectral vegetation analysis over Herveo, Colombia. This involves assessing chlorophyll absorption levels and calculating a vegetation NDVI index as part of our baseline pipeline tracking setup with fixed parameters.

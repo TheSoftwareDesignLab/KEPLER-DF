@@ -1,1 +1,0 @@
-Please schedule a low priority importance task for VNIR multispectral vegetation analysis over Güicán, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index sometime in three days during the overnight hours. This can be considered a background survey task, so feel free to drop or reschedule at convenience.

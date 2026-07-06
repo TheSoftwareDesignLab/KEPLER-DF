@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for thermal mapping over San José del Guaviare, Colombia, to capture the surface temperature profile. This is part of the baseline pipeline tracking with fixed parameters and represents normal operational status. Ensure this critical payload capture is scheduled for tomorrow morning.

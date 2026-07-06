@@ -1,1 +1,0 @@
-Please schedule a low-priority importance VNIR capture for Trujillo, Colombia as a background survey task. The objective is to perform multispectral vegetation analysis for chlorophyll absorption levels and NDVI index calculation sometime tomorrow overnight. This can be dropped or rescheduled at convenience.

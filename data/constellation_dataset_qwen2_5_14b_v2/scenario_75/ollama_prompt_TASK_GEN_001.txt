@@ -1,1 +1,0 @@
-Please allocate a standard operational task for a near-infrared reflection capture over La Macarena, Colombia. This is part of our routine monitoring and requires fixed parameters for normal operational status. The mission should be executed tomorrow morning to ensure compliance with the baseline pipeline tracking setup.

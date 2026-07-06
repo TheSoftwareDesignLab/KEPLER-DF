@@ -1,1 +1,0 @@
-Please task the satellite for a standard operational multispectral vegetation analysis over Zaragoza, Colombia. The objective is to assess chlorophyll absorption levels and calculate the vegetation NDVI index for tomorrow morning as part of our baseline pipeline tracking setup with fixed parameters.

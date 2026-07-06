@@ -1,1 +1,0 @@
-Please allocate a standard operational tasking for thermal mapping over Sevilla, Colombia. The objective is to capture a surface temperature profile using microwave surface imaging in the morning tomorrow as part of our baseline pipeline tracking setup with fixed parameters.

@@ -1,1 +1,0 @@
-Please schedule a standard operational tasking to capture near-infrared reflection imagery over Panama Canal for water body boundary mapping and soil moisture assessment. This routine monitoring should be executed in four days during the afternoon as part of the baseline pipeline tracking setup with fixed parameters.

@@ -1,11 +1,11 @@
 import os
 import json
+import re
 import requests
 import time
 import urllib3 
 from datetime import datetime, timezone
-from zoneinfo import ZoneInfo
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Optional
 from src.core.datatypes import TargetTask
 
 __all__ = ["generate_ollama_semantic_prompt", "build_single_task_string"]
@@ -13,18 +13,17 @@ __all__ = ["generate_ollama_semantic_prompt", "build_single_task_string"]
 
 def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, str]:
     """
-    Queries the Nominatim OpenStreetMap API to reverse-geocode spatial coordinates.
+    Queries the Nominatim OpenStreetMap API for reverse geocoding.
 
-    Executes an unverified, rate-limited HTTP GET request against geographical databases 
-    to resolve raw decimal latitude and longitude parameters into localized country, 
-    city, and landmark metadata anchors.
+    Performs a secure HTTP GET request to resolve latitude and longitude 
+    coordinates into descriptive geographical metadata including country and city.
 
     Args:
         lat: Optional geodetic latitude coordinate under inspection.
         lon: Optional geodetic longitude coordinate under inspection.
 
     Returns:
-        A dictionary containing extracted and fallback string entities for 'country', 
+        A dictionary containing extracted and fallback string entities for 'country',
         'city', and 'landmark'.
     """
     if lat is None or lon is None:
@@ -35,7 +34,7 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
     try:
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         
-        url = "https://nominatim.openstreetmap.org/reverse"
+        url = "[https://nominatim.openstreetmap.org/reverse](https://nominatim.openstreetmap.org/reverse)"
         params = {
             "lat": float(lat),
             "lon": float(lon),
@@ -92,11 +91,10 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
 
 def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
     """
-    Builds a minimized, standardized JSON metadata description mapping structural task parameters.
+    Builds a standardized JSON description mapping structural task parameters.
 
-    Extracts payload requirements, computes geodetic polygon center-mass coordinates, queries 
-    reverse-geocoding engines, and performs chronological classification mapping relative temporal offsets 
-    and target time zone diurnal windows into discrete categorical labels.
+    Calculates the UTC completion time and categorizes deadlines into diurnal periods
+    based strictly on the UTC time standard.
 
     Args:
         task: TargetTask dataclass instance populating simulation parameters.
@@ -105,13 +103,11 @@ def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
     Returns:
         A serialized JSON string containing structured simulation data tags for the targeted asset.
     """
-    local_tz = ZoneInfo("America/Bogota")
     primary_sensor = task.required_sensors[0] if task.required_sensors else "VISUAL"
     
     raw_deadline = getattr(task, "deadline", getattr(task, "deadline_s", 0))
     deadline_epoch = now_utc.timestamp() + raw_deadline
     task_deadline_utc = datetime.fromtimestamp(deadline_epoch, tz=timezone.utc)
-    task_deadline_local = task_deadline_utc.astimezone(local_tz)
     
     release_time = getattr(task, 'release_time', 0)
     remaining_hours = (raw_deadline - release_time) / 3600.0
@@ -127,14 +123,14 @@ def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
     else:
         day_tag = "in four days"
 
-    local_hour = task_deadline_local.hour
-    if 6 <= local_hour < 11:
+    utc_hour = task_deadline_utc.hour
+    if 6 <= utc_hour < 11:
         hour_tag = "in the morning"
-    elif 11 <= local_hour < 14:
+    elif 11 <= utc_hour < 14:
         hour_tag = "around mid-day"
-    elif 14 <= local_hour < 18:
+    elif 14 <= utc_hour < 18:
         hour_tag = "during the afternoon"
-    elif 18 <= local_hour < 23:
+    elif 18 <= utc_hour < 23:
         hour_tag = "in the evening"
     else:
         hour_tag = "overnight"
@@ -197,11 +193,7 @@ def generate_ollama_semantic_prompt(
     repeat_penalty: float = 1.05
 ) -> Dict[str, str]:
     """
-    Queries an Ollama endpoint to generate conversational operators' tasking requests from structured metadata.
-
-    Iterates through the compiled target registry, formats the underlying constraints via serialized 
-    JSON snippets into a foundational instruction template, streams tokenized response packets, and 
-    extracts fenced markdown prompt elements into an isolated identifier lookup map.
+    Queries local Ollama endpoints to generate conversational requests from the structured JSON metadata.
 
     Args:
         targets: Collection of structured TargetTask objects defining individual task scenarios.
@@ -214,7 +206,7 @@ def generate_ollama_semantic_prompt(
     Returns:
         A dictionary mapping task identifiers to sanitized, conversational English prompt strings.
     """
-    raw_url = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
+    raw_url = os.getenv("OLLAMA_URL", "[http://127.0.0.1:11434](http://127.0.0.1:11434)")
     clean_url = raw_url.replace("[", "").replace("]", "").split("(")[0].strip()
     target_endpoint = f"{clean_url}/api/generate"
     
@@ -262,10 +254,9 @@ def generate_ollama_semantic_prompt(
         print()
         raw_text = "".join(output_chunks)
         
-        if "```prompt" in raw_text:
-            parsed_text = raw_text.split("```prompt")[1].split("```")[0].strip()
-        else:
-            parsed_text = raw_text.strip()
+        pattern = r"\x60{3}(?:prompt|text)?\s*(.*?)\s*\x60{3}"
+        match = re.search(pattern, raw_text, re.DOTALL | re.IGNORECASE)
+        parsed_text = match.group(1).strip() if match else raw_text.strip()
             
         generated_prompts_map[task.task_id] = parsed_text
         
