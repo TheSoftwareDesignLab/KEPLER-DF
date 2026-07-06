@@ -4,11 +4,10 @@ import urllib.request
 import ssl
 from datetime import datetime, timezone, timedelta
 import matplotlib.pyplot as plt
-from matplotlib.patches import Polygon as MapPolygon
 from skyfield.api import EarthSatellite, load, wgs84
 import numpy as np
 
-__all__ = ["generate_mission_world_map"]
+__all__ = ["generate_infrastructure_world_map"]
 
 
 def _resolve_path(path_str: str) -> pathlib.Path:
@@ -83,10 +82,10 @@ def _get_satellite_ground_track(tle_line1: str, tle_line2: str, name: str, start
     return segments
 
 
-def generate_mission_world_map(
-    scenario_report_path: str = "data/constellation_dataset_prueba/scenario_1/scenario_report.json",
-    physics_report_path: str = "data/constellation_dataset_prueba/scenario_1/physics_passes_report.json",
-    output_image_path: str = "data/constellation_dataset_prueba/scenario_1/mission_multiregion_map.png",
+def generate_infrastructure_world_map(
+    scenario_report_path: str = "data/constellation_dataset_prueba/scenario_2/scenario_report.json",
+    physics_report_path: str = "data/constellation_dataset_prueba/scenario_2/physics_passes_report.json",
+    output_image_path: str = "data/constellation_dataset_prueba/scenario_2/infrastructure_downlink_map.png",
     selected_satellite_id: Optional[int] = None
 ) -> None:
     scenario_path = _resolve_path(scenario_report_path)
@@ -105,16 +104,15 @@ def generate_mission_world_map(
         
     satellites = scenario_data.get("satellites", [])
     ground_stations = scenario_data.get("ground_stations", [])
-    targets = scenario_data.get("targets", [])
-    target_passes = physics_data.get("target_passes", [])
+    infra_passes = physics_data.get("infrastructure_passes", [])
     
-    if not targets:
-        print("[WARN] No mission targets found in the report. Map generation skipped.")
+    if not ground_stations:
+        print("[WARN] No ground stations found in the report. Map generation skipped.")
         return
 
     if not selected_satellite_id and satellites:
         sat_pass_counts = {}
-        for p_pass in target_passes:
+        for p_pass in infra_passes:
             sat_id = p_pass.get("satellite_id")
             if sat_id:
                 sat_pass_counts[sat_id] = sat_pass_counts.get(sat_id, 0) + 1
@@ -128,24 +126,15 @@ def generate_mission_world_map(
         print(f"[WARN] Selected satellite ID {selected_satellite_id} not found in scenario report.")
         return
 
-    regions = {}
-    for task in targets:
-        r_tag = task.get("region_tag", "unknown")
-        if r_tag not in regions:
-            regions[r_tag] = []
-        regions[r_tag].append(task)
-        
-    unique_regions = sorted(list(regions.keys()))
-    num_regions = len(unique_regions)
-    
-    if num_regions == 1:
+    num_stations = len(ground_stations)
+    if num_stations == 1:
         cols = 1
         rows = 1
         fig, axes = plt.subplots(1, 1, figsize=(10, 8), dpi=150)
         axes = [axes]
     else:
         cols = 2
-        rows = (num_regions + 1) // 2
+        rows = (num_stations + 1) // 2
         fig, axes = plt.subplots(rows, cols, figsize=(14, 5.5 * rows), dpi=150)
         axes = axes.flatten()
 
@@ -160,12 +149,15 @@ def generate_mission_world_map(
             "name": sat["name"]
         }
 
-    sat_colors = ["#2E86C1", "#E74C3C", "#27AE60", "#F39C12", "#8E44AD", "#16A085"]
+    sat_colors = ["#8E44AD", "#2E86C1", "#E74C3C", "#27AE60", "#F39C12", "#16A085"]
     sat_color_map = {sat["norad_id"]: sat_colors[i % len(sat_colors)] for i, sat in enumerate(satellites)}
 
-    for idx, r_name in enumerate(unique_regions):
+    for idx, gs in enumerate(ground_stations):
         ax = axes[idx]
-        region_targets = regions[r_name]
+        gs_id = gs["id"]
+        gs_name = gs["name"]
+        gs_lat = gs["latitude"]
+        gs_lon = gs["longitude"]
         
         if world_geojson and "features" in world_geojson:
             for feature in world_geojson["features"]:
@@ -184,67 +176,30 @@ def generate_mission_world_map(
                         ax.plot(lons_p, lats_p, color="#D5D8DC", linewidth=0.6, zorder=1)
                         ax.fill(lons_p, lats_p, color="#F4F6F7", zorder=0)
 
-        all_lats_in_region = []
-        all_lons_in_region = []
-        
-        for task in region_targets:
-            t_coords = task["coordinates"]
-            task_type = task.get("task_type", "point")
-            priority = task.get("priority", 1)
-            
-            border_color = "#E74C3C" if priority == 3 else ("#F39C12" if priority == 2 else "#3498DB")
-            
-            lats = [float(pt[0]) for pt in t_coords]
-            lons = [float(pt[1]) for pt in t_coords]
-            
-            all_lats_in_region.extend(lats)
-            all_lons_in_region.extend(lons)
-            
-            if task_type == "polygon":
-                if len(lats) > 2 and (lats[0] != lats[-1] or lons[0] != lons[-1]):
-                    lats.append(lats[0])
-                    lons.append(lons[0])
-                ax.plot(lons, lats, color=border_color, linewidth=1.8, linestyle="-", zorder=5)
-                ax.fill(lons, lats, color=border_color, alpha=0.25, label=f"Target {task['task_id']}" if len(region_targets) <= 5 else "", zorder=4)
-            else:
-                ax.scatter(lons[0], lats[0], color=border_color, marker="d", s=90, edgecolor="black", linewidth=0.8, label=f"Target {task['task_id']}" if len(region_targets) <= 5 else "", zorder=5)
-
-        lat_min, lat_max = min(all_lats_in_region), max(all_lats_in_region)
-        lon_min, lon_max = min(all_lons_in_region), max(all_lons_in_region)
-        
-        lat_pad = max(2.5, (lat_max - lat_min) * 0.5)
-        lon_pad = max(2.5, (lon_max - lon_min) * 0.5)
-        
-        ax_lat_min, ax_lat_max = lat_min - lat_pad, lat_max + lat_pad
-        ax_lon_min, ax_lon_max = lon_min - lon_pad, lon_max + lon_pad
-
-        for gs in ground_stations:
-            g_lat, g_lon = gs["latitude"], gs["longitude"]
-            if ax_lat_min <= g_lat <= ax_lat_max and ax_lon_min <= g_lon <= ax_lon_max:
-                ax.scatter(g_lon, g_lat, color="#2C3E50", marker="^", s=110, edgecolor="#F1C40F", linewidth=1.2, label=f"GS: {gs['name']}", zorder=7)
+        ax.scatter(gs_lon, gs_lat, color="#E74C3C", marker="^", s=130, edgecolor="#2C3E50", linewidth=1.5, label=f"GS: {gs_name}", zorder=7)
 
         processed_passes = set()
         processed_orbits = set()
-        for p_pass in target_passes:
-            if p_pass.get("region_tag") == r_name:
+        for p_pass in infra_passes:
+            if p_pass.get("ground_station_id") == gs_id:
                 sat_id = p_pass["satellite_id"]
                 if sat_id != selected_satellite_id:
                     continue
                 
-                color = sat_color_map.get(sat_id, "#2E86C1")
+                color = sat_color_map.get(sat_id, "#8E44AD")
                 sat_info = sat_tle_map.get(sat_id)
                 if not sat_info:
                     continue
                 
-                img_start_str = p_pass.get("imaging_start_utc")
-                img_end_str = p_pass.get("imaging_end_utc")
+                aos_str = p_pass.get("aos_utc")
+                los_str = p_pass.get("los_utc")
                 
-                if img_start_str and img_end_str:
-                    img_start = datetime.strptime(img_start_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-                    img_end = datetime.strptime(img_end_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+                if aos_str and los_str:
+                    aos_dt = datetime.strptime(aos_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+                    los_dt = datetime.strptime(los_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
                     
-                    orbit_start = img_start - timedelta(minutes=45)
-                    orbit_end = img_end + timedelta(minutes=45)
+                    orbit_start = aos_dt - timedelta(minutes=45)
+                    orbit_end = los_dt + timedelta(minutes=45)
                     
                     orbit_key = f"{sat_id}_{int(orbit_start.timestamp() // 600)}"
                     if orbit_key not in processed_orbits:
@@ -264,12 +219,12 @@ def generate_mission_world_map(
                         sat_info["tle_line1"],
                         sat_info["tle_line2"],
                         sat_info["name"],
-                        img_start,
-                        img_end,
+                        aos_dt,
+                        los_dt,
                         step_seconds=1
                     )
                     
-                    label_str = f"Orbit/Pass Sat {sat_id}"
+                    label_str = f"Downlink Sat {sat_id}"
                     for seg_lons, seg_lats in pass_segments:
                         if label_str not in processed_passes:
                             ax.plot(seg_lons, seg_lats, color=color, linewidth=2.5, linestyle="-", label=label_str, zorder=6)
@@ -277,15 +232,14 @@ def generate_mission_world_map(
                         else:
                             ax.plot(seg_lons, seg_lats, color=color, linewidth=2.5, linestyle="-", zorder=6)
 
-        ax.set_xlim(ax_lon_min, ax_lon_max)
-        ax.set_ylim(ax_lat_min, ax_lat_max)
+        ax.set_xlim(gs_lon - 20, gs_lon + 20)
+        ax.set_ylim(gs_lat - 15, gs_lat + 15)
         ax.grid(True, linestyle=":", alpha=0.6, color="#BDC3C7", zorder=1)
         
         ax.set_xlabel("Longitude (°E)", fontsize=9, fontname="DejaVu Sans")
         ax.set_ylabel("Latitude (°N)", fontsize=9, fontname="DejaVu Sans")
         
-        titulo_region = r_name.replace("_", " ").title()
-        ax.set_title(f"Region: {titulo_region}", fontsize=11, fontweight="bold", pad=10, fontname="DejaVu Sans")
+        ax.set_title(f"Station: {gs_name}", fontsize=11, fontweight="bold", pad=10, fontname="DejaVu Sans")
         
         ax.legend(
             loc="upper right",
@@ -296,11 +250,11 @@ def generate_mission_world_map(
             frameon=True
         )
 
-    for extra_idx in range(num_regions, len(axes)):
+    for extra_idx in range(num_stations, len(axes)):
         fig.delaxes(axes[extra_idx])
 
     fig.suptitle(
-        f"Multi-Region Spatial Analysis - Spacecraft NORAD {selected_satellite_id}\nSGP4 Physical Orbit Propagation & Targeted Imaging Segments",
+        f"Multi-Station Infrastructure Analysis - Downlink Windows for Sat {selected_satellite_id}\nSGP4 Physical Orbit Propagation & Active Ground Station Intersections",
         fontsize=13, fontweight="bold", y=0.98, fontname="DejaVu Sans"
     )
 
@@ -310,20 +264,20 @@ def generate_mission_world_map(
     plt.savefig(output_path, dpi=200, bbox_inches="tight")
     plt.close()
     
-    print(f"\n[SUCCESS] Multi-region map saved successfully at: {output_path.resolve()}")
+    print(f"\n[SUCCESS] Infrastructure downlinks map saved successfully at: {output_path.resolve()}")
 
 
 if __name__ == "__main__":
     print("==========================================================")
-    print(" Launching Kepler Orbit and Region Visualizer...")
+    print(" Launching Kepler Downlink Visualizer...")
     print("==========================================================")
     
     SCENARIO_REPORT = "data/constellation_dataset_prueba/scenario_1/scenario_report.json"
     PHYSICS_REPORT = "data/constellation_dataset_prueba/scenario_1/physics_passes_report.json"
-    OUTPUT_MAP = "utilities/output/satellite_mission_map.svg"
+    OUTPUT_MAP = "utilities/output/satellite_downlink_map.png"
 
     try:
-        generate_mission_world_map(
+        generate_infrastructure_world_map(
             scenario_report_path=SCENARIO_REPORT,
             physics_report_path=PHYSICS_REPORT,
             output_image_path=OUTPUT_MAP
