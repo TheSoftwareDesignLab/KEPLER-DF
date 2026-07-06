@@ -3,7 +3,6 @@ import pathlib
 import json
 from datetime import datetime, timezone, timedelta
 
-# Intentamos importar PyYAML de forma segura para dar soporte a las configuraciones
 yaml_available = True
 try:
     import yaml
