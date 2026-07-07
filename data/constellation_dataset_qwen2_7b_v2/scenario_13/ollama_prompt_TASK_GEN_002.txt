@@ -1,0 +1,5 @@
+Good evening, satellite constellation planner. I'm reaching out to request a task for an observational mission with low priority importance. The mission involves capturing data using the VNIR sensor to assess chlorophyll absorption levels and calculate the NDVI index for a background survey in Moncalieri, Italia. Our objective is to gather this information overnight during the next four days.
+
+Please note that this task falls under a flexible schedule and can be dropped or rescheduled at your convenience. It's considered a non-essential background filler task that fits into our baseline pipeline tracking setup with fixed parameters representing normal operational status. I appreciate your understanding of its low priority nature.
+
+Thank you for your attention, and I look forward to your confirmation on this request.

@@ -1,0 +1,11 @@
+Good day to all satellite operators and mission control staff. We're looking at an operational task that needs to be allocated to our automated satellite constellation planner. The request involves a medium importance mission, which is part of our standard pipeline tracking setup.
+
+Our primary sensor for this mission is the VNIR (Visible Near-Infrared), aimed at conducting a detailed multispectral vegetation analysis in the region of Italia, specifically in the city of Norte. We're interested in capturing the chlorophyll absorption level and calculating the NDVI index to assess surface reflectance over the area.
+
+The geographic context here is quite straightforward: we're focusing on a specific location within the region where our satellite will capture high-resolution optical snapshots for daylight photography, clear optical imagery, and true-color visual documentation. We're not dealing with any specific landmarks or detailed coordinates but rather looking at the broader area encompassing Norte city.
+
+As for timing, we have a remaining timeframe that's quite flexible, with no strict deadline in sight. The request should be executed within the next three days, ideally around mid-day when conditions are optimal for our VNIR sensor to capture the best possible data.
+
+This task falls under standard operational tasks and represents a commercial tasking part of our baseline pipeline tracking setup. It involves fixed parameters that represent normal operational status or a routine monitoring activity. We're looking at this as a task with 'medium importance', meaning it's essential but doesn't require immediate attention or urgent execution.
+
+Please ensure that the satellite is allocated accordingly, taking into account the priority level and timeframe provided. Thank you for your attention to detail and swift execution of this mission.

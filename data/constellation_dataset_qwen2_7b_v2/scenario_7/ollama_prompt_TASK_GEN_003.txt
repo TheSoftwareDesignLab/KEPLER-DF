@@ -1,0 +1,9 @@
+Good evening, satellite mission planners. This is an urgent operational execution of a binding contract requirement from our institution. We're looking to conduct an active radar scan using microwave surface imaging for cloud-penetrating capture in Malaysia, specifically in the region around Bukit Mabong city overnight tomorrow. This involves piercing heavy weather conditions to capture ground geometry accurately. It's a critical payload capture that involves a heat signature and surface temperature profile mapping due to its high importance.
+
+Please ensure this task is given the highest priority and executed as an absolute institutional priority. We're dealing with a mandatory directive involving a critical payload capture that must be handled with the utmost care and precision. This is a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+We're looking for a high-resolution optical snapshot for daylight photography, clear optical imagery, and true-color visual documentation to complement our SAR data collection. This is a background survey that requires us to assess chlorophyll absorption levels or calculate the vegetation NDVI index and surface reflectance.
+
+Please schedule this task for tomorrow morning and ensure it's captured during the overnight period. We're aware of the importance of this mission and will treat any delays with flexibility, dropping or rescheduling at our convenience if necessary. Your satellite constellation is expected to handle this as a background survey or testbed tracking task, focusing on non-essential background filler tasks.
+
+Thank you for your attention to this matter. Please let us know if there are any questions or concerns regarding the execution of this high-priority mission allocation.

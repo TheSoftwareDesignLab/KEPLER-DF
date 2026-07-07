@@ -1,0 +1,9 @@
+Good day, satellite constellation planner. I'm requesting a task for an important mission allocation with medium priority level involving thermal mapping using our TIR sensor. The geographic context is Norte city in the region of interest, where we aim to capture a heat signature and surface temperature profile for thermal anomaly detection and mapping heat emissions.
+
+The operational objective is clear: to provide us with a comprehensive thermal map that will help us identify any potential hotspots or anomalies that might be crucial for our ongoing project. We are looking for an active radar scan using microwave surface imaging, which will allow us to penetrate heavy weather conditions or capture ground geometry accurately.
+
+Given the nature of this task, we're setting our target day as tomorrow and specifically during the afternoon period. This timeframe aligns with our operational pipeline tracking setup, representing normal operational status with fixed parameters.
+
+Please note that this is a standard operational tasking and part of our baseline pipeline tracking. We appreciate your attention to this request and assure you that our team will handle it with the utmost professionalism and efficiency.
+
+Thank you for your cooperation and prompt action on this matter. We look forward to receiving the requested data as soon as possible.

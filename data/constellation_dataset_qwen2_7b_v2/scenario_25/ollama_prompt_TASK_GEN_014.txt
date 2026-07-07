@@ -1,0 +1,7 @@
+Ladies and gentlemen, this is your Earth observation mission operator. I'm here to request a task allocation for a highly important mission involving thermal mapping across Claut / Cjolt, nestled in the beautiful country of Italia. Given its geographical context, we aim to capture the heat signature of the area overnight on the day after tomorrow. This request carries a medium importance level and is part of our standard operational pipeline tracking with fixed parameters.
+
+Our primary sensor will be utilizing thermal infrared technology to gather data on surface temperature profiles and detect any thermal anomalies that could indicate heat emissions or other critical phenomena. We're looking for a comprehensive thermal map that can help us understand the thermal dynamics of this region accurately.
+
+As for timing, we have our target window set for overnight on the day after tomorrow. Please ensure that this task is allocated with the utmost priority and executed according to the operational guidelines provided. This mission is part of our baseline pipeline tracking setup and represents normal operational status.
+
+Thank you for your attention and swift response in handling this request. We appreciate your cooperation in ensuring that this critical payload capture is executed efficiently and with the highest accuracy possible.

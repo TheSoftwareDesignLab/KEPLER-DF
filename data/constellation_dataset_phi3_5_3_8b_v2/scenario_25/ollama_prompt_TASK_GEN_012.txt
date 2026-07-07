@@ -1,0 +1,2 @@
+Tomorrow night, I'd like to schedule a non-essential background filler task for capturing multispectral vegetation analysis over Indonesia. This should be done using high-resolution optical snapshots during the evening hours when daylight photography is not feasible due to local conditions. Please ensure this task can be dropped or rescheduled at your convenience, as it's of low priority importance but could provide useful data for our ongoing environmental monitoring efforts.
+```prompt

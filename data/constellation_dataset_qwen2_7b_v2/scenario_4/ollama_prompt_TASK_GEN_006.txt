@@ -1,0 +1,9 @@
+Good day to all satellite operators. We're looking to capture an active radar scan using our SAR sensor for a task of medium importance. The target location is in Air Itam, Indonesia, during the afternoon of the day after tomorrow. This involves cloud-penetrating capture and ground geometry imaging for standard operational tasking.
+
+As part of our baseline pipeline tracking setup with fixed parameters, this request requires normal operational status and represents a routine monitoring activity. We're looking to conduct this mission with normal priority, as it's part of our regular workflow updates.
+
+Please ensure that this SAR scan is executed during the afternoon hours when visibility conditions are optimal for cloud-penetrating capture. This task is essential for our ongoing commercial monitoring activities and will contribute to our standard operational data collection processes.
+
+Thank you for your attention to this matter. We appreciate your cooperation in ensuring that this task is completed as scheduled, allowing us to maintain our baseline pipeline tracking efficiency without any delays or disruptions.
+
+Have a great day and stay tuned for further instructions.

@@ -1,0 +1,7 @@
+Good evening, satellite constellation planners. We have a standard operational tasking for you tonight. Our mission involves an active radar scan using microwave surface imaging technology to capture ground geometry and penetrate heavy weather conditions. The geographical context is Norte, which is situated in the region of interest.
+
+Our priority for this task is medium importance, meaning it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This request falls under our standard workflow update, ensuring we maintain our contractual obligations without any preemption or deviation from routine monitoring activities.
+
+We're looking to execute this scan tomorrow evening, which is the day after tomorrow. The task doesn't have a stringent deadline but needs to be completed within the evening timeframe of that day to ensure we capture the optimal conditions for our radar imaging.
+
+Thank you for your attention and cooperation in fulfilling this mission allocation.

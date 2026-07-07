@@ -1,0 +1,7 @@
+Requesting an absolute institutional priority task for a critical payload capture. This mission involves obtaining a high-resolution optical snapshot of the region in Colombia, specifically the city of Pajarito. The goal is to achieve clear daylight photography and true-color visual documentation that captures the essence of this beautiful area under natural lighting conditions. 
+
+This task is part of an urgent operational execution that requires no preemption or delay. It's a binding contract requirement with a significant asset contractual value, emphasizing its importance in our baseline pipeline tracking setup. The parameters are fixed for this standard operational tasking, ensuring normal operational status and workflow updates.
+
+We aim to conduct the VIS sensor scan overnight during the target day, which is four days from now. This timeframe aligns well with our operational guidelines on relative timeframes, focusing on natural language expressions that fit human-centric constraints without resorting to rigid time metrics.
+
+Please ensure that this mission is executed with utmost care and precision, as it involves capturing essential data for decision-making processes that rely on accurate and detailed imagery. We appreciate your attention to detail and the importance of this task in our operational pipeline.

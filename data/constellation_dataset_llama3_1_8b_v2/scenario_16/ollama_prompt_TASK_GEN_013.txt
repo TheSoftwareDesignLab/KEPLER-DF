@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for a thermal mapping task.
+
+We require an absolute institutional priority to capture a high-resolution thermal snapshot of the Samacá region in Colombia using active thermal mapping to detect heat signatures and surface temperature profiles. This critical payload capture is a binding contract requirement involving a mandatory directive with urgent operational execution and un-preemptable mission lock. We need this thermal anomaly detection and mapping of heat emissions to be captured sometime today around mid-day, specifically during the evening hours.

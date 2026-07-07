@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. I need an active radar scan using microwave surface imaging over Kapuas Hulu, Indonesia. The target window is the day after tomorrow, specifically overnight.

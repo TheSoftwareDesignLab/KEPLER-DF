@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Italy. We need a high-resolution snapshot of the area around the city of Italia sometime in three days during the afternoon.

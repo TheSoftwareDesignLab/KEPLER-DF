@@ -1,0 +1,5 @@
+Ladies and gentlemen, we're looking at a low priority importance task coming in from our satellite constellation planner. This involves a VNIR sensor capturing multispectral vegetation analysis for an area located in Indonesia's equatorial region. We aim to assess the chlorophyll absorption levels and calculate the NDVI index for this area. The request is straightforward; it's part of a baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The deadline for this task is set for tomorrow evening, which means we're targeting the day before our main dayshift ends. We have a flexible schedule to accommodate this task without disrupting our primary operations. It's considered a non-essential background filler task that can be dropped or rescheduled at convenience if needed. Please ensure that this task is prioritized accordingly in your workflow updates.
+
+Thank you for your attention and cooperation in ensuring the smooth execution of our satellite missions.

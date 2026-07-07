@@ -1,0 +1,5 @@
+Hello there, satellite constellation planner. I'm reaching out from an Earth observation mission with a task request for you. We're looking to gather data on the region of San Martín, located in the beautiful country of Colombia. Our objective is to conduct a multispectral vegetation analysis using our VNIR sensor. This means capturing the chlorophyll absorption levels and calculating the NDVI index along with surface reflectance.
+
+We aim to capture this information during an opportune time, which we've scheduled for sometime today around mid-day. Due to its nature, this task is considered a low priority importance request and can be dropped or rescheduled at your convenience as a background survey or testbed tracking task. We appreciate your understanding and flexibility in accommodating our mission.
+
+Thank you for your attention and cooperation. We look forward to receiving the data that will contribute to our ongoing research efforts.

@@ -1,0 +1,7 @@
+Good morning, satellite constellation planners. I'm reaching out to request a mission allocation for an important task involving our active radar system (SAR). Our target is in the picturesque region of Italia, specifically the charming city of Grottaferrata, nestled amidst beautiful landscapes and historical landmarks.
+
+Given its priority level, this task is recognized as a 'low importance' request with flexible scheduling. However, we still need to ensure that it's executed efficiently and with care. The primary objective here is to conduct an in-depth scan of the area using our SAR technology, which will allow us to capture ground geometry and surfaces even through heavy weather conditions.
+
+As for timing, we're looking at tomorrow morning, which aligns perfectly with our baseline pipeline tracking setup. We have allocated fixed parameters for this task, representing normal operational status. This mission is akin to a 'background survey' or 'testbed tracking task', where the operator explicitly notes that it can be dropped or rescheduled at convenience if needed.
+
+Please ensure that the satellite captures all necessary data during this time window. Thank you for your attention and cooperation in fulfilling this request.

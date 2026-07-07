@@ -1,0 +1,7 @@
+Good day, satellite constellation planner. I'm requesting a standard operational task for our automated mission allocation system. Our focus is on a region near Norte, though specific country details are unavailable at this time. The primary sensor involved will be the VNIR system, aimed at capturing multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index.
+
+The objective is to obtain clear optical imagery, ensuring we capture the essence of daylight photography and true-color visual documentation. This task requires us to monitor ground geometry and possibly penetrate through cloud cover using microwave surface imaging capabilities provided by our SAR sensors.
+
+We're targeting a specific window in three days, aiming for the morning period when conditions are optimal for our VNIR sensor's performance. The task is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking to gather data that will contribute to our standard workflow update without any strict deadlines or urgent operational execution requirements.
+
+Please proceed with this request as a routine monitoring task, ensuring the satellite captures the required data within the specified time frame and diurnal period. Thank you for your attention to this matter.

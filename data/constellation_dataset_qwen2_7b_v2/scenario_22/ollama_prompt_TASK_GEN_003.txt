@@ -1,0 +1,5 @@
+Good evening, satellite constellation control center. I'm reaching out with a task request for an Earth observation mission that's been designated as low priority importance. The mission involves capturing thermal mapping data using our TIR sensor for a location in Indonesia, specifically in Kapuas Hulu. This is part of a background survey aimed at assessing heat emissions and surface temperature profiles.
+
+Given the nature of this task, it's flexible and can be scheduled according to your operational convenience. We're looking to execute this mission sometime during the day after tomorrow, specifically overnight. Kindly drop or reschedule this task as per your availability without compromising the integrity of our baseline pipeline tracking setup.
+
+Thank you for your understanding and flexibility in managing this low priority importance task. We appreciate your support in ensuring that our operational status remains unaffected by minor adjustments like this one. Have a great evening, and we look forward to your confirmation on this background survey tracking task.

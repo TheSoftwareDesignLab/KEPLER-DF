@@ -1,0 +1,5 @@
+Good morning, automated satellite constellation planner. I'm here to request a standard operational tasking for a low priority importance mission allocation involving near-infrared (NIR) sensors. The goal is to capture the heat signature of a region with the country information unavailable and the city being Norte. Our target day is tomorrow, specifically during the afternoon period.
+
+This task falls under our baseline pipeline tracking setup with fixed parameters representing normal operational status. It's part of our standard workflow update, focusing on assessing soil moisture levels or mapping water body boundaries using near-infrared reflection capabilities. This request does not carry an urgent deadline and can be accommodated as a flexible schedule background survey or testbed tracking task.
+
+Thank you for your attention and assistance in fulfilling this operational need. If you have any questions or require further clarification, please feel free to reach out. Have a great day ahead!

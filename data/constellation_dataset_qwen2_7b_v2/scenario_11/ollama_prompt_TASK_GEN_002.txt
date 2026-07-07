@@ -1,0 +1,5 @@
+Good evening, satellite mission planners. I'm reaching out with a task that's part of our routine monitoring pipeline tracking setup. It involves capturing thermal mapping data for a heat signature in the region of Italia, specifically focusing on the city of Serravalle di Chienti. This request carries a low priority importance and can be scheduled as a flexible background survey or testbed tracking task.
+
+Our primary sensor requirement is for Thermal Infrared (TIR) imaging to assess surface temperature profiles and detect thermal anomalies. We aim to capture this data overnight, the day after tomorrow, to ensure minimal disturbance and optimal conditions for our observation.
+
+Thank you for your attention, and please consider this request as a non-essential background filler task that can be dropped or rescheduled at your convenience. We appreciate your cooperation in managing our operational workflow updates effectively. Have a pleasant evening, and we look forward to your response.

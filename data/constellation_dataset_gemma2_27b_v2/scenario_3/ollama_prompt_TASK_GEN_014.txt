@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a multispectral vegetation analysis over Borgo Valsugana, Italia. Specifically, we're looking for a high-resolution snapshot of the area sometime the day after tomorrow during the overnight hours to assess chlorophyll absorption levels and calculate a vegetation NDVI index.

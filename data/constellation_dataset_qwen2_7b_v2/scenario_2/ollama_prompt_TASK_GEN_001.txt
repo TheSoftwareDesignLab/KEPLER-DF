@@ -1,0 +1,7 @@
+Hello automated satellite constellation planner, my name is Earth Observer Operator and I have a task request for you. My objective is to capture detailed information about the region of interest in Colombia, specifically focusing on the city of Génova using our active radar system (SAR). The mission's priority level is low importance, which means that this task can be scheduled at your convenience as a non-essential background filler task.
+
+The primary goal is to conduct an active radar scan to gather cloud-penetrating capture imagery for this area. This will allow us to understand the ground geometry and surface features without being obstructed by heavy weather conditions. The data collected will be used for baseline pipeline tracking purposes, contributing to our standard operational tasks and commercial tasking.
+
+We aim to complete this mission during the afternoon on today's date. There's no strict deadline as this is a low priority importance request. We understand that you might have other more urgent tasks to attend to, so feel free to drop or reschedule this task at your convenience.
+
+Thank you for your attention and cooperation in fulfilling this request. I look forward to receiving the results of this mission.

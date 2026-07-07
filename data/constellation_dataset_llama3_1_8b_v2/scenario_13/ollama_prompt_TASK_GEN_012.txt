@@ -1,0 +1,7 @@
+Tasking Request: High-Resolution Optical Snapshot of Bukit Anda, Indonesia
+
+We require a standard operational tasking for a high-resolution optical snapshot of the region around Bukit Anda in Indonesia. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture clear optical imagery of the area using daylight photography, specifically overnight in three days.
+
+This is a commercial tasking and a routine monitoring task, but it is essential for our mission objectives. The sensor will be used for true-color visual documentation, and we need to ensure that we capture high-quality images of the region.
+
+Please allocate the necessary resources and assets to complete this tasking as soon as possible. We appreciate your prompt attention to this matter.

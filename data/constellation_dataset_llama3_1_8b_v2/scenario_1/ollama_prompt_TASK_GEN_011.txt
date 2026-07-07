@@ -1,0 +1,3 @@
+Task Request: Opportunistic Radar Scan of Grottaferrata, Italia
+
+We're looking for an opportunistic capture of Grottaferrata, Italia using an active radar scan with microwave surface imaging. This will help us pierce through heavy weather and capture the ground geometry. We'd like to schedule this task sometime today around mid-day, ideally in the morning, as part of a non-essential background filler task. Please treat this as a low-priority importance request with a flexible schedule for opportunistic capture. If it's not feasible, feel free to drop or reschedule at convenience. This is a background survey task with no urgent operational execution required.

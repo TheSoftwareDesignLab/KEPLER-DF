@@ -1,0 +1,7 @@
+Good day to all satellite planners and operators out there. I'm reaching out with a task request for a low priority importance mission, which involves a flexible schedule and can be dropped or rescheduled at convenience. The objective is to conduct a low-priority background survey using the VNIR sensor, aiming for multispectral vegetation analysis. We're looking at capturing the chlorophyll absorption level and calculating the NDVI index for this task.
+
+The geographical context is set in Gazzola, a charming town located in the beautiful country of Italia. The mission should be executed during the evening on the day after tomorrow, which will be an opportune time to capture the scene as the sun sets and the vegetation reflects its natural colors under the twilight.
+
+Please note that there's no strict deadline for this task, allowing for a more relaxed approach in scheduling its execution. We're simply seeking to gather data for potential future use or research purposes, making it a non-essential background filler task within our operational pipeline.
+
+Thank you for your attention and cooperation. I look forward to your confirmation of the task's receipt and the successful completion of this mission.

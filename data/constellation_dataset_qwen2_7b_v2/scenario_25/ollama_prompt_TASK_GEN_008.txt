@@ -1,0 +1,10 @@
+Good morning to all satellite operators out there. I'm reaching out with a standard operational tasking request for a routine monitoring activity involving a VNIR sensor. Our focus will be on capturing high-resolution optical snapshots of the beautiful region known as Prati di Tivo, located in the picturesque country of Italia. We aim to gather clear daylight imagery and true-color visual documentation of this area.
+
+As part of our baseline pipeline tracking setup with fixed parameters, this request represents a normal operational status and is part of our standard workflow updates. It's important to note that this is a task with a medium priority level, meaning it's essential but not as urgent as higher-priority missions.
+
+The deadline for this task is set for the day after tomorrow, specifically overnight. We're looking at capturing this data during the evening hours to ensure optimal conditions for our sensor to perform at its best. This request involves a 'target_day' of four days from now, so we'll be aiming to complete this task by then.
+
+Please ensure that all assets are allocated accordingly, as this is part of our contractual obligations and represents a standard operational tasking. We appreciate your attention to detail and the professionalism you bring to our satellite constellation planning team. Thank you for your cooperation and look forward to receiving confirmation on the successful execution of this request.
+
+Best regards,
+[Your Name]

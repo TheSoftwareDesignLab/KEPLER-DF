@@ -1,0 +1,2 @@
+Tomorrow, I'd like to schedule a thermal mapping session over Indonesia during the afternoon. We aim to capture heat signatures across various landscapes for surface temperature profiling and potential thermal anomaly detection. This task is of low importance and can be adjusted as needed; feel free to drop or reschedule at your convenience.
+```prompt

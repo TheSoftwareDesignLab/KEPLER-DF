@@ -1,0 +1,5 @@
+Good day, automated satellite constellation planner. I'm requesting your attention for a low priority importance task involving an active radar scan using microwave surface imaging technology. The mission aims to capture cloud-penetrating imagery of a specific area in the region of Italia, focusing on the city of Gordona during the afternoon session of the day after tomorrow. This task is part of our standard operational pipeline tracking with fixed parameters representing normal operational status.
+
+The goal is to gather data that will help us understand ground geometry and possibly detect any anomalies that might be hidden beneath heavy weather conditions. We're looking for detailed surface information without the constraint of daylight, as this task doesn't require urgent execution or an un-preemptable mission lock. Feel free to drop or reschedule this request at your convenience, treating it as a background survey or testbed tracking task.
+
+Thank you for your cooperation and understanding in managing our satellite constellation's operational workload efficiently.

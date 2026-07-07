@@ -1,0 +1,5 @@
+Good morning from the Muaro Sentajo region in Indonesia! We're looking to capture a thermal mapping snapshot of the area using our thermal imaging sensor tomorrow around mid-day. This task is considered medium importance and part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+We aim to gather detailed surface temperature profiles and detect any thermal anomalies during this scan. The goal is to understand heat emissions and capture essential data for our ongoing project without any preemption from other tasks. We appreciate your attention to this request, as it contributes to the comprehensive monitoring of our target area.
+
+Thank you for your cooperation and we look forward to receiving the valuable insights from your satellite constellation. Please ensure that the scan is executed with the highest accuracy possible, as it will serve as a critical piece of information for our team's decision-making process.

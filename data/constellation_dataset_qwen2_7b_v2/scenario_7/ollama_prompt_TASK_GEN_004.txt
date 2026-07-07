@@ -1,0 +1,10 @@
+Good day, satellite control center! I'm reaching out with a request for an observational mission. The target region is Colombia, specifically Huasanó, which is quite a picturesque spot in the country's south. Our primary sensor requirement is Thermal Infrared (TIR), focusing on capturing thermal mapping data to assess heat signatures and thermal anomalies across the area.
+
+Considering this task's priority level is marked as low importance, we're looking for a flexible schedule that allows us to drop or reschedule at our convenience. This is essentially a background survey mission aimed at gathering information about surface temperature profiles and heat emissions.
+
+We aim to capture this data sometime during the evening in Colombia, which would be "in three days during the evening" from your perspective. We're not rushing for a deadline; rather, we're looking for an opportune time when conditions are ideal for our observations.
+
+Thank you for your attention. We appreciate your cooperation in scheduling this task according to our guidelines and ensuring that our satellite constellation captures the necessary data without disrupting any higher-priority missions. Have a great day!
+
+Best regards,
+[Your Name]

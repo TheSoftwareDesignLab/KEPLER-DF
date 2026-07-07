@@ -1,0 +1,1 @@
+Tomorrow night, we've got a routine monitoring task overnight in Italy, specifically targeting water body boundaries through near-infrared reflection analysis. This is part of our baseline pipeline tracking with fixed parameters to assess soil moisture and discriminate gradients. Please ensure this standard operational task aligns with the usual schedule for continuous data flow.

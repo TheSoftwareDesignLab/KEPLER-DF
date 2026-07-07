@@ -1,0 +1,2 @@
+Tomorrow morning, I need to schedule a routine thermal mapping session over Indonesia. Specifically targeting the city of Indonesia for heat signature analysis and surface temperature profiling. This is part of our standard operational tasking within the baseline pipeline tracking setup. Please ensure this gets integrated into our workflow update with fixed parameters representing normal operational status.
+```prompt

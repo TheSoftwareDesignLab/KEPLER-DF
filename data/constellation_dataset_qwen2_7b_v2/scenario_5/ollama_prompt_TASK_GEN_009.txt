@@ -1,0 +1,5 @@
+Good morning, automated satellite constellation planner. I'm reaching out with a task request for an Earth observation mission focusing on the region of Indonesia, specifically the city of Berau. Our primary sensor requirement is thermal mapping (TIR), which we aim to utilize for capturing a heat signature and conducting surface temperature profiling. This task carries a low priority importance, hence it's framed as a flexible schedule background survey or testbed tracking task.
+
+Our mission allocation priority reflects this low importance, signifying that it's a non-essential background filler task with a 'drop or reschedule at convenience' note attached to it. We're looking to capture this thermal mapping data sometime during the day after tomorrow, specifically around mid-day. This temporal constraint is designed to align with our operational flexibility and accommodate any other urgent tasks that might arise.
+
+Thank you for your attention. I look forward to your confirmation of this request. Have a great day ahead!

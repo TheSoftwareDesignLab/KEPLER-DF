@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for an active radar scan over Italia. This is a routine monitoring task as part of a baseline pipeline tracking setup with fixed parameters. We need a cloud-penetrating capture sometime tomorrow afternoon.

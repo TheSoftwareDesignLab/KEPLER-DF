@@ -1,0 +1,2 @@
+Hey there, I've got a low-priority task on deck for you. We need to perform an active radar scan using microwave surface imaging over Baraya in Colombia during the nightfall of tomorrow. It's more like a background survey than anything else right now, so feel free to drop it or reschedule if your calendar gets too packed. Just keep an eye on this one for some cloud-penetrating capture and ground geometry work—nothing urgent but still part of our routine monitoring efforts. Catch you later!
+```prompt

@@ -1,0 +1,7 @@
+Good evening, satellite constellation planners. I'm reaching out with a task request for tomorrow evening, focusing on the beautiful region of Italia specifically in Montaquila. This is a low priority importance task that doesn't require any rush, but we're keen on capturing some valuable data.
+
+Our mission involves using the VNIR sensor to perform a detailed multispectral vegetation analysis. The goal is to assess the chlorophyll absorption levels across various plant species and calculate the NDVI index for each area. We're interested in capturing surface reflectance patterns that could provide insights into the health and growth conditions of the vegetation.
+
+Please schedule this task as an opportunistic capture, allowing us to drop or reschedule at your convenience if needed. We understand this might fit into a background survey or testbed tracking task, so please treat it accordingly.
+
+Thank you for your attention to this matter. We appreciate your flexibility and look forward to receiving the data that will help us better understand our environmental conditions in Montaquila. Have a great evening!

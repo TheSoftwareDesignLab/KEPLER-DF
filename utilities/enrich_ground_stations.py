@@ -54,7 +54,6 @@ def main():
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    # 1. Load coordinates from source file
     rows = []
     coordinates = []
     with input_path.open(newline="", encoding="utf-8") as f:
@@ -68,7 +67,6 @@ def main():
     print(f"  - Successfully ingested {len(rows)} candidate stations from source file.")
     print("  - Launching batched remote elevation lookups (Chunk size: 100)...")
     
-    # 2. Process locations in sequential batches to prevent API rate limiting
     chunk_size = 100
     global_elevation_registry = {}
     
@@ -79,11 +77,9 @@ def main():
         batch_results = _fetch_chunk_elevations(chunk)
         global_elevation_registry.update(batch_results)
         
-        # Enforce a non-aggressive temporal back-off delay to protect the endpoint
         if i + chunk_size < len(coordinates):
             time.sleep(2.0)
             
-    # 3. Compile and rewrite the enriched database
     if "Elevation" not in fieldnames:
         fieldnames.append("Elevation")
         

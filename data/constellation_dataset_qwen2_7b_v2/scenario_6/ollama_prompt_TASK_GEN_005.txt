@@ -1,0 +1,7 @@
+Hello, automated satellite constellation planner. I'm reaching out to request a task for an operational priority level of Low Importance. The mission involves capturing imagery using an active radar scan with microwave surface imaging capabilities, focusing on cloud-penetrating capture and ground geometry observation.
+
+The geographic context is centered around the picturesque region of Italia, specifically in the charming city of Sizzano. We aim to gather this data during the morning hours on the day after tomorrow, which translates to sometime today around mid-day based on our local time.
+
+As for the deadline, we're looking at a flexible schedule where the task can be accommodated without disrupting our normal operational status. This is essentially part of our baseline pipeline tracking setup with fixed parameters representing standard workflow updates.
+
+Thank you for your attention and please let us know if any additional information is needed to ensure this mission's successful execution.

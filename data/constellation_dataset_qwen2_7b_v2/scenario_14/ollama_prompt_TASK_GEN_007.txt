@@ -1,0 +1,5 @@
+Good evening, satellite constellation planner. I'm requesting a routine monitoring task for tomorrow morning in the region of Bolívar, Colombia. Our mission involves capturing a high-resolution optical snapshot of the area using daylight photography to document the landscape and urban environment. This is a low priority importance request that falls under our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Please consider this as a non-essential background filler task where we can drop or reschedule at your convenience if needed. We're looking to capture the thermal mapping of the region overnight, which will help us identify heat signatures and surface temperature profiles for potential thermal anomaly detection. This task is part of our ongoing background survey efforts.
+
+As for timing, we're aiming for sometime today around mid-day for this request. If there are any issues with scheduling, please let me know so we can adjust accordingly. Thank you for your attention to this task.

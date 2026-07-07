@@ -1,0 +1,3 @@
+Hello, automated satellite constellation planner. I'm requesting a standard operational tasking for tomorrow morning. We're looking to capture high-resolution optical imagery of the Ecuatorial region in Indonesia during the overnight period. This is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters. We aim to gather clear daylight photography and true-color visual documentation to assess the landscape under various lighting conditions. Please prioritize this task as it aligns with our standard workflow update requirements.
+
+Thank you for your attention.

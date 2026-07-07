@@ -1,0 +1,1 @@
+Tomorrow night, I need a multispectral vegetation analysis to assess chlorophyll absorption levels in Malinau, Indonesia. This standard operational tasking is part of our routine monitoring and should be executed as a fixed parameter within the baseline pipeline tracking setup. Please ensure this is completed by then for consistent data collection.

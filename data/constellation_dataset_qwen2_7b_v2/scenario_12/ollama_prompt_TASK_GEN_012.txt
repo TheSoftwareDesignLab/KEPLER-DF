@@ -1,0 +1,5 @@
+Good day, automated satellite constellation planner. We're looking to capture a detailed radar scan of the Indonesian region, focusing on Muara Asa city, using our active microwave imaging system. This task is classified as a low priority importance request, meaning it can be scheduled flexibly and treated as a background survey or testbed tracking task. Our objective is to gather cloud-penetrating imagery that will help us understand the ground geometry in this area.
+
+Given the operational guidelines, we're targeting this acquisition for tomorrow morning. We aim to capture the essence of Muara Asa during its early hours, when visibility is at its peak and atmospheric conditions are most favorable for clear radar scans. This is not an urgent task, so feel free to drop or reschedule it according to your operational convenience.
+
+Thank you for your attention and cooperation in fulfilling this request.

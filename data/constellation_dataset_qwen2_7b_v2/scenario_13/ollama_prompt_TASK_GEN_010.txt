@@ -1,0 +1,5 @@
+Good evening, satellite constellation planners. I'm requesting your attention for a standard operational tasking involving the Colombian territory, specifically the city of Puerto Rico. The objective is to conduct a multispectral vegetation analysis using our VNIR sensor, aiming to assess chlorophyll absorption levels and calculate a vegetation NDVI index, capturing the surface reflectance of the area.
+
+This request carries medium importance as it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking for a thermal mapping operation that will provide invaluable insights into heat signatures and surface temperature profiles across the region. This task is scheduled to occur overnight, three days from now, which aligns perfectly with our strategic planning window.
+
+Please ensure this mission is executed as part of your standard operating procedures without any delays or interruptions. We appreciate your cooperation in meeting these requirements, contributing to our ongoing efforts in environmental monitoring and agricultural assessment. Thank you for your prompt attention to this matter.

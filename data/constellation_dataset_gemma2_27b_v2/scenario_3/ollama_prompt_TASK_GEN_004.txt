@@ -1,0 +1,1 @@
+We need a standard operational tasking for near-infrared reflection imaging over Canelos, Colombia. The goal is to map water body boundaries and assess soil moisture gradients in the area. This is part of a routine monitoring setup with fixed parameters representing normal operational status. Please schedule this capture sometime the day after tomorrow morning.

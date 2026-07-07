@@ -1,0 +1,7 @@
+Good morning, satellite constellation planners. I'm requesting a mission allocation for an active radar scan using our SAR sensor to capture microwave surface imaging data. This task involves cloud-penetrating capture and ground geometry observation for a specific area in Indonesia, near the Ecuatorial region. The location is described as being within the country of Indonesia but doesn't specify a city or landmark; thus, we'll focus on the broader context and use the term 'Ecuatorial' to give a sense of the geographical location.
+
+This request falls under a low priority importance category, meaning it's a flexible schedule task that can be dropped or rescheduled at convenience. It's part of our background survey and testbed tracking tasks. The operational objective is straightforward: gather data that will help us understand ground features and possibly detect any anomalies that might be masked by cloud cover.
+
+We're targeting this mission for three days from now, specifically during the overnight period when visibility might be compromised but radar can still provide valuable insights. The deadline for this task is set for tomorrow morning, which allows ample time for data collection and processing without rushing our operations.
+
+Thank you for your attention and cooperation in fulfilling this request.

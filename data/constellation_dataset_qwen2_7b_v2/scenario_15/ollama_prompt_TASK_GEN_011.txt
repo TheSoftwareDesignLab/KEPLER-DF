@@ -1,0 +1,7 @@
+Good day, automated satellite constellation planner. I'm reaching out with a standard operational tasking for you to consider. Our current priority involves capturing an active radar scan using our microwave surface imaging capabilities for an area of interest located in the beautiful region of Italia, specifically in the city of Corteno Golgi. This request is of medium importance and should be treated as part of our baseline pipeline tracking setup.
+
+Our objective is to gather detailed information about the terrain and surface geometry beneath heavy weather conditions or cloud cover. We aim to obtain a comprehensive view that can help us understand ground features accurately, which is crucial for our ongoing projects.
+
+Given the nature of this task, we request your assistance to schedule this scan during the afternoon on the day following tomorrow. We're not in a rush for immediate results; thus, please consider this as a standard operational task with fixed parameters representing our normal operational status.
+
+Thank you for your attention and cooperation. We appreciate your flexibility and look forward to receiving the SAR data that will contribute to our ongoing research and monitoring efforts.

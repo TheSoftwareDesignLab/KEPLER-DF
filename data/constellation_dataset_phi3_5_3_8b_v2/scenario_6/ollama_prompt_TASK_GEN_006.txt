@@ -1,0 +1,1 @@
+Tomorrow morning, I need a multispectral vegetation analysis in Rokan Hulu, Indonesia. This is part of our routine monitoring to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. Please ensure this standard operational tasking aligns with our baseline pipeline tracking setup using near-infrared reflection capabilities.

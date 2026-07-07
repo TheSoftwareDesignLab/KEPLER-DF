@@ -1,0 +1,8 @@
+Good day to our satellite constellation planners. We're looking to capture a thermal mapping of an area known as 'Ecuatorial'. This is a standard operational tasking for us, part of our baseline pipeline tracking setup. The parameters are fixed, representing normal operational status. It's a routine monitoring activity involving the assessment of surface temperature profiles and thermal anomalies.
+
+Given that we're dealing with thermal mapping using TIR sensors, it's imperative to capture this data during the day after tomorrow around mid-day. This time window ensures optimal conditions for our mission's success.
+
+Thank you for your attention and cooperation in scheduling this task. We appreciate your swift response and look forward to receiving the data as planned. 
+
+Best regards,
+[Your Name]

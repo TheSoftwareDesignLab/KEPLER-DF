@@ -1,0 +1,7 @@
+Good evening, this is your Earth observation mission operator. I'm reaching out to request a critical payload capture involving an absolute institutional priority. It's imperative that we obtain detailed imagery of Fobello, located in the picturesque region of Italia, using our VNIR sensor for a multispectral vegetation analysis. We aim to assess chlorophyll absorption levels and calculate the NDVI index to understand the surface reflectance accurately.
+
+Our baseline pipeline tracking setup requires us to perform this standard operational tasking as part of our normal workflow update. The fixed parameters are in place, representing our standard operational status. This request involves capturing a heat signature and conducting thermal mapping using our TIR sensor for thermal anomaly detection and mapping heat emissions.
+
+Given the urgency of this mission, we're setting our target day for three days from now during the evening, specifically overnight. We understand that this deadline is binding and represents an un-preemptable mission lock. Our team will be ready to execute this request as soon as possible after receiving confirmation.
+
+Thank you for your attention to this matter. We appreciate your cooperation in ensuring we meet our contractual obligations and provide the necessary data for our scientific endeavors.

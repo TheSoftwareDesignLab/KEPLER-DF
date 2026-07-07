@@ -1,0 +1,10 @@
+Good evening, satellite constellation planners. I have a request for an operational tasking that needs your attention tonight. We're looking to capture an active radar scan using our SAR sensor on a location in France, specifically within the region of Petreto-Bicchisano. This is a low priority importance request, so please schedule it as a non-essential background filler task with a flexible schedule for opportunistic capture.
+
+Our goal here is to perform cloud-penetrating capture using microwave surface imaging technology. We're interested in obtaining detailed ground geometry information that can help us understand the landscape beneath heavy weather conditions. This task doesn't have an urgent deadline, but we appreciate your prompt attention to ensure we meet our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+We're looking for this task to be completed sometime during the evening on tomorrow's day. Please note that there is no need to rush as this is part of our standard workflow update and not a critical payload capture or mandatory directive. We understand that it might be dropped or rescheduled at your convenience if necessary.
+
+Thank you for your understanding and cooperation in handling this request efficiently. We're looking forward to receiving the high-quality data that will help us in our ongoing research and monitoring activities. Stay tuned, and we'll provide additional instructions as needed.
+
+Best regards,
+[Your Name]

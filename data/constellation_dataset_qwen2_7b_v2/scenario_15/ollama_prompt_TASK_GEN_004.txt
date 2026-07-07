@@ -1,0 +1,5 @@
+Good day, satellite mission planners. I'm requesting a thermal mapping task for a location in Colombia, specifically in the city of Bugalagrande. This is a low priority importance task, meaning it can be accommodated as a flexible schedule background survey or testbed tracking task. The primary sensor needed for this mission is the TIR, which will help us capture heat signatures and surface temperature profiles.
+
+The target day for this task is tomorrow, with the diurnal period set during the afternoon. We're looking to gather data that will assist in thermal anomaly detection and mapping heat emissions. This task doesn't require any rush or urgency; we can drop or reschedule it at our convenience if needed.
+
+Thank you for your attention and cooperation. I look forward to receiving this data as part of our ongoing background monitoring efforts.

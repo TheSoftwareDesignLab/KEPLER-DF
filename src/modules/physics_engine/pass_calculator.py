@@ -2,7 +2,6 @@ from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Any, Optional, Tuple
 import numpy as np
 from skyfield.api import EarthSatellite, wgs84, load
-from src.core.datatypes import SatelliteConfig, GroundStationConfig, TargetTask
 
 __all__ = ["compute_infrastructure_passes", "compute_target_passes"]
 
@@ -10,18 +9,12 @@ _GLOBAL_TS = load.timescale()
 
 
 def _calculate_subsatellite_point(sat_object: EarthSatellite, t_skyfield) -> Tuple[float, float]:
-    """
-    Calcula el punto subsatelital (latitud y longitud geodésica) en un instante dado.
-    """
     geocentric = sat_object.at(t_skyfield)
     subpoint = wgs84.subpoint(geocentric)
     return float(subpoint.latitude.degrees), float(subpoint.longitude.degrees)
 
 
 def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: float, c_lon: float) -> Tuple[float, float]:
-    """
-    Calcula los ángulos de actitud (pitch y roll) en el sistema de referencia local LVLH.
-    """
     geocentric = sat_object.at(t_skyfield)
     r_sat = geocentric.position.km
     v_sat = geocentric.velocity.km_per_s
@@ -46,26 +39,7 @@ def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: floa
     return pitch_deg, roll_deg
 
 
-def _refine_crossing(sat, topo_target, t_before, t_after, target_el_deg, iterations=6):
-    """
-    Refina numéricamente mediante bisección los instantes exactos de AOS y LOS.
-    """
-    tb, ta = t_before, t_after
-    for _ in range(iterations):
-        tm = _GLOBAL_TS.tdb_jd((tb.tdb + ta.tdb) / 2.0)
-        altb = (sat - topo_target).at(tb).altaz()[0].degrees
-        altm = (sat - topo_target).at(tm).altaz()[0].degrees
-        if (altb - target_el_deg) * (altm - target_el_deg) <= 0:
-            ta = tm
-        else:
-            tb = tm
-    return _GLOBAL_TS.tdb_jd((tb.tdb + ta.tdb) / 2.0)
-
-
-def _calculate_geodetic_centroid_and_radius(task: TargetTask) -> Tuple[float, float, float]:
-    """
-    Calcula el centroide geométrico de la tarea y su radio geodésico máximo.
-    """
+def _calculate_geodetic_centroid_and_radius(task: Any) -> Tuple[float, float, float]:
     if task.task_type == "point":
         return task.coordinates[0][0], task.coordinates[0][1], 0.0
     
@@ -94,105 +68,68 @@ def _vectorized_pass_finder(
     c_lon: float,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
-    """
-    Buscador vectorial de pasadas geométricas sobre un objetivo topocéntrico.
-    """
-    start_naive = start_dt.replace(tzinfo=None)
-    end_naive = end_dt.replace(tzinfo=None)
+    t0 = _GLOBAL_TS.utc(start_dt.year, start_dt.month, start_dt.day, start_dt.hour, start_dt.minute, start_dt.second)
+    tf = _GLOBAL_TS.utc(end_dt.year, end_dt.month, end_dt.day, end_dt.hour, end_dt.minute, end_dt.second)
     
-    total_seconds = (end_naive - start_naive).total_seconds()
-    n_steps = int(total_seconds // step_seconds) + 1
+    t_events, y_events = sat_object.find_events(topo_target, t0, tf, altitude_degrees=min_el_deg)
     
-    time_array = [start_naive + timedelta(seconds=i * step_seconds) for i in range(n_steps)]
-    times = _GLOBAL_TS.utc(np.array([t.year for t in time_array]),
-                           np.array([t.month for t in time_array]),
-                           np.array([t.day for t in time_array]),
-                           np.array([t.hour for t in time_array]),
-                           np.array([t.minute for t in time_array]),
-                           np.array([t.second for t in time_array]))
-    
-    difference = sat_object - topo_target
-    alt, az, distance = difference.at(times).altaz()
-    alt_deg = alt.degrees
-    
-    above = alt_deg >= min_el_deg
     discovered_passes = []
+    current_pass = {}
     
-    if not np.any(above):
-        return discovered_passes
-
-    idx = np.arange(len(above))
-    starts = idx[(above) & np.hstack(([False], ~above[:-1]))]
-    ends = idx[(above) & np.hstack((~above[1:], [False]))]
-
-    for s, e in zip(starts, ends):
-        if e <= s:
-            continue
-
-        s0 = max(s - 1, 0)
-        e1 = min(e + 1, len(times) - 1)
-
-        try:
-            t_aos_raw = _refine_crossing(sat_object, topo_target, times[s0], times[s], min_el_deg)
-            t_los_raw = _refine_crossing(sat_object, topo_target, times[e], times[e1], min_el_deg)
-        except Exception:
-            continue
-
-        t_aos = _GLOBAL_TS.utc(t_aos_raw.utc_datetime())
-        t_los = _GLOBAL_TS.utc(t_los_raw.utc_datetime())
-
-        alt_aos, az_aos, dist_aos = difference.at(t_aos).altaz()
-        alt_los, az_los, dist_los = difference.at(t_los).altaz()
-        
-        aos_dt = t_aos.utc_datetime().replace(tzinfo=None)
-        los_dt = t_los.utc_datetime().replace(tzinfo=None)
-        
-        seg_alt = alt_deg[s:e + 1]
-        if len(seg_alt) == 0 or np.all(np.isnan(seg_alt)):
-            continue
-
-        seg_idx_max = int(np.argmax(seg_alt))
-        alt_max = float(seg_alt[seg_idx_max])
-        t_max_obj = times[s + seg_idx_max]
-        tmax_dt = t_max_obj.utc_datetime().replace(tzinfo=None)
-        duration_s = max(0, int((los_dt - aos_dt).total_seconds()))
-
-        # Cálculo de la distancia de máximo acercamiento (Mínima distancia del paso)
-        alt_max_el, az_max_el, dist_max_el = difference.at(t_max_obj).altaz()
-        range_max_el_km = float(dist_max_el.km)
-
-        discovered_passes.append({
-            "t_aos_obj": t_aos,
-            "t_los_obj": t_los,
-            "t_max_obj": t_max_obj,
-            "aos_dt": aos_dt,
-            "tmax_dt": tmax_dt,
-            "los_dt": los_dt,
-            "max_el_deg": alt_max,
-            "range_aos_km": float(dist_aos.km),
-            "range_los_km": float(dist_los.km),
-            "range_max_el_km": range_max_el_km,
-            "duration_s": duration_s
-        })
-
+    for t_ev, y_ev in zip(t_events, y_events):
+        if y_ev == 0:
+            current_pass["t_aos_obj"] = t_ev
+            current_pass["aos_dt"] = t_ev.utc_datetime().replace(tzinfo=None)
+        elif y_ev == 1:
+            current_pass["t_max_obj"] = t_ev
+            current_pass["tmax_dt"] = t_ev.utc_datetime().replace(tzinfo=None)
+            
+            difference = sat_object - topo_target
+            alt, az, dist = difference.at(t_ev).altaz()
+            current_pass["max_el_deg"] = float(alt.degrees)
+        elif y_ev == 2 and "t_aos_obj" in current_pass:
+            current_pass["t_los_obj"] = t_ev
+            current_pass["los_dt"] = t_ev.utc_datetime().replace(tzinfo=None)
+            
+            difference = sat_object - topo_target
+            _, _, dist_aos = difference.at(current_pass["t_aos_obj"]).altaz()
+            _, _, dist_los = difference.at(t_ev).altaz()
+            
+            current_pass["range_aos_km"] = float(dist_aos.km)
+            current_pass["range_los_km"] = float(dist_los.km)
+            
+            duration_s = max(0, int((current_pass["los_dt"] - current_pass["aos_dt"]).total_seconds()))
+            current_pass["duration_s"] = duration_s
+            
+            if duration_s < 1200:
+                if "max_el_deg" not in current_pass:
+                    current_pass["max_el_deg"] = float(min_el_deg)
+                    current_pass["t_max_obj"] = t_ev
+                    current_pass["tmax_dt"] = current_pass["aos_dt"]
+                discovered_passes.append(current_pass.copy())
+            current_pass = {}
+            
     return discovered_passes
 
 
 def compute_infrastructure_passes(
-    satellite: SatelliteConfig,
-    ground_station: GroundStationConfig,
+    satellite: Any,
+    ground_station: Any,
     start_dt_utc: datetime,
     end_dt_utc: datetime,
     bands_config: dict,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
-    """
-    Calcula y filtra las pasadas de infraestructura sobre una estación terrena.
-    """
+    sat_band = getattr(satellite, "assigned_band", getattr(satellite, "band", None))
+    gs_bands = getattr(ground_station, "bands_supported", getattr(ground_station, "supported_bands", getattr(ground_station, "bands", [])))
+    
+    if not sat_band or (gs_bands and sat_band not in gs_bands):
+        print(f"[DISCARD INCOMPATIBLE GS BAND] Sat {satellite.norad_id} ({sat_band}) can't link to GS {ground_station.id} (Supports {gs_bands})")
+        return []
+
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     topo_target = wgs84.latlon(ground_station.latitude, ground_station.longitude, elevation_m=ground_station.elevation)
     
-    sat_band = getattr(satellite, "assigned_band", getattr(satellite, "band", None))
     band_info = bands_config.get(sat_band, {}) if sat_band else {}
     min_el_deg = float(band_info.get("min_elevation_deg", 10.0))
     max_slant_range_km = float(band_info.get("max_slant_range_km", 999999.0))
@@ -208,12 +145,10 @@ def compute_infrastructure_passes(
     tx_rate = satellite.downlink_rate_mb_s if satellite.downlink_rate_mb_s is not None else 10.0
 
     for p in raw_passes:
-        # CORRECCIÓN: Comparamos usando la distancia de máximo acercamiento (mínimo rango de la pasada)
-        # en lugar de la distancia de AOS que siempre es la más lejana (en el horizonte).
-        min_pass_distance_km = p["range_max_el_km"]
+        distance_at_aos = p["range_aos_km"]
         
-        if min_pass_distance_km > max_slant_range_km:
-            print(f"  [DISCARD SLANT RANGE] Closest distance during pass {min_pass_distance_km:.1f} km exceeds max threshold {max_slant_range_km} km")
+        if distance_at_aos > max_slant_range_km:
+            print(f"  [DISCARD SLANT RANGE] Real distance at AOS {distance_at_aos:.1f} km exceeds max threshold {max_slant_range_km} km")
             continue
 
         max_downlink_capacity_mb = float(p["duration_s"] * tx_rate)
@@ -231,7 +166,6 @@ def compute_infrastructure_passes(
             "max_el_deg": p["max_el_deg"],
             "range_aos_km": p["range_aos_km"],
             "range_los_km": p["range_los_km"],
-            "range_max_el_km": p["range_max_el_km"],
             "duration_s": p["duration_s"],
             "lvlh_target_pitch_deg": pitch_max,
             "lvlh_target_roll_deg": roll_max,
@@ -245,8 +179,8 @@ def compute_infrastructure_passes(
 
 
 def compute_target_passes(
-    satellite: SatelliteConfig,
-    task: TargetTask,
+    satellite: Any,
+    task: Any,
     simulation_start_utc: datetime,
     min_el_deg: float,
     sensor_constraints: dict,
@@ -254,16 +188,18 @@ def compute_target_passes(
     min_duration: int = 5,
     max_duration: int = 30
 ) -> List[Dict[str, Any]]:
-    """
-    Calcula pasadas geométricas y ventanas de toma de imágenes para misiones/objetivos específicos.
-    """
-    sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
+    required_sensor = task.sensor_requirements[0] if getattr(task, "sensor_requirements", None) else task.required_sensors[0] if getattr(task, "required_sensors", None) else "VIS"
+    satellite_sensors = getattr(satellite, "assigned_sensors", getattr(satellite, "sensors", []))
     
+    if required_sensor not in satellite_sensors:
+        return []
+
+    sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     c_lat, c_lon, task_radius_deg = _calculate_geodetic_centroid_and_radius(task)
     topo_target = wgs84.latlon(c_lat, c_lon, elevation_m=0.0)
     
-    task_release_dt = simulation_start_utc + timedelta(seconds=task.release_time)
-    task_deadline_dt = simulation_start_utc + timedelta(seconds=task.deadline)
+    task_release_dt = simulation_start_utc + timedelta(seconds=task.release_time) if hasattr(task, 'release_time') else simulation_start_utc + timedelta(seconds=task.release_time_s)
+    task_deadline_dt = simulation_start_utc + timedelta(seconds=task.deadline) if hasattr(task, 'deadline') else simulation_start_utc + timedelta(seconds=task.deadline_s)
     
     raw_passes = _vectorized_pass_finder(sat_object, topo_target, task_release_dt, task_deadline_dt, min_el_deg, c_lat, c_lon, step_seconds)
     
@@ -277,11 +213,17 @@ def compute_target_passes(
         temporal_buffer = task_radius_deg / satellite_speed_deg_s
         
     valid_passes = []
-    primary_sensor = task.required_sensors[0] if task.required_sensors else "VIS"
-    rates_map = satellite.sensor_generation_rates if satellite.sensor_generation_rates is not None else {}
-    data_ingestion_rate = rates_map.get(primary_sensor, 30.0)
+    
+    if hasattr(satellite, 'sensor_generation_rates_mb_s') and satellite.sensor_generation_rates_mb_s is not None:
+        rates_map = satellite.sensor_generation_rates_mb_s
+    elif hasattr(satellite, 'sensor_generation_rates') and satellite.sensor_generation_rates is not None:
+        rates_map = satellite.sensor_generation_rates
+    else:
+        rates_map = {}
+        
+    data_ingestion_rate = rates_map.get(required_sensor, 30.0)
 
-    sensor_info = sensor_constraints.get(primary_sensor, {})
+    sensor_info = sensor_constraints.get(required_sensor, {})
     max_look_angle = float(sensor_info.get("max_look_angle_deg", 90.0))
 
     for p in raw_passes:
@@ -310,7 +252,6 @@ def compute_target_passes(
             random_duration = rng.integers(int(min_duration), int(max_duration) + 1)
             sensor_active_duration_s = min(int(random_duration), visibility_duration_s)
             
-            # CORRECCIÓN: El fin de captura (img_end_dt) se suma simétricamente, abriendo la ventana temporal.
             img_start_dt = p["tmax_dt"] - timedelta(seconds=sensor_active_duration_s / 2.0)
             img_end_dt = p["tmax_dt"] + timedelta(seconds=sensor_active_duration_s / 2.0)
 

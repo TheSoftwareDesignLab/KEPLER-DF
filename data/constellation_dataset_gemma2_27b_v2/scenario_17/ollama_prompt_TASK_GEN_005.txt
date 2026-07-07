@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an immediate, un-preemptable mission lock to perform thermal mapping over Italia sometime the day after tomorrow in the evening.

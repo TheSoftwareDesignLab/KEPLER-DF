@@ -1,0 +1,1 @@
+Tomorrow afternoon, we're looking to capture a high-resolution optical snapshot of Indonesia for daylight photography. This standard operational tasking is part of our routine monitoring and will provide true-color visual documentation as scheduled around mid-day local time. Please proceed with the baseline pipeline tracking setup using these fixed parameters.

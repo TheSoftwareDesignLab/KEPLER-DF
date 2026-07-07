@@ -1,0 +1,5 @@
+Good morning from the satellite operations center. We're tasked with a standard operational mission involving the VNIR sensor, focusing on Indonesia's beautiful Solok region. This request has been categorized as medium importance (Priority Level 2), which means it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Our objective is to capture high-resolution optical snapshots for daylight photography and true-color visual documentation of the area. Given the mission's nature, we aim to perform this tasking overnight in four days' time, allowing us to take advantage of the quiet night hours for optimal imaging conditions.
+
+As always, our team will ensure that this request is seamlessly integrated into our workflow updates without causing any disruptions. We appreciate your understanding and cooperation in meeting these operational guidelines for a smooth and efficient execution of this task. Thank you for choosing our automated satellite constellation planner for your Earth observation needs.

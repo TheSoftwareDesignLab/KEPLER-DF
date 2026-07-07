@@ -1,0 +1,5 @@
+Good day, satellite constellation planner. We're looking to capture a detailed radar scan of Indonesia's Kubu Raya region using our SAR sensor. The objective is to gather an active microwave surface image that can penetrate heavy weather conditions and provide us with ground geometry insights. This task holds low priority importance and can be accommodated within our flexible schedule.
+
+For this request, we aim to capture the imagery around mid-day on the day following tomorrow. Please ensure this task is scheduled during the afternoon hours to avoid any potential disturbances caused by daylight glare or other atmospheric conditions that could impact the accuracy of our radar scan.
+
+Thank you for your attention and cooperation in fulfilling this background survey task. We appreciate your understanding of our operational priorities and look forward to receiving the high-quality SAR imagery as planned.

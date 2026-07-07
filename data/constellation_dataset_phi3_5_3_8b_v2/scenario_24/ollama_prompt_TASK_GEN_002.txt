@@ -1,0 +1,2 @@
+Tomorrow afternoon, I need you to conduct a multispectral vegetation analysis over Saas-Almagell in Switzerland. This is part of our routine monitoring and should be integrated smoothly into our baseline pipeline tracking with fixed parameters representing normal operational status. Please ensure this standard operational tasking aligns with the day after tomorrow's schedule, specifically targeting noon for optimal near-infrared reflection to assess soil moisture and discriminate gradients effectively.
+```prompt

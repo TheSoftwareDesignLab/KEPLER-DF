@@ -1,0 +1,5 @@
+Hello Satellite Constellation Planner, I'm requesting a task for an Earth observation mission. Our objective is to capture a multispectral vegetation analysis using VNIR sensors over Singkep, Indonesia. We aim to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance.
+
+Given the location and sensor specifications, we're targeting this task for tomorrow morning. As it's a low priority importance request, we can accommodate flexible scheduling and treat it as a background survey or testbed tracking task. Please note that there's no strict deadline for this mission; we can drop or reschedule it at your convenience.
+
+Thank you for your attention and cooperation in fulfilling our operational requirements.

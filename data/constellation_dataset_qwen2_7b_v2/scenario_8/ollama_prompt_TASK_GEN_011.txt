@@ -1,0 +1,7 @@
+Good evening everyone, this is your mission operator speaking. We're tasked with a standard operational tasking today, involving the commercial monitoring of Arsiero, located in beautiful Italia. Our primary sensor for this mission is the VNIR, which will be used to perform multispectral vegetation analysis. The goal here is to assess the chlorophyll absorption levels and calculate the vegetation NDVI index, as well as surface reflectance.
+
+We're looking at capturing this data overnight, four days from now. The deadline for this task is set for the evening of that day. We're focusing on gathering high-resolution optical snapshots during daylight hours, which will serve as true-color visual documentation to provide a clear optical imagery of the area.
+
+This request carries medium importance and is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Please proceed with standard procedures for this task, ensuring that all operations are conducted in line with contractual agreements and standard operational guidelines.
+
+Thank you for your attention and cooperation on this matter. Let's ensure we meet the requirements set forth with professionalism and efficiency. Have a great day ahead!

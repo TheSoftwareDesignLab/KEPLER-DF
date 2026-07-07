@@ -1,0 +1,7 @@
+Good day, satellite operators! I'm reaching out from our mission control center regarding an upcoming task for tomorrow morning. We're looking to capture high-resolution optical imagery of Suratá, Colombia, using our active radar scan capabilities. This request carries a low priority importance and is part of our normal operational status.
+
+The goal here is to perform cloud-penetrating capture for this region, which will help us understand ground geometry without being obstructed by weather conditions. We aim to gather this data as part of our baseline pipeline tracking setup with fixed parameters representing our standard workflow update.
+
+Please ensure that the SAR sensors are properly aligned and ready for action in the morning hours. This task doesn't require immediate attention but is important for our ongoing monitoring efforts. We appreciate your flexibility on this one, and feel free to drop or reschedule it at your convenience if needed. Thank you for your cooperation and understanding.
+
+Stay tuned for further updates and have a great day!

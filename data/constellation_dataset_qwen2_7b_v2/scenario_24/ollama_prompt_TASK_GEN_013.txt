@@ -1,0 +1,9 @@
+Good evening, satellite mission planners. I'm reaching out with an absolute institutional priority request for a critical payload capture operation. Our focus is on the region of Colombia, specifically in the city of Melgar, where we're looking to gather data using our VNIR sensor.
+
+The objective is to conduct a comprehensive multispectral vegetation analysis, which involves assessing chlorophyll absorption levels and calculating the NDVI index. This task aims to provide us with invaluable insights into the health of the vegetation and surface reflectance in the area.
+
+We're targeting this mission for tomorrow morning, following the sunset period, which means our window is overnight. This timeframe ensures that we capture the most accurate data possible without any interference from sunlight.
+
+This is a standard operational tasking that involves a critical payload capture with fixed parameters representing normal operational status. We understand the importance of adhering to this schedule and ensuring that it's not pre-empted by other tasks.
+
+Please prioritize our request, as it involves a mandatory directive that cannot be delayed. We appreciate your understanding and cooperation in executing this mission promptly. Thank you for your attention to this matter.

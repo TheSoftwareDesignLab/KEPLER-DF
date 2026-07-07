@@ -1,0 +1,7 @@
+Good morning, satellite constellation planner. We're looking to capture a thermal mapping of Cubarral, Colombia, specifically overnight the day after tomorrow. This task is an absolute institutional priority and involves a critical payload capture with a mandatory directive. The location details are within the country of Colombia, focusing on the city of Cubarral. We require this high-resolution thermal snapshot for our baseline pipeline tracking setup as part of our normal operational status.
+
+Given the nature of this mission, we're looking for a standard operational tasking that involves fixed parameters and represents our standard workflow update. The primary sensor required is Thermal Infrared (TIR) to capture a heat signature and surface temperature profile. This will help us detect thermal anomalies and map heat emissions accurately.
+
+Please note that this request carries high importance and urgency, requiring an un-preemptable mission lock. We understand the need for flexibility in scheduling but would appreciate it if you could accommodate this task as soon as possible without compromising the quality of the data collected.
+
+Thank you for your attention to this matter. We're looking forward to receiving the results from our critical payload capture operation. Have a great day!

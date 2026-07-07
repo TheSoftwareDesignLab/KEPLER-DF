@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution VNIR multispectral scan of the area around Colombia, Colombia, specifically focusing on vegetation analysis. This needs to be captured tomorrow overnight.

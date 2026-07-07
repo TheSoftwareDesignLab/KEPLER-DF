@@ -107,21 +107,38 @@ def data_collector_main(
     
     raw_satellites = load_and_sample_satellites(file_path=sat_file_path, group_name=sat_group_name, k=sat_k, seed=seed)
 
+    ground_stations = load_and_sample_stations(
+        file_path=gs_file_path, 
+        k=gs_k, 
+        allowed_bands=user_allowed_bands, 
+        seed=seed
+    )
+
+    actual_active_gs_bands = set()
+    for gs in ground_stations:
+        gs_bands = getattr(gs, "bands_supported", getattr(gs, "supported_bands", getattr(gs, "bands", [])))
+        for b in gs_bands:
+            actual_active_gs_bands.add(b)
+            
+    constrained_bands_pool = sorted(list(actual_active_gs_bands))
+    if not constrained_bands_pool:
+        constrained_bands_pool = user_allowed_bands
+
     band_weights_list = []
     band_downlink_rates = {}
-    if band_weights_map:
-        for band in user_allowed_bands:
+    for band in constrained_bands_pool:
+        if band_weights_map and band in band_weights_map:
             band_info = band_weights_map.get(band, {})
             band_weights_list.append(float(band_info.get("weight", 1.0)))
             band_downlink_rates[band] = float(band_info.get("downlink_rate_mb_s", 10.0))
-    else:
-        band_weights_list = [1.0] * len(user_allowed_bands)
-        band_downlink_rates = {b: 10.0 for b in user_allowed_bands}
+        else:
+            band_weights_list.append(1.0)
+            band_downlink_rates[band] = 10.0
 
     configured_satellites = assign_satellite_payloads(
         satellites=raw_satellites,
         available_sensors=available_sensors,
-        available_bands=user_allowed_bands,  
+        available_bands=constrained_bands_pool,  
         available_capacities=storage_capacity_pool_mb,
         sensor_weights=sensor_weights,
         band_weights=band_weights_list,     
@@ -129,22 +146,6 @@ def data_collector_main(
         band_downlink_rates=band_downlink_rates,
         min_sensors_per_sat=min_sensors_per_sat,
         max_sensors_per_sat=max_sensors_per_sat,
-        seed=seed
-    )
-
-    active_satellite_bands = set()
-    for sat in configured_satellites:
-        if sat.band:
-            active_satellite_bands.add(sat.band)
-            
-    filtered_bands_pool = sorted(list(active_satellite_bands))
-    if not filtered_bands_pool:
-        filtered_bands_pool = user_allowed_bands
-
-    ground_stations = load_and_sample_stations(
-        file_path=gs_file_path, 
-        k=gs_k, 
-        allowed_bands=filtered_bands_pool, 
         seed=seed
     )
 

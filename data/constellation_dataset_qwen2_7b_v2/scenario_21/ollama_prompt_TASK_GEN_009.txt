@@ -1,0 +1,7 @@
+Good evening, satellite constellation team. We're looking to capture a high-resolution optical snapshot of the Ecuatorial region in Indonesia for our standard operational tasking requirements. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We aim to achieve clear daylight photography and true-color visual documentation that will provide us with essential data for our commercial tasking needs.
+
+Please ensure this request is given priority as it's classified under medium importance, meaning it's a standard operational task that requires attention but doesn't necessitate an urgent operational execution. We understand the importance of maintaining normal workflow updates in our baseline pipeline.
+
+The primary sensor we're focusing on is VIS, which will allow us to capture detailed imagery of the region during the target day, which is three days from now during the overnight period. This timing ensures optimal lighting conditions for our VIS sensor to provide us with the best quality data possible.
+
+Thank you for your attention and prompt action in fulfilling this request. We appreciate your cooperation in ensuring that our operational needs are met efficiently and effectively.

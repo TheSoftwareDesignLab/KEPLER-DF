@@ -1,0 +1,1 @@
+Tomorrow night, we need to carry out a standard operational tasking for multispectral vegetation analysis in Puerto Rico. This routine monitoring is part of our baseline pipeline tracking and involves assessing the chlorophyll absorption level as well as calculating the surface reflectance index. Please ensure this activity aligns with our normal workflow update schedule.

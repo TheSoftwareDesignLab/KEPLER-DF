@@ -1,0 +1,11 @@
+Hello Satellite Constellation Planner,
+
+I'm reaching out with a standard operational tasking for your automated mission allocation system. Our team requires a routine monitoring activity involving near-infrared (NIR) sensor observations. We're focusing on a location in Colombia, specifically the city of Canelos. The objective is to capture the heat signature of this area overnight, which will help us assess soil moisture levels and water body boundaries.
+
+Please schedule this task for sometime during the evening of the day after tomorrow. This request falls under our baseline pipeline tracking setup with fixed parameters that represent normal operational status. We understand that this might not be an urgent mission, so we can drop or reschedule it at your convenience if needed.
+
+Thank you for your attention to this standard tasking. We appreciate your support in maintaining our background survey and testbed tracking tasks.
+
+Best regards,
+
+[Your Name]

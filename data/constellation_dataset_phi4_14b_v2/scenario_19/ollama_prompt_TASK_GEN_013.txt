@@ -1,0 +1,1 @@
+I'd like to submit a low-priority task for a multispectral vegetation analysis over Vista Hermosa, Colombia. The goal is to assess chlorophyll absorption levels and calculate an NDVI index using VNIR sensors. This is a flexible schedule request, so feel free to drop or reschedule it at your convenience. Ideally, we'd like the capture to occur sometime tomorrow around mid-day.

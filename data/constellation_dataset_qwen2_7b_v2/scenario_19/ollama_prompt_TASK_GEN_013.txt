@@ -1,0 +1,5 @@
+Hello satellite constellation planner, we're looking to capture a multispectral vegetation analysis in Vista Hermosa, Colombia. We're interested in assessing the chlorophyll absorption levels across the region for our ongoing environmental monitoring project. Given its low priority importance, we can accommodate this task with a flexible schedule and treat it as an opportunistic background survey.
+
+We'll need this thermal mapping data sometime today around mid-day, but if unforeseen circumstances arise, feel free to drop or reschedule this task at your convenience. We understand that this is not an essential background filler task and won't impact our baseline pipeline tracking setup significantly.
+
+Thank you for your attention and cooperation in fulfilling this request. Please ensure the capture includes a true-color visual documentation of the vegetation health status across Vista Hermosa, Colombia. We appreciate your support in providing us with valuable insights into our environmental project.

@@ -1,0 +1,7 @@
+```prompt
+Hello satellite constellation planner, I'm reaching out with a task request for an Earth observation mission. Our objective is to capture a high-resolution optical snapshot of Puerto Libertador, Colombia, using our VIS sensor. We're aiming for daylight photography that will provide clear optical imagery and true-color visual documentation. This is a low priority importance request, but we'd like to ensure it's executed with flexibility in scheduling. We're targeting this task for sometime during the morning on the day three days from now.
+
+Please note that since this is a non-essential background filler task, feel free to drop or reschedule it according to your operational convenience. It's just a background survey we'd like to keep track of as part of our routine monitoring activities. Thank you for your understanding and cooperation in managing this task within your baseline pipeline tracking setup.
+
+Best regards,
+[Your Name]

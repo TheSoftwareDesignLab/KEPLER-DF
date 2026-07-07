@@ -1,0 +1,5 @@
+Good evening, satellite planners. We're looking to capture a detailed view of the Rokan Hilir region in Indonesia using our VNIR sensor. We aim to gather high-resolution optical imagery for daylight photography and true-color visual documentation. This task is part of our standard operational pipeline tracking with fixed parameters representing normal operational status.
+
+Our request involves assessing chlorophyll absorption levels and calculating a vegetation NDVI index along with surface reflectance data. We're targeting the capture during the overnight period in three days from now, which will allow us to capture ground geometry under various lighting conditions without interfering with local activities.
+
+We appreciate your attention to this task and look forward to receiving the imagery that will contribute to our baseline monitoring efforts. Thank you for your cooperation in ensuring we meet our contractual obligations with this standard operational tasking.

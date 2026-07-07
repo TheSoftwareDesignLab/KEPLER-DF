@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active near-infrared reflection scan over Indonesia, specifically around the city of Indonesia sometime tomorrow around mid-day. This data is essential for our ongoing water body boundary mapping and soil moisture assessment initiatives.

@@ -1,0 +1,12 @@
+Good evening, satellite constellation planner. I'm reaching out with a task request for an operational mission based in Puerto Libertador, Colombia. The priority level is set to low importance, meaning this is a flexible schedule request that can be accommodated around our current workflow updates.
+
+Our mission involves conducting an active radar scan using microwave surface imaging technology. This is aimed at capturing cloud-penetrating imagery of the region overnight, four days from now. The goal is to gather detailed information about ground geometry and possibly identify any hidden structures beneath heavy weather conditions.
+
+Given the nature of this task, we're looking for a high-resolution snapshot that can provide us with clear optical imagery without the interference of daylight. This will be crucial for our ongoing project, which involves monitoring environmental changes in the area.
+
+Please note that this request has a flexible timeline and can be scheduled according to your operational availability. We understand that it's not an urgent task but part of our baseline pipeline tracking setup. If there are any issues or delays, we kindly ask you to inform us so we can adjust our plans accordingly.
+
+Thank you for your attention to this matter. We appreciate your cooperation in ensuring that this request is handled efficiently and effectively. Stay tuned for further instructions or any necessary adjustments to the schedule.
+
+Best regards,
+[Your Name]

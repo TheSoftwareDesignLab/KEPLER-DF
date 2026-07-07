@@ -1,0 +1,1 @@
+We have a low priority importance task for opportunistic capture, with a flexible schedule. We're looking to conduct a multispectral vegetation analysis using VNIR to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance in Sotto il Monte Giovanni XXIII, Italy sometime today around mid-day.

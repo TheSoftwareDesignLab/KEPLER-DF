@@ -1,0 +1,5 @@
+Good morning, satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Valle Castellana, Italy, using our primary sensor VIS. This is a standard operational tasking that involves daylight photography and clear optical imagery for the region. We aim to gather true-color visual documentation for this area.
+
+As per our priority level, this request carries medium importance, meaning it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking at capturing this within the next three days, specifically in the morning timeframe. Our deadline is set for this afternoon.
+
+Please ensure that this task gets allocated without delay and executed according to our standard procedures. Thank you for your attention to this matter.

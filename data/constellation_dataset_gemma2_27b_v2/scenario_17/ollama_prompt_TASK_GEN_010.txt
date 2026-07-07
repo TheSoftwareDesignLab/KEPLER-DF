@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis snapshot of San Martín, Colombia, captured sometime tomorrow overnight.

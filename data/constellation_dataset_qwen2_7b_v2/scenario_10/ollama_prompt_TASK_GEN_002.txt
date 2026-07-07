@@ -1,0 +1,10 @@
+Good evening, satellite constellation planners. I'm reaching out to request a high-resolution optical snapshot of the region surrounding Rassa, located in Italia. The country's picturesque landscapes and urban developments are of particular interest for our ongoing environmental study. Given its low priority importance, this task can be scheduled as a background survey or testbed tracking task, with flexibility on the exact timing.
+
+Our primary sensor requirement is VIS, which will allow us to capture clear optical imagery during daylight hours, providing true-color visual documentation of the area. This request aligns with our baseline pipeline tracking setup, representing normal operational status and fitting into our standard workflow updates.
+
+The target day for this task is in three days, specifically overnight. We're aiming for a clean window to ensure optimal conditions for image capture without interference from daylight hours or other operational constraints. This timeframe allows us to round the constraint into a natural target window without resorting to composite time expressions that sum hours and days.
+
+Thank you for your attention and consideration. Please feel free to drop or reschedule this task at your convenience, as it serves as a non-essential background filler task in our current operational priorities. We appreciate your support in maintaining our baseline pipeline tracking and ensuring the integrity of our environmental study.
+
+Best regards,
+[Your Name]

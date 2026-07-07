@@ -1,0 +1,12 @@
+Good evening, satellite constellation planner. I'm reaching out to request a standard operational tasking for our commercial monitoring pipeline. Our priority here is to capture near-infrared reflection data on a surface of interest in Norte, which we'll identify as this region's geographical location due to the absence of specific country or city details.
+
+Our mission allocation carries medium importance, implying that while it's not an absolute institutional priority nor a binding contract requirement, it still holds significant value for our baseline operations. We're aiming for a critical data point that will help us assess soil moisture levels and water body boundaries in Norte.
+
+Given the nature of this task, we're requesting an active radar scan using microwave surface imaging capabilities. This will allow us to pierce through any heavy weather conditions and capture ground geometry accurately. The primary objective is to gather essential information for our ongoing projects without disrupting more urgent operational tasks.
+
+The target day for this operation is the day after tomorrow, with a specific time constraint of overnight. We're not looking at any strict deadlines or countdowns here; the focus is on ensuring that we capture this data during a period when atmospheric conditions are most favorable for our near-infrared sensors.
+
+Please schedule this task accordingly, and should there be any unforeseen circumstances that might require adjustments, kindly inform us so that we can make necessary accommodations. Thank you for your attention to this standard operational tasking.
+
+Best regards,
+[Your Name]

@@ -1,0 +1,5 @@
+Good evening, satellite constellation planners. We're looking to capture a high-resolution optical snapshot of the region named "Italia Norte" in the country of Italia. This task is classified as a low priority importance request, requiring a flexible schedule for opportunistic capture. We aim to document clear daylight imagery and true-color visual documentation without any rush or urgency.
+
+Our primary sensor will be the VIS system, tasked with providing us with an optical view of the region during the evening on the day after tomorrow. This request is treated as a background survey task, where we can drop or reschedule at convenience if needed. No need to worry about deadlines or remaining times; we're simply looking for an update in our baseline pipeline tracking setup.
+
+Thank you for your attention and cooperation.

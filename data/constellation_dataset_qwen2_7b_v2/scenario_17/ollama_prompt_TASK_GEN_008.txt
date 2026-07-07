@@ -1,0 +1,7 @@
+Good morning, automated satellite constellation planner. I'm reaching out with a standard operational tasking request for our satellite fleet. We're looking to capture high-resolution optical imagery of the region surrounding Giugliano in Campania, Italia. The primary sensor we aim to utilize is an active radar system capable of penetrating cloud cover and providing us with detailed ground geometry data.
+
+This mission has been allocated a medium importance level, which means it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Given the nature of this task, we're targeting the capture for a specific time window in three days during the morning period.
+
+Please note that this request falls under standard operational procedures and should be treated as such. It's not an urgent or critical payload capture but rather a routine monitoring activity that is part of our ongoing baseline pipeline tracking efforts. We appreciate your attention to detail and adherence to our operational guidelines, ensuring that our satellite constellation operates efficiently and effectively for all our commercial tasks.
+
+Thank you, and we look forward to receiving the satellite data soon. Have a great day!

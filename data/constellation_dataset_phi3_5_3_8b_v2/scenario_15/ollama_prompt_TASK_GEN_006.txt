@@ -1,0 +1,2 @@
+Tomorrow night, I'd like to schedule a low priority importance task for opportunistic capture over Sintang in Indonesia. We aim to perform multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This is not urgent but can provide valuable data when conditions are suitable, so please drop or reschedule at your convenience if needed.
+```prompt

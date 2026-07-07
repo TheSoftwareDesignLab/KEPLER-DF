@@ -1,0 +1,7 @@
+Good day, satellite constellation planner. I'm reaching out with a task that's important to our operational pipeline tracking system. We're looking at a site in Indonesia, specifically near Ecuatorial city. The mission involves capturing thermal mapping data using the TIR sensor for this location.
+
+The objective is straightforward: we need to assess heat signatures and surface temperature profiles. It's a background survey task with a flexible schedule, so feel free to drop or reschedule it at your convenience. We're aiming to gather this information sometime today around mid-day, but if that doesn't work out, tomorrow morning would also be suitable.
+
+This is a low priority importance request, but we do value the data for our baseline pipeline tracking setup. It's part of our standard workflow update and won't interfere with any critical payload captures or mandatory directives. We're simply looking to gather information on how well our thermal sensors perform under different conditions.
+
+Thank you for your attention and please let us know if you have any questions or need further clarification.

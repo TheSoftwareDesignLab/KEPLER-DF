@@ -1,0 +1,5 @@
+Good evening, satellite planners. I'm looking to capture a multispectral vegetation analysis for the region of Borgo San Lorenzo, specifically in Italy. This involves assessing chlorophyll absorption levels and calculating the NDVI index as well as surface reflectance for our agricultural monitoring project. We're aiming for a low priority importance task with a flexible schedule, treating it as a background survey or testbed tracking task.
+
+We're targeting the day after tomorrow during the overnight period to ensure optimal conditions for capturing this data. This is a non-essential background filler task where we can drop or reschedule at our convenience. Kindly note that we're not in a rush for this mission, considering it as part of our baseline pipeline tracking with fixed parameters representing normal operational status.
+
+Thank you for your attention and cooperation.

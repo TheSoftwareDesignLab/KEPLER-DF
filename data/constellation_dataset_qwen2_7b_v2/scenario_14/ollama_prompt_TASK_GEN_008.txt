@@ -1,0 +1,7 @@
+Good evening, satellite constellation planners. I'm requesting your attention for a low priority importance task that needs to be scheduled at convenience. Our mission involves capturing an active radar scan using microwave surface imaging technology, which is a standard operational tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The target geographic location for this task is Norte, but since we don't have specific details about the country or city, we'll focus on the broader region. The mission allocation priority is set at level 1, indicating that it's a non-essential background filler task with a flexible schedule for opportunistic capture. We're aiming to document the area with cloud-penetrating capture capabilities, ensuring we can gather ground geometry even under heavy weather conditions.
+
+The timing constraint for this request is straightforward: we aim to complete this task tomorrow evening. No need to rush; there's plenty of time to ensure accurate data collection without compromising operational efficiency. We're looking forward to your confirmation and the successful execution of this mission.
+
+Thank you for your understanding and cooperation in fulfilling our request.

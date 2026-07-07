@@ -1,0 +1,1 @@
+Tomorrow afternoon, we'll be conducting a standard operational tasking for multispectral vegetation analysis in Santander de Quilichao, Colombia. Please ensure the satellite is configured to capture clear optical imagery and calculate the NDVI index during this mid-day session as part of our routine pipeline tracking.

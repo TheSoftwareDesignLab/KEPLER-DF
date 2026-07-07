@@ -1,0 +1,8 @@
+Hello there, automated satellite constellation planner. I'm reaching out with a standard operational tasking for you to consider. Our mission involves capturing thermal mapping data in the region of Schweiz/Suisse/Svizzera/Svizra, specifically focusing on the city of Rheinwald. The objective is to assess soil moisture levels and water body boundaries using our near-infrared sensor.
+
+Please schedule this as part of your baseline pipeline tracking setup. We're looking for a thermal mapping snapshot during the morning hours in four days from now. This task holds medium importance, so ensure it's given due attention but doesn't disrupt any higher priority missions. If there are any issues or if it needs to be rescheduled, please communicate with us.
+
+Thank you for your cooperation and flexibility in managing this task. We appreciate your professionalism and understanding in handling our standard operational requests.
+
+Best regards,
+[Your Name]

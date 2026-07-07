@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
+
+We require an absolute institutional priority for thermal mapping to capture a heat signature and surface temperature profile over the region of Tuscany in Italy. The mission must be executed with a critical payload capture during the overnight period in three days' time. This is a binding contract requirement involving a mandatory directive for urgent operational execution and un-preemptable mission lock.

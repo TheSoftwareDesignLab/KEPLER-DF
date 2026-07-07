@@ -1,0 +1,6 @@
+Hello automated satellite constellation planner, I'm requesting a task for an Earth observation mission focusing on Kutai Kartanegara, Indonesia. The primary sensor involved is VNIR, which we'll be using for multispectral vegetation analysis. Our goal is to assess the chlorophyll absorption level and calculate the NDVI index to understand surface reflectance patterns.
+
+Given our low priority importance for this task, we're flexible with scheduling. We're targeting this request for sometime today around mid-day. Please note that this is a non-essential background survey task, and it can be dropped or rescheduled at your convenience as a background filler task in our operational pipeline. Thank you for your understanding and flexibility.
+
+Best regards,
+[Your Name]

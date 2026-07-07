@@ -1,0 +1,7 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission:
+
+We require a high-priority, absolute institutional priority tasking for a critical payload capture involving a multispectral vegetation analysis using VNIR sensors. The target location is in the region of Ghedi, Italy, where we need to assess the chlorophyll absorption level and calculate the NDVI index and surface reflectance.
+
+This mission must be executed as a binding contract requirement with an un-preemptable mission lock, involving an urgent operational execution. We need to capture this data within the next three days, specifically during the evening hours.
+
+Please allocate our satellite assets accordingly to ensure we meet this critical deadline and capture the required high-resolution optical snapshot for daylight photography.

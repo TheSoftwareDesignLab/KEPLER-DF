@@ -1,0 +1,5 @@
+Hello, automated satellite constellation planner. I'm reaching out with a task request for an Earth-observation mission. Our objective involves capturing thermal data using near-infrared sensors in Indonesia, specifically in the city of Sintang. Given this is a low priority importance request, we're looking to schedule this as a flexible background survey or testbed tracking task.
+
+The target day for this mission is three days from now, with a specific focus on capturing the scene during the evening hours. This request doesn't require any strict deadlines or time constraints; it's more about gathering data opportunistically when conditions are favorable.
+
+Thank you for your attention and assistance in fulfilling this task. We appreciate your expertise in coordinating satellite operations to meet our scientific needs.

@@ -1,0 +1,5 @@
+Good day, satellite constellation planner. I'm reaching out with a standard operational tasking for a routine monitoring activity involving the VNIR sensor in Colombia, specifically focusing on the region of Sabana de Torres. Our objective is to capture high-resolution optical snapshots during daylight photography, aiming for clear optical imagery and true-color visual documentation of the area.
+
+As this request carries medium importance, we're aligning it with our baseline pipeline tracking setup, ensuring fixed parameters that represent normal operational status. We're looking to perform this task within the next few days, targeting the evening period when conditions are optimal for observation.
+
+Please proceed with scheduling the satellite's mission accordingly. This is a standard task that fits into our regular workflow updates and does not require any special attention or adjustments. Thank you for your attention to this matter.

@@ -1,0 +1,7 @@
+Translate this raw physical simulation metadata into a highly realistic and conversational English request for the Earth-observation mission.
+
+The task involves capturing a thermal map of the region, specifically focusing on heat signatures and surface temperature profiles. The target location is in Calvi, France, which is a coastal town in the Mediterranean. The priority level for this task is absolute institutional priority, as it is a critical payload capture that requires urgent operational execution and an un-preemptable mission lock.
+
+The task must be completed tomorrow around mid-day, with a specific focus on capturing the thermal anomalies during this time frame. This will allow us to assess the heat emissions and map the thermal patterns in the region accurately.
+
+Please ensure that the satellite constellation planner allocates the necessary resources and assets to complete this task successfully. The deadline for completion is tomorrow morning, and it is essential that we capture the required data within this timeframe to meet our operational objectives.

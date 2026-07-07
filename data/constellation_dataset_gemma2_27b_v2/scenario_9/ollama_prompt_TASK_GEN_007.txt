@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for multispectral vegetation analysis in San Gil, Colombia. We need to capture the chlorophyll absorption level and calculate the vegetation NDVI index sometime the day after tomorrow during the morning.

@@ -1,0 +1,10 @@
+Hello, automated satellite constellation planner. I'm reaching out to request a task for an Earth observation mission focusing on thermal mapping in the region of Colombia, specifically targeting the city of Paya. Given its importance level as 'Priority 1', this is a low priority importance request, allowing for a flexible schedule and treating it as a non-essential background filler task.
+
+The primary sensor involved will be the 'TIR' (Thermal Infrared), which we'll use to capture thermal anomalies and map heat emissions. Our goal is to obtain detailed thermal data, providing insights into surface temperature profiles and heat signatures, crucial for various applications such as environmental monitoring and urban planning.
+
+Considering our target day is tomorrow, with a specific diurnal period set around mid-day, please schedule this task accordingly. We're looking for an opportunity to capture this data during the afternoon hours, allowing for optimal conditions without any strict deadlines or countdowns.
+
+Thank you for your understanding and flexibility in scheduling this background survey task. We appreciate your support in fulfilling our operational needs. 
+
+Best regards,
+[Your Name]

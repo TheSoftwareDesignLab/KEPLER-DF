@@ -1,0 +1,1 @@
+Tomorrow afternoon, as part of our routine monitoring in Vigonza, Italy, I'm tasking a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This standard operational tasking is scheduled within the target day during the afternoon hours.

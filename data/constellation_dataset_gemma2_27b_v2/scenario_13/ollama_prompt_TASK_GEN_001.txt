@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a near-infrared reflection scan of Rionegro, Colombia sometime in three days during the evening.  The goal is to map water body boundaries and assess soil moisture gradients in the region.

@@ -1,0 +1,7 @@
+Good morning, satellite constellation planners. I'm reaching out with a task request for an Earth observation mission. Our priority is to capture a high-resolution optical snapshot of San Pablo, Colombia. Given its location in the region, we aim for daylight photography that will provide clear optical imagery and true-color visual documentation of the area.
+
+Considering this task's nature, it falls under our low priority importance category. We understand that there's flexibility in scheduling this mission and can drop or reschedule it as per our convenience. This is a background survey request that doesn't require immediate attention.
+
+As for the physical objectives, we're utilizing the VIS sensor to gather data. Our goal is to capture high-quality images of the region during the morning hours on the target day, which is four days from now. We're focusing specifically on the morning period when lighting conditions are optimal for clear imagery.
+
+Please ensure that this mission aligns with our baseline pipeline tracking setup and maintains normal operational status without any constraints on time or resources. Thank you for your attention to this task.

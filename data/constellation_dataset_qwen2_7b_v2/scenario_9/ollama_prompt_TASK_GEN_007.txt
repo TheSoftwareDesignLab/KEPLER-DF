@@ -1,0 +1,5 @@
+Good morning, satellite planners. We're looking at an operational task for a medium importance mission allocation involving the VNIR sensor in Colombia, specifically in San Gil. The primary objective is to conduct a multispectral vegetation analysis focusing on capturing the chlorophyll absorption level and calculating the NDVI index for the area. This task requires us to capture high-resolution optical snapshots as daylight photography or true-color visual documentation.
+
+The deadline for this task is set for the day after tomorrow, with the target diurnal period being in the morning. We aim to complete this standard operational tasking as part of our baseline pipeline tracking setup, ensuring fixed parameters representing normal operational status. The mission is to be conducted under fixed conditions and should not interfere with other priorities.
+
+Please allocate resources accordingly, ensuring that we capture this essential data for our baseline pipeline tracking without compromising other tasks. Thank you for your attention to this matter.

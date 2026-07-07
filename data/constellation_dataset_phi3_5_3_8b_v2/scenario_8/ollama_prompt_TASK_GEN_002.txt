@@ -1,0 +1,2 @@
+Tomorrow afternoon, I'd like to conduct an active radar scan using microwave surface imaging over Gordona in Italy. This is a non-essential background filler task that we can drop or reschedule at our convenience as part of the broader survey and testbed tracking efforts. Please align this with our current workflow update where flexibility is key, keeping it low on priority importance for now.
+```

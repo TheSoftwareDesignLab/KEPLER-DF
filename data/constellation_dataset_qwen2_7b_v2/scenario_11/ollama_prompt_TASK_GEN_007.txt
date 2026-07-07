@@ -1,0 +1,5 @@
+Hello automated satellite constellation planner, I'm requesting a standard operational tasking for tomorrow morning. We're looking to capture high-resolution optical imagery of Mapiripán, Colombia. This mission involves daylight photography and clear optical documentation of the region to assist with baseline pipeline tracking. The VIS sensor will provide us with the necessary data to ensure accurate and detailed visual information.
+
+Please note that this request carries a medium importance level, which means it's part of our standard operational tasks but not an urgent requirement. We understand that there might be other higher priority missions, so kindly schedule this task according to your operational capacity without compromising other critical activities.
+
+Thank you for your attention and cooperation in fulfilling this request.

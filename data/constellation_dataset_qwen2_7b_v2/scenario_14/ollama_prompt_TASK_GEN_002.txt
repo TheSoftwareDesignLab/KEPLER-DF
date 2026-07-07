@@ -1,0 +1,7 @@
+Good morning, automated satellite constellation planner. I'm requesting a standard operational tasking for tomorrow afternoon using our SAR sensor. We're focusing on Norte region, which is located in an area of interest we've designated as 'Norte'. The priority level for this mission is medium importance, meaning it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Our objective is to conduct an active radar scan using microwave surface imaging. This will allow us to penetrate heavy weather conditions and capture ground geometry with precision. We're particularly interested in cloud-penetrating capture capabilities, as this mission aims to provide detailed information about the region's landscape under various atmospheric conditions.
+
+Please ensure that the SAR sensor is ready for deployment by tomorrow afternoon, specifically around mid-day. This timeframe allows us enough flexibility within our operational schedule while maintaining a standard level of urgency. We appreciate your attention to this task and look forward to receiving the data as soon as possible.
+
+Thank you for your cooperation in executing this mission efficiently and accurately.
