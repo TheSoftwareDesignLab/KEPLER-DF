@@ -1,1 +1,10 @@
-Good day to our satellite constellation team, we're looking at a low-priority importance task for tomorrow morning. We have an opportunity to capture thermal mapping data on the city of Santa Helena del Opón in Colombia. Our objective is to gather surface temperature profiles and detect any thermal anomalies using our thermal infrared sensor. We'll be conducting this as a background survey, with no strict deadlines attached, so feel free to drop or reschedule at your convenience. This task aligns with our baseline pipeline tracking setup for normal operational status. Thank you.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a task for an Earth observation mission. Our objective is to capture thermal mapping data using the TIR sensor over the region of Colombia, specifically focusing on the city of Santa Helena del Opón. This low priority importance task aims to assess heat signatures and surface temperature profiles.
+
+For this "background survey", we're targeting a window during the afternoon of the day after tomorrow. Please schedule this as a flexible background filler task that can be dropped or rescheduled at your convenience if needed. We appreciate your understanding regarding its non-essential nature in our operational pipeline.
+
+Thank you for your attention and cooperation.
+
+Best regards,
+[Your Name]

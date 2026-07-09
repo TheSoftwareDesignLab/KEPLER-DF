@@ -1,1 +1,1 @@
-This is a standard operational tasking for near-infrared reflection capture over Monterrey, Colombia. I need a high-resolution scan sometime in the evening, three days from now, to map water body boundaries and assess soil moisture gradients in the region.
+Schedule a standard operational tasking for near-infrared reflection imaging over Monterrey, Colombia. This is part of a baseline pipeline tracking setup with fixed parameters for water body boundary mapping and soil moisture assessment. The target window is in three days around mid-day.

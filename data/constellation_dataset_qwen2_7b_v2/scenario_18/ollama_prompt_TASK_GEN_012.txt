@@ -1,9 +1,7 @@
-Good evening, satellite constellation operator. I'm reaching out to request a mission allocation for an urgent operational tasking involving Tanjung Jabung Timur, Indonesia. The priority level is marked as High Importance due to the critical payload capture requirement.
+Hello, automated satellite constellation planner. I'm reaching out for an urgent operational tasking involving Tanjung Jabung Timur, Indonesia. Our priority is set at 'High Importance', which means this mission allocation carries a binding contract requirement and involves a critical payload capture.
 
-We're looking to conduct an active radar scan using microwave surface imaging technology for cloud-penetrating capture of ground geometry. This will be our primary sensor to ensure we can gather comprehensive data even under heavy weather conditions.
+Our primary sensor requirement is 'SAR', which will be used for an active radar scan utilizing microwave surface imaging capabilities. The goal is to perform cloud-penetrating capture, ensuring we can pierce through heavy weather conditions and capture ground geometry with precision.
 
-The deadline for this mission is set for tomorrow morning, with a specific requirement for the tasking to occur overnight. We aim to maximize coverage and data integrity during this period to ensure accurate cloud-penetrating imagery.
+The context of our request is straightforward: we aim to gather data during the evening on 'tomorrow'. This timeframe aligns with our operational status as a 'standard baseline pipeline tracking' setup with fixed parameters representing normal operational status. We're treating this as a 'non-essential background filler task', noting that it can be dropped or rescheduled at convenience if necessary.
 
-Please allocate the necessary satellite resources to capture high-resolution SAR data in Tanjung Jabung Timur as soon as possible. This is an absolute institutional priority, involving a binding contract requirement for critical payload capture. We need this urgent operational execution without any preemption to meet our contractual obligations.
-
-Thank you for your immediate attention and cooperation in ensuring the timely fulfillment of this mission.
+Thank you for your attention to this matter. We appreciate your swift action in fulfilling this request, ensuring our critical payload capture goes smoothly and meets the high standards of our institutional priority.

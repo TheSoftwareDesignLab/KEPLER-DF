@@ -1,1 +1,5 @@
-We require an absolute institutional priority for thermal mapping to capture a heat signature and surface temperature profile in Cubarral, Colombia, specifically overnight on the day after tomorrow. This is a critical payload capture and binding contract requirement due to its high importance.
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request to capture thermal mapping data in Colombia. 
+
+We require an absolute institutional priority for a critical payload capture to obtain a high-resolution thermal snapshot of the surface temperature profile in Cubarral, Colombia, specifically during the evening of the day after tomorrow. This is a binding contract requirement involving mandatory directive for urgent operational execution and un-preemptable mission lock.
+
+The objective is to capture a heat signature and thermal anomaly detection, mapping heat emissions in the region using a thermal camera for clear optical imagery and true-color visual documentation.

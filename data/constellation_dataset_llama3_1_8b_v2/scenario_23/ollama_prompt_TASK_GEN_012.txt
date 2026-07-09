@@ -1,1 +1,3 @@
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture a near-infrared reflection for water body boundary mapping over Malinau in Indonesia tomorrow morning, specifically overnight.
+Tasking Request for the Malinau Region in Indonesia: 
+
+We require a standard operational tasking to capture near-infrared reflection data for water body boundary mapping and soil moisture assessment in the Malinau region of Indonesia. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission allocation priority for this task is medium importance, and we aim to execute it sometime today around mid-day.

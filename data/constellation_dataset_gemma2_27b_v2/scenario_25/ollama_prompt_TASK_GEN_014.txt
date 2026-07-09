@@ -1,1 +1,1 @@
-This is a standard operational tasking for thermal mapping of Claut / Cjolt, Italia. We need to capture a surface temperature profile sometime the day after tomorrow in the morning.
+This is a standard operational tasking for thermal mapping of Claut / Cjolt, Italia. We need a heat signature capture sometime the day after tomorrow in the evening.

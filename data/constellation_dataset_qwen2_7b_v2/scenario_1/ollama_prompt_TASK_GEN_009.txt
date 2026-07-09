@@ -1,5 +1,7 @@
-Good day, satellite constellation planner. We're looking to capture a detailed radar scan of Indonesia's Kubu Raya region using our SAR sensor. The objective is to gather an active microwave surface image that can penetrate heavy weather conditions and provide us with ground geometry insights. This task holds low priority importance and can be accommodated within our flexible schedule.
+Good morning, satellite constellation planners. I'm reaching out with a task request for an operational mission involving the Indonesian region, specifically focusing on the city of Kubu Raya. Our priority level is set to low importance, which means this request can be accommodated within our flexible schedule and treated as a non-essential background filler task.
 
-For this request, we aim to capture the imagery around mid-day on the day following tomorrow. Please ensure this task is scheduled during the afternoon hours to avoid any potential disturbances caused by daylight glare or other atmospheric conditions that could impact the accuracy of our radar scan.
+Our primary sensor requirement is an active radar scan using microwave surface imaging technology. The aim here is to conduct a cloud-penetrating capture of the ground geometry, providing us with detailed insights into the area's topography without being hindered by adverse weather conditions. This will be part of our standard operational tasking, contributing to baseline pipeline tracking and maintaining normal operational status.
 
-Thank you for your attention and cooperation in fulfilling this background survey task. We appreciate your understanding of our operational priorities and look forward to receiving the high-quality SAR imagery as planned.
+The timing for this mission allocation falls within the next three days, specifically during the morning hours. We're looking at a target window that aligns with the local diurnal period, ensuring optimal conditions for our radar scan to capture the most accurate data possible.
+
+Thank you for your attention, and we appreciate your cooperation in scheduling this task according to our operational guidelines. Have a great day ahead!

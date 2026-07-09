@@ -1,5 +1,9 @@
-Good evening, satellite constellation planner. I'm requesting a routine monitoring task for tomorrow morning in the region of Bolívar, Colombia. Our mission involves capturing a high-resolution optical snapshot of the area using daylight photography to document the landscape and urban environment. This is a low priority importance request that falls under our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Good day to our satellite constellation planners. We're looking to capture a high-resolution optical snapshot of the region in Bolívar, Colombia, for daylight photography purposes. This is part of a background survey task, which we consider non-essential but still important for our operational needs.
 
-Please consider this as a non-essential background filler task where we can drop or reschedule at your convenience if needed. We're looking to capture the thermal mapping of the region overnight, which will help us identify heat signatures and surface temperature profiles for potential thermal anomaly detection. This task is part of our ongoing background survey efforts.
+The primary objective is to document the area's landscape and urban environment with clear optical imagery and true-color visual documentation. We're focusing on this request because it aligns well with our ongoing monitoring activities in the region.
 
-As for timing, we're aiming for sometime today around mid-day for this request. If there are any issues with scheduling, please let me know so we can adjust accordingly. Thank you for your attention to this task.
+We're targeting tomorrow evening for this task, which falls within our four-day window. Due to its nature, we can be flexible with scheduling this capture, treating it as a background filler task that can be dropped or rescheduled at convenience if needed.
+
+Please ensure that the satellite is equipped with the VIS sensor for this mission. We aim to capture the essence of Bolívar's beauty and urban layout through our imagery, contributing to our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Thank you for your attention to this request. We appreciate your cooperation in making sure this task is executed according to our guidelines. Have a great day!

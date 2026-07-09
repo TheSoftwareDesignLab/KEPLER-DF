@@ -1,7 +1,14 @@
-Good day to our satellite constellation planners, we're looking to capture a high-resolution optical snapshot of Suárez, Colombia, in three days during the morning. This is a standard operational tasking with fixed parameters as part of our baseline pipeline tracking setup.
+Hello control center,
 
-Our primary sensor will be the VIS system for daylight photography, offering clear optical imagery and true-color visual documentation of the area. It's important to note that this request carries medium importance, aligning with our normal operational status and workflow update requirements.
+I'm requesting a standard operational tasking for our satellite constellation to capture high-resolution optical imagery of Suárez, Colombia. As we're looking at daylight photography, clear optical imagery and true-color visual documentation will be crucial for our ongoing project.
 
-Please ensure that the capture is executed efficiently, keeping in mind the standard operational guidelines and the need for consistency in our monitoring activities. As always, we appreciate your attention to detail and commitment to providing accurate and timely data.
+Our priority here is medium importance, which means this request falls into our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're aiming for an absolute institutional priority by scheduling the mission allocation as part of our contractual obligations.
 
-Thank you for your cooperation and support in fulfilling this request.
+The primary sensor we're focusing on is VIS, meaning we'll be capturing a high-resolution optical snapshot during the day. The goal here is to have clear and detailed visual documentation that can help us understand the landscape and urban environment of Suárez without any cloud cover or atmospheric interference.
+
+Our remaining time frame is set for three days from now, specifically overnight. We're looking at an exact window for the satellite to capture this imagery when conditions are optimal and the lighting is perfect for our needs.
+
+Thank you for your attention to this request. We appreciate your cooperation in ensuring that this tasking is completed as part of our routine monitoring activities.
+
+Best regards,
+[Your Name]

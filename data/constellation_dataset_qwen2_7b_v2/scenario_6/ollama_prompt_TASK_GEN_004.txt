@@ -1,3 +1,7 @@
-Good evening, satellite constellation planners. I'm requesting a standard operational tasking for tomorrow night's overnight period. Our focus is on Otanche, Colombia, utilizing an active radar scan to capture microwave surface imaging of the area. This mission involves cloud-penetrating capture and ground geometry acquisition, essential for our baseline pipeline tracking setup. The parameters are fixed, representing normal operational status and a standard workflow update. We appreciate your attention and cooperation in this matter.
+Good evening, satellite constellation planners. We're looking to capture an active radar scan using our microwave surface imaging capabilities for a detailed cloud-penetrating view of Otanche, Colombia. This task is part of our standard operational tracking setup and represents a normal status within our baseline pipeline.
 
-Thank you for your understanding and prompt action.
+Our priority here is medium importance, so please allocate this request with the necessary attention but without immediate urgency. We understand that this might be scheduled alongside other tasks or could potentially be rescheduled if needed to fit into your operational workflow.
+
+We're targeting tomorrow evening for this scan to ensure optimal conditions and minimize interference from other activities. Otanche is a key location in our coverage area, and we want to capture its unique ground geometry for detailed analysis.
+
+Thank you for your attention to this request. We appreciate your professional handling of our standard tasking needs.

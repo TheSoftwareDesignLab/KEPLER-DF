@@ -1,1 +1,2 @@
-Request Earth-observation mission planners to schedule a VNIR multispectral vegetation analysis in La Macarena, Colombia, for tomorrow evening as part of our routine monitoring. This task is currently considered low priority and can be adjusted according to convenience within the operational window specified.
+Request for a low priority importance task to capture high-resolution optical snapshots of multispectral vegetation in La Macarena, Colombia, specifically during tomorrow afternoon. This background survey will assess chlorophyll absorption levels and calculate the NDVI index to discriminate gradients, with no urgent deadline attached but scheduled for opportune timing within the day.
+```prompt

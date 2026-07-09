@@ -1,1 +1,1 @@
-We have a standard operational tasking for a high-resolution optical snapshot over Tre Fasci, Italy. This is part of our baseline pipeline tracking with fixed parameters, reflecting normal operational status. We need this clear optical imagery captured sometime in three days during the evening.
+I need to schedule a standard operational tasking for a high-resolution optical snapshot over Tre Fasci, Italy. This is part of our baseline pipeline tracking with fixed parameters. Please ensure this task is set for the afternoon three days from now.

@@ -1,3 +1,10 @@
-Good evening from our satellite constellation control center. We're looking to capture a detailed radar scan of Baraya, Colombia, using our SAR sensor. The request is for a thermal mapping perspective that will help us understand the heat signature and surface temperature profile of the area overnight in four days. This task is classified as low priority importance and can be scheduled at your convenience, fitting into our background survey or testbed tracking tasks. Please ensure this task is completed during the specified period to capture the optimal conditions for our analysis.
+Good day, satellite constellation planner. We're looking to capture a detailed radar scan of Baraya, Colombia, using our SAR sensor. This task is considered a low priority importance request, meaning it can be scheduled flexibly and treated as a background survey or testbed tracking task.
 
-Thank you for your attention to this request.
+The objective is straightforward: we aim to perform an active microwave surface imaging to gather cloud-penetrating capture data for this region. Baraya's unique geography and potential weather conditions make it an interesting target for our radar technology.
+
+Given the remaining time frame, we're targeting this operation for four days from now, specifically in the evening. We understand that this might not be a critical payload capture or a mandatory directive but part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Thank you for your attention and please ensure that this task is scheduled accordingly without causing any inconvenience to other higher priority missions. We appreciate your cooperation in managing our satellite constellation's operational priorities effectively.
+
+Best regards,
+[Your Name]

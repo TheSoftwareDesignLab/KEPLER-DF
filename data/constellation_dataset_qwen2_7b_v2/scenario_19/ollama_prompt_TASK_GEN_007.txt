@@ -1,7 +1,12 @@
-```prompt
-Hello satellite constellation planner, I'm reaching out with a task request for an Earth observation mission. Our objective is to capture a high-resolution optical snapshot of Puerto Libertador, Colombia, using our VIS sensor. We're aiming for daylight photography that will provide clear optical imagery and true-color visual documentation. This is a low priority importance request, but we'd like to ensure it's executed with flexibility in scheduling. We're targeting this task for sometime during the morning on the day three days from now.
+Good evening, mission planners. I'm reaching out with a request for an observational task that's part of our baseline pipeline tracking setup. Our priority is set to medium importance, meaning this is a standard operational tasking that falls within our normal workflow updates.
 
-Please note that since this is a non-essential background filler task, feel free to drop or reschedule it according to your operational convenience. It's just a background survey we'd like to keep track of as part of our routine monitoring activities. Thank you for your understanding and cooperation in managing this task within your baseline pipeline tracking setup.
+We're looking at a beautiful region in Colombia, specifically the charming town of Puerto Libertador. The geographical context here is quite picturesque, but we'll focus on capturing the essence rather than diving into technical details. Imagine a vibrant landscape under daylight conditions, which is why we've selected our primary sensor to be the VIS (visual imagery) system. We're aiming for high-resolution optical snapshots that will serve as true-color visual documentation of this area.
+
+The timing for this task is set for three days from now, with a specific focus on the overnight period. This ensures we capture the serene beauty of the region under the cover of darkness, when the lights of the town might still be visible against the backdrop of the starry sky.
+
+Please schedule this task as part of your routine monitoring activities, ensuring it's executed with fixed parameters that represent our normal operational status. We appreciate your flexibility and understanding regarding the timing, as we're treating this as a non-essential background filler task that can be dropped or rescheduled at your convenience.
+
+Thank you for your attention to this request. I look forward to seeing the results of this standard operational tasking in action.
 
 Best regards,
 [Your Name]

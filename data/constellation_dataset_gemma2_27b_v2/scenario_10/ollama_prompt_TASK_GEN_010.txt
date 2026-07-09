@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Chaparral, Colombia, sometime tomorrow overnight. We need cloud-penetrating capture using microwave surface imaging.
+Schedule a standard operational tasking for an active radar scan of Chaparral, Colombia. This is a routine monitoring request as part of our baseline pipeline tracking setup. We need cloud-penetrating capture using microwave surface imaging sometime tomorrow evening.

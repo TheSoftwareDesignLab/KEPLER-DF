@@ -1,2 +1,1 @@
-Tomorrow, I'd like to schedule a non-essential background filler task for opportunistic capture of near-infrared reflection in Grumino. This will help us with water body boundary mapping and soil moisture assessment around mid-day when the light conditions are optimal. Feel free to drop or reschedule this at your convenience as it's not urgent.
-```prompt
+Tomorrow morning, I'd like to schedule a non-essential background filler task for water body boundary mapping in Grumino, Italy. This should be done using near-infrared reflection capabilities of our satellite sensors. Feel free to drop or reschedule this request at your convenience as it's not urgent but could provide useful supplementary data.

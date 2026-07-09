@@ -1,2 +1,2 @@
-Tomorrow night over in El Paujil, Colombia, I'd like to schedule a low priority importance task for multispectral vegetation analysis. Could you arrange an opportunistic capture that allows us some flexibility with the timing? Feel free to drop or reschedule this background survey at your earliest convenience.
+Tomorrow, I'd like to schedule a non-essential background filler task for opportunistic capture. We aim to obtain multispectral vegetation analysis in El Paujil, Colombia, specifically during the afternoon hours. This will help us assess chlorophyll absorption levels and calculate surface reflectance indices. Please let me know if this can be arranged or if we need to drop or reschedule at your convenience.
 ```prompt

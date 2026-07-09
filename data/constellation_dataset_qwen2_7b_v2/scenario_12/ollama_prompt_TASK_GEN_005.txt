@@ -1,1 +1,11 @@
-Good evening, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission. We're looking to capture thermal mapping of Norte region overnight tomorrow. This is a low priority importance task, so you can schedule it as a background survey or a testbed tracking task at your convenience. We aim to gather data on surface temperature profiles and thermal anomalies for this area. Kindly note that there's no rush for this mission; we're more interested in gathering comprehensive information rather than meeting an immediate deadline. Thank you for your attention, and I look forward to your confirmation.
+```prompt
+Good evening, satellite constellation planners. I'm reaching out with a task request for an Earth observation mission. Our objective is to capture thermal mapping data using our TIR sensor. The geographic context involves Norte city, although we're focusing on the region due to the lack of specific details.
+
+Given the nature of this task, it's categorized as a low priority importance request, implying that it can be accommodated within our flexible schedule. We aim to perform this "heat signature" capture sometime today around mid-day, fitting into our opportunistic background survey or testbed tracking task.
+
+Please note, there's no strict deadline for this mission; hence, we're treating it as a non-essential background filler task that can be dropped or rescheduled at your convenience. No rush here, but we appreciate your attention to this request as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Thank you for your understanding and cooperation in managing our mission allocation priorities effectively. We look forward to your confirmation on this task's execution. Stay tuned for further communications or adjustments based on your operational schedule.
+
+Best regards,
+[Your Name] - Earth Observation Mission Operator

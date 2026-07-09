@@ -1,7 +1,1 @@
-Task Request: Opportunistic NIR Water Body Boundary Mapping in Arnoldstein, Austria
-
-We require a non-essential background filler task to be executed at your convenience. This low-priority importance request involves a flexible schedule for opportunistic capture of near-infrared reflection data. The objective is to conduct water body boundary mapping and soil moisture assessment in Arnoldstein, Austria.
-
-Please capture a high-resolution near-infrared reflection image in the evening, three days from now. This will help us discriminate gradients and assess soil moisture levels in the region.
-
-Please note that this task is not urgent and can be dropped or rescheduled at your convenience. We appreciate your assistance in completing this background survey task.
+We need to conduct a low-priority importance task with a flexible schedule for opportunistic capture. The mission is to perform a near-infrared reflection for water body boundary mapping or soil moisture assessment in Arnoldstein, Österreich. It's a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey or testbed tracking task. We should aim to complete this task sometime today around mid-day.

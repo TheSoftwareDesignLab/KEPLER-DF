@@ -1,1 +1,1 @@
-Request to capture high-resolution optical snapshot for daylight photography of Indonesia overnight tomorrow.
+Tasking Request: High-resolution optical snapshot for daylight photography in Indonesia, specifically focusing on the city of Indonesia, as part of a standard operational tasking within our commercial pipeline tracking setup with fixed parameters representing normal operational status. This is a routine monitoring task to be executed tomorrow afternoon.

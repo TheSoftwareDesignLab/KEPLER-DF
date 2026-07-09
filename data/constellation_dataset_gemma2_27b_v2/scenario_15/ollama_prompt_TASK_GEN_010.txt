@@ -1,1 +1,1 @@
-We need a standard operational tasking for near-infrared reflection imaging over San Pablo, Colombia. This is part of a routine monitoring setup for water body boundary mapping and soil moisture assessment. Please schedule this capture sometime tomorrow afternoon.
+This is a standard operational tasking for near-infrared reflection capture over San Pablo, Colombia. We need to map the water body boundaries and assess soil moisture gradients in the area.  Target this sometime tomorrow morning.

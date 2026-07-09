@@ -1,7 +1,10 @@
-Good morning, satellite constellation planners. This is an absolute institutional priority request from our team based in France, specifically in the picturesque city of Calvi. We're dealing with a critical payload capture involving thermal mapping of the region, which requires an active radar scan using microwave surface imaging technology to pierce through heavy weather conditions and capture ground geometry. Our objective is to assess heat signatures and surface temperature profiles for thermal anomaly detection and mapping heat emissions.
+Good morning, automated satellite constellation planner. We're looking to capture a thermal mapping of Calvi, France, with our high-priority task scheduled for tomorrow morning. Given its critical importance and contractual obligations, this is an absolute institutional priority requiring immediate attention. We aim to gather detailed surface temperature profiles and detect any potential thermal anomalies.
 
-As per our operational guidelines, this task carries high importance, so please treat it as a binding contract requirement with an urgent operational execution and an un-preemptable mission lock. We are looking at tomorrow afternoon for this task to be completed. Our priority level is marked as 3, which means we need this done right away.
+The mission involves utilizing our TIR sensor to conduct comprehensive thermal scanning, providing us with valuable insights into heat emissions and surface temperatures across the region. This is essential for our ongoing research project focusing on environmental monitoring and anomaly detection.
 
-Please ensure that the satellite constellation is allocated accordingly, taking into account our request's high importance and the need for a precise thermal mapping of our region during the afternoon hours. We appreciate your immediate attention to this matter and look forward to receiving confirmation on the successful execution of our task.
+Please ensure that this task is allocated with the highest priority and executed without any delays or interruptions. The deadline for this operation is set for tomorrow morning, and we appreciate your swift action in securing optimal satellite resources for this critical payload capture. We're looking forward to receiving the data promptly after the mission concludes.
 
-Thank you for your cooperation and swift action in fulfilling this mission. Have a great day ahead!
+Thank you for your attention to this matter. Please let us know if there are any further details required or if there are any adjustments needed based on current operational conditions. We're counting on your expertise and responsiveness to deliver accurate and timely results.
+
+Best regards,
+[Your Name]

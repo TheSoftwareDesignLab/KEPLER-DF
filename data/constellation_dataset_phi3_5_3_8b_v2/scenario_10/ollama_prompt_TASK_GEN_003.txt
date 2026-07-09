@@ -1,1 +1,2 @@
-Tomorrow, we're aiming for a flexible schedule to conduct an active radar scan using microwave surface imaging. Our focus is on Indonesia, specifically targeting the city of Indonesia during around mid-day. This task is considered low priority importance; hence, please feel free to drop or reschedule it at your convenience as part of our non-essential background filler tasks.
+Tomorrow night over Indonesia, I'd like to schedule a flexible SAR radar scan to penetrate through any cloud cover and get a clear view of the surface geometry. This isn't urgent but could be useful for background analysis or anomaly detection. Feel free to drop this task if it doesn't fit into our current workflow, or we can look at rescheduling it around mid-day tomorrow instead.
+```

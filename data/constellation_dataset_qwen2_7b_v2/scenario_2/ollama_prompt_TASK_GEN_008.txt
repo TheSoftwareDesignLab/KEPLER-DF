@@ -1,1 +1,8 @@
-Operator, I'm requesting a thermal mapping task for Correggioli in Italia. We're looking to capture heat signatures and surface temperature profiles with our TIR sensor. This is a low priority importance task, so please schedule it as a flexible background survey or testbed tracking task. We'd like the imagery captured sometime during the evening of the day after tomorrow. No rush, just make sure it's done in the evening timeframe. Thank you.
+Good morning, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that's of low priority importance. We're looking to capture thermal mapping data for Correggioli, Italia, which is a beautiful region in the heart of our country. The goal is to assess heat signatures and map out surface temperature profiles, focusing on identifying any thermal anomalies.
+
+This request falls under our flexible schedule as it's tagged as a low priority importance task. We're not in a rush for this; you can drop or reschedule it at your convenience. It's more of an opportunistic survey that we'll treat as a background filler task. We aim to gather data sometime today around mid-day, which should align well with our operational workflow updates.
+
+Thank you for understanding and accommodating this request. Feel free to contact me if you need any further clarification or adjustments. Looking forward to your confirmation.
+
+Best regards,
+[Your Name]

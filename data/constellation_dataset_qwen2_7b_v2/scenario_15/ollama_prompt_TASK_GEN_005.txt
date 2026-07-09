@@ -1,1 +1,7 @@
-Good morning, satellite constellation planner. I'm reaching out to request a high-resolution optical snapshot of Olmo al Brembo in Italia, ideally captured during tomorrow's evening hours. This task is classified as a low priority importance request and can be scheduled flexibly, fitting into our background survey or testbed tracking tasks. We aim for a clear optical imagery that can provide true-color visual documentation of the area. Kindly note that this is a non-essential background filler task, which we can drop or reschedule at your convenience. Thank you for your attention and cooperation in fulfilling this request.
+Good day to all satellite operators and mission planners. I'm here today with a task request that's been prioritized as 'low importance'. Our focus is on capturing a high-resolution optical snapshot of a specific location for daylight photography purposes. The region we're targeting is in 'Italia', specifically the city of 'Olmo al Brembo'. We're looking to secure this imagery during the afternoon of the day after tomorrow.
+
+This request falls under our 'background survey' category, which means it's a flexible schedule task that can be dropped or rescheduled at your convenience. It's part of our non-essential background filler tasks that contribute to our overall operational status.
+
+The deadline for this mission is set for the afternoon of the day after tomorrow. Please ensure that the imagery captures the area during the specified time frame. I trust you'll take care of scheduling this task in your pipeline tracking setup with fixed parameters, representing normal operational status.
+
+Thank you for your attention and cooperation. We appreciate your prompt action to fulfill this request. Have a great day ahead!

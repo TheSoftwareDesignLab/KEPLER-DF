@@ -1,1 +1,2 @@
-Tomorrow evening, I'd like to schedule a low priority importance task for Toledo in Colombia. Could you arrange an opportunistic capture with a high-resolution optical snapshot? This will serve as background survey work and can be dropped or rescheduled at your convenience.
+Request Earth-observation mission planner: We need a high-resolution optical snapshot of Toledo, Colombia, in four days during the afternoon. This is a low priority importance task that can be dropped or rescheduled at your convenience. It's more like an opportunistic capture for background survey purposes rather than essential imagery documentation. Please let us know if this aligns with our current satellite pass schedule and resource allocation.
+```

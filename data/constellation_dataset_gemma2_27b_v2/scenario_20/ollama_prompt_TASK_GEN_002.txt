@@ -1,1 +1,1 @@
-This is a standard operational tasking for near-infrared reflection capture over Italia. We need to map water body boundaries and assess soil moisture gradients sometime tomorrow afternoon.
+Schedule a standard operational tasking for Norte using near-infrared reflection sometime tomorrow morning. This is part of a baseline pipeline tracking setup and involves water body boundary mapping and soil moisture assessment.

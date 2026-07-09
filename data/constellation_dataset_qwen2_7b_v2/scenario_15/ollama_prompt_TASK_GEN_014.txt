@@ -1,7 +1,7 @@
-Good afternoon, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission. Our priority is to capture thermal mapping data using our TIR sensor on the day after tomorrow, specifically in the evening. We're focusing on Norte city, although we don't have details about the country since it's not specified.
+Hello, automated satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that needs to be executed with flexibility and opportunism due to its low priority importance. We're looking to capture thermal mapping data using our TIR sensor on the day after tomorrow during the afternoon.
 
-Our objective here is to gather information on heat signatures and surface temperature profiles, which will help us detect any thermal anomalies or map heat emissions accurately. This task falls under a low priority importance category, meaning it can be scheduled flexibly as a background survey or testbed tracking task.
+The geographic context is centered around Norte, which is located within the region we're focusing on. Since we don't have specific details about the country or city, we'll rely on the broader context of the region for precise targeting.
 
-Please note that there's no rush for this mission; we're treating it as a non-essential background filler task that can be dropped or rescheduled at your convenience. We'll appreciate your cooperation in ensuring this request is handled efficiently within our operational workflow.
+This request doesn't carry an urgent operational execution requirement; instead, it's more akin to a background survey that can be dropped or rescheduled at our convenience. The goal is to assess surface temperature profiles and detect thermal anomalies without the need for strict time constraints.
 
-Thank you for your attention, and I look forward to your confirmation of receipt and the planned execution of this Earth observation mission.
+Please schedule this task with a flexible timeline, ensuring that it aligns with your operational capabilities and workflow updates. We appreciate your understanding and flexibility in accommodating this non-essential background filler task. Thank you for your attention to detail and cooperation in fulfilling our mission requirements.

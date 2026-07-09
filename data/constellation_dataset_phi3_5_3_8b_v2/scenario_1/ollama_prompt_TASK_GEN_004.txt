@@ -1,1 +1,2 @@
-Tomorrow evening, I'd like to conduct a multispectral vegetation analysis in Ibagué, Colombia. This is a low priority importance task with a flexible schedule; please drop or reschedule at your convenience as this can serve as background survey tracking for opportunistic capture needs.
+Tomorrow morning, I'd like to schedule a non-essential background filler task for capturing multispectral vegetation analysis in Ibagué, Colombia. This should be done around mid-day as we assess the chlorophyll absorption level and calculate the NDVI index for surface reflectance. Please drop or reschedule this request at your convenience since it's of low priority importance.
+```

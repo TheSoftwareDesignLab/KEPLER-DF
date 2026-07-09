@@ -1,7 +1,1 @@
-Hello, satellite constellation planner. I'm requesting a task for an Earth observation mission with a low priority importance level. The primary sensor involved is VNIR, which means we're aiming for multispectral vegetation analysis to assess the chlorophyll absorption levels and calculate the NDVI index.
-
-The geographic context is centered around Oderzo, Italia. Although the city specifics are not entirely clear, we'll focus on capturing high-resolution optical snapshots using daylight photography and true-color visual documentation of the region.
-
-The task is scheduled for the day after tomorrow, with a specific target time window for overnight observations. This request serves as a low priority background filler task that can be dropped or rescheduled at convenience, treating it as a non-essential background survey.
-
-Thank you for your attention and cooperation in fulfilling this operational need.
+Hello satellite constellation planner, I'm requesting a low priority task for our Earth observation mission. We aim to capture a multispectral vegetation analysis using VNIR sensors on the day after tomorrow during the evening hours. Our target location is in Oderzo, Italia. As this is a non-essential background filler task, feel free to drop or reschedule it at your convenience. Kindly treat it as a background survey or testbed tracking task. Thank you for your attention.

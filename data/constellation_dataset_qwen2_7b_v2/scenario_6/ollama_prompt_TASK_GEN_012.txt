@@ -1,5 +1,7 @@
-Good morning, satellite constellation planners. I'm reaching out with a low priority importance task that's quite flexible in scheduling. We're looking to capture a high-resolution optical snapshot of an area known as Ecuatorial City, which is located in the region we're focusing on. The goal here is to obtain clear daylight photography or true-color visual documentation for this specific day after tomorrow, during the afternoon period.
+Good morning, satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Ecuatorial City for daylight photography purposes. This is a low priority importance request with a flexible schedule for opportunistic capture. We aim to document clear optical imagery and true-color visual documentation of the area.
 
-This task falls under our background survey category and can be dropped or rescheduled at your convenience. It's a non-essential background filler task that doesn't require immediate attention. Our main focus isn't on the deadline but rather ensuring we gather accurate data for our records. We appreciate your understanding and flexibility in scheduling this task.
+This task falls under our non-essential background filler task category, which is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The request involves a routine monitoring activity that doesn't require immediate attention or has an un-preemptable mission lock.
 
-Thank you for your cooperation and support in maintaining our baseline pipeline tracking. Have a great day ahead, and we look forward to receiving these images.
+We're targeting this capture for sometime during the day after tomorrow, specifically in the morning. This timeframe aligns with our operational guidelines for relative timeframes, avoiding raw UTC timestamps or composite time expressions that sum hours and days.
+
+Thank you for your understanding and prompt attention to this request. We appreciate your cooperation in ensuring that our background survey task is carried out efficiently and effectively.

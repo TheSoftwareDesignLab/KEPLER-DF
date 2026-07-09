@@ -1,1 +1,12 @@
-Hello satellite constellation planner, I'm requesting a low priority importance task for tomorrow evening. Our mission involves capturing a multispectral vegetation analysis over Foraquira, Colombia. The goal is to assess the chlorophyll absorption level and calculate a vegetation NDVI index for background survey purposes. We aim to gather this data opportunistically as our schedule allows. Thank you.
+Hello Satellite Coordination Team,
+
+I'm reaching out to request a task for an observational mission involving the VNIR sensor. The geographical context is centered around Foraquira, Colombia. This request carries a low priority importance and falls under our background survey category, which can be scheduled flexibly according to our convenience.
+
+Our objective is to capture high-resolution optical snapshots of the area during the afternoon session in three days. The goal here is to document daylight photography, gather clear optical imagery, and provide true-color visual documentation that will help us assess the landscape and environmental conditions accurately.
+
+Please note that this mission is not an urgent operational execution; it can be accommodated within our baseline pipeline tracking setup with fixed parameters representing normal operational status. We understand that this might be a testbed tracking task and are prepared to drop or reschedule it as necessary, treating it as a non-essential background filler task.
+
+Thank you for your attention to this matter. We appreciate your cooperation in ensuring this mission is carried out efficiently and according to our guidelines.
+
+Best regards,
+[Your Name]

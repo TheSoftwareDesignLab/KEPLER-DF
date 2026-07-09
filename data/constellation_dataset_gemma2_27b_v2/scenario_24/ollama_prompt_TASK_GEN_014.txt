@@ -1,1 +1,1 @@
-This is a standard operational tasking for an active radar scan of Spoleto, Italia. We need a cloud-penetrating capture using microwave surface imaging sometime tomorrow around mid-day.
+Schedule a standard operational tasking for an active radar scan of Spoleto, Italia. We need cloud-penetrating capture of the ground geometry sometime tomorrow overnight.

@@ -1,9 +1,11 @@
-Good evening, satellite constellation planners. I'm reaching out with an urgent operational request for our critical payload capture mission involving a binding contract requirement in the region of Italia Norte. Our priority is set to 'High Importance', which means this task demands immediate attention and cannot be pre-empted.
+Good evening, mission planners. I'm here to request a critical payload capture for an absolute institutional priority task involving thermal mapping of a specific location in Italia, specifically Norte. We're targeting tomorrow evening, focusing on capturing the heat signature and surface temperature profile for this area. This involves a detailed thermal anomaly detection and mapping of heat emissions, which is essential for our ongoing operations.
 
-Our objective is to conduct thermal mapping using our TIR sensor, focusing on capturing heat signatures and surface temperature profiles overnight in three days during the evening. We're looking for a high-resolution optical snapshot of the area as well, which will serve as true-color visual documentation for our daylight photography needs.
+Please ensure that our satellite constellation prioritizes this request as it's classified under the high importance category (Priority 3). We're looking to execute this task with urgency, considering its contractual value and operational necessity. Since this involves a complex thermal mapping operation, we need your team to lock in this mission as an un-preemptable priority.
 
-Given the importance of this task, we'll be tracking this request through our baseline pipeline setup with fixed parameters, representing normal operational status and a standard workflow update. However, due to the nature of our operational schedule, this task is considered flexible and can be dropped or rescheduled at our convenience if needed.
+For the technical details, our primary sensor will be the TIR, which will provide us with high-resolution thermal data for the region. We're aiming to gather comprehensive information on heat signatures and surface temperatures, which will aid in our decision-making processes and operational planning.
 
-Please ensure that our satellite constellation is ready for deployment in the region of Italia Norte overnight in three days during the evening. We appreciate your prompt attention to this matter as it pertains to an absolute institutional priority and contractual obligations.
+Given the nature of this task, we request that you schedule this capture with a high degree of precision and accuracy to ensure we obtain the most valuable data possible. As this is a binding contract requirement, we emphasize the importance of meeting the deadline for this operation.
 
-Thank you for your cooperation, and we look forward to your swift response.
+Thank you for your attention to this matter. We look forward to receiving confirmation on the successful execution of this mission. If there are any questions or adjustments needed, please feel free to reach out to us immediately.
+
+Stay tuned and keep your eyes on the skies for our satellite constellation's response.

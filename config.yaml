@@ -1,12 +1,12 @@
 simulation:
-  dataset_name: "constellation_dataset_gemma2_27b_v2"
+  dataset_name: "constellation_dataset_qwen2_7b_v2"
   num_scenarios: 25
   sat_k: 5
   sat_group_name: "weather"
   gs_k: 2
   tasks_k: 15 
   seed: 2026
-  ollama_model: "gemma2:27b"
+  ollama_model: "qwen2:7b"
   ollama_temperature: 0.4
   semantic_enabled: true
 
@@ -78,13 +78,13 @@ task_generation:
   max_lifetime: 345600
   priority_weights: [0.5, 0.3, 0.2]
   bounding_boxes:
-    - name: "colombia"
+    - name: "colombia_andina"
       lat_envelope: [2.0, 8.0]
       lon_envelope: [-77.0, -72.0]
-    - name: "italia"
+    - name: "italia_centro_norte"
       lat_envelope: [40.5, 46.5]
       lon_envelope: [7.5, 14.5]
-    - name: "indonesia"
+    - name: "indonesia_ecuatorial"
       lat_envelope: [-3.0, 3.0]
       lon_envelope: [100.0, 120.0]
   prompt_generation:

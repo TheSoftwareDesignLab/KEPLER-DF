@@ -1,5 +1,9 @@
-Good morning, satellite constellation planner. I'm requesting a high-resolution optical snapshot of Norte City for daylight photography purposes. Our objective is to capture clear optical imagery and true-color visual documentation of the area. This task has been categorized as a low priority importance request with a flexible schedule for opportunistic capture. We treat it as a non-essential background filler task that can be dropped or rescheduled at convenience.
+Good evening, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission. Our objective is to capture high-resolution optical imagery of Norte city, which is located in our region. We're looking for a clear daytime photograph or true-color visual documentation that will help us monitor the urban landscape and surrounding areas.
 
-Our target day for this mission is in four days, specifically during the morning hours. We're looking to maximize natural light conditions for optimal image quality. This request aligns with our baseline pipeline tracking setup for routine monitoring activities with fixed parameters representing normal operational status.
+This request falls under the category of low priority importance, indicating that it's a flexible schedule task with no strict deadlines. We understand that this might be treated as a background survey or testbed tracking task.
 
-Thank you for your attention and please let us know if there are any adjustments or additional information needed for this task.
+Our primary sensor requirement is VIS, which means we're seeking high-quality daylight photography to assess the city's development and environmental conditions. The imagery should provide us with detailed information about the area without any obstructions from clouds or weather conditions.
+
+We're targeting this observation for four days from now, specifically overnight when the skies are expected to be clear and calm. This timeframe aligns well with our operational flexibility, allowing us to capture the data during a period that minimizes interference from other tasks or priorities.
+
+Thank you for your attention to this request. We appreciate your cooperation in ensuring that our observation mission is carried out smoothly and efficiently. Please let us know if there are any questions or if you need further clarification on our requirements.

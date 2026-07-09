@@ -1,10 +1,8 @@
-Hello, automated satellite constellation planner. I'm reaching out to request a task for an Earth observation mission focusing on thermal mapping in the region of Colombia, specifically targeting the city of Paya. Given its importance level as 'Priority 1', this is a low priority importance request, allowing for a flexible schedule and treating it as a non-essential background filler task.
+Hello, satellite constellation planner. I'm reaching out from an Earth observation mission operator based in the vibrant city of Paya, Colombia. We're requesting a task to capture thermal mapping data for our region tomorrow morning. Our objective is to gather detailed information on heat signatures and surface temperature profiles across the area. This request falls under low priority importance, allowing for flexible scheduling as a non-essential background filler task.
 
-The primary sensor involved will be the 'TIR' (Thermal Infrared), which we'll use to capture thermal anomalies and map heat emissions. Our goal is to obtain detailed thermal data, providing insights into surface temperature profiles and heat signatures, crucial for various applications such as environmental monitoring and urban planning.
+As part of our mission, we aim to conduct this "thermal anomaly detection" and mapping heat emissions using our specialized TIR sensor. The goal is to provide valuable insights into the thermal dynamics of our region without strict time constraints. We appreciate your understanding and cooperation in accommodating this request at a convenient time for your operational schedule.
 
-Considering our target day is tomorrow, with a specific diurnal period set around mid-day, please schedule this task accordingly. We're looking for an opportunity to capture this data during the afternoon hours, allowing for optimal conditions without any strict deadlines or countdowns.
-
-Thank you for your understanding and flexibility in scheduling this background survey task. We appreciate your support in fulfilling our operational needs. 
+Thank you for your attention, and we look forward to receiving the data promptly. If there are any questions or adjustments needed, please feel free to reach out. Have a great day!
 
 Best regards,
-[Your Name]
+[Your Mission Operator]

@@ -1,1 +1,7 @@
-Obtain a high-resolution optical snapshot of Italia, focusing on clear optical imagery of the region during the evening hours in four days.
+Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Italia
+
+We require a standard operational tasking for high-resolution optical snapshot capture over the region of Italia. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture clear optical imagery and true-color visual documentation using our VIS sensor.
+
+The location details indicate that the target area is within the country of Italia, specifically in the city of Italia itself. We will be conducting this routine monitoring sometime today around mid-day, as per our baseline pipeline tracking setup.
+
+This tasking has been assigned a standard operational priority, and we expect the satellite to capture the required data without any issues. Please ensure that the satellite is online and ready for tasking by tomorrow morning at the latest.

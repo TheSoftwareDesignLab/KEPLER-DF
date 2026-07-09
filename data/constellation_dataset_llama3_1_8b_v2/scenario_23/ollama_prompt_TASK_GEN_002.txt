@@ -1,1 +1,1 @@
-Capture a high-resolution thermal map of Italia's surface temperature profile around mid-day tomorrow for routine monitoring and baseline pipeline tracking.
+Please execute a standard operational tasking for thermal mapping, capturing a surface temperature profile and heat signature over Italia, specifically in the city of Italia, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking with a routine monitoring objective, targeting tomorrow morning.

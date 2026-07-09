@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for multispectral vegetation analysis over Trujillo, Colombia. We need a clear capture of the area sometime the day after tomorrow overnight.
+This is a standard operational tasking for multispectral vegetation analysis over Trujillo, Colombia. We need a high-resolution VNIR capture sometime the day after tomorrow during the afternoon to assess chlorophyll absorption levels and calculate the NDVI index for this region.

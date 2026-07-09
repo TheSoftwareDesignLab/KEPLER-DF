@@ -1,1 +1,1 @@
-This is a standard operational tasking for multispectral vegetation analysis over Italy. We need a high-resolution VNIR capture sometime tomorrow evening to assess chlorophyll absorption levels and calculate the NDVI index in the Italia region.
+This is a standard operational tasking for multispectral vegetation analysis. We need a high-resolution VNIR scan over Northern Italy, specifically around the city of Norte, sometime tomorrow around mid-day.

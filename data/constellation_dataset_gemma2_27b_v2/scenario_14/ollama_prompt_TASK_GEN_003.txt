@@ -1,1 +1,1 @@
-This is a low priority importance task for opportunistic capture. We need thermal mapping of Murung Raya, Indonesia sometime the day after tomorrow during the afternoon.
+We need a low priority importance thermal mapping task for Murung Raya, Indonesia. This is a non-essential background filler task and can be dropped or rescheduled at convenience.  The goal is to capture a heat signature of the area sometime the day after tomorrow in the morning.

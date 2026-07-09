@@ -1,9 +1,7 @@
-Good evening, control center. I'm requesting a high-resolution optical snapshot of Kutai Timur, Indonesia, for a critical payload capture. This is an absolute institutional priority, involving a mandatory directive that requires immediate attention. The location details include the city of Kutai Timur within the country of Indonesia.
+Good evening, satellite constellation planner. We're looking to capture a high-resolution optical snapshot of Kutai Timur, Indonesia, for a critical payload capture task. This is an absolute institutional priority, as we require a true-color visual documentation that will serve as a binding contract requirement. The imagery must be cloud-penetrating and capture ground geometry, ensuring we have clear optical imagery to meet our contractual obligations.
 
-The primary sensor to be used for this mission is VIS (visual imaging system), which will provide us with a clear optical imagery and true-color visual documentation. This task is essential for capturing daylight photography, ensuring we have the best quality images possible.
+Please schedule this mission allocation with the utmost urgency, considering it involves a critical payload capture that cannot be preempted or moved to another task. We're targeting tomorrow evening for this operation, as our deadline is set for the day after tomorrow. This is not just routine monitoring; it's part of a baseline pipeline tracking setup involving fixed parameters representing normal operational status.
 
-We're aiming to complete this operation overnight in four days, which falls during the evening timeframe. This deadline aligns with our baseline pipeline tracking setup, representing standard operational tasks with fixed parameters that reflect normal operational status.
+Please note that this task is part of a larger workflow update and should be treated with high importance. We're aware that there might be other background survey tasks or testbed tracking tasks scheduled, but our request for this evening in Kutai Timur must be accommodated first due to its low priority importance. We understand the need for flexibility in scheduling, so we're open to dropping or rescheduling this task at your convenience if needed.
 
-Please note that this request carries a high level of importance and urgency, and it must be executed without preemption or delay. We're looking for an "urgent operational execution" and an "un-preemptable mission lock" to ensure the integrity of our data collection process.
-
-Thank you for your immediate attention to this high-priority task. We appreciate your cooperation in meeting our requirements for this critical mission.
+Thank you for your attention and cooperation. We appreciate your prompt action on this matter.

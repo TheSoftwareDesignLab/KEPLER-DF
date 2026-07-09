@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for multispectral vegetation analysis over Pelompek, Indonesia. We need a clear capture sometime tomorrow evening to assess chlorophyll absorption levels and calculate the NDVI index for this region.
+This is a standard operational tasking for multispectral vegetation analysis over Pelompek, Indonesia. We need a high-resolution VNIR capture sometime tomorrow around mid-day to assess chlorophyll absorption levels and calculate the vegetation NDVI index in this region.

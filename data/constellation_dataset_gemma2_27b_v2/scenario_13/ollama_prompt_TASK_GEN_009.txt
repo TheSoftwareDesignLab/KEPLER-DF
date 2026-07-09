@@ -1,1 +1,1 @@
-This is a standard operational tasking for thermal mapping of Pulang Pisau, Indonesia. We need a heat signature capture sometime tomorrow during the afternoon.
+We need a standard operational tasking for thermal mapping of Pulang Pisau, Indonesia. This is part of our baseline pipeline tracking setup and requires a fixed parameter capture sometime tomorrow morning.

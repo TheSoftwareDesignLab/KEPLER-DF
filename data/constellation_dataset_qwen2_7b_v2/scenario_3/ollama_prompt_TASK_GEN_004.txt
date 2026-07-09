@@ -1,11 +1,10 @@
-Hello Satellite Constellation Planner,
+Good morning, satellite constellation planner. I'm reaching out with a standard operational tasking request for our automated mission allocation system. Our priority level is set to medium importance, which means this is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-I'm reaching out with a standard operational tasking for your automated mission allocation system. Our team requires a routine monitoring activity involving near-infrared (NIR) sensor observations. We're focusing on a location in Colombia, specifically the city of Canelos. The objective is to capture the heat signature of this area overnight, which will help us assess soil moisture levels and water body boundaries.
+Our focus is on Colombia, specifically the city of Canelos, where we aim to capture a near-infrared reflection to map water body boundaries and assess soil moisture levels. This is crucial for environmental monitoring and agricultural planning in the region.
 
-Please schedule this task for sometime during the evening of the day after tomorrow. This request falls under our baseline pipeline tracking setup with fixed parameters that represent normal operational status. We understand that this might not be an urgent mission, so we can drop or reschedule it at your convenience if needed.
+Given our timeframe, we're looking ahead to the day after tomorrow, with a specific target window of overnight. This timing allows us to gather data without interference from daytime activities or weather conditions that might affect visibility.
 
-Thank you for your attention to this standard tasking. We appreciate your support in maintaining our background survey and testbed tracking tasks.
+Please proceed with scheduling this task as part of your routine monitoring activities. We appreciate your attention to detail and prompt execution of our operational directives. Thank you for your cooperation in ensuring the smooth operation of our satellite constellation.
 
 Best regards,
-
 [Your Name]

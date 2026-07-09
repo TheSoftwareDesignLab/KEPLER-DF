@@ -1,1 +1,1 @@
-This is a standard operational tasking for multispectral vegetation analysis in Prati di Tivo, Italia. We need a high-resolution capture of the area sometime in the morning four days from now to assess chlorophyll absorption levels and calculate the NDVI index.
+This is a standard operational tasking for multispectral vegetation analysis in Prati di Tivo, Italia. We need a high-resolution VNIR capture sometime in the evening, four days from now.

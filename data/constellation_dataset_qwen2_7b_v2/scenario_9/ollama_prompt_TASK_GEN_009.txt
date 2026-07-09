@@ -1,7 +1,5 @@
-Good day, satellite constellation planner. I'm reaching out with a task that's important to our operational pipeline tracking system. We're looking at a site in Indonesia, specifically near Ecuatorial city. The mission involves capturing thermal mapping data using the TIR sensor for this location.
+Good evening, satellite constellation planners. I'm reaching out with a task for our Earth observation mission. We're looking to capture thermal mapping data using our TIR sensor, targeting a location in Indonesia, specifically near the equator. This is a low priority importance request, so feel free to schedule it as you see fit or drop it if there are more urgent tasks.
 
-The objective is straightforward: we need to assess heat signatures and surface temperature profiles. It's a background survey task with a flexible schedule, so feel free to drop or reschedule it at your convenience. We're aiming to gather this information sometime today around mid-day, but if that doesn't work out, tomorrow morning would also be suitable.
+We aim to gather this data overnight, in three days from now. The goal is to capture heat signatures and surface temperature profiles for this area. Think of it as a background survey to help us understand the heat emissions and environmental conditions at that location.
 
-This is a low priority importance request, but we do value the data for our baseline pipeline tracking setup. It's part of our standard workflow update and won't interfere with any critical payload captures or mandatory directives. We're simply looking to gather information on how well our thermal sensors perform under different conditions.
-
-Thank you for your attention and please let us know if you have any questions or need further clarification.
+Please ensure we're able to capture this information without any interruptions or delays. Thank you for your attention, and I look forward to receiving the results soon. Have a great day ahead!

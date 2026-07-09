@@ -1,2 +1,2 @@
-Tomorrow afternoon, I need you to conduct a multispectral vegetation analysis over Saas-Almagell in Switzerland. This is part of our routine monitoring and should be integrated smoothly into our baseline pipeline tracking with fixed parameters representing normal operational status. Please ensure this standard operational tasking aligns with the day after tomorrow's schedule, specifically targeting noon for optimal near-infrared reflection to assess soil moisture and discriminate gradients effectively.
-```prompt
+Tomorrow morning, I'd like to schedule a standard operational tasking for multispectral vegetation analysis in Saas-Almagell. This routine monitoring will assess chlorophyll absorption levels and calculate the NDVI index to understand surface reflectance better. Please set this up as part of our baseline pipeline tracking with fixed parameters representing normal operations.
+```

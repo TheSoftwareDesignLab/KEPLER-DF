@@ -1,5 +1,7 @@
-Good morning, satellite constellation planners. I'm reaching out with a background survey task for you to consider. We're looking at thermal mapping requirements in Malaysia, specifically focusing on Ecuatorial City. The mission involves capturing the heat signature of the area using our thermal imaging sensor, which is essential for identifying any thermal anomalies and mapping heat emissions.
+Good morning from the control center. We're looking to capture thermal mapping data overnight on the day after tomorrow for a location in Ecuatorial, Malaysia. This is a low priority importance task with flexible scheduling, so we can drop or reschedule it at convenience if needed.
 
-This request carries a low priority importance, meaning it's more of a flexible schedule task that can be dropped or rescheduled at your convenience. We're not in a rush with this task; think of it as an opportunistic capture that fits into your operational workflow without disrupting the baseline pipeline tracking.
+Our primary sensor will be a TIR camera, aimed to provide us with a heat signature of the area. We're interested in mapping out any thermal anomalies and capturing surface temperature profiles. Keep an eye on the local weather conditions as this task requires clear visibility for accurate data collection.
 
-The deadline for this task is set for the day after tomorrow, and we're targeting the morning period for optimal conditions. Please plan accordingly to ensure we can capture the necessary data during this time frame. Thank you for your understanding and cooperation in fulfilling this non-essential background filler task.
+Expectations are for this background survey to help us better understand the heat emissions from the region without any urgency for immediate action. If you have any questions or need updates, feel free to reach out. Stay tuned and keep monitoring our systems for any changes in the operational status.
+
+Thank you for your attention to this task. Have a great day ahead!

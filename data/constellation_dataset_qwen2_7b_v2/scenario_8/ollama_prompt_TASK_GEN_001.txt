@@ -1,5 +1,9 @@
-Good day to our satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Murindó, Colombia, which is part of our routine monitoring tasking. This is a low priority importance request with flexible scheduling, so we can drop or reschedule it at convenience if necessary. Our primary sensor is the VIS system, aiming for daylight photography and clear optical imagery of the area.
+Good day, automated satellite constellation planner. I'm reaching out to request an operational task for our Earth observation mission. Our priority level is set to low importance, indicating a flexible schedule for opportunistic capture and treating this as a non-essential background filler task.
 
-Our target day is in three days, specifically during the afternoon. We're not concerned about the exact time within that period; just capture the essence of Murindó during that day's golden hour. This task is merely a background survey to keep our baseline pipeline tracking setup active. We appreciate your attention and understanding on this matter.
+We are focusing on the region of Colombia, specifically in the city of Murindó. The main objective involves capturing high-resolution optical imagery during daylight hours using our VIS sensor. This will serve as a true-color visual documentation to assess landscape conditions and gather clear optical data for further analysis.
 
-Thank you for your cooperation and support in fulfilling this request.
+The request pertains to tomorrow morning when we aim to capture this snapshot. Our target day is set three days ahead, with the diurnal period being around mid-day. The deadline for this task is flexible, allowing us to drop or reschedule at convenience if other priorities arise.
+
+This task aligns with our baseline pipeline tracking setup and represents a standard operational tasking for our mission allocation. We appreciate your understanding of the nature of this request and look forward to your confirmation for this background survey or testbed tracking task.
+
+Thank you for your attention and cooperation in fulfilling our mission objectives.

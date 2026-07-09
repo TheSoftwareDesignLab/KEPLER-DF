@@ -1,1 +1,1 @@
-This is a standard operational tasking for thermal mapping of the city of Italia. We require a microwave surface imaging capture sometime tomorrow during the afternoon.
+Schedule a standard operational tasking for tomorrow morning. We need a thermal mapping scan of the city of Norte. This will provide us with a surface temperature profile and help identify any thermal anomalies.

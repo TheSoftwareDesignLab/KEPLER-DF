@@ -1,1 +1,5 @@
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup, with fixed parameters representing normal operational status. We need to conduct a near-infrared reflection survey for water body boundary mapping and soil moisture assessment in Indonesia, specifically around mid-day the day after tomorrow.
+Tasking Request: Routine Monitoring of Indonesian Water Bodies
+
+We require a standard operational tasking for routine monitoring of Indonesian water bodies using near-infrared reflection. The mission should capture high-quality imagery of water body boundaries and assess soil moisture levels in the region. This is a commercial tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The target location is Indonesia, and we would like to schedule this task for the day after tomorrow, specifically during the morning hours. Please ensure that the satellite captures clear optical imagery of the area, and we will review the results as part of our ongoing monitoring efforts.

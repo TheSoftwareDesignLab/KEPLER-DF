@@ -1,7 +1,5 @@
-Good morning, satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Alvarado, Colombia, in the morning of tomorrow. This is a standard operational tasking for us. We're not under any strict deadlines for this one; it's part of our baseline pipeline tracking with fixed parameters representing normal operational status.
+Good evening from Alvarado, Colombia. I'm reaching out to schedule a standard operational tasking for tomorrow's overnight period. Our mission involves capturing a high-resolution optical snapshot of our region using visible light technology. We're looking for clear daylight photography and true-color visual documentation to cover the area comprehensively.
 
-The VIS sensor will provide us with clear daylight photography and true-color visual documentation of Alvarado's landscape. We're interested in capturing the city's urban features, natural landscapes, and any notable changes that might have occurred since our last visit.
+This request is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters set in place. It's important to note that this tasking is not an urgent requirement but rather a routine monitoring activity that contributes to our standard workflow updates.
 
-Please ensure we receive this imagery before the day progresses too much into the afternoon. We'll be tracking this task as part of our routine monitoring efforts, so please don't hesitate to adjust the schedule if there are any unforeseen circumstances that might impact the capture.
-
-Thank you for your attention to this request. We appreciate your cooperation in providing us with the best possible imagery for our operational needs. Have a great day!
+Please ensure that the satellite constellation is prepared accordingly for this mission allocation. We appreciate your attention to detail and look forward to receiving the imagery by tomorrow evening. Thank you for your cooperation and understanding in managing this operational task.

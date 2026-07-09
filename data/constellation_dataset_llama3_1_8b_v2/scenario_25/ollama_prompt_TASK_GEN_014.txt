@@ -1,7 +1,1 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner. 
-
-The mission objective is to capture high-resolution thermal mapping of the region in Italy, specifically in Claut / Cjolt, using the Thermal Infrared (TIR) sensor. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The request is for routine monitoring and workflow update. 
-
-We require the satellite to capture this thermal mapping sometime today around mid-day, specifically during the morning hours. 
-
-This is a commercial tasking with a flexible schedule for opportunistic capture. We treat this as a non-essential background filler task where we can drop or reschedule at convenience. The operator notes that this is a background survey or testbed tracking task.
+Please conduct a thermal mapping task over Claut / Cjolt, Italia, as part of our standard operational tasking. This involves capturing a heat signature and surface temperature profile using active thermal imaging to detect any thermal anomalies. We require this data in the evening of the day after tomorrow.

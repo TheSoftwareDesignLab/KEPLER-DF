@@ -1,6 +1,1 @@
-Good evening, satellite control team. I'm reaching out with a task request for an Earth observation mission that involves capturing near-infrared (NIR) reflection data. Our focus is on mapping water body boundaries and assessing soil moisture levels in the region of Marola, which is located in the beautiful country of Italia. Given its importance, this task is classified as low priority with flexible scheduling, allowing us to drop or reschedule it at our convenience if needed.
-
-We're aiming for an observation during the evening hours when the conditions are optimal for capturing high-quality data. The deadline for this task is set for sometime today, so please ensure we receive the data before nightfall. Thank you for your attention and cooperation in fulfilling this background survey task.
-
-Best regards,
-[Your Name]
+Good day, satellite constellation planner. I'm reaching out with a task request that's quite important to us. We're looking to capture thermal data of Marola, which is in Italia, during the afternoon today. This task falls under our low priority importance category and can be scheduled at your convenience. It's essentially a background survey aimed at assessing soil moisture levels. We understand if this needs to be dropped or rescheduled according to your availability. Thank you for considering this request.

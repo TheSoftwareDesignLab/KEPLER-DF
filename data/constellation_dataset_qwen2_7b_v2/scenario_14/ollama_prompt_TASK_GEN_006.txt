@@ -1,5 +1,10 @@
-Hello satellite constellation planner, I'm requesting a task for an Earth observation mission focusing on Sungai Emang, Indonesia. Our primary sensor will be a high-resolution optical camera to capture daylight photography and true-color visual documentation of the area around mid-day tomorrow morning. This is a low priority importance request, so we're flexible with scheduling - feel free to drop or reschedule it at your convenience as a non-essential background filler task.
+Good morning, satellite constellation planners. I'm reaching out with a task request for an Earth observation mission. Our priority is to capture a high-resolution optical snapshot of Sungai Emang, Indonesia, which is located in the heart of the country. This request falls under the category of a low priority importance task, meaning it's flexible and can be scheduled at our convenience. 
 
-Given our target day is the day after tomorrow, we aim for an optimal time during the afternoon when conditions are expected to be favorable for clear imagery. We're not bound by any strict deadlines but will appreciate timely completion to ensure our workflow update can proceed smoothly without any delays.
+The primary sensor we're focusing on is VIS, which will provide us with daylight photography, clear optical imagery, and true-color visual documentation of the area. We aim to capture this scene during the morning hours of the day after tomorrow.
 
-Thank you for your attention and cooperation in fulfilling this task. If you have any questions or need further clarification, please don't hesitate to reach out. We look forward to receiving the results and contributing to our ongoing baseline pipeline tracking efforts.
+As for timing, please note that we don't need to adhere to strict deadlines or countdowns. We simply request that you schedule this task sometime around mid-day on the specified day. This will allow us to gather the necessary data without any rush or pressure.
+
+Thank you for your understanding and cooperation. We appreciate your efforts in ensuring that our background survey is completed efficiently and effectively. Have a great day, and we look forward to receiving the imagery.
+
+Best regards,
+[Your Name]

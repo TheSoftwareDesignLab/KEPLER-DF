@@ -1,7 +1,5 @@
-Good morning, automated satellite constellation planner. I'm here to request a standard operational tasking for an important mission involving thermal mapping of Sungai Tapah in Indonesia. This is a critical payload capture that requires our attention as part of our baseline pipeline tracking setup. The parameters are fixed, and this represents our normal operational status.
+Good morning, satellite constellation planner. We're looking to capture a thermal mapping of Sungai Tapah in Indonesia for a standard operational tasking. The goal is to assess heat signatures and surface temperature profiles in the area. Given its importance on our baseline pipeline tracking setup, we request this as a medium priority mission.
 
-We aim to conduct a "heat signature" capture using our thermal sensors, which will help us map the surface temperature profile and detect any thermal anomalies. This tasking involves assessing heat emissions from the region with high precision for our analysis purposes.
+Our target day is the day after tomorrow, with the specific window being during the morning hours. This thermal mapping should be conducted using our TIR sensor to provide us with critical data for our ongoing project. We appreciate your attention to this request and look forward to receiving the results.
 
-We're planning this mission for the day after tomorrow, around mid-day. This timeframe aligns with our operational schedule and allows us to capture the most relevant data for our current project requirements.
-
-Thank you for your attention, and we look forward to receiving confirmation that this mission has been allocated with the necessary resources and that it will be executed according to our guidelines. If there are any issues or if adjustments need to be made, please communicate them promptly so we can ensure the successful completion of this task.
+Thank you for your cooperation in ensuring this mission is completed according to our guidelines.

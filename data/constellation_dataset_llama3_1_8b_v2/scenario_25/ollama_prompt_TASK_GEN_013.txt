@@ -1,3 +1,1 @@
-Tasking Request: Colombia's Amazonas Region Observation
-
-We require a high-resolution optical snapshot of the region around Cáchira, Colombia, using daylight photography to capture clear optical imagery. This is a low priority importance request with a flexible schedule for opportunistic capture. We'd like to conduct this as a non-essential background filler task, where we can drop or reschedule at convenience, treating it as a background survey or testbed tracking task. Please execute this mission sometime today around mid-day.
+We require a low-priority importance task for opportunistic capture, with a flexible schedule. We'd like to conduct a high-resolution optical snapshot for daylight photography in Colombia, specifically in the city of Cáchira. This is a non-essential background filler task that can be dropped or rescheduled at convenience, but ideally we'd like to capture it sometime today around mid-day.

@@ -1,1 +1,2 @@
-"Please conduct a low priority importance, opportunistic capture, flexible schedule background survey using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance sometime today around mid-day in the region of Italy, specifically in the city of Italy."
+prompt
+Please conduct a low-priority importance, opportunistic capture of a high-resolution optical snapshot for daylight photography in the region of Italy. The task is a non-essential background filler task with a flexible schedule and can be dropped or rescheduled at convenience. We would like to complete this task sometime today around mid-day.

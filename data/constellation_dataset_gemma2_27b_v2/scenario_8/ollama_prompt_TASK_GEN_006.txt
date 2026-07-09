@@ -1,1 +1,1 @@
-This is a standard operational tasking for thermal mapping. We need a heat signature capture of a location in Indonesia, specifically in the vicinity of Indonesia. The ideal capture window is the day after tomorrow, in the morning.
+Schedule a standard operational tasking for thermal mapping of Ecuatorial, Indonesia. This is a routine monitoring task as part of our baseline pipeline tracking setup with fixed parameters. We need a clear heat signature capture sometime the day after tomorrow during the overnight hours.

@@ -1,2 +1,1 @@
-Request for a thermal mapping session to capture heat signatures and surface temperature profiles in Italia tomorrow afternoon, with a flexible schedule as it's a low priority task. This is part of our background survey efforts where timing can be adjusted at convenience. Please ensure the satellite passes over the target area during this time window for optimal data collection.
-```prompt
+Tomorrow night, we're looking to capture a heat signature overnight in Italia. This is a low priority importance task for thermal mapping; please consider dropping or rescheduling at your convenience as it serves more as background survey tracking.

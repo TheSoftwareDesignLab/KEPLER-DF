@@ -1,3 +1,1 @@
-I'd like to submit a tasking for a standard operational tasking involving a commercial satellite constellation. The focus is on capturing an active radar scan using microwave surface imaging over the region known as Norte. This mission involves cloud-penetrating capture to assess ground geometry.
-
-The task should be scheduled for the day after tomorrow, specifically during the afternoon. It's part of our baseline pipeline tracking and follows fixed parameters for routine monitoring operations. Please ensure this is aligned with our normal operational status and workflow update requirements.
+I need to schedule a standard operational tasking for a cloud-penetrating capture using an active radar scan in the city of Norte. This is part of our baseline pipeline tracking, with fixed parameters reflecting normal operational status. The mission should be executed around mid-day the day after tomorrow. Please ensure this aligns with our commercial tasking requirements.

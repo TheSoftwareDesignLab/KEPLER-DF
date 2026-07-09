@@ -1,7 +1,5 @@
-Good day, automated satellite constellation planner. We're looking to conduct a standard operational tasking with our medium importance request. Our objective is to capture an active radar scan using microwave surface imaging technology for cloud-penetrating capture of ground geometry. This task involves the Norte region in Brazil, which doesn't have a specific country or city designation but still falls within our geographical context.
+Good evening, satellite constellation planners. We're looking to conduct a standard operational tasking tomorrow overnight for Norte region in Brazil. Our mission involves an active radar scan using microwave surface imaging technology to capture ground geometry, which is essential for baseline pipeline tracking and maintaining fixed parameters representing normal operational status.
 
-We're aiming to execute this mission tomorrow morning, focusing on the most opportune time when conditions are optimal for radar imaging. Our priority level indicates that while this isn't an absolute institutional priority, it's still part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Given the nature of our request, we understand that this falls under the realm of standard commercial tasking and should be treated with the appropriate attention it deserves. We aim to ensure that our baseline pipeline remains on track without any interruptions or delays, as it is part of our routine monitoring efforts.
 
-Please ensure that the satellite assets are allocated accordingly and that we have a clear view of the area without any obstructions from weather or other external factors. We appreciate your attention to detail in scheduling this task within our specified time window, ensuring that it aligns with our operational needs.
-
-Thank you for your cooperation and please confirm receipt of this request.
+Please schedule this SAR mission for tomorrow overnight to capture the required data without causing any disruptions to ongoing operations. Thank you for your prompt attention to this request.

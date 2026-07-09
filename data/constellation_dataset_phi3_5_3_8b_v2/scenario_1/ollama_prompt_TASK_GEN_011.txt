@@ -1,2 +1,2 @@
-Tomorrow morning, I'd like to schedule an active radar scan using microwave surface imaging over Grottaferrata in Italy. This task is of low priority importance and can be dropped or rescheduled at my convenience. It serves as a non-essential background filler task for opportunistic capture within our regular monitoring routine.
+Tomorrow night over in Grottaferrata, Italy, I'd like to schedule a flexible SAR radar scan. This isn't urgent but could be useful for cloud-penetrating capture and ground geometry analysis. If it clashes with more pressing tasks, feel free to reschedule or let me know if you can accommodate this background survey within your workflow update.
 ```

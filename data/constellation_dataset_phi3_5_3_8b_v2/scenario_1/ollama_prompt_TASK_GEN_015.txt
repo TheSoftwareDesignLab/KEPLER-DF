@@ -1,2 +1,1 @@
-Tomorrow, I'd like to schedule a thermal mapping session over Indonesia during the afternoon. We aim to capture heat signatures across various landscapes for surface temperature profiling and potential thermal anomaly detection. This task is of low importance and can be adjusted as needed; feel free to drop or reschedule at your convenience.
-```prompt
+Tomorrow morning, I'd like to schedule a low priority importance task for thermal mapping over Indonesia. Specifically targeting this afternoon in Jakarta, could we arrange an opportunistic capture of heat signatures? Feel free to drop or reschedule at your convenience as it's not urgent but would be beneficial for our background survey objectives.

@@ -1,7 +1,7 @@
-Hello, automated satellite constellation planner. I'm reaching out to request a task for an operational priority level of Low Importance. The mission involves capturing imagery using an active radar scan with microwave surface imaging capabilities, focusing on cloud-penetrating capture and ground geometry observation.
+Good evening, satellite mission planners. I'm reaching out with a task request for an operational priority level one mission involving our active radar system, specifically designed to capture detailed ground geometry and cloud-penetrating imagery.
 
-The geographic context is centered around the picturesque region of Italia, specifically in the charming city of Sizzano. We aim to gather this data during the morning hours on the day after tomorrow, which translates to sometime today around mid-day based on our local time.
+Our focus is on a location in Sizzano, Italia, where we aim to gather essential data overnight within the next three days. This request doesn't carry an urgent deadline but rather serves as a background survey task that can be conveniently scheduled or dropped as per our operational flexibility.
 
-As for the deadline, we're looking at a flexible schedule where the task can be accommodated without disrupting our normal operational status. This is essentially part of our baseline pipeline tracking setup with fixed parameters representing standard workflow updates.
+For this mission, we're targeting thermal mapping capabilities as well, to capture heat signatures and surface temperature profiles across the area of interest. This will help us in detecting any thermal anomalies or heat emissions that might be critical for certain environmental monitoring purposes.
 
-Thank you for your attention and please let us know if any additional information is needed to ensure this mission's successful execution.
+Please ensure that the satellite constellation is prepared to accommodate these requirements efficiently. We appreciate your understanding and flexibility with scheduling this task. Thank you for your attention, and we look forward to receiving the collected data shortly.

@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Corteno Golgi, Italia. We need cloud-penetrating capture using microwave surface imaging sometime tomorrow evening.
+Schedule a standard operational tasking for an active radar scan of Corteno Golgi, Italia. This is part of a routine monitoring workflow update with fixed parameters. We need cloud-penetrating capture sometime tomorrow morning.

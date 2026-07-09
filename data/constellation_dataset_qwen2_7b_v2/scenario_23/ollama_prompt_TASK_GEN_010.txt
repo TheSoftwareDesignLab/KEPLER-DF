@@ -1,3 +1,9 @@
-Hello satellite constellation planner, I'm requesting an operational task for a low priority importance mission. Our focus is on conducting a thermal mapping survey for the region of Colombia, specifically within the city of Maní. The primary sensor to be utilized will be the TIR sensor, aimed at capturing heat signatures and surface temperature profiles. This task is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking to execute this request sometime today around mid-day.
+Hello satellite constellation planner, I'm requesting a task to capture thermal mapping data using our TIR sensor for a location in Colombia. Specifically, we're targeting the city of Maní for this operation.
 
-This is a non-essential background filler task that can be dropped or rescheduled at convenience. Please treat it as a background survey or testbed tracking task. Thank you for your attention and cooperation in fulfilling this request.
+As this is a low priority importance request, it's important that you schedule this as a flexible background survey or testbed tracking task. We understand that there might be a need to drop or reschedule this task at your convenience if other priorities arise.
+
+Our objective here is to assess heat signatures and surface temperature profiles for the area around Maní. This will help us gather valuable information on thermal anomalies and heat emissions, which can be crucial for various applications such as urban planning, agriculture monitoring, and environmental studies.
+
+Given that we're targeting today's operation in the morning, please ensure that this task is executed during a clear period of daylight to maximize the quality of our data. We appreciate your understanding and cooperation in managing this task within your operational schedule.
+
+Thank you for your attention and support. We look forward to receiving the results of this thermal mapping operation soon.

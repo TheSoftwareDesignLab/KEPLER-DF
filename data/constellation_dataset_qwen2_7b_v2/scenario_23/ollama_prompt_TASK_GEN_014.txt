@@ -1,8 +1,1 @@
-Good day to all our satellite operators and mission planners. I'm requesting a standard operational tasking for today, specifically during the afternoon hours. Our attention is on a beautiful location in France, Corte, which is nestled in the heart of the Corsican mountains. We're focusing on thermal mapping using our thermal infrared sensor (TIR) to capture a heat signature and surface temperature profile of this picturesque region. This task is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters. It's a standard workflow update for us.
-
-Given its importance, we're treating this as a medium priority mission allocation. It's not an urgent operational execution but rather a critical part of our routine monitoring efforts. We'll ensure that this task is completed within the designated time frame, without any need for preemption or rescheduling. This request comes with no exceptional deadlines and can be accommodated within our flexible schedule.
-
-Thank you for your attention to this matter. We appreciate your cooperation in making sure that this task is executed smoothly and efficiently. For any further details or if there are any questions about the specifics of this request, please feel free to reach out directly. Let's make this afternoon a productive one for our satellite constellation planning team.
-
-Best regards,
-[Your Name]
+Good morning, satellite constellation planners. We're looking to capture a thermal mapping of Corte, France, today in the morning. This is a standard operational tasking for our baseline pipeline tracking setup with fixed parameters representing normal operational status. The thermal mapping will help us assess surface temperature profiles and detect any thermal anomalies. We aim to get this done by lunchtime today. Thank you.

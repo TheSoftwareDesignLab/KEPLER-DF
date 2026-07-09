@@ -87,6 +87,7 @@ def _vectorized_pass_finder(
             difference = sat_object - topo_target
             alt, az, dist = difference.at(t_ev).altaz()
             current_pass["max_el_deg"] = float(alt.degrees)
+            current_pass["range_tmax_km"] = float(dist.km)  
         elif y_ev == 2 and "t_aos_obj" in current_pass:
             current_pass["t_los_obj"] = t_ev
             current_pass["los_dt"] = t_ev.utc_datetime().replace(tzinfo=None)
@@ -106,6 +107,7 @@ def _vectorized_pass_finder(
                     current_pass["max_el_deg"] = float(min_el_deg)
                     current_pass["t_max_obj"] = t_ev
                     current_pass["tmax_dt"] = current_pass["aos_dt"]
+                    current_pass["range_tmax_km"] = float(dist_aos.km)
                 discovered_passes.append(current_pass.copy())
             current_pass = {}
             
@@ -145,10 +147,10 @@ def compute_infrastructure_passes(
     tx_rate = satellite.downlink_rate_mb_s if satellite.downlink_rate_mb_s is not None else 10.0
 
     for p in raw_passes:
-        distance_at_aos = p["range_aos_km"]
+        distance_at_tmax = p.get("range_tmax_km", p["range_aos_km"])
         
-        if distance_at_aos > max_slant_range_km:
-            print(f"  [DISCARD SLANT RANGE] Real distance at AOS {distance_at_aos:.1f} km exceeds max threshold {max_slant_range_km} km")
+        if distance_at_tmax > max_slant_range_km:
+            print(f"  [DISCARD SLANT RANGE] Closest distance at culmination {distance_at_tmax:.1f} km exceeds max threshold {max_slant_range_km} km")
             continue
 
         max_downlink_capacity_mb = float(p["duration_s"] * tx_rate)

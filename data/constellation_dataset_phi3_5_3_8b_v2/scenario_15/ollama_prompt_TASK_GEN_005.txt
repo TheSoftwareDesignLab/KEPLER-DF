@@ -1,1 +1,2 @@
-Tomorrow evening, I'd like to capture a high-resolution optical snapshot of Olmo al Brembo in Italy for true-color visual documentation. This is a low priority importance task with a flexible schedule; please drop or reschedule at your convenience as it can be considered background filler.
+Tomorrow morning, I'd like to set up a low priority importance task for an opportunistic capture. We need a high-resolution optical snapshot of Olmo al Brembo in Italy during the daytime. Feel free to drop or reschedule this background survey as it's not urgent but could provide valuable visual documentation if conditions permit.
+```prompt

@@ -1,7 +1,1 @@
-Tasking Request: Routine Monitoring for Vegetation Analysis
-
-We require a standard operational tasking for baseline pipeline tracking, specifically focusing on a commercial tasking involving routine monitoring. The objective is to capture a high-resolution multispectral vegetation analysis of the area around Arsiero, Italia, using a VNIR sensor to assess chlorophyll absorption levels and calculate the NDVI index.
-
-This task should be executed as part of a normal operational status workflow update, with fixed parameters representing standard operational conditions. The target timeframe for this tasking is sometime in three days, specifically during the evening hours.
-
-Please ensure that this task is allocated according to standard operational protocols and contractual agreements.
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This involves a multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance over the region of Italia, specifically in the area around the city of Arsiero. The mission allocation priority for this tasking is moderate, and we need it to be executed within the next four days, targeting the evening period. Please allocate our assets accordingly.

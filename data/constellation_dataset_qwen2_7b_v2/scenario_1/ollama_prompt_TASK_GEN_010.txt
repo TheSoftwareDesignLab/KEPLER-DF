@@ -1,7 +1,1 @@
-Good day to our satellite constellation planners, we're looking at a low priority importance task that involves capturing the chlorophyll absorption level of vegetation in El Castillo, Colombia. This is part of a background survey for opportunistic capture, with no strict deadlines and flexible scheduling. The mission allocation authority is treating this as a non-essential background filler task.
-
-The primary sensor we're utilizing here is VNIR, which will provide us with multispectral vegetation analysis data. We aim to assess the health and condition of the plants by calculating the vegetation NDVI index and surface reflectance.
-
-The operation will take place on the target day, which is in three days from now, during the morning hours. There's no need for precision timing; we're looking for an early morning window when conditions are favorable for clear optical imagery.
-
-Thank you for your attention to this task. We appreciate your flexibility and understanding regarding scheduling adjustments as needed.
+Hello from the satellite constellation control center! We're setting up a low-priority task for tomorrow night, focusing on Colombia's El Castillo region using our VNIR sensor. Our goal is to conduct a flexible, opportunistic survey that helps us assess chlorophyll absorption levels and surface reflectance. We aim to capture essential data without strict deadlines or rigid schedules, allowing us to drop or reschedule this task as needed. This background survey will contribute to our ongoing efforts in environmental monitoring and natural resource assessment. Stay tuned for more updates from the mission control team!

@@ -1,5 +1,9 @@
-Good evening, satellite constellation planners. We're looking to capture a thermal mapping of Crespino, Italia, for an absolutely institutional priority task. Given its critical payload capture nature, we're treating this as a binding contract requirement. The mission needs to be executed with utmost urgency and cannot be preempted.
+Good morning, mission planners. I'm requesting an urgent tasking for tomorrow around mid-day over Crespino, Italia. The priority is high importance, so this needs immediate attention. We're focusing on thermal mapping using our TIR sensor for a heat signature capture and surface temperature profile.
 
-We're targeting the evening tomorrow, which gives us ample time to ensure optimal conditions for our TIR sensor. Our primary objective is to gather surface temperature profiles and detect any thermal anomalies that might indicate heat emissions. This task is of the highest importance and requires a highly accurate thermal mapping.
+We're looking to acquire detailed thermal data that can help us detect any thermal anomalies or heat emissions in the area. This task involves capturing high-resolution optical snapshots as well, to have a clear visual documentation of the region during daylight hours.
 
-As for the satellite's deployment, please aim for an overnight capture if possible, ensuring we have enough data to analyze the heat signatures effectively. We're looking forward to receiving the results by tomorrow evening at the latest. Thank you for your immediate attention and cooperation in this matter.
+Considering this is a critical payload capture under a binding contract requirement, we need to ensure that there are no preemptions and that our satellite assets are locked onto this mission. We're treating this as an absolute institutional priority, so please allocate the necessary resources for this task without delay.
+
+With regards to timing, we have a clear window tomorrow morning until mid-day. Please plan accordingly and make sure our satellite is in position to capture the data efficiently. We appreciate your quick response and look forward to receiving the data promptly.
+
+Thank you for your attention to this matter.

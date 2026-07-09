@@ -1,1 +1,1 @@
-This is a standard operational tasking for an active radar scan of Italia. We need a cloud-penetrating capture using microwave surface imaging sometime the day after tomorrow in the evening.
+Schedule a standard operational tasking for an active radar scan of Norte using microwave surface imaging. This is part of our routine monitoring and baseline pipeline tracking setup with fixed parameters. We need this capture sometime the day after tomorrow in the morning.

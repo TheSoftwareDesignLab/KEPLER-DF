@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for multispectral vegetation analysis over Italia. I need a high-resolution snapshot to assess chlorophyll absorption levels and calculate the vegetation NDVI index sometime in three days during the morning.
+This is a standard operational tasking for multispectral vegetation analysis in Norte. We need a high-resolution VNIR scan sometime in three days during the overnight hours.

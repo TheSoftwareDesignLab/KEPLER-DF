@@ -1,3 +1,7 @@
-Good evening, satellite constellation planners. I'm reaching out regarding an observation task for a region of great interest in Colombia, specifically focusing on Puerto López. Our request is for a high-resolution optical snapshot taken during the daylight photography period to capture clear optical imagery and true-color visual documentation of the area. This low priority importance task doesn't have a strict deadline; we're looking to schedule it at our convenience. We aim to gather essential data without any urgency, treating it as an opportunistic background survey or testbed tracking task. Please note that our primary sensor requirement is VIS for this operation.
+Good day to all our satellite operators and mission managers. I'm reaching out with a task request for tomorrow afternoon in Puerto López, Colombia. Our objective is to capture a high-resolution optical snapshot of the area using our visible light sensor. We aim to document daylight photography, clear optical imagery, and true-color visual documentation to provide us with detailed information about the region's landscape and features.
 
-Thank you for your attention and please let us know if there are any questions or further details needed for this request.
+This request falls under the category of a low priority importance task, which means we're looking for an opportunistically scheduled capture that can be accommodated based on operational convenience. We're treating this as a background survey or testbed tracking task that doesn't require immediate attention but contributes to our ongoing monitoring efforts.
+
+Please ensure that this task is scheduled in your pipeline with the flexibility of timing, allowing us to drop or reschedule it according to your operational schedule. We appreciate your understanding and cooperation in managing this request effectively.
+
+Thank you for your attention and assistance.

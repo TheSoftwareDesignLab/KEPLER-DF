@@ -1,12 +1,5 @@
-Good day to all our satellite operators and mission planners out there. I'm reaching out from a beautiful coastal town in Italy, specifically Porto Recanati, where we're looking to capture some essential data for our ongoing research project.
+Hello satellite constellation planner, my name is Earth Observer and I'm requesting a task for a low priority importance mission. The objective involves capturing a multispectral vegetation analysis using VNIR sensors to assess chlorophyll absorption levels and calculate the NDVI index over the beautiful region of Italia, specifically in the city of Porto Recanati. This task is part of our background survey activities.
 
-We're aiming to conduct a VNIR scan of this area tomorrow night, as it's crucial for our understanding of the local vegetation health and biodiversity. The goal is to assess the chlorophyll absorption levels and calculate the NDVI index to better understand how different species are coping with their environment. This is part of a flexible background survey task that we're treating as a low priority importance request.
+We aim to capture this data sometime today around mid-day, as we understand that it's a flexible schedule for opportunistic capture. Our deadline is not strictly defined but should be completed within the next few days. We appreciate your flexibility in scheduling this task and any inconvenience caused by its lower priority status.
 
-We have allocated this mission under the 'non-essential background filler task' category, which means that if there's any inconvenience or if you need to reschedule or drop this task at your convenience, please do so without hesitation. We understand that it's not a critical payload capture or a mandatory directive, but rather a standard operational tasking as part of our baseline pipeline tracking setup.
-
-The parameters for this scan are fixed, representing normal operational status and a routine monitoring activity within our workflow update cycle. We're looking to capture the data overnight in order to avoid interference from sunlight and ensure that we get the most accurate results possible.
-
-Thank you for your attention and cooperation. Let's make sure we capture this data efficiently, ensuring it contributes to our understanding of local ecosystems without causing any unnecessary disruption to your regular operations.
-
-Best regards,
-[Your Name]
+Thank you for your attention and cooperation.

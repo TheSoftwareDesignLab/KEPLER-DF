@@ -1,12 +1,7 @@
-Good evening, satellite constellation planners. We're looking to capture a thermal signature of Norte's landscape for an urgent operational execution related to a critical payload capture. Specifically, we need to assess surface temperature profiles and detect any thermal anomalies that might indicate significant heat emissions overnight the day after tomorrow. This task carries high importance as part of a binding contract requirement, involving an absolute institutional priority.
+Good morning, mission planners. I'm looking to capture a thermal mapping of Norte city for an absolute institutional priority task. The region is experiencing unusual heat patterns that require immediate attention and detailed analysis. Our primary sensor will be the TIR, allowing us to detect surface temperature profiles and thermal anomalies with high precision.
 
-We're requesting an active radar scan using microwave surface imaging capabilities to penetrate heavy weather conditions and capture ground geometry accurately. This is essential for cloud-penetrating capture, ensuring we gather comprehensive data on the region's thermal dynamics without interference from atmospheric conditions.
+Our target day is the day after tomorrow, during the afternoon. This is a critical payload capture that involves a mandatory directive from our client, indicating an urgent operational execution that cannot be preempted or delayed. We need to ensure that this task is at the top of our baseline pipeline tracking setup and executed with fixed parameters representing normal operational status.
 
-As this mission allocation carries high importance, please ensure it receives priority attention in your scheduling. We appreciate your understanding that this task involves a standard operational setup with fixed parameters representing normal operational status. However, given its critical nature, we emphasize the need for an urgent operational execution and request that this mission be placed un-preemptably within your pipeline tracking setup.
+Please allocate assets accordingly for this high priority mission. Any delays could compromise the integrity of the data we're collecting. It's a binding contract requirement, so please treat this as an urgent operation. We appreciate your cooperation in ensuring this task is completed on time.
 
-We're flexible regarding timing, as this is classified as a low priority importance request. We understand that it might be treated as a background survey or testbed tracking task with a flexible schedule. Please note that we can drop or reschedule this task at convenience if necessary. 
-
-Thank you for your attention to this matter. We look forward to receiving the requested data promptly and are available for further communication should you have any questions or require additional details.
-
-Best regards,
-[Your Name]
+Thank you for your attention to this matter.

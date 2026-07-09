@@ -1,1 +1,10 @@
-Good morning from Norte! We're looking to capture a thermal map of our region tomorrow around mid-day. As this is a low priority task, we understand if it doesn't fit into your schedule immediately but would appreciate it if you could schedule it sometime during the day. Our goal here is to assess heat emissions and surface temperatures for potential anomalies. This will serve as a background survey to help us better understand our local environment. Thank you for your consideration and flexibility.
+Good morning, satellite constellation planners. I'm reaching out with a request for an observation task that falls under our low priority importance category. We're looking to conduct a thermal mapping operation using our TIR sensor, focusing on a specific area named Norte in the region. The geographical context is straightforward; we're not specifying a country or city due to them being N/A.
+
+The operational objective here is straightforward: we aim to capture heat signatures and surface temperature profiles for this area. We're interested in identifying any thermal anomalies and mapping heat emissions accurately. This task is part of our background survey work, essentially a testbed tracking task that doesn't require immediate attention.
+
+Our timing constraint is set for the day after tomorrow during the morning hours. We're not looking for precision beyond that; just aim to complete this task sometime around mid-day. The remaining time frame is flexible, as this is a non-essential background filler task that can be scheduled conveniently.
+
+Thank you for your understanding and cooperation in fulfilling this request. We appreciate your support in ensuring our satellite constellation remains operational and responsive to our diverse needs.
+
+Best regards,
+[Your Name]

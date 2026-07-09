@@ -1,1 +1,5 @@
-We require a standard operational tasking for commercial tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a routine monitoring part of our workflow update, focusing on multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance in Mulya Bakti, Indonesia, sometime in three days during the evening.
+Tasking Request: Routine Monitoring of Indonesian Water Bodies
+
+We require a standard operational tasking for routine monitoring of water bodies in Indonesia, utilizing near-infrared reflection for water body boundary mapping and soil moisture assessment. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The mission allocation authority has designated this as a standard operational tasking, and we expect the satellite to capture high-quality data sometime today around mid-day. The location details indicate that we are focusing on the Mulya Bakti area in Indonesia. Please ensure that the satellite captures clear optical imagery for true-color visual documentation.

@@ -1,2 +1,2 @@
-Request Earth Observation Mission Planner: We're scheduling a low priority importance task for thermal mapping over Hrvatska, specifically targeting Primorsko-goranska županija. The aim is to capture the heat signature and surface temperature profile tomorrow morning around mid-day. This will serve as an opportunistic filler task where we can drop or reschedule at our convenience; it's not urgent but could provide valuable data for thermal anomaly detection in that region.
-```prompt
+Request Earth-observation mission planner, please schedule a thermal mapping session over Primorsko-goranska županija in Hrvatska for an opportunity to capture heat signatures during the night tomorrow. This is not urgent but would be beneficial for detecting any potential thermal anomalies. Feel free to adjust this task according to current resource availability and other ongoing missions.
+```

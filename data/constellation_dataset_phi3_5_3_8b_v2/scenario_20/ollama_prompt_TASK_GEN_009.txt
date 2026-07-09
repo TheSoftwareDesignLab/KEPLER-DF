@@ -1,1 +1,2 @@
-Tomorrow evening, Pelompek in Indonesia is scheduled for a standard operational tasking. We need to conduct multispectral vegetation analysis there using high-resolution optical snapshot capabilities for daylight photography. Please ensure this routine monitoring fits into our baseline pipeline tracking with fixed parameters representing normal operational status.
+Tomorrow, I need a standard operational tasking for Pelompek in Indonesia. Please set up routine monitoring with multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index around mid-day. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Ensure this aligns smoothly within tomorrow's workflow update.
+...

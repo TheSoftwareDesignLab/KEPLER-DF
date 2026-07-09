@@ -1,7 +1,1 @@
-Good evening from Norte, Earth Observation Mission Control. We're looking to capture a high-resolution optical snapshot of our region for true-color visual documentation. As this is a low priority importance request, we're treating it as a flexible schedule background survey task. We aim to gather this imagery sometime today around mid-day, allowing us to capture clear daylight photography without any rush.
-
-Norte, you've been tagged for an opportunistic capture of your area's surface temperature profile and heat emissions. Our VIS sensor will be scanning the region to identify thermal anomalies and map heat signatures across the landscape. We're not in a hurry for this task; please schedule it as per your convenience.
-
-We'll be tracking this as a non-essential background filler task, keeping an eye on Norte's environmental conditions without disrupting any critical payload capture operations. Our satellite constellation is ready to observe your region overnight in four days during the evening, ensuring we capture all necessary data for our baseline pipeline tracking setup.
-
-Thank you for your attention to this request, Norte. We appreciate your cooperation as always.
+Good evening from Norte, folks. We're looking to capture a high-resolution optical snapshot of our region tomorrow evening for a daylight photography mission. This is a low priority importance task with a flexible schedule. We're not in a rush, so feel free to drop or reschedule at your convenience. We're just doing an opportunistic survey here, nothing too critical. Stay tuned and keep your eyes on the sky.

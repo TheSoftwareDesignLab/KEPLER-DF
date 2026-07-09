@@ -158,7 +158,6 @@ def prompt_factory_main(
                 hour_tag = "in the evening"
             else:
                 hour_tag = "overnight"
-            # --------------------------------------------------
 
             expected_day = day_mapping_to_category[day_tag]
             expected_hour = hour_mapping_to_category[hour_tag]

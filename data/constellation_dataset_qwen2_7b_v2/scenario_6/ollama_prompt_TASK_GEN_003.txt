@@ -1,8 +1,12 @@
-Good morning, mission planners. We're looking to capture a thermal mapping of the region in Indonesia, specifically focusing on Malinau. The task involves monitoring heat signatures and surface temperature profiles for potential anomalies overnight, which will help us understand heat emissions in the area.
+Hello Satellite Constellation Planner,
 
-As this is a low priority importance request, we're flexible with scheduling. It's important that we gather this data during our target day, which is the day after tomorrow, specifically overnight. We appreciate your cooperation in accommodating this task within your operational schedule.
+I'm reaching out from our Earth-observation mission team to request a task for capturing thermal data in Indonesia, specifically focusing on Malinau region. Our objective is to gather detailed information about heat signatures and surface temperature profiles across the area. This task falls under our low priority importance category, as it's part of our ongoing background survey activities.
 
-Thank you for your attention to this background survey task. We understand it may not be an urgent mission, but it provides valuable information for our ongoing research and monitoring activities. If there are any issues with scheduling or if you need more details, please feel free to reach out. 
+Given the nature of our request, we're aiming to perform this mission sometime during the day after tomorrow, specifically in the evening when conditions are most favorable for thermal mapping. We understand that this might involve scheduling adjustments or rescheduling at your convenience, as it's not an urgent requirement.
+
+We appreciate your flexibility and cooperation in accommodating this task within your operational pipeline. Our primary sensor for this operation will be our TIR (Thermal Infrared) equipment, which is perfectly suited for capturing thermal anomalies and mapping heat emissions without being affected by cloud cover or weather conditions.
+
+Thank you for your attention to this matter. We look forward to your confirmation and the successful execution of this task.
 
 Best regards,
 [Your Name]

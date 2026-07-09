@@ -1,11 +1,7 @@
-Good day to all satellite operators and mission control staff. We're looking at an operational task that needs to be allocated to our automated satellite constellation planner. The request involves a medium importance mission, which is part of our standard pipeline tracking setup.
+Hello automated satellite constellation planner, I'm reaching out from our mission control to request a standard operational tasking for an upcoming VNIR sensor observation. We're focusing on a region in Italy, specifically near the city of Norte, aiming to capture high-resolution optical imagery during the morning hours three days from now. This is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters. We're looking for clear daylight photography to document the landscape accurately and assess vegetation health through chlorophyll absorption levels or calculate the NDVI index for surface reflectance.
 
-Our primary sensor for this mission is the VNIR (Visible Near-Infrared), aimed at conducting a detailed multispectral vegetation analysis in the region of Italia, specifically in the city of Norte. We're interested in capturing the chlorophyll absorption level and calculating the NDVI index to assess surface reflectance over the area.
+Please note that this task holds medium importance, so we appreciate your attention to ensure timely execution within our standard workflow update schedule. If there are any delays or issues with scheduling, please consider it as a flexible request, where we can drop or reschedule at convenience without impacting our critical operations. Thank you for your cooperation and understanding in fulfilling this background survey task.
 
-The geographic context here is quite straightforward: we're focusing on a specific location within the region where our satellite will capture high-resolution optical snapshots for daylight photography, clear optical imagery, and true-color visual documentation. We're not dealing with any specific landmarks or detailed coordinates but rather looking at the broader area encompassing Norte city.
-
-As for timing, we have a remaining timeframe that's quite flexible, with no strict deadline in sight. The request should be executed within the next three days, ideally around mid-day when conditions are optimal for our VNIR sensor to capture the best possible data.
-
-This task falls under standard operational tasks and represents a commercial tasking part of our baseline pipeline tracking setup. It involves fixed parameters that represent normal operational status or a routine monitoring activity. We're looking at this as a task with 'medium importance', meaning it's essential but doesn't require immediate attention or urgent execution.
-
-Please ensure that the satellite is allocated accordingly, taking into account the priority level and timeframe provided. Thank you for your attention to detail and swift execution of this mission.
+Best regards,
+[Your Name]
+Earth-observation mission operator
