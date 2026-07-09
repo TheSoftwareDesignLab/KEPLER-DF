@@ -25,9 +25,7 @@ def _discover_and_parse_metrics(data_root_str: str = "data") -> Dict[str, Dict[s
     print(f"[DEBUG] Final path used for scanning: {root_path.resolve()} (Exists: {root_path.exists()})")
 
     for const_dir in root_path.glob("constellation_*"):
-        if not const_dir.is_dir() or const_dir.name == "constellation_dataset_gemma2_27b_v2":
-            print(f"[DEBUG] Skipping or ignoring directory: {const_dir.name}")
-            continue
+
 
         model_name = const_dir.name
         print(f"[DEBUG] Processing constellation folder: {model_name}")
@@ -93,14 +91,15 @@ def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "uti
         processed_averages[model].append(np.mean(m_data["priority"]) if m_data["priority"] else 0.0)
 
     x = np.arange(len(categories))
-    width = 0.22 if len(models) > 1 else 0.4
-    multiplier = 0
+    
+    n_models = len(models)
+    width = 0.15 if n_models > 1 else 0.4
 
-    fig, ax = plt.subplots(figsize=(10, 6), dpi=150)
+    fig, ax = plt.subplots(figsize=(11, 6), dpi=150)
     colors = ["#2e86c1", "#27ae60", "#e67e22", "#9b59b6", "#e74c3c"]
 
     for i, model in enumerate(models):
-        offset = width * multiplier
+        offset = (i - (n_models - 1) / 2.0) * width
         averages_pct = [val * 100.0 for val in processed_averages[model]]
         
         rects = ax.bar(
@@ -112,14 +111,13 @@ def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "uti
             edgecolor="black",
             linewidth=0.8
         )
-        ax.bar_label(rects, padding=4, fmt="%.1f%%", fontsize=9, fontweight="bold")
-        multiplier += 1
+        ax.bar_label(rects, padding=4, fmt="%.1f%%", fontsize=8.5, fontweight="bold")
 
     ax.set_ylabel("Semantic Matching Accuracy (%)", fontsize=11, fontweight="bold")
     ax.set_title("KEPLER Dataset Factory - LLM Semantic Generation Accuracy by Category", fontsize=13, fontweight="bold", pad=15)
     
-    center_offset = (width * (len(models) - 1)) / 2.0 if len(models) > 1 else 0.0
-    ax.set_xticks(x + center_offset)
+
+    ax.set_xticks(x)
     ax.set_xticklabels(categories, fontsize=11, fontweight="bold")
     
     ax.set_ylim(0, 110)

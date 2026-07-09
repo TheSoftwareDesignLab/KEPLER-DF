@@ -34,9 +34,9 @@ def _interpolate_orbit_points(s_lat: float, s_lon: float, e_lat: float, e_lon: f
 
 
 def generate_kepler_kml(
-    scenario_report_path: str = "data/constellation_dataset_llama3_1_8b_v2/scenario_1/scenario_report.json",
-    physics_report_path: str = "data/constellation_dataset_llama3_1_8b_v2/scenario_1/physics_passes_report.json",
-    output_kml_path: str = "utilities/output/kepler_simulation.kml",
+    scenario_report_path: str = "data/constellation_dataset_qwen2_7b_v2/scenario_1/scenario_report.json",
+    physics_report_path: str = "data/constellation_dataset_qwen2_7b_v2/scenario_1/physics_passes_report.json",
+    output_kml_path: str = "utilities/output/kepler_simulation1.kml",
     selected_satellite_id: Optional[int] = None
 ) -> None:
     scenario_path = _resolve_path(scenario_report_path)
@@ -150,7 +150,7 @@ def generate_kepler_kml(
     for tgt in targets:
         task_id = tgt.get("task_id", "Unknown")
         region_tag = tgt.get("region_tag", task_id)
-        task_type = tgt.get("task_type", "point")
+        task_type = tgt.get("task_type", "polygon")
         coords = tgt.get("coordinates", [])
 
         if not coords:
@@ -171,26 +171,31 @@ def generate_kepler_kml(
             c_lat = sum(raw_lats) / len(raw_lats)
             c_lon = sum(raw_lons) / len(raw_lons)
 
+            # CORRECCIÓN: Separamos el marcador de texto del polígono físico en dos Placemarks independientes
+            # para forzar a Google Earth a renderizar el ícono central en verde brillante y evitar el bug del pin azul.
             kml_lines.extend([
                 '    <Placemark>',
                 f'      <name>{task_id}</name>',
+                f'      <description>Region Tag: {region_tag} (Polygon Centroid)</description>',
+                '      <styleUrl>#target_point_style</styleUrl>',
+                '      <Point>',
+                '        <altitudeMode>clampToGround</altitudeMode>',
+                f'        <coordinates>{c_lon},{c_lat},0</coordinates>',
+                '      </Point>',
+                '    </Placemark>',
+                '    <Placemark>',
+                f'      <name>{task_id} Boundary</name>',
                 f'      <description>Region Tag: {region_tag} (Polygon Area Bound)</description>',
                 '      <styleUrl>#generation_bounding_box_style</styleUrl>',
-                '      <MultiGeometry>',
-                '        <Point>',
-                '          <altitudeMode>clampToGround</altitudeMode>',
-                f'          <coordinates>{c_lon},{c_lat},0</coordinates>',
-                '        </Point>',
-                '        <Polygon>',
-                '          <tessellate>1</tessellate>',
-                '          <altitudeMode>clampToGround</altitudeMode>',
-                '          <outerBoundaryIs>',
+                '      <Polygon>',
+                '        <tessellate>1</tessellate>',
+                '        <altitudeMode>clampToGround</altitudeMode>',
+                '        <outerBoundaryIs>',
                 '            <LinearRing>',
                 f'              <coordinates>{coord_block}</coordinates>',
                 '            </LinearRing>',
-                '          </outerBoundaryIs>',
-                '        </Polygon>',
-                '      </MultiGeometry>',
+                '        </outerBoundaryIs>',
+                '      </Polygon>',
                 '    </Placemark>'
             ])
         else:
