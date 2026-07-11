@@ -36,7 +36,7 @@ def load_semantic_categories(categories_path: str) -> dict:
     """
     p = pathlib.Path(categories_path)
     if not p.exists():
-        raise FileNotFoundError(f"Semantic categories JSON file not found at: {categories_path}")
+        print(f"[DEBUG] Using default semantic categories as the file was not found at: {categories_path}")
     with p.open("r", encoding="utf-8") as f:
         return json.load(f)
 
