@@ -1,1 +1,1 @@
-This is a binding contract requirement for a critical payload capture. We need an active near-infrared reflection scan over Malinau, Indonesia, sometime the day after tomorrow in the morning. The objective is to map water body boundaries and assess soil moisture gradients in the region.
+This is a binding contract requirement for a critical payload capture over Malinau, Indonesia. I need a near-infrared reflection scan of the area to assess soil moisture and map water body boundaries. This data is needed by the day after tomorrow in the morning at the latest.

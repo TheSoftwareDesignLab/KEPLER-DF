@@ -1,1 +1,1 @@
-This is a binding contract requirement for a critical payload capture. We need an active radar scan using microwave surface imaging over Bukit Mabong, Malaysia, tomorrow evening. This is an absolute institutional priority and requires an un-preemptable mission lock.
+This is an absolute institutional priority tasking. We require a critical payload capture of Bukit Mabong, Malaysia using active radar scan for cloud-penetrating capture. The data products are needed by tomorrow overnight at the latest.

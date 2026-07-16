@@ -1,1 +1,3 @@
-Tomorrow afternoon, we're looking to conduct a thermal mapping over Banyuasin in Indonesia. This is part of our routine monitoring, aiming for high-resolution optical snapshot capture during the daylight hours specifically around noon. Please proceed with this standard operational tasking as it forms an essential component of our baseline pipeline tracking.
+Request for a TIR thermal mapping of Banyuasin, Indonesia, with an absolute institutional priority to capture surface temperature profiles and heat signatures. This standard operational tasking is essential for understanding the local heating patterns and must be completed by tomorrow's mid-day deadline as part of our routine monitoring efforts.
+```prompt
+...your text here...

@@ -1,1 +1,8 @@
-I'd like to submit a low-priority task for an Earth-observation mission to capture a high-resolution optical snapshot over Puerto López, Colombia. The focus is on obtaining clear optical imagery during daylight photography. This is a flexible schedule request where we can drop or reschedule at convenience, treating it as a background survey. Ideally, this should be captured tomorrow during the afternoon.
+Hello,
+
+I have a low-priority task that I'd like to submit for your consideration. It's a flexible schedule request, and we can drop or reschedule it at your convenience. We're looking to conduct a background survey of Puerto López in Colombia, focusing on capturing a high-resolution optical snapshot during daylight photography. This will provide clear optical imagery and true-color visual documentation of the area.
+
+Please note that this is a non-essential background filler task, so there's no rush. However, we'd appreciate if the data products could be delivered by tomorrow afternoon at the latest. Thank you for accommodating this request in your workflow.
+
+Best regards,
+[Your Name]

@@ -1,1 +1,1 @@
-This is a low priority importance request for an opportunistic capture. We need a microwave surface imaging scan of Ecuatorial, Indonesia sometime in three days during the morning.
+This is a low priority importance request for an opportunistic capture. Please schedule a microwave surface imaging scan over Ecuatorial, Indonesia. I need this data ingested into the pipeline before in three days in the morning at the latest.  Feel free to drop or reschedule this task at your convenience.

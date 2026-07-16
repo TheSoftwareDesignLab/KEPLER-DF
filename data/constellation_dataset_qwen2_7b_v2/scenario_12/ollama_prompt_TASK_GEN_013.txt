@@ -1,5 +1,15 @@
-Good evening, satellite constellation planners. I'm reaching out to request a task for an observational mission in Colombia, specifically focusing on the city of Cantagallo. The objective is to capture a high-resolution optical snapshot of the region using our primary sensor, which will serve as a true-color visual documentation of the area during daylight hours. This task is classified as a low priority importance request and carries a flexible schedule for opportunistic capture.
+Hello Satellite Constellation Planner,
 
-I kindly ask that you treat this as a background survey or testbed tracking task and accommodate it within your operational pipeline at your earliest convenience. Our deadline for this task is set for the day after tomorrow, specifically overnight. We aim to ensure that our satellite captures the essence of Cantagallo's landscape during the evening hours when conditions are most favorable for clear optical imagery.
+I'm reaching out to request a task for an Earth observation mission that will capture high-resolution optical imagery of Cantagallo, Colombia. Given its importance, this task is classified as having low priority importance, meaning it can be dropped or rescheduled at convenience and is treated as a background survey.
 
-Thank you for your attention and cooperation in fulfilling this request. We appreciate your understanding of our operational guidelines and look forward to your timely response.
+Our primary sensor requirement is VIS (visual imaging), which we aim to use for daylight photography, clear optical imagery, and true-color visual documentation of the area. This mission is not time-sensitive; however, there's a strict deadline for data availability, which is needed by the day after tomorrow overnight.
+
+The operational context is as follows: Cantagallo, Colombia, is our geographical focus. The priority level is set to low importance, indicating that this request falls under the category of non-essential background filler tasks with flexible scheduling requirements. Our main objective is to obtain a snapshot of the region using VIS technology, capturing its beauty and providing valuable data for potential future analysis.
+
+Please ensure that the products are ingested into our pipeline before the deadline set for the day after tomorrow overnight. If there are any questions or if you need further clarification, please don't hesitate to reach out.
+
+Thank you for your attention to this task.
+
+Best regards,
+
+[Your Name]

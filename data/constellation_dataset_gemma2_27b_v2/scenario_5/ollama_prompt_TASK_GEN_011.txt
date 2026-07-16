@@ -1,1 +1,1 @@
-This is a standard operational tasking for near-infrared reflection capture over Northern Italy, specifically around the city of Norte. We need this sometime tomorrow evening to map water boundaries and assess soil moisture gradients in the region.
+This is a standard operational tasking for near-infrared reflection capture over the region of Norte, Italia. We need this data for water body boundary mapping and soil moisture assessment, ensuring the products are ingested into the pipeline before tomorrow evening at the latest.

@@ -1,7 +1,5 @@
-Good morning from the control center. We're looking to capture thermal mapping data overnight on the day after tomorrow for a location in Ecuatorial, Malaysia. This is a low priority importance task with flexible scheduling, so we can drop or reschedule it at convenience if needed.
+We're tasked with capturing a thermal mapping of Malaysia, specifically focusing on the equatorial region, using our thermal infrared sensor. Our primary objective is to identify heat signatures and surface temperature profiles for potential thermal anomalies that could indicate industrial activity or environmental changes. This task falls under a low priority importance request.
 
-Our primary sensor will be a TIR camera, aimed to provide us with a heat signature of the area. We're interested in mapping out any thermal anomalies and capturing surface temperature profiles. Keep an eye on the local weather conditions as this task requires clear visibility for accurate data collection.
+Given the operational guidelines, we'll ensure this task is treated as a "non-essential background filler task" with a flexible schedule for opportunistic capture. We aim to deliver the data products needed by the day after tomorrow, overnight at the latest, adhering strictly to our deadline set for ingestion into the pipeline before that time.
 
-Expectations are for this background survey to help us better understand the heat emissions from the region without any urgency for immediate action. If you have any questions or need updates, feel free to reach out. Stay tuned and keep monitoring our systems for any changes in the operational status.
-
-Thank you for your attention to this task. Have a great day ahead!
+Please note that this is a background survey task and may be dropped or rescheduled at your convenience if more critical tasks arise. We appreciate your understanding in this matter.

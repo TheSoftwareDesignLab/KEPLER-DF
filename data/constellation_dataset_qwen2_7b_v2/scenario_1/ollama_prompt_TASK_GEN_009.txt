@@ -1,7 +1,7 @@
-Good morning, satellite constellation planners. I'm reaching out with a task request for an operational mission involving the Indonesian region, specifically focusing on the city of Kubu Raya. Our priority level is set to low importance, which means this request can be accommodated within our flexible schedule and treated as a non-essential background filler task.
+Good day to our automated satellite constellation planner, we're looking to capture an active radar scan using microwave surface imaging for a cloud-penetrating capture of ground geometry. The mission targets the region of Indonesia, specifically the city of Kubu Raya. This task is marked as a low priority importance request with a flexible schedule, treating it as a non-essential background filler task that can be dropped or rescheduled at convenience.
 
-Our primary sensor requirement is an active radar scan using microwave surface imaging technology. The aim here is to conduct a cloud-penetrating capture of the ground geometry, providing us with detailed insights into the area's topography without being hindered by adverse weather conditions. This will be part of our standard operational tasking, contributing to baseline pipeline tracking and maintaining normal operational status.
+We're aiming to execute this "standard operational tasking" part of our baseline pipeline tracking setup with fixed parameters representing normal operational status or a standard workflow update. The request is for a thermal mapping operation to capture heat signatures and surface temperature profiles, which will help us in thermal anomaly detection and mapping heat emissions.
 
-The timing for this mission allocation falls within the next three days, specifically during the morning hours. We're looking at a target window that aligns with the local diurnal period, ensuring optimal conditions for our radar scan to capture the most accurate data possible.
+Our deadline is set for three days from now, with a strict delivery deadline set for the morning of that day. We're ensuring the products are ingested into the pipeline before then, making sure we meet this deadline without altering or extending it.
 
-Thank you for your attention, and we appreciate your cooperation in scheduling this task according to our operational guidelines. Have a great day ahead!
+Thank you for your attention to this task.

@@ -1,9 +1,7 @@
-Good day, automated satellite constellation planner. I'm reaching out to request an operational task for our Earth observation mission. Our priority level is set to low importance, indicating a flexible schedule for opportunistic capture and treating this as a non-essential background filler task.
+Good day! I'm reaching out from the Earth-observation mission control to request a task for our automated satellite constellation planner. We're focusing on an operational need in Colombia, specifically in the city of Murindó. Our primary sensor requirement is a high-resolution optical snapshot for daylight photography, aiming to capture clear and true-color visual documentation of the region.
 
-We are focusing on the region of Colombia, specifically in the city of Murindó. The main objective involves capturing high-resolution optical imagery during daylight hours using our VIS sensor. This will serve as a true-color visual documentation to assess landscape conditions and gather clear optical data for further analysis.
+Given the priority level of this task being Low Importance, we're treating it as a flexible schedule "opportunistic capture" request, which can be dropped or rescheduled at convenience. This task falls under our background survey category, serving as a testbed tracking task.
 
-The request pertains to tomorrow morning when we aim to capture this snapshot. Our target day is set three days ahead, with the diurnal period being around mid-day. The deadline for this task is flexible, allowing us to drop or reschedule at convenience if other priorities arise.
+We're looking to acquire this data by the target day, which is in three days, with a strict delivery deadline set for around mid-day. The urgency here is not related to an orbital capture window but rather the operational need to have these products ingested into our pipeline before the specified time.
 
-This task aligns with our baseline pipeline tracking setup and represents a standard operational tasking for our mission allocation. We appreciate your understanding of the nature of this request and look forward to your confirmation for this background survey or testbed tracking task.
-
-Thank you for your attention and cooperation in fulfilling our mission objectives.
+Thank you for your attention and cooperation in ensuring we meet this deadline without altering or extending it. We appreciate your support in fulfilling this request efficiently.

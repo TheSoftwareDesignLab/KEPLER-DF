@@ -1,9 +1,1 @@
-Hey there, could you set up a thermal mapping task for tomorrow morning in Banting, Malaysia? We're looking to capture heat signatures and map out any temperature anomalies. This is more of an opportunistic grab since it's not urgent, so feel free to drop or reschedule if needed. Thanks!
-```prompt
-
-This request integrates the operational guidelines provided:
-
-1. The geographic context has been translated into a conversational description without technical tags, focusing on Malaysia and Banting as the location details are available.
-2. The priority level of 1 (Low Importance) is conveyed with an informal tone suggesting flexibility in scheduling for this background task.
-3. The primary sensor objective to conduct thermal mapping has been explained using natural language, emphasizing heat signature capture and anomaly detection without technical jargon.
-4. The relative timeframe of "the day after tomorrow morning" is expressed fluidly as a human-centric temporal constraint for the task execution.
+Ensure that we complete a low priority importance task with an opportunistic capture schedule. We're aiming to obtain thermal mapping for heat signature analysis in Banting, Malaysia, specifically during tomorrow morning's overcast window. The data is needed by the day after tomorrow morning at the latest, so please consider dropping or rescheduling this task if time becomes too tight. This should serve as a background survey to help us understand local thermal anomalies and surface temperature variations within our environmental monitoring efforts.

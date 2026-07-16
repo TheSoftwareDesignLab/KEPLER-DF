@@ -1,1 +1,12 @@
-Good evening, satellite constellation planners. We've got a low priority importance task for you to handle. Our mission involves thermal mapping in the beautiful region of Italia, specifically near the city of Serravalle di Chienti. The request is to capture heat signatures and surface temperature profiles using our thermal imaging sensor. This is a non-essential background filler task that we can drop or reschedule at your convenience. We're looking for an "opportunistic capture" sometime today around mid-day, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Kindly ensure this request gets the attention it deserves within our flexible schedule, contributing to our standard workflow update. Thank you for your understanding and cooperation.
+Hello Satellite Constellation Planner,
+
+I'm reaching out with a task request for an Earth observation mission that's critical to our ongoing project. We're focusing on a location in Italia, specifically Serravalle di Chienti, where we need to capture thermal mapping data using our TIR sensor.
+
+The objective is to gather a heat signature and surface temperature profile of the area with high precision, which will help us identify any thermal anomalies or emissions. This task falls under the category of low priority importance and can be scheduled with a flexible timeline, allowing for opportunistic capture at our convenience.
+
+We're aiming to have the data products ready by the day after tomorrow, with a strict delivery deadline set for overnight. This means ensuring that all the collected data is ingested into our pipeline before the specified time to meet our operational requirements.
+
+Thank you for your attention, and we look forward to receiving the results of this background survey task.
+
+Best regards,
+[Your Name]

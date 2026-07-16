@@ -1,7 +1,5 @@
-Good evening, satellite mission coordinator. I'm reaching out to request a standard operational tasking for tomorrow evening in Colombia, specifically in the city of Simití. Our priority is medium importance, indicating that this is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Good day, automated satellite constellation planner. I'm reaching out to request a task for an operational mission that involves capturing near-infrared (NIR) data from Colombia, specifically in the city of Simití. This is a standard operational tasking that falls under our baseline pipeline tracking, with fixed parameters representing our normal operational status.
 
-Our main objective involves near-infrared reflection observations, which we aim to use for water body boundary mapping and soil moisture assessment. This will help us discriminate gradients by capturing the necessary data during the evening hours when conditions are optimal for such analysis.
+Our priority level is set at medium importance, which means this request is part of our routine monitoring activities and should be handled as such - it's not an urgent or critical payload capture but rather a standard workflow update. We aim to ensure the products are ingested into our pipeline before the strict delivery deadline set for in four days, in the evening.
 
-Please ensure that this task is scheduled as a standard operational mission, with no need for urgent action or preemption. It's important to note that this request is for background survey purposes and should be treated as a testbed tracking task, which can be accommodated within our flexible schedule.
-
-Thank you for your attention to this matter. We appreciate your coordination in fulfilling this routine monitoring requirement.
+Please note that this task carries no extended deadlines and falls under our baseline pipeline tracking setup with normal operational status. We appreciate your attention to this request and look forward to receiving the data products by their respective deadlines. Thank you for your cooperation and understanding.

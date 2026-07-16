@@ -1,5 +1,9 @@
-Good morning, satellite constellation planners. We're looking at an absolute institutional priority for tomorrow morning, focusing on a high-resolution optical snapshot from the VIS sensor over Andina, Colombia. This is a critical payload capture involving a mandatory directive that needs to be executed with urgency. The request is part of an un-preemptable mission lock, indicating that this task has high importance and must be handled with the utmost care.
+Good day to our satellite constellation planners,
 
-The region we're targeting is Andina, which is nestled within the vibrant country of Colombia. We're aiming for a daylight photography session, gathering clear optical imagery to document the area in its true colors. This will provide us with invaluable visual data that can help us understand the landscape and environmental conditions more accurately.
+Our Earth observation mission is seeking a highly prioritized task that aligns with our institutional binding contract requirements. We aim to capture a detailed and comprehensive view of Andina, Colombia, in the morning of the following day. Our objective is to secure a high-resolution optical snapshot for daylight photography, providing clear visual documentation of the region. This is an absolute necessity for our baseline pipeline tracking setup.
 
-Please ensure that this request is given the highest priority and that all necessary resources are allocated accordingly. We appreciate your understanding of the importance of this task and look forward to receiving the captured data soon. Thank you for your attention to detail and commitment to operational excellence.
+We are looking for thermal mapping capabilities as well, to capture the heat signature and surface temperature profile of Andina. This will aid us in detecting any thermal anomalies and mapping heat emissions accurately. Our priority level indicates a mandatory directive that needs to be executed with urgency and without any preemption.
+
+To ensure optimal operational efficiency, we request the data products to be ingested into our pipeline before tomorrow's overnight block. The deadline for delivery is set for the morning of the following day, as per our operational guidelines. We appreciate your attention to this critical payload capture and look forward to receiving the data promptly.
+
+Thank you for your cooperation and understanding in meeting these requirements.

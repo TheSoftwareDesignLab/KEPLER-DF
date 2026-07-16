@@ -1,3 +1,9 @@
-Good morning, satellite constellation planner. We're looking to capture a high-resolution optical snapshot of Norte city today, specifically in the morning. This is a low priority importance request, so please treat it as a flexible schedule background survey task. We understand that this might be scheduled for a convenient time or dropped if needed. The goal is to document clear daylight imagery and provide true-color visual documentation of the area.
+Good day to our satellite constellation planning team! We're looking to capture a high-resolution optical snapshot of Norte city, which is situated in an undisclosed region of our planet. This daylight photography will provide us with clear optical imagery and true-color visual documentation of the area.
 
-Thank you for your attention.
+Given the nature of this request, it's important to note that we're treating this as a low priority importance task with a flexible schedule for opportunistic capture. We understand that this might be a background survey or testbed tracking task that can be dropped or rescheduled at convenience, but we appreciate your prompt attention to this matter.
+
+Our primary sensor will be the VIS (visual imaging system), which will help us in obtaining the necessary data for our purposes. The VIS sensor is known for its capability to capture high-quality images during daylight hours and provide us with detailed information about the landscape.
+
+We're aiming to have this data ready by tomorrow morning, which means we need it no later than [target_day] [target_diurnal_period] at the latest. This deadline is crucial for ensuring that our products are ingested into the pipeline before the specified time.
+
+Thank you for your understanding and cooperation in meeting these requirements. We appreciate your quick response to this request and look forward to receiving the data as soon as possible.

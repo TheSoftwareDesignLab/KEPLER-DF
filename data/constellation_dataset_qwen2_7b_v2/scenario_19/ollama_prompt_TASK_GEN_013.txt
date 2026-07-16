@@ -1,5 +1,12 @@
-Good morning, satellite constellation planners. I'm requesting an operational task for tomorrow morning in Vista Hermosa, Colombia. The mission involves a low priority importance request with a flexible schedule for opportunistic capture. We're focusing on the low priority importance of conducting a low-resolution multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for the area.
+Good day to our satellite constellation team,
 
-The primary sensor involved will be VNIR, which aims to provide us with valuable data on surface reflectance, helping us understand the health and composition of the vegetation in Vista Hermosa. We're looking to capture this information without any strict deadlines or time constraints, treating it as a background survey task to gather data for our ongoing research.
+I'm reaching out with a task request for an Earth observation mission, focusing on Vista Hermosa, Colombia. Our primary sensor requirement is the VNIR system, which will be used for a multispectral vegetation analysis. The goal here is to assess the chlorophyll absorption level and calculate the NDVI index for the area.
 
-Thank you for your attention and cooperation in fulfilling this task request.
+We're aiming for high-resolution optical imagery that captures the essence of daylight photography and true-color visual documentation, providing us with clear optical imagery and surface reflectance data. This task falls under a low priority importance category, allowing for a flexible schedule where we can drop or reschedule at our convenience if necessary.
+
+Our deadline is set for tomorrow morning, meaning that by the latest "in the morning" of the target day, we need to ensure the products are ingested into the pipeline before this time. This request is treated as a non-essential background filler task, perfect for background surveying or testbed tracking tasks.
+
+Thank you for your attention and cooperation in delivering the data products within the specified timeframe. We appreciate your understanding of our operational constraints.
+
+Best regards,
+[Your Name]

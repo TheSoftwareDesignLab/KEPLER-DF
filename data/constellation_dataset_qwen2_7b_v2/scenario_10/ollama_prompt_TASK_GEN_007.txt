@@ -1,10 +1,18 @@
-Hello from the satellite constellation planning team! We're reaching out to request a task for an observational mission on our Earth-observation mission operator platform. Our objective is to capture thermal mapping data from the region of Colombia, specifically focusing on Apartadó city, in the evening of the day after tomorrow.
+Hello Satellite Constellation Planner,
 
-Our priority level for this task is Low Importance, which means we're looking for a flexible schedule to accommodate this as a non-essential background filler task. We're not in a rush for this mission; please consider it as an opportunistic capture that can be dropped or rescheduled at your convenience.
+I'm reaching out to request a mission allocation for an observational task that's of low priority importance, yet still requires some flexibility in scheduling. The task involves capturing thermal mapping data using our TIR sensor for a location in Colombia, specifically in Apartadó. This request is framed as a 'non-essential background filler task' where we aim to gather heat signatures and surface temperature profiles.
 
-The primary sensor involved will be our Thermal Infrared (TIR) instrument. This sensor aims to capture heat signatures and surface temperature profiles, which are essential for thermal anomaly detection and mapping heat emissions in the area.
+Given the operational guidelines, I'll be translating this raw physical simulation metadata into a highly realistic and conversational English request:
 
-Please ensure that this task is executed during the evening hours of the day after tomorrow, as it aligns with our operational guidelines for relative timeframes. We appreciate your understanding and prompt attention to this request. If you have any questions or need further clarification, please feel free to reach out anytime. Thank you!
+---
+
+On the day after tomorrow, we need an evening thermal scan of Apartadó, Colombia, using our TIR sensor for thermal mapping. This is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters. Our goal is to assess heat emissions and capture a heat signature without altering the deadline.
+
+---
+
+Please ensure that the products are ingested into the pipeline before the day after tomorrow at the latest in the evening. We're treating this as a background survey or testbed tracking task, acknowledging it's not an urgent mission but rather a routine monitoring activity.
+
+Thank you for your attention to this request.
 
 Best regards,
-The Earth-observation Mission Operator Team
+[Your Name]

@@ -1,5 +1,14 @@
-Good evening, satellite control team. I'm reaching out with a task request that falls under our low priority importance category, which we're treating as a flexible schedule "background survey" or "testbed tracking task". Our mission is focused on thermal mapping using the TIR sensor in Colombia, specifically in the city of Victoria. We aim to capture a heat signature or surface temperature profile for this location.
+Hello Satellite Constellation Planner,
 
-We're looking at an opportunity to conduct this observation sometime during the evening in four days from now. The request doesn't come with any strict deadlines; we can drop or reschedule it as per our convenience. This task is more about gathering data and understanding thermal anomalies than meeting a time crunch.
+I'm reaching out on behalf of our Earth observation mission to request a highly realistic and detailed data capture for an important task. Our objective is to gather critical information using thermal mapping capabilities, specifically focusing on capturing heat signatures and surface temperature profiles in the region of Colombia, with a particular emphasis on the city of Victoria.
 
-Thank you for your attention. We appreciate your cooperation in handling this task within our flexible timeframe.
+This task is classified as low priority importance, allowing us some flexibility in scheduling. We aim to complete this task within the strict deadline set for delivery by our target day, which is four days from now, ideally in the evening to ensure we capture the necessary data before the day ends. This request aligns with our baseline pipeline tracking setup and represents a non-essential background filler task that can be dropped or rescheduled at our convenience.
+
+Please note that this task involves utilizing thermal mapping capabilities, which will help us assess heat emissions and surface temperature profiles within this specific geographic context. We're looking for high-quality data products that will contribute to our background survey of the area.
+
+Thank you for your attention to this matter. We appreciate your cooperation in meeting our request as per the outlined operational guidelines.
+
+Best regards,
+
+[Your Name]
+[Your Contact Information]

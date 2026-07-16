@@ -1,1 +1,2 @@
-Tomorrow night, let's take an active radar scan over Burzanella in Italy to capture cloud-penetrating images. This is a low priority task; feel free to drop or reschedule it at your convenience as part of our routine monitoring activities.
+We have an opportunity to conduct a flexible SAR scan for cloud-penetrating capture in Burzanella, Italia. The goal is to map surface geometry and obtain microwave imagery of the area. This task has been identified as low priority importance; therefore, it can be scheduled with flexibility and should be considered non-essential. Please ensure that we have this data ready by tomorrow night's overnight block at the latest for further analysis or integration into our current datasets.
+```prompt

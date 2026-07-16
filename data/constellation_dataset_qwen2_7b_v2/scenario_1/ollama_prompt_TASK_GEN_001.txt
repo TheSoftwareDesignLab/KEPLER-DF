@@ -1,5 +1,7 @@
-Good evening, satellite constellation planners. I'm reaching out with a task request for tomorrow evening, focusing on Colombia specifically, in the area of El Paujil. The mission involves a low priority importance request for our VNIR sensor to conduct a multispectral vegetation analysis. We're aiming to assess chlorophyll absorption levels and calculate the NDVI index along with surface reflectance data.
+Good day to our satellite constellation planners. We're looking to capture a low-priority importance task, which is a flexible schedule for an opportunistic survey of El Paujil, Colombia. Our primary sensor requirement is the VNIR for multispectral vegetation analysis, aiming to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance.
 
-This is essentially a background survey task that requires no strict urgency but should be scheduled at your convenience. We're looking for a flexible schedule to capture this information without any preemptions or disruptions to our baseline pipeline tracking setup. Please note this as a non-essential background filler task, which will contribute to our ongoing monitoring efforts in the region.
+The objective here is to gather data on plant health and environmental conditions in this region, which will serve as a background survey or testbed tracking task. We're requesting that you capture this information with a flexible schedule, allowing us to drop or reschedule at our convenience.
 
-Thank you for your attention and cooperation. Have a great evening, and I look forward to your confirmation on this task.
+We need this data by tomorrow evening at the latest, ensuring that the products are ingested into our pipeline before then. Our deadline is strictly set for tomorrow evening, and we appreciate your understanding of this operational constraint.
+
+Thank you for your attention to this task, and we look forward to receiving the data as per our request.

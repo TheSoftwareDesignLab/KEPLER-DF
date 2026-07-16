@@ -1,1 +1,1 @@
-This is a low priority importance task for opportunistic capture sometime tomorrow morning. I need thermal mapping of Puerto Wilches, Colombia.  Please drop or reschedule at convenience.
+This is a low priority importance request for a thermal mapping survey over Puerto Wilches, Colombia. We'd like to capture a heat signature and surface temperature profile of the area.  Please schedule this as a non-essential background filler task and drop or reschedule at convenience. The goal is to have the products ingested into the pipeline before tomorrow in the morning at the latest.

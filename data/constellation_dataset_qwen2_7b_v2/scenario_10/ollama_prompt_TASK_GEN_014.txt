@@ -1,9 +1,1 @@
-Good morning, mission planners. I'm requesting an urgent tasking for tomorrow around mid-day over Crespino, Italia. The priority is high importance, so this needs immediate attention. We're focusing on thermal mapping using our TIR sensor for a heat signature capture and surface temperature profile.
-
-We're looking to acquire detailed thermal data that can help us detect any thermal anomalies or heat emissions in the area. This task involves capturing high-resolution optical snapshots as well, to have a clear visual documentation of the region during daylight hours.
-
-Considering this is a critical payload capture under a binding contract requirement, we need to ensure that there are no preemptions and that our satellite assets are locked onto this mission. We're treating this as an absolute institutional priority, so please allocate the necessary resources for this task without delay.
-
-With regards to timing, we have a clear window tomorrow morning until mid-day. Please plan accordingly and make sure our satellite is in position to capture the data efficiently. We appreciate your quick response and look forward to receiving the data promptly.
-
-Thank you for your attention to this matter.
+Good day to our satellite constellation planners, we're looking to capture an absolute institutional priority task involving a critical payload capture for our esteemed client in Crespino, Italia. We require thermal mapping data that will help us identify heat signatures and surface temperature profiles of the region during the afternoon on tomorrow's date. This is a binding contract requirement with a strict deadline set for the delivery of the products before the overnight block of tomorrow. Our team is heavily reliant on this data to ensure the timely ingestion into our pipeline, making it an urgent operational execution that cannot be preempted. We appreciate your swift attention and cooperation in meeting this high importance request. Thank you.

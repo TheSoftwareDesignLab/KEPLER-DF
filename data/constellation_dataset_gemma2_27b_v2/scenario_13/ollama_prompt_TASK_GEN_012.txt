@@ -1,1 +1,1 @@
-This is a standard operational tasking for a high-resolution optical snapshot of Bukit Anda, Indonesia. Please schedule this for sometime in the evening four days from now.
+This is a standard operational tasking for a high-resolution optical snapshot of Bukit Anda, Indonesia. Please ensure the products are ingested into the pipeline before in four days in the evening at the latest.

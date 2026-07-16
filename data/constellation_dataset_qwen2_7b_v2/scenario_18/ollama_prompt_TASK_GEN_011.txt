@@ -1,9 +1,1 @@
-Good evening, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission. Our objective is to capture high-resolution optical imagery of Norte city, which is located in our region. We're looking for a clear daytime photograph or true-color visual documentation that will help us monitor the urban landscape and surrounding areas.
-
-This request falls under the category of low priority importance, indicating that it's a flexible schedule task with no strict deadlines. We understand that this might be treated as a background survey or testbed tracking task.
-
-Our primary sensor requirement is VIS, which means we're seeking high-quality daylight photography to assess the city's development and environmental conditions. The imagery should provide us with detailed information about the area without any obstructions from clouds or weather conditions.
-
-We're targeting this observation for four days from now, specifically overnight when the skies are expected to be clear and calm. This timeframe aligns well with our operational flexibility, allowing us to capture the data during a period that minimizes interference from other tasks or priorities.
-
-Thank you for your attention to this request. We appreciate your cooperation in ensuring that our observation mission is carried out smoothly and efficiently. Please let us know if there are any questions or if you need further clarification on our requirements.
+Good day to our satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Norte, focusing on daylight photography and true-color visual documentation. This is a low priority importance request with a flexible schedule for opportunistic capture. We aim to deliver this data by the target day, which is in four days, with a strict delivery deadline set for overnight at the latest. Ensuring the products are ingested into the pipeline before that time frame is crucial. This task serves as a non-essential background filler task and can be dropped or rescheduled at convenience if necessary. Thank you for your attention to this background survey request.

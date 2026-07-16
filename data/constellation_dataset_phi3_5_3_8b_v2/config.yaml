@@ -78,13 +78,13 @@ task_generation:
   max_lifetime: 345600
   priority_weights: [0.5, 0.3, 0.2]
   bounding_boxes:
-    - name: "colombia"
+    - name: "colombia_andina"
       lat_envelope: [2.0, 8.0]
       lon_envelope: [-77.0, -72.0]
-    - name: "italia"
+    - name: "italia_centro_norte"
       lat_envelope: [40.5, 46.5]
       lon_envelope: [7.5, 14.5]
-    - name: "indonesia"
+    - name: "indonesia_ecuatorial"
       lat_envelope: [-3.0, 3.0]
       lon_envelope: [100.0, 120.0]
   prompt_generation:
@@ -123,11 +123,17 @@ task_generation:
            * VNIR -> Explain the goal as "multispectral vegetation analysis" to assess "chlorophyll absorption level" or calculate a vegetation "NDVI index" and surface reflectance.
            * NIR -> Explain the goal as "near-infrared reflection" for "water body boundary mapping" or "soil moisture assessment" to discriminate gradients.
 
-      4. RELATIVE TIMEFRAMES (Interpret keys 'remaining_time' and 'deadline_local'):
-         - Do NOT under any circumstances output raw UTC timestamps, Unix epochs, digits, raw numbers, or countdown metrics.
-         - Do NOT use composite time expressions that sum hours and days (e.g., do NOT write phrases like "in 3 days and 5 hours", "with 12 hours remaining", or "48 hours from now"). This is strictly forbidden.
-         - You must deliver the temporal constraint using single, fluid, human-centric relative phrasing. Fuse the macro day and the local diurnal hour into a single colloquial block. Speak naturally like an operator on a radio link: integrate time expressions by rounding the constraint into a clean target window such as "tomorrow morning", "this afternoon", "the day after tomorrow, specifically overnight", "in three days during the evening", or "sometime today around mid-day". Let the language flow without structural or robotic rigidity.
-
+      4. RELATIVE TIMEFRAMES (Interpret keys 'target_day' and 'target_diurnal_period'):
+              - Do NOT output raw UTC timestamps, digits, or countdown metrics.
+              - CRITICAL CONTEXT: The temporal parameters represent a strict operational DEADLINE to deliver the data products to the user, NOT the orbital capture window. Your text must reflect this urgency naturally.
+              - You are strictly forbidden from altering or extending this deadline. You must weave 'target_day' and 'target_diurnal_period' into a fluid conversational phrase that explicitly marks the upper limit for data availability using phrases like:
+                * "...needed by [target_day] [target_diurnal_period] at the latest."
+                * "...with a strict delivery deadline set for [target_day] [target_diurnal_period]."
+                * "...ensuring the products are ingested into the pipeline before [target_day] [target_diurnal_period]."
+              
+              Operational vocabulary alignment:
+              - If 'target_diurnal_period' is "overnight" -> The data must be ready by tomorrow's overnight/nighttime block. Do NOT write "afternoon" or "morning" as it would violate the deadline constraint.  
+      
       Target task context JSON:
       {tasks_dataset}
 
@@ -138,4 +144,3 @@ task_generation:
 
 paths:
   gs_file_path: "data/ground_station.csv"
-  sat_file_path: "data/satellite_tle.csv"

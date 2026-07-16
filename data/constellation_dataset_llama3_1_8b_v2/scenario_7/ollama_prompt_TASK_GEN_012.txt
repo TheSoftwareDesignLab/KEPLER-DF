@@ -1,5 +1,1 @@
-Tasking Request: Routine Monitoring of Indonesia's Vegetation Health
-
-We require a multispectral vegetation analysis of Indonesia, focusing on assessing chlorophyll absorption levels and calculating the NDVI index to determine surface reflectance. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-We aim to capture this data sometime today around mid-day, specifically during the day, when the satellite is over Indonesia. The target window for this tasking is the day after tomorrow, in the evening, allowing us to gather high-quality near-infrared reflection data for water body boundary mapping and soil moisture assessment.
+We need a near-infrared reflection task for soil moisture assessment and water body boundary mapping over Ecuatorial in the evening, as part of our standard operational tasking with fixed parameters representing normal operational status. This is a commercial tasking and routine monitoring part of our baseline pipeline tracking setup. The data must be ready by the day after tomorrow in the evening at the latest.

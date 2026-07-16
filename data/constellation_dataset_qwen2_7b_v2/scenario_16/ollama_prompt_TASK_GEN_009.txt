@@ -1,3 +1,12 @@
-Good morning, satellite constellation planner. I'm here to request a standard operational tasking for a near-infrared reflection capture in Malaysia, specifically in Bukit Mabong. This mission is of medium importance and involves assessing soil moisture levels as part of our baseline pipeline tracking setup. We're looking for thermal mapping data that will help us understand surface conditions during the overnight period on the day after tomorrow. The parameters are fixed, representing normal operational status.
+Hello Satellite Constellation Planner,
 
-Please ensure this task is scheduled with priority to maintain our standard workflow update without any delays. If there are any issues with the deadline or if it needs to be rescheduled for convenience, please inform me accordingly. Thank you for your attention and cooperation in fulfilling this request.
+I'm reaching out to request a task for an operational mission that involves capturing high-resolution near-infrared (NIR) imagery of a specific area in Malaysia. Our primary objective is to assess soil moisture levels and delineate water body boundaries using this data, which will be crucial for agricultural monitoring and planning.
+
+We're focusing on Bukit Mabong, located in the country of Malaysia. The geographical coordinates are not provided, but we trust your system can accurately pinpoint this location based on our description. This request is classified as medium importance, meaning it's part of our standard operational tasks with fixed parameters that represent our normal workflow updates.
+
+We're aiming to have these data products ready by the day after tomorrow in the morning, ensuring they are ingested into our pipeline before that deadline. This task doesn't require an urgent operational execution; however, we do consider it a binding contract requirement involving a critical payload capture, as it's vital for our ongoing monitoring and decision-making processes.
+
+Thank you for your attention to this matter. We appreciate your expertise in delivering high-quality data that will support our operations effectively.
+
+Best regards,
+[Your Name]

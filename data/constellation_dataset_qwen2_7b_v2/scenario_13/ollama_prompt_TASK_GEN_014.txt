@@ -1,5 +1,12 @@
-Good day to our satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Norte City for daylight photography purposes, focusing on clear optical imagery and true-color visual documentation. This is a low priority importance request with a flexible schedule for opportunistic capture. We're not in a rush, treating it as a background survey or testbed tracking task.
+Greetings to our automated satellite constellation planner,
 
-We aim to achieve this during the afternoon of our target day, which is three days from now. No need to worry about the exact time; just make sure we get the imagery sometime during the afternoon hours. This is a non-essential background filler task that doesn't require immediate attention. We appreciate your understanding and flexibility in scheduling this mission.
+I'm reaching out with a task request for an Earth observation mission. Our objective is to capture a high-resolution optical snapshot of Norte, focusing on daylight photography and clear optical imagery to document the area accurately.
 
-Thank you for your cooperation and please let us know if you have any questions or need further clarification.
+Given its low priority importance, this request carries a flexible schedule for opportunistic capture. We explicitly note that it's a non-essential background filler task that can be dropped or rescheduled at convenience. This background survey aims to provide valuable visual documentation without immediate urgency.
+
+We're targeting delivery by the day following our request, specifically during the afternoon timeframe, ensuring the products are ingested into the pipeline before then. This aligns with our operational guidelines for relative timeframes, emphasizing the deadline as a strict upper limit for data availability.
+
+Thank you for your attention and assistance in fulfilling this task.
+
+Best regards,
+[Your Name]

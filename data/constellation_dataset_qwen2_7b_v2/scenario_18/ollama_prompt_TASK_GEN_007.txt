@@ -1,8 +1,10 @@
-Good morning, automated satellite constellation planner. We're looking to capture a high-resolution optical snapshot of Planadas, Colombia, in the morning tomorrow. This is a standard operational tasking with fixed parameters that's part of our baseline pipeline tracking setup. Our priority is medium importance, meaning this request comes with normal operational status and represents a routine monitoring activity.
+Good day to our automated satellite constellation planner,
 
-Planadas, known for its vibrant culture and scenic landscapes, will provide us with clear optical imagery and true-color visual documentation essential for our ongoing projects. We aim to capture the essence of this beautiful city during daylight hours, ensuring that we get the most accurate representation of its surroundings.
+We're looking to capture a high-resolution optical snapshot of Planadas, Colombia for daylight photography purposes. Our intention is to obtain clear optical imagery and true-color visual documentation of the region to support our ongoing monitoring efforts in this area. Given its importance, we classify this task as medium priority.
 
-Please schedule this task accordingly, keeping in mind that it's part of our standard workflow update process. We appreciate your attention to detail and adherence to our operational guidelines. If there are any issues or if you need more information, please feel free to reach out. Thank you for your cooperation and support in ensuring the smooth operation of our Earth-observation mission.
+Our target day is tomorrow, with the requirement that the data be ready around mid-day at the latest. This deadline is crucial for ensuring timely data availability and integration into our baseline pipeline tracking setup.
+
+We appreciate your team's expertise and look forward to receiving the data products by tomorrow's mid-day slot.
 
 Best regards,
 [Your Name]

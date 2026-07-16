@@ -1,9 +1,5 @@
-Hello satellite constellation planner, I'm requesting a task to capture thermal mapping data using our TIR sensor for a location in Colombia. Specifically, we're targeting the city of Maní for this operation.
+Good day, satellite constellation planner. I'm reaching out with a task for your team to capture thermal mapping data over Maní, Colombia, which is located in the heart of the country's vibrant landscape. This request carries low priority importance and should be treated as a flexible schedule background survey. We aim to assess heat signatures across the region, focusing on surface temperature profiles and thermal anomaly detection.
 
-As this is a low priority importance request, it's important that you schedule this as a flexible background survey or testbed tracking task. We understand that there might be a need to drop or reschedule this task at your convenience if other priorities arise.
+The deadline for this data is set for today, with a strict delivery deadline by tomorrow's overnight block at the latest. This task involves capturing the heat emissions from various areas, which will help us in understanding heat patterns and potential issues that could impact the local environment or infrastructure.
 
-Our objective here is to assess heat signatures and surface temperature profiles for the area around Maní. This will help us gather valuable information on thermal anomalies and heat emissions, which can be crucial for various applications such as urban planning, agriculture monitoring, and environmental studies.
-
-Given that we're targeting today's operation in the morning, please ensure that this task is executed during a clear period of daylight to maximize the quality of our data. We appreciate your understanding and cooperation in managing this task within your operational schedule.
-
-Thank you for your attention and support. We look forward to receiving the results of this thermal mapping operation soon.
+Please ensure that the data products are ingested into our pipeline before we reach tomorrow's morning hours. I appreciate your team's cooperation in delivering this task within the specified timeframe. Thank you for your understanding and prompt action on this matter.

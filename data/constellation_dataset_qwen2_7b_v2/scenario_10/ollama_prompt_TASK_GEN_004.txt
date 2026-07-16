@@ -1,1 +1,12 @@
-Good evening, satellite control team. I'm reaching out to request a task for the upcoming day after tomorrow, specifically overnight. The mission involves capturing a high-resolution optical snapshot of the region in San Vicente del Caguán, Colombia. This is a low priority importance request, so please consider it as a flexible schedule background survey or testbed tracking task. The primary sensor involved will be a VIS camera for daylight photography and true-color visual documentation. We're looking forward to receiving this imagery to better understand the landscape under natural lighting conditions without any interference from clouds or other weather elements. Thank you for your attention, and we appreciate your cooperation in managing this task at our convenience.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a high-resolution optical snapshot for an urgent task related to environmental monitoring in Colombia. Specifically, we're focusing on the region around San Vicente del Caguán. Our objective is to capture clear daylight imagery that can provide us with true-color visual documentation of the area's landscape and vegetation health.
+
+Given its importance, this task carries a low priority designation but requires our utmost attention. We understand the deadline for delivering the data products is set by the day after tomorrow at night, which means we need your assistance to ensure these products are ingested into our pipeline before that time.
+
+We appreciate your cooperation in handling this "non-essential background filler task" with flexibility and convenience, recognizing it as a 'background survey' or 'testbed tracking task'. Your support will help us continue monitoring the region's environmental conditions effectively.
+
+Thank you for your understanding and timely response.
+
+Best regards,
+[Your Name]

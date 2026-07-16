@@ -1,7 +1,1 @@
-We have an absolute institutional priority mission for thermal mapping over the region of Povici di sotto / i Stâi Disot in Italy. This task involves capturing a detailed surface temperature profile and detecting any potential thermal anomalies. It's a critical payload capture under a binding contract requirement, demanding urgent operational execution with an un-preemptable mission lock.
-
-The satellite constellation planner needs to schedule this high-importance task for thermal imaging using TIR sensors. The objective is to obtain a comprehensive heat signature map of the area during the specified timeframe. 
-
-Please ensure that this mission is locked in for the overnight period four days from now. This timeframe is crucial for the successful execution of the mission, and any deviation would be unacceptable.
-
-Thank you for your attention to this high-priority directive.
+We have an absolute institutional priority task for you. We need a thermal mapping mission over Povici di sotto / i Stâi Disot in Italy, focusing on capturing a surface temperature profile or detecting any thermal anomalies. This is a binding contract requirement involving a critical payload capture, and the mission lock is un-preemptable. The data must be ready by the overnight block in four days at the latest to ensure it meets our strict delivery deadline.

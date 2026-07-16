@@ -1,1 +1,1 @@
-This is a standard operational tasking for near-infrared reflection capture over Mulya Bakti, Indonesia. We need to map water body boundaries and assess soil moisture gradients in that region sometime during the afternoon in three days.
+This is a standard operational tasking for near-infrared reflection imaging over Mulya Bakti, Indonesia. We need this data for water body boundary mapping and soil moisture assessment, with a strict delivery deadline set for three days during the afternoon at the latest.

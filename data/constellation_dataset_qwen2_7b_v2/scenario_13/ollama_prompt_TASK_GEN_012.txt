@@ -1,7 +1,3 @@
-Good evening, satellite constellation planners. I'm reaching out to request a standard operational tasking for a high-resolution optical snapshot of Indonesia, specifically in the region of Bukit Anda. This mission is of medium importance and requires our attention as part of our baseline pipeline tracking setup. The fixed parameters represent normal operational status, and we're looking to capture this imagery during the evening on the day after tomorrow.
+Good day, automated satellite constellation planner. We're looking to capture a high-resolution optical snapshot of the region in Indonesia, specifically around Bukit Anda, using our VIS sensor. This imagery should be true-color visual documentation that will help us understand the landscape and urban development there. As this is a standard operational tasking, we're aiming for fixed parameters and normal operational status. We need this data by the following day's overnight block at the latest, ensuring the products are ingested into our pipeline before then. This request aligns with our baseline pipeline tracking setup.
 
-The VIS sensor will provide us with clear optical imagery, ideal for daylight photography and true-color visual documentation. This will help us in monitoring the landscape and capturing ground geometry without interference from clouds or weather conditions.
-
-Please ensure that this request is prioritized appropriately within your system, considering its medium importance level. We appreciate your cooperation and understanding regarding our operational hierarchy and contractual obligations.
-
-Thank you for your prompt attention to this matter.
+Thank you for your attention to this matter.

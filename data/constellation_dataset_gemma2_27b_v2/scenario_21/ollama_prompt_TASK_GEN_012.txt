@@ -1,1 +1,1 @@
-This is a low priority importance request for a high-resolution optical snapshot of Ecuatorial, Indonesia.  It can be captured opportunistically sometime in four days overnight. Please drop or reschedule at convenience if needed.
+This is a low priority importance request for an opportunistic capture of a high-resolution optical snapshot over Ecuatorial, Indonesia.  We'd like to schedule this as a flexible background filler task, and drop or reschedule at your convenience. Please ensure the products are ingested into the pipeline before in four days overnight at the latest.

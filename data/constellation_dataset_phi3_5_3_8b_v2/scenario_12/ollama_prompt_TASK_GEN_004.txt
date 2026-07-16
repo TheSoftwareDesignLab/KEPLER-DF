@@ -1,2 +1,1 @@
-Tomorrow night over in La Paz, Colombia, we need to conduct a thermal mapping operation. This standard operational tasking will involve capturing heat signatures and surface temperature profiles around our target area. Please schedule this routine monitoring as part of our baseline pipeline tracking with fixed parameters representing the normal operational status or update workflow for tomorrow evening's window.
-```
+Ensure that a thermal mapping of La Paz, Colombia is conducted using active radar scan with microwave surface imaging capabilities to capture ground geometry and detect any heat anomalies. This standard operational tasking must be completed by tomorrow nighttime at the latest for integration into our baseline pipeline tracking system.

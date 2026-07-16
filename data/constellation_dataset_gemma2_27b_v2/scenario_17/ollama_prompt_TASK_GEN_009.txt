@@ -1,1 +1,1 @@
-This is a low priority importance request for an opportunistic capture. We need a cloud-penetrating capture of Ecuatorial, Indonesia sometime in the evening three days from now. Please use the active radar scan for this non-essential background filler task and drop or reschedule at your convenience.
+This is a low priority importance request for an opportunistic capture of microwave surface imaging over Ecuatorial, Indonesia. We need this data ingested into the pipeline before in three days in the evening at the latest. Drop or reschedule at convenience if needed.

@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Norte sometime the day after tomorrow during the afternoon. We need cloud-penetrating capture to map the surface geometry in this region.
+This is a standard operational tasking for an active radar scan of Norte using microwave surface imaging.  We need this data captured and ingested into the pipeline before the day after tomorrow during the afternoon at the latest.

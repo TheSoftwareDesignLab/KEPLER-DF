@@ -1,2 +1,1 @@
-Tomorrow evening, as part of our routine monitoring schedule, I need to conduct a thermal mapping over Sungai Tapah in Indonesia. This is for capturing heat signatures and detecting any potential thermal anomalies around the water body area. Please ensure this standard operational tasking aligns with our baseline pipeline tracking setup within normal working hours.
-```
+We need a TIR-based thermal mapping of Sungai Tapah, Indonesia, as part of our routine monitoring to capture heat signatures and surface temperature profiles. This task is scheduled for the day after tomorrow overnight, with products ingested into the pipeline by then latest. Please ensure this standard operational tasking aligns within our established workflow update timeline.

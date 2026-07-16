@@ -1,5 +1,1 @@
-Tasking Request: High-Resolution Optical Snapshot for Indonesia
-
-We require a high-resolution optical snapshot of the region around Tanjung Saleh, Indonesia, utilizing our VIS sensor. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We aim to capture clear optical imagery of the area during this afternoon tomorrow.
-
-Please allocate necessary assets and resources for this mission, adhering to our commercial tasking protocols and contractual obligations.
+Please task the satellite constellation to capture a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation of the region of Tanjung Saleh in Indonesia. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The products are needed by tomorrow during the afternoon at the latest.

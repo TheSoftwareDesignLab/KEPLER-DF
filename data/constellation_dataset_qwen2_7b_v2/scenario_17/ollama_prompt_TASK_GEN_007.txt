@@ -1,8 +1,10 @@
-Hello, satellite constellation planner. I'm reaching out from an Earth observation mission operator based in the vibrant city of Paya, Colombia. We're requesting a task to capture thermal mapping data for our region tomorrow morning. Our objective is to gather detailed information on heat signatures and surface temperature profiles across the area. This request falls under low priority importance, allowing for flexible scheduling as a non-essential background filler task.
+Good day, satellite constellation planner. I'm requesting a task for an Earth observation mission with a focus on thermal mapping in Colombia, specifically targeting the city of Paya. Given its importance and considering the nature of our operational guidelines, this request is classified as having low priority importance, which means it's a flexible schedule background survey task.
 
-As part of our mission, we aim to conduct this "thermal anomaly detection" and mapping heat emissions using our specialized TIR sensor. The goal is to provide valuable insights into the thermal dynamics of our region without strict time constraints. We appreciate your understanding and cooperation in accommodating this request at a convenient time for your operational schedule.
+We aim to capture a heat signature or surface temperature profile using thermal infrared sensors (TIR). This will help us in detecting thermal anomalies and mapping heat emissions across the region. The goal is to obtain high-resolution optical snapshots for daylight photography, clear optical imagery, and true-color visual documentation that can provide insights into various environmental conditions.
 
-Thank you for your attention, and we look forward to receiving the data promptly. If there are any questions or adjustments needed, please feel free to reach out. Have a great day!
+The deadline for delivering the data products is set by tomorrow, with a strict delivery deadline of "in the morning". We are looking forward to having these products ingested into our pipeline before the mentioned time frame. This task aligns with our baseline pipeline tracking setup and represents a routine monitoring activity that requires standard operational status or workflow update.
+
+Thank you for your attention and cooperation in ensuring this request is handled efficiently within the outlined time constraints. Should there be any issues or adjustments needed, please feel free to communicate with me directly. 
 
 Best regards,
-[Your Mission Operator]
+[Your Name]

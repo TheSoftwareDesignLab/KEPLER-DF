@@ -1,7 +1,4 @@
-﻿__pycache__/
-*.pyc
+﻿
 .venv/
-.idea/
-.vscode/
-*.bsp
-*.tle
+**/__pycache__/
+.DS_Store

@@ -1,2 +1,1 @@
-Tomorrow afternoon, I'd like to schedule a low priority importance task for thermal mapping over Malinau in Indonesia. This is an opportunistic capture aimed at detecting any heat anomalies or surface temperature variations during the daytime hours. If it conflicts with more pressing tasks, feel free to reschedule or drop this background survey as needed.
-```prompt
+...your text here...

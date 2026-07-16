@@ -1,5 +1,7 @@
-Good evening, control center. I'm requesting a standard operational task for our satellite constellation. We're looking at a high-resolution active radar scan using microwave surface imaging technology to capture cloud-penetrating imagery of La Cumbre in Colombia. This mission involves a critical payload capture and is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+We're looking to capture an active radar scan using our microwave surface imaging capabilities for a detailed cloud-penetrating view of the region in Colombia, specifically focusing on the area around La Cumbre. This standard operational tasking involves monitoring ground geometry with precision that's part of our baseline pipeline tracking setup.
 
-Our priority is medium importance, so please treat this as a standard operational tasking. The deadline for this mission is tomorrow overnight, which means we're targeting the satellite to gather data during that specific period.
+Given the nature of the mission, we're aiming to deliver this data product by the target day, which is four days from now, with a strict delivery deadline set for overnight at the latest. This means ensuring that the products are ingested into the pipeline before the sun rises on the target day to meet our contractual obligations.
 
-Thank you for your attention, and I look forward to receiving confirmation of this request.
+Please note that while this request carries medium importance and represents normal operational status, we're treating it as a routine monitoring task with fixed parameters. We understand the need for flexibility in scheduling, should there be any unforeseen circumstances that require us to drop or reschedule this task at your convenience.
+
+Thank you for your attention to this matter.

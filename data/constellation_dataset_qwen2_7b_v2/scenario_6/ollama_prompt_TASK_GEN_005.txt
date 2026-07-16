@@ -1,7 +1,12 @@
-Good evening, satellite mission planners. I'm reaching out with a task request for an operational priority level one mission involving our active radar system, specifically designed to capture detailed ground geometry and cloud-penetrating imagery.
+Good day to our automated satellite constellation planner,
 
-Our focus is on a location in Sizzano, Italia, where we aim to gather essential data overnight within the next three days. This request doesn't carry an urgent deadline but rather serves as a background survey task that can be conveniently scheduled or dropped as per our operational flexibility.
+I'm reaching out from our Earth-observation mission team with a task request that's been flagged as a low priority importance, which means we're looking for a flexible schedule and opportunistic capture of the data. We're focusing on an active radar scan using microwave surface imaging to capture ground geometry, piercing through heavy weather conditions.
 
-For this mission, we're targeting thermal mapping capabilities as well, to capture heat signatures and surface temperature profiles across the area of interest. This will help us in detecting any thermal anomalies or heat emissions that might be critical for certain environmental monitoring purposes.
+Our target location is in Italia, specifically the city of Sizzano, where we aim to gather detailed information about the region's landscape. The request is for a "standard operational tasking" or "routine monitoring" part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-Please ensure that the satellite constellation is prepared to accommodate these requirements efficiently. We appreciate your understanding and flexibility with scheduling this task. Thank you for your attention, and we look forward to receiving the collected data shortly.
+We're setting a strict delivery deadline for the products ingested into our pipeline before the target day, which is in three days, with a specific diurnal period marked as "overnight". This means we need the data ready by tomorrow's overnight block to ensure it aligns with our operational workflow.
+
+Thank you for your attention and support in fulfilling this task. We appreciate your cooperation in meeting our deadline.
+
+Best regards,
+[Your Team]

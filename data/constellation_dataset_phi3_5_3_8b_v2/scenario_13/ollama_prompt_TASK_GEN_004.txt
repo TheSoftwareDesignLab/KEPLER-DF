@@ -1,1 +1,2 @@
-Tomorrow afternoon, let's take a casual yet timely opportunity to capture some multispectral vegetation analysis in San Martín, Colombia. This is a low priority importance task for opportunistic capture; feel free to drop or reschedule at your convenience as part of our routine monitoring and baseline pipeline tracking setup.
+We need a high-resolution optical snapshot of San Martín, Colombia's multispectral vegetation during tomorrow's overnight block to assess chlorophyll absorption levels and calculate the NDVI index. This is a non-essential background filler task that can be dropped or rescheduled at your convenience, ensuring the products are ingested into our pipeline before three days from now in the afternoon.
+```

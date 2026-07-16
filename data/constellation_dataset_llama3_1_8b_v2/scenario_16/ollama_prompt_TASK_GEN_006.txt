@@ -1,5 +1,1 @@
-Tasking Request: Routine Monitoring of Indonesian Water Bodies
-
-We require a standard operational tasking for routine monitoring of water bodies in Indonesia, utilizing near-infrared reflection for water body boundary mapping and soil moisture assessment. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The mission allocation authority has designated this as a standard operational tasking, and we expect the satellite to capture high-quality data sometime today around mid-day. The location details indicate that we are focusing on the Mulya Bakti area in Indonesia. Please ensure that the satellite captures clear optical imagery for true-color visual documentation.
+Please task the satellite to perform a near-infrared reflection analysis for water body boundary mapping and soil moisture assessment over Mulya Bakti, Indonesia, as part of our routine monitoring baseline pipeline tracking setup with fixed parameters representing normal operational status. This commercial tasking is a standard operational tasking and should be completed with a strict delivery deadline set for in three days during the afternoon at the latest.

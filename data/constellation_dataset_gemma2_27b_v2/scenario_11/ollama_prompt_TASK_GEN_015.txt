@@ -1,1 +1,1 @@
-This is a standard operational tasking for a high-resolution optical snapshot of Ecuatorial, Indonesia. Please schedule this capture sometime tomorrow around mid-day.
+This is a standard operational tasking for a high-resolution optical snapshot of Ecuatorial, Indonesia. We need this imagery captured and ingested into the pipeline before tomorrow around mid-day at the latest.

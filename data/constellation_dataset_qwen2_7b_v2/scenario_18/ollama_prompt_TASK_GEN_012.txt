@@ -1,7 +1,11 @@
-Hello, automated satellite constellation planner. I'm reaching out for an urgent operational tasking involving Tanjung Jabung Timur, Indonesia. Our priority is set at 'High Importance', which means this mission allocation carries a binding contract requirement and involves a critical payload capture.
+```prompt
+Good day to our satellite constellation planners, we're looking at a task that's quite important for us. We're requesting an active radar scan using microwave surface imaging technology to capture cloud-penetrating imagery of Tanjung Jabung Timur in Indonesia. This is crucial for understanding ground geometry under challenging weather conditions.
 
-Our primary sensor requirement is 'SAR', which will be used for an active radar scan utilizing microwave surface imaging capabilities. The goal is to perform cloud-penetrating capture, ensuring we can pierce through heavy weather conditions and capture ground geometry with precision.
+We understand the urgency and importance of this request, hence it's marked as a low priority task but we're treating it with the utmost care and attention. We aim to have these data products available by tomorrow's overnight period at the latest. This means that we need them ingested into our pipeline before we move on to other tasks.
 
-The context of our request is straightforward: we aim to gather data during the evening on 'tomorrow'. This timeframe aligns with our operational status as a 'standard baseline pipeline tracking' setup with fixed parameters representing normal operational status. We're treating this as a 'non-essential background filler task', noting that it can be dropped or rescheduled at convenience if necessary.
+We appreciate your understanding and flexibility regarding this request. Please note that it can be dropped or rescheduled at your convenience as it's not an essential task in our current workflow. We're just eager to get these thermal mappings ready for our team to assess heat signatures and surface temperature profiles, which will help us detect any thermal anomalies.
 
-Thank you for your attention to this matter. We appreciate your swift action in fulfilling this request, ensuring our critical payload capture goes smoothly and meets the high standards of our institutional priority.
+Thank you for your cooperation and we look forward to receiving these data products promptly. 
+
+Best regards,
+[Your Name]

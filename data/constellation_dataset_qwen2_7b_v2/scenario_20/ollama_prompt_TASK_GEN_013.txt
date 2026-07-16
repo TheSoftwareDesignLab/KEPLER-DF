@@ -1,10 +1,10 @@
-Good day to our satellite operations team. I'm reaching out from our Earth observation mission control center, tasked with an important request for a high-resolution optical snapshot of Colombia, specifically focusing on the city of Sabana de Torres. This is a low priority importance task, meaning we're looking at this as a flexible schedule opportunity to capture a clear optical imagery or true-color visual documentation.
+Hello Satellite Constellation Planner,
 
-The primary sensor required for this mission is VIS, which will yield us detailed daytime photography, allowing us to document the landscape and urban environment with clarity. We aim to gather this data sometime during the afternoon of the day after tomorrow, giving us a good window to avoid any potential cloud cover.
+I'm reaching out with a task request for an Earth observation mission focusing on Colombia, specifically in the region of Sabana de Torres. Our objective is to capture high-resolution optical imagery during daylight hours, providing clear visual documentation and true-color images of the area. This is a low priority importance request, allowing for flexible scheduling and treating it as a background survey or testbed tracking task.
 
-This task is classified as a non-essential background filler task, implying that it can be dropped or rescheduled at our convenience. As such, we're treating this request as a background survey or testbed tracking task, ensuring that it fits seamlessly into our operational pipeline without disrupting the flow of more critical missions.
+We aim to complete this mission by ingesting the data products into our pipeline no later than three days from now, specifically during the afternoon period. This deadline is strict and cannot be extended; we're looking to ensure that all captured data meets our operational standards for visual observation without compromising other critical tasks.
 
-Thank you for your attention to this matter. We appreciate your cooperation in fulfilling this request according to our guidelines and ensuring that our satellite constellation is utilized efficiently while respecting the importance hierarchy of our tasks. Have a great day!
+Thank you for your attention to this request. We appreciate your cooperation in meeting these requirements as part of our ongoing baseline pipeline tracking setup.
 
 Best regards,
 [Your Name]

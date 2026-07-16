@@ -1,6 +1,7 @@
-Good morning, automated satellite constellation planner. I'm reaching out to request a standard operational tasking for tomorrow morning. Our mission involves capturing near-infrared reflection data from an area in Ecuatorial Indonesia. This is part of our baseline pipeline tracking setup and represents normal operational status with fixed parameters. The goal is to map water body boundaries and assess soil moisture levels, which are critical aspects of our ongoing environmental monitoring activities.
+Good day to all satellite operators and mission planners. I'm reaching out with a standard operational tasking request for a commercial monitoring activity involving near-infrared reflection observations in Indonesia, specifically in the equatorial city of Ecuatorial.
 
-We understand that this request falls under medium importance, so please schedule it accordingly within your standard workflow update. If there are any issues or if you need more time to prepare, feel free to adjust the schedule as needed. Thank you for your attention and cooperation in ensuring we capture the necessary data for our research and operational requirements.
+As part of our baseline pipeline tracking setup, we aim to capture water body boundaries and assess soil moisture levels using this "NIR" sensor. The objective is to gather detailed information about the earth's surface conditions under normal operational status without any urgent deadlines associated with the payload capture.
 
-Best regards,
-[Your Name] - Earth-observation mission operator
+We're looking for high-quality data products that will be ingested into our system by the day after tomorrow, in the morning at the latest. This means ensuring the satellite assets are ready to deliver the required imagery before the sun rises on the day after tomorrow to meet our contractual obligations without any preemption of other missions.
+
+Thank you for your attention and swift action in fulfilling this request. We appreciate your cooperation and look forward to receiving the data as planned.

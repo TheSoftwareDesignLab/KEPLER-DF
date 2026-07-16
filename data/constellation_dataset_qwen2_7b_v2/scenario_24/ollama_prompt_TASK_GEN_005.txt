@@ -1,7 +1,7 @@
-Good day to all satellite operators and mission planners. I'm reaching out with a request for an observational task that involves capturing data using near-infrared sensors. The geographic context is centered around Norte, though we're focusing on the broader region due to the lack of specific country or city details provided. Our objective here is to conduct a background survey of the area during tomorrow morning's daylight hours.
+Good day, satellite constellation planner. I'm reaching out to request a task that involves capturing a near-infrared reflection of Norte city's surroundings on Earth. This will help us assess soil moisture levels and delineate water body boundaries for agricultural planning purposes. 
 
-We're not dealing with any urgent deadlines or high-priority tasks; this request falls under our low importance category, which means we can schedule it flexibly. It's akin to a testbed tracking task that doesn't require immediate attention but should be prioritized for completion within the next few days.
+Given the importance of this task, I would like to emphasize it as a low priority importance request with a flexible schedule for opportunistic capture. Although not critical, we do require that these data products are ingested into our pipeline before our target day arrives, which is in three days around mid-day at the latest. 
 
-The primary goal is to map water bodies and assess soil moisture levels, utilizing the unique capabilities of near-infrared sensors to provide us with valuable information on these environmental aspects. We're looking for clear data that can help us understand surface conditions without the need for complex technical jargon or detailed operational metrics.
+Please note that due to the nature of this task, it's considered a non-essential background filler task and can be dropped or rescheduled as per your convenience. We appreciate your understanding and cooperation in ensuring these data are collected within the specified timeframe.
 
-Thank you for your attention and cooperation in fulfilling this task. We appreciate your understanding and flexibility as we navigate through our operational priorities. Have a great day!
+Thank you for your attention.

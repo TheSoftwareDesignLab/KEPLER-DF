@@ -1,7 +1,14 @@
-Ladies and gentlemen, this is your Earth Observation Mission Operator speaking. We're looking to capture a detailed view of Mariana Páez, a region in Antiguo ETCR La Guajira, Colombia. We're utilizing our advanced SAR technology for an active radar scan, which will allow us to penetrate through clouds and capture ground geometry with precision. This is a standard operational tasking, part of our baseline pipeline tracking setup. The parameters are fixed, representing our normal operational status.
+Hello automated satellite constellation planner,
 
-Our objective is to gather high-resolution imagery that will provide us with critical information about the area's surface features. We aim to achieve this by capturing thermal mapping data to detect heat signatures and surface temperature profiles, as well as identifying any thermal anomalies. Additionally, we're conducting multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for the area.
+I'm reaching out to request a standard operational tasking involving our satellite constellation. We aim to capture an active radar scan using microwave surface imaging technology for cloud-penetrating capture and ground geometry assessment.
 
-The request has been prioritized at medium importance due to its relevance to our standard operational tasks. We anticipate that this mission will contribute to our commercial tasking and routine monitoring activities. The deadline for this task is set for today, specifically around mid-day.
+Our focus is on the region of Colombia, specifically the city of Antiguo ETCR La Guajira, also known as "Mariana Páez". Given the importance of this task, we classify it with medium priority level, emphasizing its role as a standard operational tasking or commercial tasking part of our baseline pipeline tracking setup.
 
-Please ensure that we have sufficient time to complete this task without any interruptions. This request carries normal operational status and represents a baseline pipeline tracking setup with fixed parameters. Thank you for your attention, and we look forward to receiving the data promptly.
+We require fixed parameters for this mission, representing normal operational status and a routine monitoring activity. This task is essential for maintaining our baseline pipeline tracking and ensuring that all necessary data is captured within the standard workflow update.
+
+The deadline for delivering the data products is set for today, around mid-day, with a strict delivery deadline of [target_day] [target_diurnal_period]. We aim to ensure that the products are ingested into the pipeline before this time frame.
+
+Thank you for your attention and cooperation in fulfilling this request. We appreciate your quick response and look forward to receiving the data as soon as possible.
+
+Best regards,
+[Your Name]

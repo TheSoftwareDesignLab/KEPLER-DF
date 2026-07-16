@@ -1,7 +1,5 @@
-Hello automated satellite constellation planner, I'm reaching out from our mission control to request a standard operational tasking for an upcoming VNIR sensor observation. We're focusing on a region in Italy, specifically near the city of Norte, aiming to capture high-resolution optical imagery during the morning hours three days from now. This is part of our baseline pipeline tracking setup, representing normal operational status with fixed parameters. We're looking for clear daylight photography to document the landscape accurately and assess vegetation health through chlorophyll absorption levels or calculate the NDVI index for surface reflectance.
+Good day! We're looking to capture a multispectral vegetation analysis on the region of interest in Italia, specifically focusing on the city of Norte. Our goal is to assess the chlorophyll absorption levels and calculate the NDVI index for the area, providing us with a detailed surface reflectance map.
 
-Please note that this task holds medium importance, so we appreciate your attention to ensure timely execution within our standard workflow update schedule. If there are any delays or issues with scheduling, please consider it as a flexible request, where we can drop or reschedule at convenience without impacting our critical operations. Thank you for your cooperation and understanding in fulfilling this background survey task.
+Our request is categorized as medium importance, meaning it's part of our standard operational tasking but still requires attention. We're aiming to complete this task in three days, with the data needed by the morning at the latest. This deadline is set for ensuring that the products are ingested into our pipeline before the designated time.
 
-Best regards,
-[Your Name]
-Earth-observation mission operator
+To achieve this, we'll be employing a VNIR sensor to gather the necessary data. Please ensure that the data collection process adheres to our guidelines and provides us with high-quality information that meets our operational standards. Thank you for your cooperation in meeting these requirements.

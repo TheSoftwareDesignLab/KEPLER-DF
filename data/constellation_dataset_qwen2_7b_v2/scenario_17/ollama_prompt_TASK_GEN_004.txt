@@ -1,9 +1,10 @@
-Good day to all satellite operators and mission coordinators. I'm reaching out with a task request for an Earth observation mission that requires your attention. The objective is to capture high-resolution optical imagery of Caramanta, Colombia, using the VNIR sensor. This is a low priority importance request, hence it carries a flexible schedule for opportunistic capture.
+Hello automated satellite constellation planner,
 
-The scene we're targeting involves daylight photography and true-color visual documentation of the region. Given the nature of this task, it's best suited as a background survey or testbed tracking task that can be dropped or rescheduled at your convenience.
+I'm reaching out to request a task for a low priority importance mission, which involves capturing data using a VNIR sensor. This sensor will be used for multispectral vegetation analysis, aiming to assess the chlorophyll absorption level and calculate the NDVI index along with surface reflectance in Colombia, specifically in the city of Caramanta. The goal is to gather high-resolution optical snapshots as daylight photography or true-color visual documentation.
 
-We aim to achieve this observation in three days during the afternoon period, specifically around mid-day. The location details are straightforward: Colombia, with Caramanta being our primary target. Since this is a non-essential background filler task, there's no need for an urgent operational execution or an un-preemptable mission lock.
+Given the nature of this task being a non-essential background filler, we understand that it can be dropped or rescheduled at convenience if necessary. However, for the purpose of this request, we are looking forward to obtaining the data products by the target day, which is in three days, during the afternoon at the latest. This deadline is strictly set for our operational pipeline tracking purposes.
 
-Please note that this request does not include any raw technical system tags, underscores, coordinate arrays, or raw numbers related to timeframes and deadlines. We're focusing on natural language and clear operational objectives to ensure the dataset maximizes naturalness and validation accuracy.
+Thank you for your understanding and cooperation in fulfilling this task.
 
-Thank you for your attention, and we look forward to your confirmation on this task. Should there be any questions or need for further clarification, please feel free to reach out. Stay tuned and keep your eyes on the skies!
+Best regards,
+[Your Name]

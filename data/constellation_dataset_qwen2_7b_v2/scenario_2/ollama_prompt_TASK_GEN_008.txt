@@ -1,8 +1,13 @@
-Good morning, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that's of low priority importance. We're looking to capture thermal mapping data for Correggioli, Italia, which is a beautiful region in the heart of our country. The goal is to assess heat signatures and map out surface temperature profiles, focusing on identifying any thermal anomalies.
+Good day to our satellite constellation team,
 
-This request falls under our flexible schedule as it's tagged as a low priority importance task. We're not in a rush for this; you can drop or reschedule it at your convenience. It's more of an opportunistic survey that we'll treat as a background filler task. We aim to gather data sometime today around mid-day, which should align well with our operational workflow updates.
+I'm reaching out with a task request that's of low priority importance, yet requires some flexibility in scheduling. Our mission involves capturing thermal mapping data for Correggioli, a charming town nestled within the picturesque landscape of Italia. The primary sensor we're utilizing is TIR, which will allow us to capture heat signatures and surface temperature profiles during daytime photography.
 
-Thank you for understanding and accommodating this request. Feel free to contact me if you need any further clarification or adjustments. Looking forward to your confirmation.
+Our goal is to assess heat emissions and conduct a thorough thermal anomaly detection across the region. This task is part of a background survey aimed at understanding the local thermal patterns. We understand that this request may not be an urgent one, but we do appreciate your prompt attention to this matter.
+
+We're looking for data delivery by the day after tomorrow during the afternoon timeframe. This deadline ensures that our products are ingested into the pipeline before the specified target day and time, adhering to our operational guidelines.
+
+Thank you for your understanding and cooperation in handling this task request. We appreciate your flexibility and look forward to collaborating with you on this opportunity.
 
 Best regards,
+
 [Your Name]

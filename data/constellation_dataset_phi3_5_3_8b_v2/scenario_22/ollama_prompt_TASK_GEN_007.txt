@@ -1,1 +1,2 @@
-Tomorrow morning, I'd like to schedule a flexible SAR session over Sesquilé in Colombia for an active radar scan. This is not urgent but could be done at your convenience as part of our routine monitoring efforts. Please let me know if this can be arranged or suggest a suitable time slot that fits into the baseline pipeline tracking setup.
+We're looking to capture an active radar scan using microwave surface imaging in Sesquilé, Colombia. This is a low priority importance task with flexible scheduling; however, we need the data ready by three days from now around mid-day at the latest for opportunistic survey purposes. If circumstances change, please feel free to drop or reschedule this background tracking assignment as needed.
+```

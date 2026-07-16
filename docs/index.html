@@ -5,73 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling - Miguel Angel Herrera, Mario Linares-Vásquez</title>
-  <meta name="title" content="Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling - Miguel Angel Herrera, Mario Linares-Vásquez">
-  <meta name="description" content="We present the KEPLER Data Factory (KDF), a framework that bridges mission-level intent and satellite scheduling by combining deterministic orbital physics with semantic text generation using Large Language Models.">
-  <meta name="keywords" content="satellite constellation scheduling, large language models, data factory, orbital mechanics, synthetic data, LEO satellite missions, mission strategy layer">
-  <meta name="author" content="Miguel Angel Herrera, Mario Linares-Vásquez">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
   
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Systems and Computing Engineering Department - Universidad de los Andes">
-  <meta property="og:title" content="Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling">
-  <meta property="og:description" content="We present the KEPLER Data Factory (KDF), a framework that bridges mission-level intent and satellite scheduling by combining deterministic orbital physics with semantic text generation using Large Language Models.">
-  <meta property="og:url" content="https://TheSoftwareDesignLab.github.io/KEPLER-DF">
-  <meta property="og:image" content="static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling - Research Preview">
-  <meta property="article:published_time" content="2026-06-01T00:00:00.000Z">
-  <meta property="article:author" content="Miguel Angel Herrera">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="satellite constellation scheduling">
-  <meta property="article:tag" content="large language models">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling">
-  <meta name="twitter:description" content="We present the KEPLER Data Factory (KDF), a framework that bridges mission-level intent and satellite scheduling by combining deterministic orbital physics with semantic text generation using Large Language Models.">
-  <meta name="twitter:image" content="static/images/social_preview.png">
-
-  <meta name="citation_title" content="Using LLMs to Generate Data Benchmarks for LEO Constellation Task Scheduling">
-  <meta name="citation_author" content="Herrera, Miguel Angel">
-  <meta name="citation_author" content="Linares-Vásquez, Mario">
-  <meta name="citation_publication_date" content="2026">
-  <meta name="citation_pdf_url" content="static/pdfs/paper.pdf">
-  
-  <meta name="theme-color" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-
   <link rel="icon" type="image/x-icon" href="static/images/37353160.ico">
   <link rel="apple-touch-icon" href="static/images/37353160.ico">
   
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
 </head>
 <body>
 
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
-
   <main id="main-content">
   <section class="hero">
-    <div class="hero-body">
+    <div class="hero-body pb-4">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
@@ -98,7 +45,6 @@
                     <span>Paper</span>
                   </a>
                 </span>
-
                 <span class="link-block">
                   <a href="https://github.com/TheSoftwareDesignLab/KEPLER-DF" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="fab fa-github"></i></span>
@@ -107,14 +53,32 @@
                 </span>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="tabs is-centered is-toggle is-toggle-rounded mt-4 mb-6">
+      <ul>
+        <li class="is-active">
+          <a href="index.html">
+            <span class="icon is-small"><i class="fas fa-project-diagram"></i></span>
+            <span>KDF Framework</span>
+          </a>
+        </li>
+        <li>
+          <a href="walkthrough.html">
+            <span class="icon is-small"><i class="fas fa-satellite"></i></span>
+            <span>Dataset Walkthrough</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="section hero is-light pt-5">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
@@ -129,574 +93,59 @@
     </div>
   </section>
 
-  <section class="hero is-small">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">The KEPLER Data Factory Subsystems</h2>
-        <div class="content has-text-justified">
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered mb-6">The KEPLER Data Factory Subsystems</h2>
+      
+      <div class="box p-5 mb-5">
+        <h4 class="title is-4 has-text-info"><i class="fas fa-database"></i> Data collector (DC)</h4>
+        <div class="content">
           <p>
-            KDF bridges the semantic gap between human intent and the operational scheduling layer by automating data synthesis through three sequential components orchestrated in tandem:
+            The pipeline orchestrator reads a parameterized specification configuration file to establish a centralized scenario profile:
           </p>
           <ul>
-            <li><strong>Data Collector (DC):</strong> Generates the baseline constellation context, retrieves empirical TLEs via the Celestrak API, samples ground stations, and probabilistically assigns sensor capabilities and payload constraints based on target geometries.</li>
-            <li><strong>Physics Engine (PE):</strong> Serves as the <strong>Physical Simulation Layer</strong>. It deterministically propagates the orbit of each satellite using Skyfield and the SGP4 algorithm to calculate valid capture windows (constrained by Max Off-Nadir angles) and burst communication links.</li>
-            <li><strong>Request Generator (RG):</strong> Operates as the <strong>Mission Strategy Layer</strong>. It aggregates physical metadata and tasks an LLM to synthesize semantic, human-like operational requests representing the tasks created in the scenarios.</li>
+            <li><strong>Satellite Fleet Context Initialization:</strong> Incorporates empirical satellite orbital elements by mapping specified NORAD tracking numbers or fetching active LEO asset categories directly from the Celestrak API. Every profile is thoroughly parsed to ensure compliance with a strict LEO orbit limit mean motion constraint of 11.0 or more revolutions per day.</li>
+            <li><strong>Stochastic Payload Subsystem Mapping:</strong> Platform assets are dynamically bound to strict physical limits using user-defined probability density distributions, mapping discrete RF communication bands (S, X, or Ka), solid-state recorder memory storage profiles, nominal data downlink transmission rates, and specific payload sensor allocations.</li>
+            <li><strong>Procedural Task Generation:</strong> Synthesizes target configurations randomly sampled from localized bounding envelopes. Tasks are designated as distinct geodetic points or multi-point polygonal scan areas, dynamically assigned a strategic mission priority (levels 1 to 3), and parameterized with strict availability release time offsets and deadline constraints anchored relative to <code>t₀</code>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box p-5 mb-5">
+        <h4 class="title is-4 has-text-primary"><i class="fas fa-calculator"></i> Physics engine (PE)</h4>
+        <div class="content">
+          <p>
+            Operating as the high-fidelity Physical Simulation Layer, this module propagates orbital segments over a discretized horizon step sequence to evaluate exact visibility intervals:
+          </p>
+          <ul>
+            <li><strong>Deterministic Pass Window Calculation:</strong> Continuously computes satellite state position and velocity vectors relative to the geodetic grid using standard SGP4 analytical propagation logic. The engine isolates valid topocentric access windows bounded strictly by frequency band-specific tracking elevation baselines and slant range propagation loss boundaries.</li>
+            <li><strong>Payload Geometry and Attitude Filtering:</strong> Filters and pairs computed look-ahead passes according to required sensor capability matching rules. Spacecraft line-of-sight tracking geometry is continually modeled in the Local-Vertical Local-Horizontal (LVLH) reference frame to calculate precise roll and pitch limits, discarding passes that violate operational sensor look angle thresholds.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box p-5 mb-5">
+        <h4 class="title is-4 has-text-warning"><i class="fas fa-brain"></i> Request generator</h4>
+        <div class="content">
+          <p>
+            Operating as the Mission Strategy Layer, this component interfaces with localized inference models to bridge the semantic domain gap:
+          </p>
+          <ul>
+            <li><strong>Linguistic Strategic Translation:</strong> Converts exact geodetic coordinate sets into human-digestible geopolitical descriptions (country and city) via a reverse geocoding pipeline using the Nominatim API. Mathematical epoch deadlines are contextualized into intuitive, natural language timeframes representing localized relative planning horizons and diurnal phases.</li>
+            <li><strong>Automated Evaluation and Validation:</strong> Mitigates model hallucinations by validating output requests directly against simulation parameters. Regular expressions extract time tokens into isolated temporal fragments to preserve vector directional integrity. These structures are transformed via a local embeddings model and compared using vector cosine similarity to evaluate geometric alignment against reference control vocabularies.</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section has-background-white-bis py-5">
-    <div class="container is-max-desktop">
-      <h3 class="title is-4 has-text-centered"><i class="fas fa-sliders-h"></i> Dataset Synthesis & Active Simulation Context</h3>
-      <div class="content">
-        <p class="has-text-centered mb-4">
-          The pipeline execution visualized below demonstrates a single, dynamic scenario walkthrough generated by KDF to address the disconnect between operational bounds and mission-level objectives. This data forms part of the benchmark configuration defined in <code>config.yaml</code>:
-        </p>
-        
-        <div class="box has-background-white mb-4">
-          <div class="columns is-multiline">
-            <div class="column is-6">
-              <p><strong>Dataset Identifier:</strong> <code class="has-text-link">constellation_dataset_llama3.1_8b_v2</code></p>
-              <p><strong>Active Fleet Nodes (N<sub>sat</sub>):</strong> 5 Spacecraft entities (Weather Group Pool)</p>
-              <p><strong>Ground Station Assets (N<sub>gs</sub>):</strong> 2 Operational Segment Downlinks</p>
-              <p><strong>Strategic Mission Requests:</strong> 15 Point/Polygon Target Tasks</p>
-            </div>
-            <div class="column is-6">
-              <p><strong>Baseline Simulation Seed:</strong> 2026 (Deterministic Anchor Block)</p>
-              <p><strong>Active Strategic Layer Model:</strong> <span class="tag is-info is-light">llama3.1:8b</span></p>
-              <p><strong>Model Hyperparameters:</strong> Temperature: <code>0.4</code></p>
-              <p><strong>Semantic Pipeline Layer:</strong> <span class="tag is-success is-light">Enabled</span></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="columns is-multiline">
-          <div class="column is-6">
-            <div class="card p-4 h-100">
-              <h5 class="title is-6"><i class="fas fa-microchip"></i> Sensor Capabilities & Generation Rates</h5>
-              <p class="is-size-7 mb-3">Probabilistic assignment of payload characteristics dictating the Physical Simulation Layer constraints.</p>
-              <table class="table is-narrow is-striped is-fullwidth is-size-7">
-                <thead>
-                  <tr>
-                    <th>Sensor Pool</th>
-                    <th>Weight</th>
-                    <th>Data Rate (R<sub>gen</sub>)</th>
-                    <th>Max Look Angle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td><strong>VIS</strong> (Visible Optical)</td><td>30.0%</td><td>40.0 MB/s</td><td>30.0°</td></tr>
-                  <tr><td><strong>SAR</strong> (Synthetic Aperture Radar)</td><td>25.0%</td><td>80.0 MB/s</td><td>40.0°</td></tr>
-                  <tr><td><strong>TIR</strong> (Thermal Infrared)</td><td>15.0%</td><td>12.0 MB/s</td><td>35.0°</td></tr>
-                  <tr><td><strong>VNIR</strong> (Visible-Near Infrared)</td><td>15.0%</td><td>35.0 MB/s</td><td>30.0°</td></tr>
-                  <tr><td><strong>NIR</strong> (Near Infrared)</td><td>15.0%</td><td>20.0 MB/s</td><td>30.0°</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          
-          <div class="column is-6">
-            <div class="card p-4 h-100">
-              <h5 class="title is-6"><i class="fas fa-hdd"></i> Hardware Payload Storage Profiles</h5>
-              <p class="is-size-7 mb-2">The SSR (Solid State Recorder) hardware capacity is sampled from the architectural configurations pool to enforce deterministic bounds:</p>
-              <div class="tags">
-                <span class="tag is-dark">32,000 MB (Low Tier Buffer)</span>
-                <span class="tag is-dark">128,000 MB (Standard Payload Buffer)</span>
-                <span class="tag is-dark">512,000 MB (High Performance Node)</span>
-              </div>
-              <h5 class="title is-6 mt-3"><i class="fas fa-file-alt"></i> Execution Target Data Paths</h5>
-              <ul class="is-size-7 pl-3" style="list-style-type: square;">
-                <li><code>paths.gs_file_path:</code> <code class="is-family-code">"data/ground_station.csv"</code></li>
-                <li><code>paths.sat_file_path:</code> <code class="is-family-code">"data/satellite_tle.csv"</code></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Scenario Walkthrough: Dynamic Pipeline Trace Analysis</h2>
-      <p class="subtitle is-5 has-text-centered has-text-muted">
-        Granular trace of execution data traversing from operational configuration variables to validated natural language requests.
-      </p>
-
-      <div class="columns is-multiline">
-        <div class="column is-12">
-          <div class="notification is-info is-light">
-            <h5><i class="fas fa-folder-open"></i> <strong>Dataset Repository Source Files</strong></h5>
-            <p>The raw execution arrays for this scenario are compiled and accessible for benchmarking evaluations at:</p>
-            <div class="buttons mt-2">
-              <a href="static/scenario1/scenario_report.json" target="_blank" class="button is-small is-family-code is-link is-outlined">/docs/static/scenario1/scenario_report.json</a>
-              <a href="static/scenario1/physics_passes_report.json" target="_blank" class="button is-small is-family-code is-primary is-outlined">/docs/static/scenario1/physics_passes_report.json</a>
-              <a href="static/scenario1/ollama_prompts_combined.json" target="_blank" class="button is-small is-family-code is-warning is-outlined">/docs/static/scenario1/ollama_prompts_combined.json</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-5">
-        <header class="card-header bg-dark">
-          <p class="card-header-title has-text-white">
-            <span class="tag is-info mr-2">1</span> Component: Data Collector (DC)
-          </p>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <p>
-              The orchestrator initializes the scenario context by parsing baseline specifications, fetching Two-Line Element (TLE) structures, allocating onboard hardware payloads, and computing bounding boxes for ground targets.
-            </p>
-            
-            <div class="columns">
-              <div class="column is-12">
-                <table class="table is-bordered is-striped is-narrow is-fullwidth">
-                  <thead>
-                    <tr><th colspan="4" class="has-background-link-light">Active Constellation Satellites Fleet Context</th></tr>
-                    <tr>
-                      <th>Spacecraft Designation</th>
-                      <th>Onboard Sensors</th>
-                      <th>Downlink Bands</th>
-                      <th>Memory Threshold</th>
-                    </tr>
-                  </thead>
-                  <tbody id="dc-satellites-body">
-                    <tr><td colspan="4" class="has-text-centered has-text-muted">Loading satellite configuration arrays...</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="columns">
-              <div class="column is-5">
-                <table class="table is-bordered is-striped is-narrow is-fullwidth">
-                  <thead>
-                    <tr><th class="has-background-primary-light">Ground Station Segment Networks</th></tr>
-                  </thead>
-                  <tbody>
-                    <tr><td><ul id="dc-gs-list" style="margin-left:0; list-style:none; padding-left:0;"><li>Loading ground assets...</li></ul></td></tr>
-                  </tbody>
-                </table>
-              </div>
-              
-              <div class="column is-8">
-                <div class="table-container" style="max-height: 300px; overflow-y: auto;">
-                  <table class="table is-bordered is-striped is-narrow is-fullwidth">
-                    <thead style="position: sticky; top: 0; background: white; z-index: 1;">
-                      <tr><th colspan="4" class="has-background-primary-light">Generated Scenario Tasks Parameters</th></tr>
-                      <tr>
-                        <th>Task ID</th>
-                        <th>Region Tag</th>
-                        <th>Priority</th>
-                        <th>Requirements</th>
-                      </tr>
-                    </thead>
-                    <tbody id="dc-tasks-body">
-                      <tr><td colspan="4" class="has-text-centered has-text-muted">Loading scenario tasks parameters...</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-5">
-        <header class="card-header bg-dark">
-          <p class="card-header-title has-text-white">
-            <span class="tag is-primary mr-2">2</span> Component: Physics Engine (PE) — <span id="pe-passes-count-badge">Sample View</span>
-          </p>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <p>
-              Operating at the <strong>Physical Simulation Layer</strong>, deterministic orbital propagation runs over the time steps using Skyfield and the SGP4 algorithm. Hardware capabilities filter out non-viable passes based on geometric look angles, elevations, and sensor properties.
-            </p>
-
-            <div class="table-container" style="max-height: 400px; overflow-y: auto;">
-              <table class="table is-striped is-bordered is-hoverable is-fullwidth">
-                <thead class="has-background-grey-lighter" style="position: sticky; top: 0; background: white; z-index: 1;">
-                  <tr>
-                    <th>Window Type</th>
-                    <th>Associated Entity / Target Cluster</th>
-                    <th>Payload Parameter</th>
-                    <th>Start Interval (UTC)</th>
-                    <th>End Interval (UTC)</th>
-                    <th>Data Volume / Telemetry Array</th>
-                  </tr>
-                </thead>
-                <tbody id="pe-table-body">
-                  <tr>
-                    <td colspan="6" class="has-text-centered has-text-muted">Propagating orbital steps array...</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-5">
-        <header class="card-header bg-dark">
-          <p class="card-header-title has-text-white">
-            <span class="tag is-warning mr-2">3</span> Component: Request Generator (RG) & Validation
-          </p>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <p>
-              Operating as the <strong>Mission Strategy Layer</strong>, this module queries local Large Language Models via Ollama to bridge the semantic gap. Physical boundaries and timestamps are geocoded using the Nominatim API to produce human-like operational requests. Crucially, the internal validation module <strong>measures the quality of natural language request generation representing tasks created in scenarios</strong>, rather than relying on basic text parsing, to ensure strict adherence to mission-level intent.
-            </p>
-
-            <div class="columns">
-              <div class="column is-5">
-                <h6><strong>Enriched Prompt Ground-Truth Context</strong></h6>
-                <pre class="is-size-7 box has-background-white-bis"><code id="json-prompt">Loading context execution array...</code></pre>
-              </div>
-              <div class="column is-7">
-                <h6><strong>Generated Natural Language Operational Request</strong></h6>
-                <div class="box has-background-warning-light">
-                  <p id="nl-request" class="is-italic font-weight-semibold">
-                    Loading natural language target generation fragment...
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <h6><strong>Linguistic Alignment Performance & Match Assertions</strong></h6>
-            <p>
-              Linguistic tokens are isolated into structural vector sub-fragments and classified against reference control vocabularies utilizing geometric cosine similarity:
-            </p>
-
-            <nav class="level box has-background-white-bis">
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-weight-bold">Sensor Mapping</p>
-                  <p class="title is-4">
-                    <span id="match-sensor" class="tag">--</span>
-                  </p>
-                  <p class="help">Linguistic Assertion</p>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-weight-bold">Priority Classification</p>
-                  <p class="title is-4">
-                    <span id="match-priority" class="tag">--</span>
-                  </p>
-                  <p class="help">Linguistic Alignment</p>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-weight-bold">Target Day Detection</p>
-                  <p class="title is-4">
-                    <span id="match-day" class="tag">--</span>
-                  </p>
-                  <p class="help">Temporal Fragment Block</p>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-weight-bold">Fine Temporal Hour</p>
-                  <p class="title is-4">
-                    <span id="match-hour" class="tag">--</span>
-                  </p>
-                  <p class="help">Granular Loss Drop</p>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="hero is-small is-light">
-    <div class="hero-body">
-      <div class="container">
-        <h2 class="title is-3 has-text-centered">Evaluation and Visualizations</h2>
-        <p class="subtitle is-5 has-text-centered has-text-muted mb-5">
-          Dynamic tracking windows generated during the initial 24 hours of the active constellation simulation scenario.
-        </p>
-        
-        <div class="columns is-centered">
-          <div class="column is-9">
-            <div id="video-carousel" class="carousel results-carousel">
-              <div class="item-slide px-2">
-                <video controls autoplay muted loop playsinline class="video-preview-node" style="width:100%; border-radius:6px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-                  <source src="static/videos/38771.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-7 has-text-centered mt-2"><strong>METOP-B (NORAD: 38771)</strong> — Communication and Task Windows</p>
-              </div>
-              <div class="item-slide px-2">
-                <video controls autoplay muted loop playsinline class="video-preview-node" style="width:100%; border-radius:6px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-                  <source src="static/videos/57166.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-7 has-text-centered mt-2"><strong>METEOR-M2 3 (NORAD: 57166)</strong> — Communication and Task Windows</p>
-              </div>
-              <div class="item-slide px-2">
-                <video controls autoplay muted loop playsinline class="video-preview-node" style="width:100%; border-radius:6px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-                  <source src="static/videos/37849.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-7 has-text-centered mt-2"><strong>SUOMI NPP (NORAD: 37849)</strong> — Communication and Task Windows</p>
-              </div>
-              <div class="item-slide px-2">
-                <video controls autoplay muted loop playsinline class="video-preview-node" style="width:100%; border-radius:6px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-                  <source src="static/videos/28054.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-7 has-text-centered mt-2"><strong>DMSP 5D-3 F16 (USA 172) (NORAD: 28054)</strong> — Communication and Task Windows</p>
-              </div>
-              <div class="item-slide px-2">
-                <video controls autoplay muted loop playsinline class="video-preview-node" style="width:100%; border-radius:6px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-                  <source src="static/videos/58662.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-7 has-text-centered mt-2"><strong>TIANMU-1 21 (NORAD: 58662)</strong> — Communication and Task Windows</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
   <footer class="footer">
     <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-8">
-          <div class="content has-text-centered">
-            <p>
-              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            </p>
-          </div>
-        </div>
+      <div class="content has-text-centered">
+        <p>This page was built using the Academic Project Page Template.</p>
       </div>
     </div>
   </footer>
-
   </main>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const basePath = 'static/scenario1/';
-      
-      const urls = [
-        fetch(`${basePath}scenario_report.json`).then(r => { if (!r.ok) throw new Error('scenario_report missing'); return r.json(); }),
-        fetch(`${basePath}physics_passes_report.json`).then(r => { if (!r.ok) throw new Error('physics_passes missing'); return r.json(); }),
-        fetch(`${basePath}ollama_prompts_combined.json`).then(r => { if (!r.ok) throw new Error('ollama_prompts missing'); return r.json(); })
-      ];
-
-      Promise.all(urls)
-        .then(([scenario, physics, prompts]) => {
-          
-          try {
-            const satellites = scenario.satellites || [];
-            const groundStations = scenario.ground_stations || [];
-            const tasks = scenario.targets || [];
-
-            const satBody = document.getElementById('dc-satellites-body');
-            if (satBody && satellites.length > 0) {
-              let satHtml = '';
-              satellites.forEach(sat => {
-                const name = sat.name || "METOP-B";
-                const norad = sat.norad_id || "38771";
-                const sensors = Array.isArray(sat.assigned_sensors) ? sat.assigned_sensors.join(', ') : "TIR, VNIR";
-                const bands = sat.assigned_band || "S";
-                const memory = sat.ssr_capacity_mb ? sat.ssr_capacity_mb.toLocaleString() + ' MB' : "128,000 MB";
-                
-                satHtml += `
-                  <tr>
-                    <td><strong>${name}</strong> <small class="has-text-grey">(NORAD: ${norad})</small></td>
-                    <td><span class="is-size-7">${sensors}</span></td>
-                    <td><span class="tag is-info is-light">${bands}-band</span></td>
-                    <td><span class="is-family-code is-size-7">${memory}</span></td>
-                  </tr>`;
-              });
-              satBody.innerHTML = satHtml;
-            }
-
-            const gsListEl = document.getElementById('dc-gs-list');
-            if (gsListEl && groundStations.length > 0) {
-              let gsHtml = '';
-              groundStations.forEach(gs => {
-                const gsRawName = gs.ground_station_id || gs.name || 'Ground Station';
-                const gsCleanName = gsRawName.replace(/_/g, ' ').toUpperCase();
-                gsHtml += `<li><i class="fas fa-satellite-dish has-text-info mr-2"></i><strong>${gsCleanName}</strong></li>`;
-              });
-              gsListEl.innerHTML = gsHtml;
-            }
-
-            const tasksBody = document.getElementById('dc-tasks-body');
-            if (tasksBody && tasks.length > 0) {
-              let tasksHtml = '';
-              tasks.forEach(t => {
-                const taskId = t.task_id || "N/A";
-                const region = t.region_tag ? t.region_tag.charAt(0).toUpperCase() + t.region_tag.slice(1) : "N/A";
-                const priority = t.priority !== undefined ? t.priority : "N/A";
-                const requirements = Array.isArray(t.sensor_requirements) ? t.sensor_requirements.join(', ') : "N/A";
-
-                tasksHtml += `
-                  <tr>
-                    <td class="is-family-code is-size-7"><strong>${taskId}</strong></td>
-                    <td><span class="tag is-light is-link">${region}</span></td>
-                    <td><span class="tag is-light is-warning">Priority ${priority}</span></td>
-                    <td><span class="is-size-7">${requirements}</span></td>
-                  </tr>`;
-              });
-              tasksBody.innerHTML = tasksHtml;
-            }
-          } catch (e) {
-            console.error('Error mappings dynamic Data Collector context:', e);
-          }
-
-          try {
-            const meta = physics.metadata || {};
-            const totalInfra = meta.compiled_infrastructure_passes || 0;
-            const totalTarget = meta.compiled_target_passes || 0;
-            
-            const badgeEl = document.getElementById('pe-passes-count-badge');
-            if (badgeEl) {
-              badgeEl.textContent = `Sample of 15 passes out of ${totalInfra} infrastructure and ${totalTarget} target passes calculated`;
-            }
-
-            let infraArray = physics.infrastructure_passes || [];
-            let targetArray = physics.target_passes || [];
-            let combinedPasses = [];
-            
-            let maxLen = Math.max(infraArray.length, targetArray.length);
-            for (let i = 0; i < maxLen; i++) {
-              if (infraArray[i]) {
-                infraArray[i]._isComms = true;
-                combinedPasses.push(infraArray[i]);
-              }
-              if (targetArray[i]) {
-                targetArray[i]._isComms = false;
-                combinedPasses.push(targetArray[i]);
-              }
-            }
-
-            if (combinedPasses.length === 0 && Array.isArray(physics)) {
-              combinedPasses = physics;
-            }
-
-            const tableBody = document.getElementById('pe-table-body');
-            if (tableBody && combinedPasses.length > 0) {
-              let tableHtml = '';
-              const displayPasses = combinedPasses.slice(0, 15);
-              
-              displayPasses.forEach(p => {
-                const isComms = p._isComms || p.ground_station_id !== undefined;
-                const tagClass = isComms ? 'is-success' : 'is-link';
-                const typeLabel = isComms ? 'Downlink' : 'Capture';
-                
-                let targetEntity = p.ground_station_id || p.target_id || p.task_id || 'Pass';
-                targetEntity = String(targetEntity).replace(/_/g, ' ').toUpperCase();
-                
-                const payloadParam = isComms ? 'RF Downlink Array' : (p.sensor_requirements ? p.sensor_requirements.join(', ') : 'VIS/TIR');
-                const startTime = p.aos_utc || p.imaging_start_utc || p.start_time || 'N/A';
-                const endTime = p.los_utc || p.imaging_end_utc || p.end_time || 'N/A';
-                
-                let mbValue = 0;
-                if (isComms) {
-                  mbValue = p.estimated_transmission_capacity_mb || 0;
-                } else {
-                  mbValue = p.estimated_onboard_data_generation_mb || 0;
-                }
-                const mbFormatted = parseFloat(mbValue).toLocaleString() + ' MB';
-                
-                tableHtml += `
-                  <tr>
-                    <td><span class="tag ${tagClass} is-light">${typeLabel}</span></td>
-                    <td><strong>${targetEntity}</strong> <small class="has-text-grey">(Sat: ${p.satellite_id})</small></td>
-                    <td>${payloadParam}</td>
-                    <td class="is-family-code is-size-7">${startTime}</td>
-                    <td class="is-family-code is-size-7">${endTime}</td>
-                    <td><span class="tag is-white has-text-weight-bold has-text-link">${mbFormatted}</span></td>
-                  </tr>`;
-              });
-              tableBody.innerHTML = tableHtml;
-            }
-          } catch (e) {
-            console.error('Error rendering Physics Engine table:', e);
-          }
-
-          try {
-            let taskItems = [];
-            if (prompts.tasks) {
-              taskItems = prompts.tasks;
-            } else if (Array.isArray(prompts)) {
-              taskItems = prompts;
-            } else if (typeof prompts === 'object') {
-              taskItems = Object.values(prompts).filter(t => t && (t.task_id || t.prompt_sent));
-            }
-
-            if (taskItems.length > 0) {
-              const randomIndex = Math.floor(Math.random() * taskItems.length);
-              const randomTask = taskItems[randomIndex];
-
-              const gt = randomTask.ground_truth || {};
-              const inputContext = {
-                task_id: randomTask.task_id || "TASK_GEN_001",
-                expected_sensor: gt.expected_sensor || "TIR",
-                expected_priority: gt.expected_priority || "low priority background survey",
-                expected_temporal_day: gt.expected_day || "tomorrow next calendar day",
-                expected_temporal_hour: gt.expected_hour || "afternoon window"
-              };
-              
-              document.getElementById('json-prompt').textContent = JSON.stringify(inputContext, null, 2);
-              
-              const outputText = randomTask.generated_output || randomTask.response || 'No request string found.';
-              document.getElementById('nl-request').textContent = `"${outputText}"`;
-
-              const applyMatchTag = (elementId, matchBool) => {
-                const el = document.getElementById(elementId);
-                if (!el) return;
-                if (matchBool === true || matchBool === "true") {
-                  el.textContent = "VALID";
-                  el.className = "tag is-success is-light font-weight-bold";
-                } else {
-                  el.textContent = "INVALID";
-                  el.className = "tag is-danger is-light font-weight-bold";
-                }
-              };
-
-              const v = randomTask.validation || {};
-              applyMatchTag('match-sensor', v.sensor_match);
-              applyMatchTag('match-priority', v.priority_match);
-              applyMatchTag('match-day', v.day_match);
-              applyMatchTag('match-hour', v.hour_match);
-            }
-          } catch (e) {
-            console.error('Error rendering Request Generator component:', e);
-          }
-          
-          try {
-            bulmaCarousel.attach('#video-carousel', {
-              slidesToScroll: 1,
-              slidesToShow: 1,
-              loop: true,
-              infinite: true,
-              autoplay: false,
-              navigation: true,
-              pagination: true
-            });
-          } catch(carouselErr) {
-            console.warn('Bulma carousel controlled setup trace:', carouselErr);
-          }
-
-        })
-        .catch(err => {
-          console.error('Pipeline loading workspace trace error:', err);
-        });
-    });
-  </script>
 </body>
 </html>

@@ -1,11 +1,1 @@
-Tasking Request: Routine Monitoring of Vegetation Health in Tagliole, Italy
-
-We require a standard operational tasking for routine monitoring of vegetation health using multispectral analysis to assess chlorophyll absorption levels and calculate the NDVI index. This will be conducted over the region of Tagliole in Italia.
-
-The mission allocation priority for this tasking is standard operational status, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. It is a commercial tasking with no specific deadline constraints.
-
-We request that this tasking be executed sometime today around mid-day, within the target window of the day and during the afternoon period. This will allow for optimal data capture and analysis.
-
-Please ensure that the mission is executed as per the standard operational protocols and that all necessary parameters are set accordingly.
-
-Thank you.
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The objective is to capture a multispectral vegetation analysis using high-resolution optical snapshot capabilities for daylight photography, clear optical imagery, or true-color visual documentation in the region of Tagliole, Italia. This task should be completed with a strict delivery deadline set for in three days during the afternoon at the latest.

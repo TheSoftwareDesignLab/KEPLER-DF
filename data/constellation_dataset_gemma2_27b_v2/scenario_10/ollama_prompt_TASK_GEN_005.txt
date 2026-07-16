@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for near-infrared reflection capture over the city of Norte. This is part of a baseline pipeline tracking setup with fixed parameters for water body boundary mapping and soil moisture assessment. We need this sometime the day after tomorrow in the evening.
+This is a standard operational tasking for near-infrared reflection capture over the city of Norte. We need this data ingested into the pipeline before the day after tomorrow overnight at the latest.

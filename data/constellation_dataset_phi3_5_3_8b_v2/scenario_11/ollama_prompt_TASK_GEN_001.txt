@@ -1,2 +1,2 @@
-Tomorrow, I'd like to schedule a low priority importance task for high-resolution optical snapshot daylight photography in Puerto López, Colombia. The aim is to capture clear optical imagery during the afternoon hours. This can be dropped or rescheduled at my convenience as it serves as background survey tracking. Please arrange this opportunistic capture accordingly.
-```
+We're looking to acquire a high-resolution optical snapshot of Puerto López in Colombia, around midday tomorrow. This is considered low priority and can be scheduled flexibly; however, it would be appreciated if this task could be completed by the upcoming overnight block for data integration into our regular monitoring pipeline. Please feel free to adjust or reschedule as needed without inconvenience.
+```prompt

@@ -1,1 +1,3 @@
-Capture a high-resolution thermal map of the region, specifically focusing on the heat signature and surface temperature profile in Bolívar, Colombia. This is an absolute institutional priority, representing a critical payload capture and mandatory directive for our baseline pipeline tracking setup. The tasking must be executed within the next three days, targeting the morning hours.
+Translate this task into a highly realistic and conversational English request:
+
+We require an absolute institutional priority for thermal mapping in Colombia, specifically targeting the city of Bolívar, to capture a heat signature and surface temperature profile. This critical payload capture is a binding contract requirement involving a mandatory directive for urgent operational execution and un-preemptable mission lock. The data must be ready by in three days in the morning at the latest to ensure timely ingestion into the pipeline.

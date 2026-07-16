@@ -1,9 +1,1 @@
-Tasking Request: Routine Monitoring for Baseline Pipeline Tracking
-
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This task involves multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance.
-
-The target location is in Colombia, specifically in the city of Tame, where we aim to capture a high-resolution optical snapshot for daylight photography and true-color visual documentation using our VNIR sensor.
-
-This tasking has been designated as a standard operational tasking with a commercial tasking priority, indicating a normal operational status and workflow update. The mission allocation authority and asset contractual value are moderate, reflecting a medium importance level.
-
-The task is due to be executed overnight tomorrow morning, allowing for a flexible schedule and opportunistic capture within our baseline pipeline tracking setup.
+Please conduct a standard operational tasking using multispectral vegetation analysis with a VNIR sensor over Tame, Colombia, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The products are needed by tomorrow in the morning at the latest.

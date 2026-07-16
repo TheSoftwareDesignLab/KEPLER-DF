@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Pesisir Selatan, Indonesia. This is part of our routine monitoring and baseline pipeline tracking. We need cloud-penetrating capture sometime tomorrow during the afternoon.
+This is a standard operational tasking for an active radar scan of Pesisir Selatan, Indonesia. We need a cloud-penetrating capture using microwave surface imaging by tomorrow during the afternoon at the latest.

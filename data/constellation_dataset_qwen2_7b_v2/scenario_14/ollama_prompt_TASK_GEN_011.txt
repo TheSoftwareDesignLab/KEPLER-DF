@@ -1,7 +1,5 @@
-Hello satellite constellation planner, I'm requesting a task for an Earth observation mission focusing on the region of Montaquila, Italia. The primary sensor involved will be the VNIR system, aimed at conducting a detailed multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for the area.
+Good day to our automated satellite constellation planner, we're requesting a task be scheduled for an upcoming operational mission. Our objective is to gather data using a VNIR sensor for a low priority importance task, which involves assessing the chlorophyll absorption level in the vegetation of Montaquila, Italia. This is part of a background survey aimed at understanding local environmental conditions.
 
-Given that this is a low priority importance request, we're looking to capture this data with a flexible schedule, treating it as a non-essential background filler task. We don't have any strict deadlines here, so feel free to drop or reschedule this task at your convenience. 
+The specific geographic context we're focusing on is Montaquila, a charming town nestled within the beautiful region of Italia. We aim to capture this data during the afternoon hours on the day following today's date, ensuring that the products are ingested into our pipeline before the evening falls. This request aligns with our baseline pipeline tracking setup and represents a flexible schedule for opportunistic capture.
 
-We aim to complete this task sometime today around mid-day, focusing on the afternoon period for optimal conditions. This will help us gather valuable information about the vegetation health and land use in the area without impacting our regular operations.
-
-Thank you for your understanding and cooperation.
+Thank you for your attention to this matter, and we look forward to receiving the data products that will contribute to our ongoing efforts in monitoring and understanding our natural environment.

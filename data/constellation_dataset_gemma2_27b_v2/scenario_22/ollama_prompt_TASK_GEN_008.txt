@@ -1,1 +1,1 @@
-This is a standard operational tasking for a high-resolution optical snapshot of Tre Fasci, Italia. Please schedule this for sometime in three days during the afternoon.
+This is a standard operational tasking for a high-resolution optical snapshot of Tre Fasci, Italia. Please ensure the products are ingested into the pipeline before in three days during the afternoon at the latest.

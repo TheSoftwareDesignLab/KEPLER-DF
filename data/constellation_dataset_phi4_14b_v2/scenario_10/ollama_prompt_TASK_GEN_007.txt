@@ -1,1 +1,3 @@
-I'd like to schedule a low-priority task for thermal mapping over the city of Apartadó in Colombia. The goal is to capture the surface temperature profile, focusing on detecting any thermal anomalies. This is a flexible schedule request, so feel free to drop or reschedule it at your convenience. Ideally, this should be done sometime the day after tomorrow during the evening.
+I have a low-priority task for your consideration. We're interested in capturing thermal mapping data over the region of Apartadó, Colombia. The goal is to observe heat signatures and surface temperature profiles, which could be useful for detecting thermal anomalies. This request is quite flexible, so please feel free to drop or reschedule it at your convenience.
+
+The data products are needed by the day after tomorrow in the evening at the latest, ensuring they're ingested into the pipeline before that time. Thank you!

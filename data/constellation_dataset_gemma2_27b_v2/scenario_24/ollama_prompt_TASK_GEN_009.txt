@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Beringin Jaya, Indonesia. This is part of our routine monitoring and baseline pipeline tracking setup. We need microwave surface imaging for cloud-penetrating capture sometime tomorrow around mid-day.
+This is a standard operational tasking for an active radar scan using microwave surface imaging over Beringin Jaya, Indonesia. We need this data captured and processed, with a strict delivery deadline set for tomorrow around mid-day at the latest.

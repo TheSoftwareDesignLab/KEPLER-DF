@@ -1,1 +1,1 @@
-This is a low priority importance request for opportunistic capture of a thermal map of Banting, Malaysia. We need near-infrared reflection sometime the day after tomorrow in the morning.  Feel free to drop or reschedule at convenience.
+This is a low priority importance task for opportunistic capture. We need thermal mapping of Banting, Malaysia.  Please ensure the products are ingested into the pipeline before the day after tomorrow in the morning at the latest.

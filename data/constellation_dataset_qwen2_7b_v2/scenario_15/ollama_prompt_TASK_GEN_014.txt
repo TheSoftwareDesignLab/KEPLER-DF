@@ -1,7 +1,12 @@
-Hello, automated satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that needs to be executed with flexibility and opportunism due to its low priority importance. We're looking to capture thermal mapping data using our TIR sensor on the day after tomorrow during the afternoon.
+Hello Satellite Constellation Planner,
 
-The geographic context is centered around Norte, which is located within the region we're focusing on. Since we don't have specific details about the country or city, we'll rely on the broader context of the region for precise targeting.
+I'm reaching out to request a critical Earth observation task for Norte, which is located in an unspecified country. Given its importance, I'm designating this as a High Importance (Priority 3) mission allocation.
 
-This request doesn't carry an urgent operational execution requirement; instead, it's more akin to a background survey that can be dropped or rescheduled at our convenience. The goal is to assess surface temperature profiles and detect thermal anomalies without the need for strict time constraints.
+Our objective is to capture thermal mapping data using a Thermal Infrared (TIR) sensor during the afternoon of the day after tomorrow. This will help us assess heat signatures and surface temperature profiles for Norte, crucial information for detecting thermal anomalies and heat emissions in the area.
 
-Please schedule this task with a flexible timeline, ensuring that it aligns with your operational capabilities and workflow updates. We appreciate your understanding and flexibility in accommodating this non-essential background filler task. Thank you for your attention to detail and cooperation in fulfilling our mission requirements.
+Given the urgency, we need this data by the target day at the latest, ensuring that the products are ingested into our pipeline before the specified diurnal period. Considering the nature of this task as a low priority importance request, it's flexible with scheduling, allowing us to drop or reschedule at our convenience if needed.
+
+Thank you for your attention and swift action in fulfilling this mission.
+
+Best regards,
+[Your Name]

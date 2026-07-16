@@ -1,2 +1,1 @@
-Tomorrow, I'd like to schedule a low priority importance task for thermal mapping over Paimadó in Colombia. Specifically targeting this afternoon when conditions are most favorable, we aim to capture the heat signature and surface temperature profile of the area as part of our routine survey tracking. Feel free to drop or reschedule at your convenience if necessary.
-```prompt
+Ensure that we have a thermal mapping of Paimadó, Colombia, using infrared technology to capture surface temperature profiles by tomorrow evening at the latest. This task is considered low priority importance and can be dropped or rescheduled according to convenience; it serves as an opportunistic filler in our regular monitoring efforts.

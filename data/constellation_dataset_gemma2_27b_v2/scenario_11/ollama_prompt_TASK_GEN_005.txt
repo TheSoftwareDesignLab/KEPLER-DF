@@ -1,1 +1,1 @@
-This is a binding contract requirement for a critical payload capture. We need an active thermal scan of Latina, Italia, tomorrow morning.
+This is a critical payload capture over Latina, Italia. We require thermal mapping of the area with a strict delivery deadline set for tomorrow in the morning at the latest.

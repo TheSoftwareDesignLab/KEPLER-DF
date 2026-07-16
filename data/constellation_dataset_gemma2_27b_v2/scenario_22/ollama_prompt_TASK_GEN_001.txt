@@ -1,1 +1,1 @@
-This is a low priority importance tasking for opportunistic capture. We need a thermal map of Santa Helena del Opón, Colombia sometime in three days around mid-day.
+This is a low priority importance task for opportunistic capture. We need thermal mapping of Santa Helena del Opón, Colombia.  Please ensure the products are ingested into the pipeline before three days during the afternoon at the latest. This can be dropped or rescheduled at convenience as a non-essential background filler task.

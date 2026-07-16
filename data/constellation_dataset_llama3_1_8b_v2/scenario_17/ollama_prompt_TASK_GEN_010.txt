@@ -1,3 +1,7 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner:
+Translate the raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
 
-We require an absolute institutional priority for a critical payload capture involving a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation in the region of Colombia, specifically focusing on the city of San Martín. This binding contract requirement must be executed with utmost urgency and un-preemptable mission lock, with the tasking taking place tomorrow morning during the afternoon.
+The mission requires an absolute institutional priority to capture high-resolution optical snapshots of the region using multispectral vegetation analysis. This critical payload capture is a binding contract requirement, involving the mandatory directive of a "critical payload capture" and an "urgent operational execution" with an "un-preemptable mission lock".
+
+The location details indicate that the task should be executed over Colombia, specifically in the city of San Martín. The region's natural resources and agricultural activities make this area an ideal candidate for VNIR analysis.
+
+The task must be completed by tomorrow evening at the latest, ensuring that the products are ingested into the pipeline before the deadline. This will enable the operators to track the baseline pipeline with fixed parameters representing normal operational status and a standard workflow update.

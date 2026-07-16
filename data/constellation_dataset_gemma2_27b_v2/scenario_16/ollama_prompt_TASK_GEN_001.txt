@@ -1,1 +1,1 @@
-This is a standard operational tasking for multispectral vegetation analysis over Santander de Quilichao, Colombia. I need a high-resolution VNIR capture sometime in three days during the morning for vegetation mapping and NDVI index calculation.
+This is a standard operational tasking for multispectral vegetation analysis over Santander de Quilichao, Colombia. We need a high-resolution VNIR scan to assess chlorophyll absorption levels and calculate the NDVI index. Please ensure the products are ingested into the pipeline before in three days in the morning at the latest.

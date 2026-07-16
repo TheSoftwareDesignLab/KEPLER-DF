@@ -21,13 +21,6 @@ def prompt_factory_main(
     hours_categories: Optional[List[str]] = None,
     simulation_t0: Optional[datetime] = None
 ) -> Dict[str, str]:
-    """
-    Main orchestration function for generating and semantically validating asset requests.
-
-    Processes a collection of TargetTask entities, calculates reference labels based on UTC,
-    triggers asynchronous text generation via Ollama, saves the results locally,
-    and performs cosine similarity vector comparisons to record validation metrics.
-    """
     if prompt_config is None:
         return {}
 
@@ -166,8 +159,9 @@ def prompt_factory_main(
             
             sensor_match = metrics["predicted_sensor"] == expected_sensor
             priority_match = metrics["predicted_priority"] == expected_priority
-            day_match = metrics["predicted_day"] == expected_day
-            hour_match = metrics["predicted_hour"] == expected_hour
+
+            day_match = (metrics["predicted_day"] == expected_day) and (metrics["day_similarity"] >= 0.85)
+            hour_match = (metrics["predicted_hour"] == expected_hour) and (metrics["hour_similarity"] >= 0.85)
 
             if sensor_match:
                 successful_sensor_matches += 1

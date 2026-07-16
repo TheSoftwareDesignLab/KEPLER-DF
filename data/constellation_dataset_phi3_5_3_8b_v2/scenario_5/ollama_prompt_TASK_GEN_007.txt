@@ -1,2 +1,2 @@
-Tomorrow morning, I'd like to schedule a low priority importance task for high-resolution optical snapshot photography in Colombia. This is an opportunistic capture aimed at daylight photography or true-color visual documentation. The timing should be flexible, but ideally around mid-day when natural light conditions are optimal. If there are any conflicts with existing commitments, please feel free to reschedule this as per convenience.
-```
+We're looking to capture a high-resolution optical snapshot of Colombia, specifically in its capital city, for daylight photography. This task is considered low priority and has a flexible schedule, so please feel free to drop or reschedule at your convenience. We aim to have the data ready by tomorrow morning at the latest, ensuring it can be integrated into our current workflow tracking without disrupting any existing commitments.
+```prompt

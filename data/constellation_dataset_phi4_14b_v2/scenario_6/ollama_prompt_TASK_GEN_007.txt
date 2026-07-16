@@ -1,3 +1,1 @@
-I need to schedule a standard operational tasking for our satellite constellation. We're focusing on capturing high-resolution optical snapshots using visible light sensors over Zipaquirá, Colombia. This is part of our baseline pipeline tracking with fixed parameters, aligning with normal operational status and workflow updates.
-
-The mission should be executed in four days during the evening. Please ensure that this task is prioritized accordingly as part of our routine monitoring activities.
+We have a standard operational tasking in place for a high-resolution optical snapshot over the city of Zipaquirá, Colombia. This commercial tasking forms part of our baseline pipeline tracking and involves capturing clear optical imagery during daylight photography. The request is to ensure that these visual documentation products are ready by the evening in four days at the latest, maintaining our normal operational status and workflow updates.

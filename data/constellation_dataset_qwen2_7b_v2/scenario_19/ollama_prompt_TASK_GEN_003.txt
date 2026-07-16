@@ -1,7 +1,9 @@
-Good day, satellite constellation planner. I'm reaching out with an absolute institutional priority regarding our Earth observation mission. We're tasked with capturing a critical payload using our thermal imaging sensor (TIR) in Indonesia, specifically in the equatorial region of Ecuatorial City. This is a binding contract requirement that involves thermal mapping to detect heat signatures and understand surface temperature profiles.
+Good day, automated satellite constellation planner. I'm reaching out on behalf of an Earth-observation mission with a high importance task to be executed in the near future. Our objective is to capture thermal mapping data for the region surrounding Ecuatorial City, located within Indonesia's vast territory. This area requires a detailed heat signature and surface temperature profile for critical analysis.
 
-The deadline for this task is set for the day after tomorrow, during the evening hours. We aim to gather data when the sky is clear and temperatures are most representative of the region's usual conditions. Our objective is to ensure accurate thermal anomaly detection and mapping heat emissions without any obstructions from clouds or weather.
+Our priority is marked as 'High Importance', which means this mission is an absolute institutional priority and part of a binding contract requirement involving a critical payload capture. We require this data to be available by the evening on the day that is three days ahead, ensuring it's ingested into our pipeline before the deadline is met.
 
-Please allocate your resources accordingly, treating this as an urgent operational execution with an un-preemptable mission lock. We understand that flexibility might be required due to unforeseen circumstances, but our primary goal is to deliver this dataset as soon as possible after the deadline.
+For this task, we are employing thermal sensors (TIR) to gather thermal images that will help us in detecting heat anomalies and mapping heat emissions accurately. The imagery captured should provide us with a comprehensive view of the region's thermal characteristics.
 
-Thank you for your attention and cooperation in ensuring this mission's success.
+Please note that this mission has a strict deadline due to operational constraints and represents a baseline pipeline tracking setup with fixed parameters, reflecting our normal operational status. We are looking forward to your immediate attention and cooperation in executing this task as per our requirements.
+
+Thank you for your understanding and swift action in fulfilling this request.

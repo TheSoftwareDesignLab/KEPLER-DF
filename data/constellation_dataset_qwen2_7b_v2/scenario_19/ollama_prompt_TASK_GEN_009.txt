@@ -1,8 +1,16 @@
-Hello, satellite constellation planner. We're looking to capture a thermal mapping of Ecuatorial City in Indonesia using our thermal infrared sensor. This is an absolute institutional priority due to its critical nature and contractual obligations. We require this data for heat signature analysis and surface temperature profiling. Please ensure the mission is allocated with the highest urgency and authority, as it involves a mandatory directive for our operations.
+```prompt
+Good day, automated satellite constellation planner. I'm reaching out to request a critical payload capture from our constellation for an absolute institutional priority task. This involves thermal mapping of Indonesia's equatorial region, which is of paramount importance due to its unique geographical characteristics and potential for significant environmental changes.
 
-We're targeting tomorrow afternoon for this task, aiming for a clean capture without any interference from clouds or other atmospheric conditions. This request carries the same level of importance as our baseline pipeline tracking setup but with fixed parameters that represent our normal operational status.
+Our primary sensor requirement is the TIR (Thermal Infrared) instrument, enabling us to capture detailed heat signatures across the region during the afternoon hours on tomorrow's day. This task comes with a strict delivery deadline set for tomorrow afternoon at the latest, ensuring the products are ingested into our pipeline before then.
 
-Please lock this mission in our satellite constellation, ensuring it is not preempted by any other tasks. We appreciate your attention to detail and swift execution of this critical payload capture. Thank you for prioritizing this request and making sure it's executed with the utmost care and efficiency.
+The country of focus is Indonesia, with a particular emphasis on its equatorial city, Ecuatorial. We aim to gather comprehensive data on surface temperature profiles and thermal anomalies across various landscapes, including urban areas, forests, and water bodies, to facilitate critical decision-making processes in environmental management and policy formulation.
+
+This request is classified as an urgent operational execution with an un-preemptable mission lock, reflecting the high importance of this task. We understand the need for a highly accurate and detailed dataset that can provide valuable insights into the region's thermal dynamics and potential hotspots.
+
+Please proceed with the necessary preparations to ensure our satellite assets are allocated accordingly to meet these requirements. Your expertise in scheduling and optimizing our constellation's operations will be crucial in fulfilling this binding contract requirement.
+
+Thank you for your attention to this matter, and we look forward to receiving the data products by tomorrow afternoon as specified. If there are any questions or concerns regarding the operational parameters or deadlines, please feel free to reach out directly.
 
 Best regards,
 [Your Name]
+Earth-observation Mission Operator

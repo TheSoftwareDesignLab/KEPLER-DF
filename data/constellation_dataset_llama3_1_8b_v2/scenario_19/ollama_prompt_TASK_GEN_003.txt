@@ -1,7 +1,5 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission.
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
 
-We require an absolute institutional priority for a thermal mapping mission over Indonesia, specifically targeting the city of Indonesia. We need to capture a heat signature and surface temperature profile using an active thermal scan to detect and map thermal anomalies. This is a binding contract requirement involving a critical payload capture and mandatory directive, with an urgent operational execution and un-preemptable mission lock.
+We require an absolute institutional priority for a thermal mapping mission over Indonesia, specifically targeting the city of Ecuatorial. We need to capture a high-resolution heat signature and surface temperature profile using active thermal imaging to detect any thermal anomalies and map heat emissions. This binding contract requirement involves a critical payload capture and is a mandatory directive with an urgent operational execution and un-preemptable mission lock.
 
-The mission must be executed in three days, during the afternoon, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We will provide a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation to support this thermal mapping task.
-
-This is a critical payload capture and mandatory directive, with an urgent operational execution and un-preemptable mission lock. We must drop or reschedule at convenience if the flexible schedule is impacted by any operational constraints.
+The data must be ready by in three days during the afternoon at the latest, ensuring the products are ingested into the pipeline before this strict delivery deadline.

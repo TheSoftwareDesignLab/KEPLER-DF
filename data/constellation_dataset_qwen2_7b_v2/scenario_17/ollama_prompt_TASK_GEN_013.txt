@@ -1,1 +1,10 @@
-Good evening, satellite constellation planners. I'm reaching out with a task request that's slightly lower on our priority list but still important to us. We're looking for a high-resolution optical snapshot of the region in Colombia specifically, focusing on San Pablo. Our objective is to capture clear daylight photography and true-color visual documentation of this area. As this falls under our low priority importance category, we understand it might be scheduled as a flexible task or treated as a background survey. We're targeting this request for sometime today around mid-day, but if it doesn't fit the current operational schedule, feel free to drop or reschedule at your convenience. Thank you for your attention and cooperation.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a high-resolution optical snapshot of San Pablo, Colombia, using our VIS sensor. Our goal is to capture clear daylight imagery and true-color visual documentation for this area. This task falls under the category of a low priority importance request, with the understanding that it's a flexible schedule opportunity for opportunistic capture. We're treating this as a background survey or testbed tracking task.
+
+The deadline for delivering this data product is set by our target day in four days, with the strictest requirement being that the products need to be ingested into the pipeline before the overnight block of that day. We're not altering or extending this deadline; it's an operational constraint we must adhere to.
+
+Thank you for your attention and cooperation in fulfilling this task request.
+
+Best regards,
+[Your Name]

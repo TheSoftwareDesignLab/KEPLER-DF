@@ -1,9 +1,5 @@
-Good evening from Arsiero, Italia. We're looking to capture a detailed view of our region using a multispectral sensor for vegetation analysis. Our goal is to assess chlorophyll absorption levels and calculate the NDVI index to understand surface reflectance patterns. This task falls under our standard operational pipeline tracking setup with fixed parameters representing normal operational status.
+Good day, automated satellite constellation planner. I'm requesting your assistance for a medium-importance task involving the Arsiero region in Italia. The mission's priority is to capture high-resolution optical imagery using a VNIR sensor, which will serve as a daylight photography snapshot or true-color visual documentation of the area. This request is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-Our request involves capturing thermal mapping data, which will help us detect heat signatures and surface temperature profiles across the area. We're aiming for this mission allocation to be part of our baseline workflow update, ensuring we maintain a comprehensive overview of our environment's health.
+The deadline for delivering this data product is quite strict, as we need it by the target day, four days from now, during the overnight period. We're focusing on a thermal mapping task using VNIR technology to assess chlorophyll absorption levels or calculate the NDVI index and surface reflectance. This is crucial for our ongoing environmental monitoring efforts.
 
-We're targeting this task for execution in four days during the overnight period. Our priority level indicates that this is a standard operational tasking with normal importance. We understand that there might be more critical tasks ahead, but rest assured, this request will not disrupt any higher-priority missions due to its scheduled nature and flexible timeline.
-
-Please ensure that our satellite constellation is ready for deployment by tomorrow morning to capture these essential data points. We appreciate your cooperation in meeting this requirement, as it contributes to our ongoing efforts in environmental monitoring and management.
-
-Thank you for your attention to this matter.
+Please ensure that the products are ingested into our pipeline before the deadline set for the target day, four days ahead, during the overnight period. We appreciate your cooperation in meeting this deadline to maintain our operational efficiency. Thank you for your attention and prompt action on this matter.

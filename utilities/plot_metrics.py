@@ -123,7 +123,7 @@ def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "uti
     ax.set_ylim(0, 110)
     ax.grid(axis="y", linestyle="--", alpha=0.5, zorder=0)
     ax.set_axisbelow(True)
-    ax.legend(loc="upper left", frameon=True, shadow=False, facecolor="#f8f9f9", edgecolor="#d5dbdb")
+    ax.legend(loc="lower left", frameon=True, shadow=False, facecolor="#f8f9f9", edgecolor="#d5dbdb")
 
     out_path = pathlib.Path(output_image_path)
     if not out_path.is_absolute() and not pathlib.Path("utilities").exists():

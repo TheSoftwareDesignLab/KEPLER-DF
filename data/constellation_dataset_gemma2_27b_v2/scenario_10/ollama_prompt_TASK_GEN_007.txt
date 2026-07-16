@@ -1,1 +1,1 @@
-This is a low priority importance task for opportunistic capture sometime the day after tomorrow during the afternoon. I need a thermal mapping of the area around Apartadó, Colombia.
+This is a low priority importance request for a thermal mapping survey over Apartadó, Colombia.  I'd like to capture a heat signature and surface temperature profile of the area. Please schedule this as a non-essential background filler task and drop or reschedule at convenience. The data should be ingested into the pipeline before the day after tomorrow in the evening at the latest.

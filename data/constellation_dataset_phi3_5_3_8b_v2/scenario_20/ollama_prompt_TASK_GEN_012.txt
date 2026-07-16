@@ -1,2 +1,1 @@
-Tomorrow, in the heat of the afternoon over Tatau, I'd like to conduct a multispectral vegetation analysis. Could you arrange for an opportunistic capture that allows us some flexibility with scheduling? Feel free to drop or reschedule this task at your convenience as it's not urgent but still beneficial for our environmental monitoring efforts.
-```
+We're looking to conduct a multispectral vegetation analysis in Tatau, Malaysia, using high-resolution optical snapshot capabilities for daylight photography. This task is of low priority importance and can be scheduled flexibly; however, we need the data products ready by tomorrow evening at the latest as part of our routine monitoring pipeline tracking.

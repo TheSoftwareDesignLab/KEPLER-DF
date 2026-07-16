@@ -1,5 +1,10 @@
-Hello automated satellite constellation planner, I'm reaching out from an Earth-observation mission operator's desk. We're looking to capture a multispectral vegetation analysis on a location in Norte, Italia, which is described as being in the country of Italia and possibly near the city of Norte. The primary sensor we're employing for this task is VNIR.
+Good morning, satellite constellation planner. I'm reaching out with a low priority importance task for you to consider. It's an opportunistic capture that doesn't have any rigid deadlines attached to it, just something to keep in the background for when we have some spare capacity.
 
-Our request is of low priority importance, meaning it can be accommodated within our flexible schedule. We aim to capture the vegetation's chlorophyll absorption level or calculate a vegetation NDVI index and surface reflectance during an opportune moment, which could be sometime today around mid-day. We're not in a rush for this task; it doesn't need to be executed immediately but can be scheduled at convenience.
+We're looking at a specific region in Italy, near a city called Norte. Our objective is to conduct a multispectral vegetation analysis using VNIR sensors. The goal here is to assess the chlorophyll absorption level across various areas, which will help us calculate the NDVI index and understand surface reflectance patterns.
 
-The deadline for this task is set for the day after tomorrow, specifically in the morning when the sun is up and the conditions are ideal for capturing clear optical imagery. We appreciate your understanding and flexibility with this request. Thank you for your attention and cooperation.
+The deadline for this task is set for the day after tomorrow, with a strict delivery deadline that we need to adhere to in the morning. We're not looking for any rush or urgency; just ensure the products are ingested into our pipeline before then. This will serve as a testbed tracking task for us, allowing us to monitor and gather data without impacting our core operations.
+
+Thank you for your attention to this background survey request. We appreciate your flexibility in scheduling this task based on your operational capacity. Looking forward to receiving the results by the deadline set.
+
+Best regards,
+[Your Name]

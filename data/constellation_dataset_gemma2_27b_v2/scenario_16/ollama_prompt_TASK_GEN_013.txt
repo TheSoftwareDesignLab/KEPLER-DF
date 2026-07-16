@@ -1,1 +1,1 @@
-This is a binding contract requirement for a critical payload capture. We need an active thermal mapping scan of Samacá, Colombia sometime in three days around mid-day.
+This is a critical payload capture and an absolute institutional priority. We need thermal mapping of the Samacá region in Colombia.  Ensure the products are ingested into the pipeline before three days during the afternoon at the latest.

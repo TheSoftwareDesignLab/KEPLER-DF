@@ -124,7 +124,7 @@
   "targets": [
     {
       "task_id": "TASK_GEN_001",
-      "region_tag": "colombia",
+      "region_tag": "colombia_andina",
       "priority": 1,
       "task_type": "point",
       "release_time_s": 568,
@@ -141,7 +141,7 @@
     },
     {
       "task_id": "TASK_GEN_002",
-      "region_tag": "italia",
+      "region_tag": "italia_centro_norte",
       "priority": 1,
       "task_type": "point",
       "release_time_s": 257,
@@ -158,7 +158,7 @@
     },
     {
       "task_id": "TASK_GEN_003",
-      "region_tag": "indonesia",
+      "region_tag": "indonesia_ecuatorial",
       "priority": 3,
       "task_type": "polygon",
       "release_time_s": 532,
@@ -191,7 +191,7 @@
     },
     {
       "task_id": "TASK_GEN_004",
-      "region_tag": "colombia",
+      "region_tag": "colombia_andina",
       "priority": 1,
       "task_type": "polygon",
       "release_time_s": 393,
@@ -224,7 +224,7 @@
     },
     {
       "task_id": "TASK_GEN_005",
-      "region_tag": "italia",
+      "region_tag": "italia_centro_norte",
       "priority": 3,
       "task_type": "polygon",
       "release_time_s": 413,
@@ -257,7 +257,7 @@
     },
     {
       "task_id": "TASK_GEN_006",
-      "region_tag": "indonesia",
+      "region_tag": "indonesia_ecuatorial",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 533,
@@ -290,7 +290,7 @@
     },
     {
       "task_id": "TASK_GEN_007",
-      "region_tag": "colombia",
+      "region_tag": "colombia_andina",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 164,
@@ -323,7 +323,7 @@
     },
     {
       "task_id": "TASK_GEN_008",
-      "region_tag": "italia",
+      "region_tag": "italia_centro_norte",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 228,
@@ -356,7 +356,7 @@
     },
     {
       "task_id": "TASK_GEN_009",
-      "region_tag": "indonesia",
+      "region_tag": "indonesia_ecuatorial",
       "priority": 2,
       "task_type": "point",
       "release_time_s": 76,
@@ -373,7 +373,7 @@
     },
     {
       "task_id": "TASK_GEN_010",
-      "region_tag": "colombia",
+      "region_tag": "colombia_andina",
       "priority": 1,
       "task_type": "polygon",
       "release_time_s": 461,
@@ -406,7 +406,7 @@
     },
     {
       "task_id": "TASK_GEN_011",
-      "region_tag": "italia",
+      "region_tag": "italia_centro_norte",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 459,
@@ -439,7 +439,7 @@
     },
     {
       "task_id": "TASK_GEN_012",
-      "region_tag": "indonesia",
+      "region_tag": "indonesia_ecuatorial",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 400,
@@ -472,7 +472,7 @@
     },
     {
       "task_id": "TASK_GEN_013",
-      "region_tag": "colombia",
+      "region_tag": "colombia_andina",
       "priority": 1,
       "task_type": "polygon",
       "release_time_s": 359,
@@ -505,7 +505,7 @@
     },
     {
       "task_id": "TASK_GEN_014",
-      "region_tag": "italia",
+      "region_tag": "italia_centro_norte",
       "priority": 2,
       "task_type": "polygon",
       "release_time_s": 541,
@@ -538,7 +538,7 @@
     },
     {
       "task_id": "TASK_GEN_015",
-      "region_tag": "indonesia",
+      "region_tag": "indonesia_ecuatorial",
       "priority": 2,
       "task_type": "point",
       "release_time_s": 198,

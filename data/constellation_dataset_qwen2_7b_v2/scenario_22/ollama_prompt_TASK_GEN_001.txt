@@ -1,10 +1,10 @@
-Hello Satellite Constellation Planner,
+Hello there,
 
-I'm reaching out to request a task for an Earth observation mission. Our objective is to capture thermal mapping data using the TIR sensor over the region of Colombia, specifically focusing on the city of Santa Helena del Opón. This low priority importance task aims to assess heat signatures and surface temperature profiles.
+I'm reaching out with a task request that involves capturing thermal mapping data using our TIR sensor. The mission is to be executed for an area located in Santa Helena del Opón, Colombia. This is a low priority importance request, so please treat it as a flexible schedule "background survey" or "testbed tracking task". We aim to gather this information during the afternoon of the day that's three days ahead from our current date.
 
-For this "background survey", we're targeting a window during the afternoon of the day after tomorrow. Please schedule this as a flexible background filler task that can be dropped or rescheduled at your convenience if needed. We appreciate your understanding regarding its non-essential nature in our operational pipeline.
+The primary objective is to assess heat signatures and surface temperature profiles for this specific location. This will help us understand heat emissions and thermal anomalies in the region. The data collected should be ready by the time specified, ensuring it's ingested into our pipeline before the target day's afternoon period.
 
-Thank you for your attention and cooperation.
+Thank you for your attention to this matter. We appreciate your cooperation in meeting these requirements.
 
 Best regards,
 [Your Name]

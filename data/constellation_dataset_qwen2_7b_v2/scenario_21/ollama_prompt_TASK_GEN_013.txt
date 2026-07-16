@@ -1,12 +1,5 @@
-Greetings to our automated satellite constellation planner,
+We are requesting a high-resolution optical snapshot of the region in Carmen del Darién (Curbaradó), Colombia, using our advanced VIS sensor. This daylight photography will capture clear optical imagery and true-color visual documentation of the area to provide detailed information about land conditions and features. As part of our standard operational tasking, this request is important but not critical, so it can be considered as a routine monitoring task within our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-We're requesting a standard operational tasking for our Earth-observation mission. Our focus is on capturing high-resolution optical imagery of Carmen del Darién (Curbaradó), Colombia, using our VIS sensor. The goal is to obtain clear daylight photography and true-color visual documentation of the region.
+Given the importance of timely data delivery for decision-making processes, we need these data products by the day after tomorrow in the morning at the latest. With a strict delivery deadline set for this day and time, we ensure that all the information will be ingested into our pipeline before the specified target day and diurnal period, allowing for efficient processing and analysis.
 
-This request carries medium importance, as it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We aim for an "absolute institutional priority" or a "binding contract requirement" involving a critical payload capture. We emphasize that this is an urgent operational execution and an un-preemptable mission lock.
-
-The target day for this task is the day after tomorrow, specifically in the morning. We're looking forward to receiving your satellite's active radar scan using microwave surface imaging for cloud-penetrating capture and ground geometry assessment.
-
-We appreciate your attention to detail and adherence to our operational guidelines, ensuring maximum naturalness and validation accuracy of the dataset. Thank you for your cooperation.
-
-Best regards,
-[Your Name]
+Please note that this request has been prioritized as medium importance, with a flexible schedule for opportunistic capture. We understand that any drop or rescheduling can be done at your convenience, treating it as a background survey or testbed tracking task.

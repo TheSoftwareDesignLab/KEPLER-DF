@@ -1,10 +1,10 @@
-Good day, satellite constellation planner. We're looking to capture a detailed radar scan of Baraya, Colombia, using our SAR sensor. This task is considered a low priority importance request, meaning it can be scheduled flexibly and treated as a background survey or testbed tracking task.
+Hello there,
 
-The objective is straightforward: we aim to perform an active microwave surface imaging to gather cloud-penetrating capture data for this region. Baraya's unique geography and potential weather conditions make it an interesting target for our radar technology.
+I'm reaching out to request a specific task for our automated satellite constellation planner. Our objective is to capture detailed radar imagery of a location in Colombia, specifically in Baraya, using an active SAR sensor. This mission aims to provide us with a comprehensive view of the region's ground geometry, penetrating through any heavy weather conditions that might be present.
 
-Given the remaining time frame, we're targeting this operation for four days from now, specifically in the evening. We understand that this might not be a critical payload capture or a mandatory directive but part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Given the importance of this request, I would like to classify it as a low priority task, allowing for flexible scheduling and treating it as a background survey or testbed tracking task. However, we do emphasize its significance by setting a deadline: we need the data products by the target day at the latest, with a strict delivery deadline set for four days from now, ensuring the products are ingested into our pipeline before the overnight period.
 
-Thank you for your attention and please ensure that this task is scheduled accordingly without causing any inconvenience to other higher priority missions. We appreciate your cooperation in managing our satellite constellation's operational priorities effectively.
+Thank you for your attention to this matter. We appreciate your cooperation in meeting these requirements and look forward to receiving the valuable insights provided by your satellite constellation.
 
 Best regards,
 [Your Name]

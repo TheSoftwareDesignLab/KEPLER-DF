@@ -1,1 +1,1 @@
-This is a binding contract requirement for a critical payload capture. We need a high-resolution optical snapshot of Rocca d'Evandro, Italia, sometime in the evening three days from now.  Please ensure an un-preemptable mission lock for this tasking.
+This is a binding contract requirement for a critical payload capture over Rocca d'Evandro, Italia. We need a high-resolution optical snapshot of the area with clear optical imagery needed by in three days in the evening at the latest.

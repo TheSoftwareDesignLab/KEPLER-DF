@@ -1,1 +1,2 @@
-Tomorrow morning, I'd like to schedule a low priority importance task for thermal mapping over Indonesia. Specifically targeting this afternoon in Jakarta, could we arrange an opportunistic capture of heat signatures? Feel free to drop or reschedule at your convenience as it's not urgent but would be beneficial for our background survey objectives.
+We need a low priority importance task scheduled for tomorrow in the morning to capture thermal mapping over Ecuador, with an aim to document surface temperature profiles and detect any heat anomalies. This is a non-essential background filler task that can be dropped or rescheduled at your convenience, ensuring it doesn't interfere with our urgent operational executions.
+```prompt

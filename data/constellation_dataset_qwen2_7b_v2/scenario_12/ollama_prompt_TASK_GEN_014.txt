@@ -1,10 +1,14 @@
-Good morning, satellite constellation planners. I'm reaching out with a request for an observation task that falls under our low priority importance category. We're looking to conduct a thermal mapping operation using our TIR sensor, focusing on a specific area named Norte in the region. The geographical context is straightforward; we're not specifying a country or city due to them being N/A.
+Hello Satellite Constellation Planner,
 
-The operational objective here is straightforward: we aim to capture heat signatures and surface temperature profiles for this area. We're interested in identifying any thermal anomalies and mapping heat emissions accurately. This task is part of our background survey work, essentially a testbed tracking task that doesn't require immediate attention.
+I'm reaching out to request a task involving thermal mapping of an area near Norte, which is located in an unspecified country. The region's specifics are not detailed, but we're focusing on capturing its heat signature for potential thermal anomalies or surface temperature profiles.
 
-Our timing constraint is set for the day after tomorrow during the morning hours. We're not looking for precision beyond that; just aim to complete this task sometime around mid-day. The remaining time frame is flexible, as this is a non-essential background filler task that can be scheduled conveniently.
+Given the nature of this request, I classify it as a low priority importance task. This means that while it's important, it can be scheduled flexibly and is treated as a background survey or testbed tracking task. We understand that there might be other tasks with higher priorities, so we're prepared to drop or reschedule this task at your convenience.
 
-Thank you for your understanding and cooperation in fulfilling this request. We appreciate your support in ensuring our satellite constellation remains operational and responsive to our diverse needs.
+The primary sensor for this mission will be TIR, which will allow us to perform thermal mapping. This involves capturing the heat emission from the region, helping us identify any anomalies in temperature across its surface.
+
+Our deadline for receiving these data products is set for the day after tomorrow, with a strict delivery deadline of morning. We need to ensure that the products are ingested into our pipeline before this time frame ends. This is a critical aspect of our operational planning and will help us manage our workflows effectively.
+
+Thank you for your attention to this request. We appreciate your cooperation in meeting these requirements and look forward to receiving the data promptly.
 
 Best regards,
 [Your Name]

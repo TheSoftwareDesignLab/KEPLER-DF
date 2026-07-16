@@ -1,7 +1,10 @@
-Good evening, satellite constellation planners. We're looking to capture a thermal mapping of Claut / Cjolt, which is nestled in the beautiful country of Italia. Given its importance, we classify this task as medium priority – a standard operational tasking that's part of our baseline pipeline tracking setup.
+Good day, satellite constellation planner. I'm reaching out to request a task for an important mission involving thermal mapping in Claut / Cjolt, Italia. Our priority is medium importance, which means this task should be handled with professionalism and standard operational procedures. The deadline is set for the day after tomorrow, with a strict delivery deadline to ensure the products are ingested into the pipeline before the overnight period.
 
-Our primary sensor requirement is for thermal mapping, which will help us assess surface temperature profiles and detect any thermal anomalies. We're aiming to capture this data overnight, the day after tomorrow, ensuring we have clear skies and optimal conditions for our observations.
+Our mission objective involves capturing thermal anomalies using our TIR sensor. We aim to gather heat signatures and surface temperature profiles for this area. This task is part of our baseline pipeline tracking setup and represents normal operational status. We're looking for fixed parameters that will help us assess critical information without any deviation from our standard workflow.
 
-Please allocate resources accordingly and ensure that this task is executed in a timely manner, as it's part of our regular monitoring activities but with fixed parameters representing normal operational status. We appreciate your cooperation and look forward to receiving high-quality thermal mapping data soon.
+Please note, this request is not an urgent operational execution or a mandatory directive but rather a standard tasking part of our routine monitoring activities. We appreciate your understanding and flexibility in scheduling this task as a background survey or testbed tracking task. If necessary, we can drop or reschedule it at your convenience to accommodate your operational priorities.
 
-Thank you for your attention.
+Thank you for your attention to this request. We're looking forward to receiving the data products by the specified deadline to support our ongoing analysis and decision-making processes. 
+
+Best regards,
+[Your Name]

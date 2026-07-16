@@ -1,1 +1,5 @@
-I have a low-priority task that I'd like to add to your schedule. It's a flexible one, so feel free to drop or reschedule it at your convenience. We're looking for an opportunistic capture of a high-resolution optical snapshot over Blera, Italy. The goal is to get clear optical imagery and true-color visual documentation. This task can be done anytime in four days, specifically overnight. Thanks!
+I'd like to submit a low-priority task for an Earth-observation mission over Blera, Italy. This is a flexible schedule request with a focus on opportunistic capture. We're aiming for a high-resolution optical snapshot using daylight photography to achieve clear optical imagery and true-color visual documentation of the area.
+
+Given its low priority importance, please feel free to drop or reschedule this task at your convenience. It's intended as a non-essential background filler task, serving as a background survey or testbed tracking task.
+
+Please ensure that the data products are delivered by the overnight block in four days. Thank you for accommodating this request within your operational workflow.

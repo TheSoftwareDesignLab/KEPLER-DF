@@ -1,8 +1,1 @@
-Hello automated satellite constellation planner, my name is Earth Observer Operator and I'm requesting a task for the day after tomorrow. We're focusing on the beautiful region of Italia, specifically the charming town of Lentigione. Our mission involves capturing high-resolution optical imagery during the overnight period to document the area's landscape under the starlight.
-
-Given that this request has a low priority importance, we understand that it can be scheduled according to your operational convenience. This task doesn't require an urgent execution but rather fits into our background survey activities. We're looking for clear daylight photography that will serve as a true-color visual documentation of the town's beauty.
-
-Thank you for your understanding and flexibility in handling this low priority importance task. We appreciate your cooperation in ensuring that our satellite constellation can cover this request at your earliest convenience, possibly during the evening hours on the day after tomorrow.
-
-Best regards,
-Earth Observer Operator
+We're looking to capture a high-resolution optical snapshot of the region around Lentigione, Italy, for daylight photography purposes. This will involve assessing clear optical imagery and true-color visual documentation of the area. As this is marked as a low priority importance request, we'll treat it as a flexible schedule task with a 'drop or reschedule at convenience' approach. We aim to deliver the data products by the day after tomorrow overnight at the latest, ensuring they are ingested into our pipeline before that deadline. This will serve as a non-essential background survey to gather information on the region's landscape and urban features for our background tracking task.

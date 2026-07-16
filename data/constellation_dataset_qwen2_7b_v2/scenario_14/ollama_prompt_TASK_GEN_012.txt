@@ -1,12 +1,5 @@
-Good morning, satellite constellation planner. I'm reaching out to request a task for our medium-importance mission allocation. We're aiming to capture thermal mapping data for an area known as Ecuatorial City. Our objective is to obtain a heat signature of the region's surface temperature profile and detect any thermal anomalies.
+Good day, automated satellite constellation planner. I'm reaching out to request a highly realistic task based on the provided metadata for an Earth observation mission. Our objective is to capture thermal mapping data using a TIR sensor for a location in Ecuatorial city, which is situated in an area without a specific country tag. The priority level for this task is medium importance, indicating it's part of our standard operational pipeline tracking with fixed parameters.
 
-We're using our TIR sensor for this task, which will allow us to map heat emissions accurately through its active radar scan capability employing microwave surface imaging technology. This will be particularly useful given the potential cloud cover or weather conditions that could impede visual observations.
+We aim to gather detailed thermal information about the region by conducting a thermal mapping scan before the products are ingested into the pipeline on the day after tomorrow, specifically in the morning. This request aligns with our baseline pipeline tracking setup and represents normal operational status.
 
-Our priority here is to ensure we gather comprehensive data without compromising on quality. We're targeting the day after tomorrow for this task, specifically during the morning hours when the conditions are most favorable for our sensor to capture the best possible thermal images.
-
-We understand that while this mission is not at the highest priority level, it's still important to us and requires our attention. We'll be flexible with scheduling and can accommodate any necessary adjustments to ensure we meet our operational needs without impacting other tasks in our pipeline.
-
-Thank you for your understanding and cooperation. We look forward to receiving confirmation on this task and ensuring that our data collection process goes smoothly.
-
-Best regards,
-[Your Name]
+Please note that this task has a strict deadline for data availability; we need the data products by the target day at the latest. We appreciate your attention to this matter and look forward to receiving the thermal mapping data as per the outlined specifications. Thank you for your support in ensuring our mission's success.

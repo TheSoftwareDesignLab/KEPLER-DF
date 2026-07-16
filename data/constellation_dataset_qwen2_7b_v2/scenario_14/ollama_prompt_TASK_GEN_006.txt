@@ -1,10 +1,1 @@
-Good morning, satellite constellation planners. I'm reaching out with a task request for an Earth observation mission. Our priority is to capture a high-resolution optical snapshot of Sungai Emang, Indonesia, which is located in the heart of the country. This request falls under the category of a low priority importance task, meaning it's flexible and can be scheduled at our convenience. 
-
-The primary sensor we're focusing on is VIS, which will provide us with daylight photography, clear optical imagery, and true-color visual documentation of the area. We aim to capture this scene during the morning hours of the day after tomorrow.
-
-As for timing, please note that we don't need to adhere to strict deadlines or countdowns. We simply request that you schedule this task sometime around mid-day on the specified day. This will allow us to gather the necessary data without any rush or pressure.
-
-Thank you for your understanding and cooperation. We appreciate your efforts in ensuring that our background survey is completed efficiently and effectively. Have a great day, and we look forward to receiving the imagery.
-
-Best regards,
-[Your Name]
+Good day! We're looking to capture a high-resolution optical snapshot of Sungai Emang, Indonesia, using our VIS sensor. This daylight photography will serve as true-color visual documentation for our ongoing project. Given the importance of this task, we classify it as a low priority importance request with a flexible schedule for opportunistic capture. We understand that our deadline is set for the day after tomorrow in the morning, and we're treating this as a non-essential background filler task. Our aim is to ensure that the data products are ingested into the pipeline before we reach our strict delivery deadline set for the day after tomorrow in the morning. Thank you for your attention to this critical payload capture.

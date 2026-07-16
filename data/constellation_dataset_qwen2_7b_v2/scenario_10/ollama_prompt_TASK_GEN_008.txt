@@ -1,3 +1,15 @@
-Hello, automated satellite constellation planner. We're looking to capture a high-resolution optical snapshot of the region in Italia, specifically around Norte, during our standard operational tasking period. This is an active radar scan using microwave surface imaging for cloud-penetrating capture and ground geometry assessment. We aim to achieve this during the afternoon session, which will be approximately four days from now. This request is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Hello Satellite Constellation Planner,
 
-Please note that this task is classified as medium importance and involves standard operational tasks. It's a routine monitoring activity that's part of our ongoing workflow updates. We appreciate your attention to detail and the timely execution of this mission, ensuring it fits into our current operational schedule without causing any disruptions. Thank you for your cooperation.
+I'm reaching out to request a highly realistic and detailed imagery capture for our commercial tasking pipeline. We're focusing on capturing an optical snapshot of the region in Italy, specifically around the city of Norte, using our primary sensor equipped with high-resolution VIS capabilities.
+
+Our intention is to obtain clear daylight photography that can serve as true-color visual documentation for our ongoing projects. The goal is to assess the landscape and urban developments accurately through this imagery, ensuring we capture every detail necessary for our baseline pipeline tracking setup.
+
+We're setting a target deadline for the data products to be ingested into our system by the day following our request, during the afternoon period. This ensures that we adhere to the strict operational guidelines and maintain our standard workflow update status.
+
+Please note that this tasking is part of our normal operational status and represents fixed parameters for routine monitoring activities. We appreciate your attention to this request and look forward to receiving the data products as per our outlined specifications.
+
+Thank you for your cooperation in fulfilling this mission allocation priority level 2 task.
+
+Best regards,
+
+[Your Name]

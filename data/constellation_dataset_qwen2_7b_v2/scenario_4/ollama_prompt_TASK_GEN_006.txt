@@ -1,5 +1,5 @@
-Good morning, satellite constellation planners. I'm requesting a mission allocation for an active radar scan using microwave surface imaging technology to capture cloud-penetrating data of Air Itam, Indonesia. This is a low priority importance task with flexible scheduling requirements, as it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Good day, satellite constellation planners. We're looking to capture an active radar scan using microwave surface imaging technology for a cloud-penetrating capture of ground geometry. This task is part of our baseline pipeline tracking setup and represents normal operational status with fixed parameters. The request involves a low priority importance with a flexible schedule for opportunistic capture, making it a non-essential background filler task. 
 
-The goal is to gather this information during the day after tomorrow, specifically around mid-day, for a standard workflow update. This task doesn't require an urgent operational execution or an un-preemptable mission lock, as it's considered a non-essential background filler task that can be dropped or rescheduled at convenience.
+Our geographical context is centered around Air Itam in Indonesia. We're targeting the day after tomorrow, specifically around mid-day, to ensure the products are ingested into our pipeline before that time frame. Kindly note this deadline as an upper limit for data availability.
 
-Thank you for your attention and cooperation. We appreciate your support in ensuring our background survey and testbed tracking tasks are completed efficiently and effectively.
+Thank you for your attention and swift action on this task.

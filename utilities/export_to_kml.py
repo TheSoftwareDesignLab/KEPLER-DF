@@ -34,9 +34,9 @@ def _interpolate_orbit_points(s_lat: float, s_lon: float, e_lat: float, e_lon: f
 
 
 def generate_kepler_kml(
-    scenario_report_path: str = "data/constellation_dataset_qwen2_7b_v2/scenario_1/scenario_report.json",
-    physics_report_path: str = "data/constellation_dataset_qwen2_7b_v2/scenario_1/physics_passes_report.json",
-    output_kml_path: str = "utilities/output/kepler_simulation1.kml",
+    scenario_report_path: str = "data/constellation_dataset_phi4_14b_v2/scenario_5/scenario_report.json",
+    physics_report_path: str = "data/constellation_dataset_phi4_14b_v2/scenario_5/physics_passes_report.json",
+    output_kml_path: str = "utilities/output/kepler_simulation5.kml",
     selected_satellite_id: Optional[int] = None
 ) -> None:
     scenario_path = _resolve_path(scenario_report_path)

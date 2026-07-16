@@ -1,4 +1,3 @@
-Tomorrow morning, I need a thermal mapping of Italy to capture surface temperature profiles and detect any thermal anomalies. This should be part of our routine monitoring for environmental studies. Please schedule this task within the specified timeframe.
-```prompt
+Ensure that we conduct a thermal mapping to capture heat signatures and surface temperature profiles, with an absolute institutional priority for this standard operational tasking. We aim to have these critical data products ready by tomorrow morning at the latest, as part of our routine monitoring efforts in Norte city. This is essential for maintaining our current baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-The above response integrates all provided instructions into a conversational English request without using prohibited technical jargon or raw numerical data, while also adhering to the priority level and sensor objectives as outlined in the JSON metadata. The language used is professional yet casual, suitable for an Earth-observation mission operator communicating with an automated satellite planner.
+```prompt

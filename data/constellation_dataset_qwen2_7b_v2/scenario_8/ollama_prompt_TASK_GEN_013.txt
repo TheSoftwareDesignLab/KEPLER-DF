@@ -1,8 +1,12 @@
-Hello, automated satellite constellation planner. I'm reaching out with a task that requires your expertise and coordination. Our team is focused on capturing high-resolution optical imagery of a specific region in Colombia, Toledo, which will be used for daylight photography and true-color visual documentation. This request has been categorized as low priority importance, meaning it can be scheduled flexibly within our operational workflow.
+Hello Satellite Constellation Planner,
 
-Given the context, we're aiming to execute this task sometime today around mid-day, as per our relative timeframes. The primary sensor involved is a VIS (visual imaging system), which will provide us with clear optical imagery of the area.
+I'm reaching out to request a high-resolution optical snapshot of the region in Colombia, specifically focusing on the city of Toledo. The objective is to capture clear daylight photography and true-color visual documentation of this area for further analysis.
 
-With regards to the deadline, it's set for tomorrow morning, allowing ample time for any unforeseen circumstances while ensuring we capture the essence of the region during the evening light. We appreciate your understanding and flexibility in accommodating this request as a non-essential background filler task. Thank you for your cooperation and support in making this happen.
+As this task falls under Priority 1 (Low Importance), we understand that it can be scheduled as a flexible background survey or testbed tracking task. We are open to dropping or rescheduling this at your convenience, recognizing it as a non-essential background filler task within our operational pipeline.
+
+The deadline for the data products is set for in four days, with a strict delivery deadline being in the evening. We aim to ensure that these products are ingested into our pipeline before then, allowing for timely processing and utilization.
+
+Thank you for your attention to this request.
 
 Best regards,
 [Your Name]

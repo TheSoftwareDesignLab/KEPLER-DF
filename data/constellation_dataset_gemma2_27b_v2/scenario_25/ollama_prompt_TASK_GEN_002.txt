@@ -1,3 +1,1 @@
-This is a low priority importance tasking for a thermal map of Norte sometime today around mid-day.  
-
-We'd like to capture a heat signature and surface temperature profile of the area. Drop or reschedule at convenience, treating this as a non-essential background filler task.
+We need a low priority thermal mapping task for Norte. This is a non-essential background filler task and can be dropped or rescheduled at your convenience. Please capture the heat signature of the area with a flexible schedule, ensuring the products are ingested into the pipeline before in three days around mid-day.
