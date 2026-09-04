@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active near-infrared reflection scan over Murindó, Colombia sometime in the evening, three days from now. This data is crucial for water body boundary mapping and soil moisture assessment in the region.

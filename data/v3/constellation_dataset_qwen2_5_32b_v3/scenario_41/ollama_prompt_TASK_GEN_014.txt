@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a high-resolution optical snapshot over Moltifao, France. This is part of our baseline pipeline tracking setup and requires clear optical imagery with fixed parameters. The data products are needed by the overnight period in three days at the latest to ensure they are ingested into the pipeline on time.

@@ -1,0 +1,1 @@
+This is a low priority importance request for opportunistic capture. Please schedule a VNIR multispectral vegetation analysis scan over the city of Norte sometime in three days around mid-day.  The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index for the area. Feel free to drop or reschedule this task at your convenience.

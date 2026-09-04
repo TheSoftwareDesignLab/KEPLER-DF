@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of the area around Ecuatorial, Indonesia, as part of our standard operational tasking. This is a routine monitoring setup with fixed parameters and represents normal operational status. The data products must be ready for ingestion into the pipeline by tomorrow during the afternoon at the latest.

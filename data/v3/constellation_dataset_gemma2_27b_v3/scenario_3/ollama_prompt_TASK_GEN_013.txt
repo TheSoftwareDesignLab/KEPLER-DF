@@ -1,0 +1,1 @@
+This is a low priority importance request for a non-essential background filler task. We need an opportunistic capture of multispectral vegetation analysis imagery over Puerto López, Colombia.  The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index.  Drop or reschedule at convenience, ideally sometime the day after tomorrow during the afternoon.

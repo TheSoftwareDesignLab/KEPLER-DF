@@ -1,0 +1,1 @@
+We need a low priority importance request for a thermal mapping of Norte, capturing its surface temperature profile. This is a non-essential background filler task that can be dropped or rescheduled at convenience. However, we do need the data products by around mid-day in four days.

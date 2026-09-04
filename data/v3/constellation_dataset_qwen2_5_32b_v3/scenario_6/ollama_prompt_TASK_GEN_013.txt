@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request coming in. We need an opportunistic capture of San Luís de Gaceno in Colombia using an active radar scan for cloud-penetrating imagery. This is more of a background survey task, so feel free to drop or reschedule at convenience, but ideally, we'd like the data products ingested into the pipeline before morning in three days.

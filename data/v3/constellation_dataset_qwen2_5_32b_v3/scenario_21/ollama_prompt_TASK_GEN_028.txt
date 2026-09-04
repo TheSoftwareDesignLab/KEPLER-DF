@@ -1,0 +1,1 @@
+We need a thermal mapping of Beté, Colombia, to capture the heat signatures and surface temperature profiles. This is a low priority importance request with a flexible schedule for an opportunistic capture. Please ensure the products are ingested into the pipeline before tomorrow overnight at the latest.

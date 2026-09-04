@@ -1,0 +1,1 @@
+We need to conduct a routine monitoring task for a near-infrared reflection capture over the city of Norte. This is part of our baseline pipeline tracking and involves fixed parameters for normal operational status. The aim is to map water body boundaries or assess soil moisture levels. We're looking to execute this task in the morning on the day after tomorrow.

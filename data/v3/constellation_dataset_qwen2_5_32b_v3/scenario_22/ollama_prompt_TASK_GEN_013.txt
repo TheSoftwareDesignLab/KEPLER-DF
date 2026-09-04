@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a multispectral vegetation analysis over San Alberto, Colombia. This involves assessing the chlorophyll absorption levels and calculating the NDVI index. The data products are needed by the day after tomorrow around mid-day at the latest, so ensure they're ingested into the pipeline on time.

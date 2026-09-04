@@ -1,0 +1,1 @@
+We require a flexible schedule for a low priority importance task to conduct a multispectral vegetation analysis using VNIR, focusing on assessing chlorophyll absorption level and calculating a vegetation NDVI index and surface reflectance. The target location is in Indonesia, specifically in the Kapuas Hulu area. We'd like to capture this data sometime today around mid-day.

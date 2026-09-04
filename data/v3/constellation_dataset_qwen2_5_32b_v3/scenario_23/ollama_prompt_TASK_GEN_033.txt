@@ -1,0 +1,1 @@
+We need a thermal mapping of the area around Ecuatorial, Indonesia, to capture the heat signatures and surface temperature profiles. This is part of our routine monitoring setup and falls under normal operational status. Please ensure the products are ingested into the pipeline before the overnight period the day after tomorrow.

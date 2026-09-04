@@ -1,5 +1,12 @@
-Good day to our automated satellite constellation planner. We're looking at a high-priority task for Colombia, specifically in the city of Útica. The mission involves capturing thermal mapping data using the TIR sensor. This is an absolute institutional priority due to its critical payload capture and mandatory directive nature. We require this data by the target day, which is three days from today, during the afternoon at the latest. This task carries significant importance for our baseline pipeline tracking setup and represents a standard operational tasking with fixed parameters reflecting normal operational status.
+Good day to our satellite constellation planners,
 
-We're aiming to gather essential heat signatures and surface temperature profiles for this region, which will help us detect thermal anomalies and map heat emissions accurately. The urgency of this request is paramount as we need the data products ingested into our pipeline before the target day's afternoon deadline. Kindly schedule this task with a high level of importance and ensure it's treated as a non-negotiable requirement.
+We're looking to capture a highly detailed thermal map of the city of Útica, Colombia, during the afternoon on the target day which is in three days. This task is of utmost importance and falls under the category of a critical payload capture with a binding contract requirement.
 
-Thank you for your attention to this critical matter, and we look forward to receiving the data promptly.
+The primary sensor for this mission will be our Thermal Infrared (TIR) system, tasked to provide us with a comprehensive heat signature of the urban landscape, capturing surface temperatures and thermal anomalies for detailed analysis. The data must be ready by the specified time frame, ensuring the products are ingested into our pipeline before the target day's afternoon period.
+
+This request is an absolute institutional priority, involving a mandatory directive that needs to be executed with urgency and without any preemption or delay. We're looking forward to your immediate attention and swift execution of this mission.
+
+Thank you for your cooperation and expedient response.
+
+Best regards,
+The Earth-observation Mission Operator

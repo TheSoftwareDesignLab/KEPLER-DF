@@ -1,13 +1,15 @@
-Good morning, satellite constellation planner. I'm reaching out regarding an urgent mission that requires your immediate attention due to its high importance and contractual obligations.
+```prompt
+Good day to our automated satellite constellation planner,
 
-Our focus is on a critical payload capture involving the Indonesian region, specifically the Ecuatorial city, which holds significant strategic value for our operations. This task is not just a standard operational request; it's an absolute institutional priority that demands our utmost dedication and expertise.
+We're reaching out to prioritize an urgent task for tomorrow, specifically in the evening timeframe. Our mission involves capturing an active radar scan using microwave surface imaging technology over a region of interest located in Indonesia, particularly near the Ecuatorial city. The primary objective is to obtain detailed cloud-penetrating imagery that will help us understand ground geometry and terrain characteristics under any weather conditions.
 
-We're utilizing an advanced active radar scan to gather detailed information about the area using microwave surface imaging technology. Our objective is to penetrate heavy weather conditions or capture ground geometry with precision and clarity, ensuring we obtain the most comprehensive data possible for this region.
+This task carries high importance as it's part of a critical payload capture requirement for our organization. We're looking for data products that are essential for our baseline pipeline tracking setup, ensuring they adhere to fixed parameters representing normal operational status. The imagery we seek will be invaluable for our ongoing projects and will help us maintain standard workflow updates.
 
-This mission is a cloud-penetrating capture that requires us to be as accurate as possible, as the data we gather will play a pivotal role in our decision-making processes. We understand the urgency of this request and are committed to delivering the results by tomorrow's overnight block at the latest, ensuring the products are ingested into the pipeline before that deadline.
+We understand the strict deadline for delivering these data products set for tomorrow evening. Our request is an absolute institutional priority, implying an urgent operational execution that must not be pre-empted or delayed under any circumstances. We're committed to adhering to this timeline without fail.
 
-The priority level for this task is marked as 'High Importance', which means that we need to treat it with the utmost importance and ensure that all necessary resources are allocated to meet our deadline. This request involves a critical payload capture that requires our team's full attention, and we're confident in our capabilities to deliver exceptional results under these conditions.
+Please ensure that our satellite constellation captures this information with the utmost precision and urgency required. We appreciate your team's efforts in meeting this deadline and providing us with the necessary data products by tomorrow evening. Your cooperation is highly valued, and we look forward to receiving these critical assets promptly.
 
-Please confirm your understanding and readiness to execute this task promptly. We appreciate your cooperation and look forward to a successful collaboration on this mission.
+Thank you for your attention to this matter. 
 
-Thank you for your attention to this matter.
+Best regards,
+[Your Name]

@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a multispectral vegetation analysis over Lebrija, Colombia. This involves assessing the chlorophyll absorption levels and calculating the NDVI index. The data products must be ready by the day after tomorrow around mid-day, ensuring they are ingested into the pipeline before that time.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Norte, Italia sometime in three days during the morning.  Use microwave surface imaging for cloud-penetrating capture and ground geometry mapping.

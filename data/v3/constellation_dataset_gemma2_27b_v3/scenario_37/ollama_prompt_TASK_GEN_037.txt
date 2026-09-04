@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Vista Hermosa, Colombia, sometime tomorrow during the afternoon.  The mission requires cloud-penetrating capture using microwave surface imaging.

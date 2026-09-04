@@ -1,0 +1,2 @@
+"Tasking Request: Opportunistic SAR Capture in Norte Tonight
+We have a low priority importance tasking for an opportunistic capture of the region around Norte tonight using active radar scanning. The goal is to conduct a cloud-penetrating capture with microwave surface imaging, allowing us to pierce through heavy weather and capture ground geometry. This is a non-essential background filler task with a flexible schedule, so please drop or reschedule at convenience if needed. It's a background survey task for testbed tracking purposes."

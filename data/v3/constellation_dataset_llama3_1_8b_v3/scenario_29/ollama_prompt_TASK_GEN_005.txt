@@ -1,0 +1,4 @@
+```prompt
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission: 
+
+We require an absolute institutional priority for thermal mapping to capture a heat signature in the region of Northern Italy, specifically around the city of Norte, by capturing a high-resolution thermal snapshot sometime tomorrow morning using our TIR sensor. This critical payload capture is a binding contract requirement and an urgent operational execution that must not be preempted.

@@ -1,0 +1,3 @@
+Tasking Request for Satellite Constellation: Opportunistic SAR Scan of Indonesian Territory
+
+We require an opportunistic capture of a SAR scan using microwave surface imaging to pierce heavy weather and capture ground geometry in the region of Indonesia, specifically around the city of Ecuatorial. This is a low-priority importance request with a flexible schedule for opportunistic capture, and we can drop or reschedule at convenience if necessary. The objective is to conduct a background survey using active radar scanning. We would like to capture this data sometime today around mid-day, ideally in the morning.

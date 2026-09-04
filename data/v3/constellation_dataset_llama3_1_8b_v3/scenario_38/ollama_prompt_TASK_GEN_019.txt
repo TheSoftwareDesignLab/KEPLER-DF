@@ -1,0 +1,1 @@
+We require a low priority importance request for opportunistic capture, with a flexible schedule for a thermal mapping task. We need to capture a heat signature and surface temperature profile in Montecristo, Colombia, sometime today around mid-day tomorrow during the afternoon.

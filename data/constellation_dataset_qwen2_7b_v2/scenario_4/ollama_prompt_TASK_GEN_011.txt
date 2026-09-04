@@ -1,9 +1,15 @@
-Good day, esteemed satellite constellation planner. I am reaching out to request a critical task for an observational mission focusing on thermal mapping in the region of Hrvatska, specifically within Primorsko-goranska županija. Our priority is high importance, as this involves capturing essential thermal data that will aid in identifying heat signatures and surface temperature profiles across the area.
+```prompt
+Hello there, satellite constellation planner! I'm reaching out to request a highly important task for an Earth observation mission. We're looking at capturing thermal mapping data using our TIR sensor over a region of interest located in the beautiful country of Hrvatska, specifically within the Primorsko-goranska županija area. This is a critical payload capture that requires our utmost attention and expertise.
 
-We aim to conduct this mission using our specialized TIR sensor, which will enable us to gather detailed information on heat emissions and thermal anomalies with great accuracy. The objective is to ensure that the data collected reflects the true thermal dynamics of the region, providing invaluable insights for our ongoing projects.
+Our priority level for this mission is marked as 'High Importance', which means we're treating this as an absolute institutional priority or a binding contract requirement involving a 'critical payload capture'. We need to ensure that the data is collected with the highest quality standards possible, capturing heat signatures and surface temperature profiles. This task is not just about gathering data; it's about delivering actionable insights that can help our clients make informed decisions.
 
-The deadline for delivering these data products is set for three days from now, with a strict requirement that they must be ready by the morning hours. This timeframe is crucial as it aligns with our operational pipeline tracking setup and represents an un-preemptable mission lock.
+The deadline for this task is set for three days from now, with a strict delivery deadline of overnight. We're aiming to ensure that the products are ingested into the pipeline before then, so we're in the clear for any potential delays or unforeseen circumstances. We understand the urgency and importance of this request and will do everything in our power to meet your expectations.
 
-Given the nature of this request, we understand that flexibility may be required in scheduling. However, this task should not be considered a drop-in opportunity; rather, it is a non-essential background filler task that we are treating with the utmost care. We appreciate your understanding and prompt attention to this matter.
+This is not just a routine monitoring task; it's an opportunity to showcase our capabilities in thermal anomaly detection and mapping heat emissions. Our team is ready to tackle this challenge head-on, leveraging our expertise in TIR technology for the best possible results.
 
-Thank you for your cooperation and expertise. We look forward to receiving confirmation of this mission allocation and the subsequent delivery of the data products as per our outlined requirements.
+Thank you for considering our request. We're looking forward to collaborating with you on this mission. If you need any further information or have questions about our capabilities, please feel free to reach out. Let's make this 'background survey' a success!
+
+Best regards,
+
+[Your Name]
+Earth Observation Mission Operator

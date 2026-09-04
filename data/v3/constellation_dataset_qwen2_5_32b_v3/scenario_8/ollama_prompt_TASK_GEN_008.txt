@@ -1,0 +1,1 @@
+Hey, we need an opportunistic VNIR capture over Northern Italy to assess the chlorophyll absorption levels and calculate the NDVI index. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule at convenience. We just want to have the data ingested into the pipeline before the evening in three days.

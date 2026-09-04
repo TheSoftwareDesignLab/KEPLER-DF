@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for Quibdó, Colombia. The objective is to perform an active radar scan to capture cloud-penetrating imagery of the area. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products are needed by tomorrow morning at the latest.

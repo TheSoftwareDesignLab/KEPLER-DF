@@ -1,11 +1,5 @@
-Good day to you! I'm reaching out on behalf of our Earth-observation mission team, requesting your invaluable assistance in capturing a high-resolution optical snapshot of Ponte-Novo, France. This is an absolute institutional priority involving a critical payload capture that requires your satellite constellation's immediate attention.
+Good day to all satellite planners. I'm reaching out with an urgent request on behalf of our institution, as this task falls under Priority 3 for high importance. We are in need of a comprehensive and highly detailed optical snapshot of Ponte-Novó, France, which is located in the picturesque region of Languedoc-Roussillon. Our primary sensor requirement is visible light imagery, which will help us capture clear daylight photography, essential for our day-to-day operations.
 
-Our objective is to gather clear optical imagery for daylight photography and true-color visual documentation of the region during the afternoon on tomorrow's date. This tasking is essential for our baseline pipeline tracking setup and represents a standard operational task with fixed parameters, reflecting normal operational status within our contractual obligations.
+We are looking to gather this data during the afternoon on tomorrow's date, ensuring that the products are ingested into our pipeline before then. This request is a binding contract requirement involving a critical payload capture, and we must emphasize that this task has an absolute institutional priority. We understand the tight deadline and assure you that our team will be prepared to handle any necessary adjustments or extensions should they be required.
 
-We're aiming to deliver these data products by tomorrow's afternoon at the latest, ensuring they are ingested into our pipeline before the deadline set for that day. Our priority is high, as this mission involves a binding contract requirement and a mandatory directive related to capturing thermal mapping of the area.
-
-Please note that this request carries a high level of urgency and importance, requiring your satellite constellation's un-preemptable mission lock. We appreciate your understanding and cooperation in meeting these operational guidelines. Thank you for your attention to this matter.
-
-Should there be any issues or if you require additional information, please don't hesitate to reach out. We're looking forward to receiving the data products that will contribute significantly to our ongoing research efforts on environmental monitoring and resource management.
-
-Thank you and have a great day!
+Please proceed with all due diligence and ensure that the satellite constellation prioritizes this request for Ponte-Novó, France, during the afternoon on tomorrow's date. Thank you for your attention to this matter.

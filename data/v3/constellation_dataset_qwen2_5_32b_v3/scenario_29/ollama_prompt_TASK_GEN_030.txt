@@ -1,0 +1,1 @@
+We need to schedule a high-resolution optical snapshot over Pekanbaru, Indonesia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters, so it should be treated as normal operational status. The imagery needs to be captured and ready by around mid-day in four days to ensure the products are ingested into the pipeline on time.

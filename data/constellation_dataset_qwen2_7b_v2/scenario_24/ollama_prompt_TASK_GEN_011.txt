@@ -1,12 +1,12 @@
-Hello there,
+Hello automated satellite constellation planner,
 
-I'm reaching out to request a task from your automated satellite constellation planner. Our mission involves capturing data using near-infrared (NIR) sensors, which will be used for water body boundary mapping and soil moisture assessment. The geographical context is centered around Campli, a charming city located in the beautiful country of Italia.
+I'm reaching out to request a task for an Earth observation mission that involves capturing data using Near-Infrared (NIR) sensors. This task is for a location in Italia, specifically the city of Campli. The primary objective is to assess soil moisture and water body boundaries using the NIR sensor's capabilities.
 
-Our objective is to gather highly accurate data that will serve as a valuable addition to our background survey or testbed tracking task. Considering its low priority importance, we understand that this request can be scheduled flexibly and can be dropped or rescheduled at your convenience if necessary.
+Given the importance of this task, I'm designating it as a low priority request, which means that it can be scheduled with a flexible timeline. However, there's an absolute deadline for delivering the data products, which is set for four days from now, specifically in the evening. We aim to ensure that the data is ingested into our pipeline before this deadline.
 
-The deadline for delivering the data products is set for four days from now, with a strict delivery deadline of overnight. We aim to ensure that these products are ingested into our pipeline before the specified time frame, adhering to the operational guidelines provided.
+I'm looking forward to your confirmation of receiving this request and the expected capture time window for the satellite constellation to perform this task. Kindly let me know if there are any adjustments needed or if you require additional information to proceed with the scheduling.
 
-Thank you for your attention and cooperation in fulfilling this request. We appreciate your understanding and look forward to receiving the satellite data as soon as possible.
+Thank you very much for your attention to this matter.
 
 Best regards,
 [Your Name]

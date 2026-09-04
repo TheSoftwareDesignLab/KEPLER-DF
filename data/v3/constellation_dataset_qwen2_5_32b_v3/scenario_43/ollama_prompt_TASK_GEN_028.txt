@@ -1,0 +1,1 @@
+We need to set up a near-infrared reflection capture over Mapiripán, Colombia, for water body boundary mapping and soil moisture assessment. This is part of our standard operational tasking with fixed parameters, representing normal operational status. The data products are needed by tomorrow evening at the latest.

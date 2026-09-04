@@ -1,0 +1,1 @@
+We need a standard operational tasking to capture an active radar scan over Sessa Aurunca, Italia. This is part of our baseline pipeline tracking setup and requires fixed parameters for cloud-penetrating capture. The data products must be ready by in four days in the morning at the latest.

@@ -1,1 +1,1 @@
-This is a low priority importance task for opportunistic capture. We need thermal mapping of Ecuatorial, Indonesia.  Please ensure the products are ingested into the pipeline before tomorrow around mid-day at the latest. Drop or reschedule at convenience if needed.
+I need a low priority background thermal mapping task of Ecuatorial, Indonesia. This is an opportunistic capture for a non-essential background filler task. Please drop or reschedule at convenience.  Ensuring the products are ingested into the pipeline before tomorrow in the morning at the latest.

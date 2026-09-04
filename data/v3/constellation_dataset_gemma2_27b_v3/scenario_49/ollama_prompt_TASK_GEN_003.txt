@@ -1,0 +1,1 @@
+We need a standard operational tasking for multispectral vegetation analysis in Tebo, Indonesia. Please capture a high-resolution VNIR snapshot sometime tonight for assessing chlorophyll absorption and calculating the NDVI index.

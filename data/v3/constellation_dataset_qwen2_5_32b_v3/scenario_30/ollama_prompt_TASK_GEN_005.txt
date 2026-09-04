@@ -1,0 +1,1 @@
+We need to schedule a near-infrared reflection capture over Gallura Nord-Est Sardegna, Italia, for a routine monitoring task. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The data products are needed by morning in four days at the latest, so please ensure they are ingested into the pipeline before then.

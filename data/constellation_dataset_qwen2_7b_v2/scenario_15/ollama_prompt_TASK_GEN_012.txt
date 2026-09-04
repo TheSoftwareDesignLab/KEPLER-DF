@@ -1,12 +1,5 @@
-Good day to our satellite constellation team,
+Good day to our satellite constellation planners. We're looking to capture a detailed view of Ecuatorial, Indonesia, using an active radar scan for microwave surface imaging purposes. Our objective is to gather cloud-penetrating data that will help us understand ground geometry in this region. The request is a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-I'm reaching out with a standard operational tasking for tomorrow morning, which involves capturing an active radar scan using microwave surface imaging technology. Our focus is on Indonesia, specifically the ecuatorial region of Ecuatorial City. We're looking for cloud-penetrating capture and ground geometry details to ensure we're getting a comprehensive view of the area.
+Please ensure the products are ingested into our pipeline before tomorrow's overnight block at the latest. This deadline is strictly non-negotiable and represents our commitment to providing timely data for critical decision-making processes. The SAR imagery will be used to capture ground features accurately, regardless of weather conditions.
 
-This request carries medium importance as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. It's crucial that this tasking is executed according to standard procedures without any delays, as it involves 'SAR' technology for critical data collection.
-
-We need the data by tomorrow morning at the latest, ensuring the products are ingested into our pipeline before the deadline set for 'tomorrow' in the 'morning'. This is a standard operational task that aligns with our commercial tasking responsibilities and contributes to our routine monitoring activities.
-
-Thank you for your attention and swift action on this matter. We appreciate your cooperation in meeting these requirements.
-
-Best regards,
-[Your Name]
+Thank you for your attention to this request. We appreciate your swift action in meeting these requirements.

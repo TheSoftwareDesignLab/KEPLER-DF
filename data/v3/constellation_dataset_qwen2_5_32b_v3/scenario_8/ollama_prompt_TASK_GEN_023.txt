@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for a thermal mapping of Casavecchia, Italia. This is more of a background survey task where we can drop or reschedule at convenience. We're looking to capture the heat signature and surface temperature profile there. Just make sure the data products are ingested into the pipeline by in three days in the evening. Thanks!

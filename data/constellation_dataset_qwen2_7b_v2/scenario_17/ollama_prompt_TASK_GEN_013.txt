@@ -1,10 +1,8 @@
-Hello Satellite Constellation Planner,
+Hello there, satellite constellation planner! I'm reaching out with a task request that's quite important to us. We're looking to capture a high-resolution optical snapshot of San Pablo, Colombia, using our VIS sensor. Imagine it as daylight photography or true-color visual documentation that will help us understand the landscape and its features clearly.
 
-I'm reaching out to request a high-resolution optical snapshot of San Pablo, Colombia, using our VIS sensor. Our goal is to capture clear daylight imagery and true-color visual documentation for this area. This task falls under the category of a low priority importance request, with the understanding that it's a flexible schedule opportunity for opportunistic capture. We're treating this as a background survey or testbed tracking task.
+Given our priority level is set to 'low importance', this request is more of an opportunistic capture with a flexible schedule. We're not in a rush, but we do want to ensure that these images are ready for use by the time we need them, which is in four days during the overnight period. So, think of it as needing these images by the next day's nighttime block at the latest.
 
-The deadline for delivering this data product is set by our target day in four days, with the strictest requirement being that the products need to be ingested into the pipeline before the overnight block of that day. We're not altering or extending this deadline; it's an operational constraint we must adhere to.
-
-Thank you for your attention and cooperation in fulfilling this task request.
+We understand that this might not be an urgent mission allocation, but it's still a valuable piece of data for our ongoing projects. Since we're not dealing with any critical payload capture or mandatory directives, you can treat this task as a background survey or testbed tracking task. We appreciate your attention to detail and the timely delivery of these images. Thank you!
 
 Best regards,
 [Your Name]

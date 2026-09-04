@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Montefelcino, Italia, sometime in three days around mid-day. The target area requires cloud-penetrating capture using microwave surface imaging to map the ground geometry.

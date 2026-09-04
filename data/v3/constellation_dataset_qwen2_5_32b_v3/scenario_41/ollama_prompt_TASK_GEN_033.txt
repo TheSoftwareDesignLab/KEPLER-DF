@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping task for Indonesia, specifically around the Ecuatorial area. This is a non-essential background filler task and can be dropped or rescheduled at convenience. However, we do need the data products by the overnight period in three days to ensure they are ingested into the pipeline on time.

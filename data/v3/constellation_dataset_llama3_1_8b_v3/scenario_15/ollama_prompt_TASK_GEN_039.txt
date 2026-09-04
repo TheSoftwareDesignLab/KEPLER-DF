@@ -1,0 +1,5 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner.
+
+We need to conduct an absolute institutional priority thermal mapping mission over Ecuatorial, Malaysia. This is a critical payload capture that requires a high-resolution thermal snapshot to capture the heat signature and surface temperature profile of the region. We must execute this mission as soon as possible, specifically overnight on the day after tomorrow in the evening.
+
+This tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status, and we require an urgent operational execution to meet our contractual obligations.

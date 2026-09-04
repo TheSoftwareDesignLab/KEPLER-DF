@@ -1,0 +1,3 @@
+Tasking Request: Opportunistic Radar Scan in Malaysia
+
+We are requesting an active radar scan over the region of Song, Malaysia, utilizing our SAR capabilities for a cloud-penetrating capture. This is a low priority importance request with a flexible schedule for opportunistic capture. We'd like to conduct this task as a non-essential background filler task, where we can drop or reschedule at convenience. The goal is to capture a high-resolution radar image around mid-day on the day after tomorrow.

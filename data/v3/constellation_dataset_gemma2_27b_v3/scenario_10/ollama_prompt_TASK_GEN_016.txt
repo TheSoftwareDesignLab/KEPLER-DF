@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis around Lebrija, Colombia. We need a clear snapshot of the area sometime in three days around mid-day to assess chlorophyll absorption levels and calculate the vegetation NDVI index.

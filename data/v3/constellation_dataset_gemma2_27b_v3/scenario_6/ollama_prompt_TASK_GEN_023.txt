@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. I need an active radar scan of Norte sometime in the evening three days from now.  The target area is obscured by frequent cloud cover, so we need to use microwave surface imaging to penetrate the atmosphere and obtain a clear image of the ground geometry.

@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for a high-resolution optical snapshot of Norte overnight. This is part of our baseline pipeline tracking setup with fixed parameters.

@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for an active radar scan of Belaga, Malaysia. This is part of our baseline pipeline tracking setup with fixed parameters for cloud-penetrating capture sometime in three days during the overnight hours.

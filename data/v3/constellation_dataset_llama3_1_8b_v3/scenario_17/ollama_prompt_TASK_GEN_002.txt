@@ -1,0 +1,5 @@
+Tasking Request: Thermal Mapping in Italy
+
+We require a thermal mapping task to capture a heat signature and surface temperature profile in Spoleto, Italy. This is a low priority importance request with a flexible schedule for opportunistic capture. We'd like to conduct this as a background survey or testbed tracking task, where we can drop or reschedule at convenience.
+
+Please allocate the necessary resources for this task to be executed sometime today around mid-day, specifically in the evening of the day after tomorrow.

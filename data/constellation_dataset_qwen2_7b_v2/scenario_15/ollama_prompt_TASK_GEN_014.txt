@@ -1,12 +1,7 @@
-Hello Satellite Constellation Planner,
+Good day, automated satellite constellation planner. I'm reaching out on behalf of our Earth observation mission to request a task for the day after tomorrow, around mid-day. Our priority is low importance, so this is more of a flexible schedule task that can be dropped or rescheduled at convenience.
 
-I'm reaching out to request a critical Earth observation task for Norte, which is located in an unspecified country. Given its importance, I'm designating this as a High Importance (Priority 3) mission allocation.
+Our objective involves thermal mapping using the TIR sensor, which aims to capture a heat signature across Norte region. We're interested in understanding surface temperature profiles and detecting any thermal anomalies. This task is part of our background survey efforts, focusing on non-essential background filler tasks that complement our ongoing work.
 
-Our objective is to capture thermal mapping data using a Thermal Infrared (TIR) sensor during the afternoon of the day after tomorrow. This will help us assess heat signatures and surface temperature profiles for Norte, crucial information for detecting thermal anomalies and heat emissions in the area.
+Please ensure that the data products are ready for ingestion into our pipeline before the specified deadline. We appreciate your attention to this request and look forward to receiving the valuable insights from your satellite constellation.
 
-Given the urgency, we need this data by the target day at the latest, ensuring that the products are ingested into our pipeline before the specified diurnal period. Considering the nature of this task as a low priority importance request, it's flexible with scheduling, allowing us to drop or reschedule at our convenience if needed.
-
-Thank you for your attention and swift action in fulfilling this mission.
-
-Best regards,
-[Your Name]
+Thank you for your cooperation and understanding.

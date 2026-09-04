@@ -1,5 +1,7 @@
-Translate the raw physical simulation metadata into a single, highly realistic, and conversational English request.
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner.
 
-Given the location in the Apennine region of Italy, specifically in Crespino, we require a high-priority tasking for thermal mapping to capture a heat signature and surface temperature profile using active microwave surface imaging. This is an absolute institutional priority, as it involves a critical payload capture and mandatory directive with urgent operational execution and un-preemptable mission lock.
+We require an absolute institutional priority for a thermal mapping task in the region of Italia, focusing on the city of Crespino. This high-importance mission allocation must involve a critical payload capture to detect heat signatures and surface temperature profiles using active thermal imaging. The data products must be delivered by tomorrow around mid-day at the latest.
 
-The data must be ready by tomorrow in the morning at the latest, ensuring the products are ingested into the pipeline before this deadline.
+This binding contract requirement involves a mandatory directive for urgent operational execution and an un-preemptable mission lock, ensuring the products are ingested into the pipeline before the specified deadline.
+
+Please confirm receipt and acknowledge this absolute institutional priority for the thermal mapping task in the region of Italia.

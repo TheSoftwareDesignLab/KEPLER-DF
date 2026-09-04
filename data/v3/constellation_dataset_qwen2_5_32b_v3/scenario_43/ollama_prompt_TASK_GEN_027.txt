@@ -1,0 +1,1 @@
+Hey, we need to grab some thermal mapping data for a low priority importance request in Indonesia, near Ecuatorial. This is just a background survey task, so feel free to drop or reschedule at convenience. We do need the data by overnight in three days though, so make sure it’s ingested into the pipeline before then.

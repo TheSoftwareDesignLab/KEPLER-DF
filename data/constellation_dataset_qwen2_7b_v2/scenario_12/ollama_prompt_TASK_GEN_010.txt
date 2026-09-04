@@ -1,16 +1,12 @@
-Hello Satellite Constellation Planner,
+Good day to our satellite constellation planning team,
 
-I'm reaching out with a task request for an Earth observation mission that requires your immediate attention. Our objective is to capture thermal mapping data using near-infrared (NIR) sensors for a critical payload in Colombia, specifically in the city of San Alberto.
+We're reaching out with a task request that's of low priority importance, but one that requires careful attention nonetheless. Our objective involves capturing data from a specific region in Colombia, focusing on the city of San Alberto. We aim to gather near-infrared (NIR) reflection data for water body boundaries and soil moisture assessment. This task is part of our ongoing background survey efforts.
 
-The geographical context involves Colombia as our country of interest and San Alberto as our target location. This request carries a low priority importance, allowing for flexible scheduling with a 'drop or reschedule at convenience' policy. However, it's important to note that while this task is not essential, we aim to complete the data collection in an opportunistic manner.
+The operational context is straightforward: we're looking for high-resolution optical snapshots during daylight hours, as well as clear optical imagery and true-color visual documentation. However, this isn't a critical payload capture or a mandatory directive; it's more of a flexible schedule request that can be accommodated according to our convenience.
 
-Our primary goal is to obtain thermal mapping data that captures heat signatures and surface temperature profiles for the area of interest. This will involve assessing water body boundaries and soil moisture levels to provide valuable insights into environmental conditions.
+We're aiming to have the data products ready by the day after tomorrow, specifically in the evening. This deadline is firm and represents the upper limit for data availability. We're not seeking any extensions beyond this point.
 
-Given the operational guidelines, we're targeting a specific deadline for delivery of these data products. We need them by the day after tomorrow, with a strict delivery deadline set for the overnight period. This ensures that our pipeline ingests the products before the specified timeframe.
-
-We appreciate your team's expertise and look forward to receiving the data promptly so that it can be integrated into our baseline pipeline tracking setup efficiently.
-
-Thank you for your attention to this task.
+Thank you for your understanding and cooperation in fulfilling this task request. We appreciate your team's flexibility in accommodating our low priority importance tasks while maintaining operational efficiency.
 
 Best regards,
 [Your Name]

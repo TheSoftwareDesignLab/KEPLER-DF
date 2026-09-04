@@ -1,1 +1,5 @@
-Capture a high-resolution multispectral vegetation analysis for chlorophyll absorption level assessment and NDVI index calculation over Atessa, Italia, by tomorrow overnight at the latest. This is an absolute institutional priority, representing a critical payload capture and binding contract requirement involving mandatory directive execution.
+Translate the raw physical simulation metadata into a single, highly realistic, and conversational English request.
+
+We need to capture a high-resolution optical snapshot of the region in northern Italy using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. The location is Atessa, a city in the country of Italia. This task is an absolute institutional priority, involving a critical payload capture and mandatory directive with urgent operational execution and un-preemptable mission lock.
+
+The data must be ready by tomorrow morning at the latest, ensuring the products are ingested into the pipeline before the deadline.

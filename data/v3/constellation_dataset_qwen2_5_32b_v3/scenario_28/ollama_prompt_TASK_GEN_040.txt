@@ -1,0 +1,1 @@
+We need to conduct a thermal mapping task over Aipe, Colombia, as part of our routine monitoring setup. This is a standard operational tasking with fixed parameters, so it's important we ensure the products are ingested into the pipeline before the overnight period the day after tomorrow.

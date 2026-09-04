@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a thermal mapping scan of Ecuatorial, Indonesia, sometime in the morning three days from now.

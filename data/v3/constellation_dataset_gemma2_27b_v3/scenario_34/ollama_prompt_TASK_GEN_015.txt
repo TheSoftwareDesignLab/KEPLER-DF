@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis of Kerinci, Indonesia, sometime in the morning, three days from now. This capture is essential for calculating the vegetation NDVI index and surface reflectance for this region. Please prioritize this task as an absolute institutional priority.

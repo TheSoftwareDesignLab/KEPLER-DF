@@ -1,0 +1,1 @@
+We need a standard operational tasking to capture a cloud-penetrating radar scan over Kubu Raya, Indonesia. This is part of our baseline pipeline tracking setup with fixed parameters, so it’s important we maintain normal operational status. The data products are needed by morning in four days, so please ensure they’re ingested into the pipeline before then.

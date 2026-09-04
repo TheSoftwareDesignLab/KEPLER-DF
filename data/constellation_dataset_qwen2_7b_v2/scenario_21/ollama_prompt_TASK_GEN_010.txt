@@ -1,3 +1,12 @@
-Good afternoon, mission planners. I'm reaching out on behalf of our Earth observation program to request a task that will capture a high-resolution optical snapshot of El Retorno, Colombia, with clear daylight photography capabilities. This is a low priority importance request, so please schedule it as a flexible background filler task. We aim to have the data ready by the day after tomorrow in the evening at the latest, ensuring the products are ingested into our pipeline before then. This will help us assess environmental conditions without any urgency constraints.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a high-resolution optical snapshot of El Retorno, Colombia, for daylight photography purposes. Our objective is to capture clear optical imagery and true-color visual documentation of the area. This task is being categorized as a low priority importance request with a flexible schedule for opportunistic capture.
+
+Our deadline is set for the day after tomorrow, specifically by the evening. We're treating this as a non-essential background filler task that we can drop or reschedule at our convenience, considering it as a background survey or testbed tracking task.
+
+Please note that the primary sensor involved will be the VIS sensor, which will deliver high-quality images for our purposes. This request is not related to any urgent operational execution or contractual requirement but rather part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
 Thank you for your attention and cooperation.
+
+Best regards,
+[Your Name]

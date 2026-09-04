@@ -1,0 +1,1 @@
+We need to perform a thermal mapping over Gamberale, Italy, capturing the surface temperature profile and any thermal anomalies. This is part of our standard operational tasking with fixed parameters for routine monitoring. The data products are needed by tomorrow morning at the latest to ensure they are ingested into the pipeline on time.

@@ -1,0 +1,1 @@
+Please execute a thermal mapping task over Indonesia, specifically in Merangin, using a standard operational tasking with fixed parameters to capture a heat signature and surface temperature profile. This is part of our baseline pipeline tracking setup, representing normal operational status. We need this to be completed the day after tomorrow, specifically in the evening.

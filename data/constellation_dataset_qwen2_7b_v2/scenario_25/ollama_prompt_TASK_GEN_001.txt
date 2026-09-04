@@ -1,14 +1,14 @@
-Good day, esteemed satellite constellation planner,
+Hello Satellite Constellation Planner,
 
-I'm reaching out on behalf of an Earth observation mission operator with a task that requires your utmost attention. Our objective is to capture high-resolution imagery of Riofrío, Colombia, using near-infrared (NIR) sensors for water body boundary mapping and soil moisture assessment.
+I'm reaching out to request a task for an Earth observation mission that needs to be completed in three days, specifically by overnight. The objective is to capture near-infrared reflection data from the region around Riofrío, Colombia, using our satellite constellation's capabilities.
 
-Given the critical nature of this request, we're designating it as a low priority importance task with a flexible schedule for opportunistic capture. We understand that this might not be an urgent operational execution but appreciate your prompt attention nonetheless. We aim to ensure that the products are ingested into our pipeline before our deadline set for [target_day] [target_diurnal_period].
+The primary sensor required for this task is the Near-Infrared (NIR) sensor, which will help us map water body boundaries and assess soil moisture levels for this specific area. We aim to gather detailed information about the landscape without being hindered by cloud cover or weather conditions, as the data must be ready for our baseline pipeline tracking setup.
 
-The imagery we seek is essential for our ongoing research on environmental changes and agricultural health in the region. It's imperative that we receive this data by [target_day] overnight at the latest, adhering to the strict operational deadline.
+Given the nature of this request, we consider it a low priority importance task with a flexible schedule. However, we would appreciate if you could treat it as a non-essential background filler task that can be dropped or rescheduled at your convenience. We acknowledge that this might not be an urgent operational execution but rather part of our opportunistic survey tasks.
 
-Your expertise in delivering the requested data products within these parameters would be greatly appreciated. We look forward to your cooperation in fulfilling this task.
+Please ensure that the products are ingested into our pipeline before the deadline set for the target day and overnight period, which is strictly three days from now. This will allow us to monitor and analyze the data accordingly without compromising our operational status.
 
-Thank you for your understanding and prompt action.
+Thank you for your understanding and cooperation in fulfilling this request.
 
 Best regards,
 [Your Name]

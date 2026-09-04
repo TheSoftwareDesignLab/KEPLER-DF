@@ -1,0 +1,1 @@
+This is a low priority importance request for opportunistic capture of multispectral vegetation analysis data over Puerto Gaitán, Colombia.  We'd like to grab some near-infrared reflection imagery sometime in the evening, three days from now, to assess chlorophyll absorption levels and calculate a vegetation NDVI index. Feel free to drop or reschedule at your convenience.

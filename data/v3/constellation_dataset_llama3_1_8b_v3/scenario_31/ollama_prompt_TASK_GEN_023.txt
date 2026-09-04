@@ -1,0 +1,1 @@
+We need to conduct a thermal mapping task in Spoleto, Italy, using thermal infrared sensors. This is a low-priority importance request with a flexible schedule for opportunistic capture. We can drop or reschedule at convenience if needed. The goal is to capture a heat signature and surface temperature profile overnight the day after tomorrow.

@@ -1,0 +1,1 @@
+We need to set up a standard operational tasking for routine monitoring in Anapoima, Colombia. The objective is to capture a thermal mapping of the area to assess the surface temperature profile. This data is needed by tomorrow overnight at the latest as part of our baseline pipeline tracking setup.

@@ -1,3 +1,5 @@
-Good morning! I'm reaching out to request a standard operational tasking for a radar scan using microwave surface imaging technology. Our focus is on capturing cloud-penetrating imagery of Spoleto, located in the beautiful country of Italia. The mission's priority is medium importance, and we're looking at delivering the data products by tomorrow morning, ensuring they are ingested into our pipeline before that deadline. This task involves a critical payload capture for commercial tracking purposes within our baseline pipeline setup with fixed parameters representing normal operational status. We appreciate your understanding and prompt attention to this request.
+Good day! We're looking to conduct an active radar scan using microwave surface imaging for cloud-penetrating capture on Spoleto, Italia. The mission is part of our standard operational tasking and involves fixed parameters that represent normal operational status. It's a routine monitoring activity with a baseline pipeline tracking setup in place.
 
-Thank you for your cooperation!
+The data must be ready by tomorrow's overnight block at the latest. This request falls under medium importance, so please treat it as a standard operational task with a strict delivery deadline set for tomorrow's overnight period. We aim to ensure that the products are ingested into our pipeline before the deadline.
+
+Thank you for your attention to this matter.

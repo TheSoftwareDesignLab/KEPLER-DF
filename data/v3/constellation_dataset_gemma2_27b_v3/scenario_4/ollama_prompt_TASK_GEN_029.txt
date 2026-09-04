@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for a high-resolution optical snapshot of Norte. This is part of our baseline pipeline tracking setup and requires fixed parameters for a clear optical imagery capture sometime the day after tomorrow around mid-day.

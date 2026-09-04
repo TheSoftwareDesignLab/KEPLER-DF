@@ -1,0 +1,7 @@
+Tasking Request: High-Resolution Optical Snapshot of Katingan Region
+
+We require a standard operational tasking for high-resolution optical snapshot capture of the Katingan region in Indonesia. This is a commercial tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The objective is to obtain clear optical imagery of the region, specifically around mid-day in three days.
+
+This tasking is a routine monitoring requirement and should be executed as per our standard workflow update. Please ensure that the mission allocation priority is maintained at a medium importance level to adhere to our contractual obligations.
+
+Please confirm receipt and planned execution of this tasking request.

@@ -1,1 +1,13 @@
-We require a high-resolution optical snapshot of the Borgo Valsugana region in Italia using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index, with a strict delivery deadline set for the day after tomorrow during the afternoon. This is an absolute institutional priority, involving a critical payload capture and mandatory directive with urgent operational execution and un-preemptable mission lock.
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission.
+
+Objective: Capture high-resolution optical snapshots of the region using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance. The goal is to achieve clear optical imagery and true-color visual documentation of the area.
+
+Geographic Context: The location is in Borgo Valsugana, Italy, which is a small town in the Trentino-Alto Adige/Südtirol region. This region is known for its picturesque landscapes and diverse flora.
+
+Mission Allocation Priority: This task is an absolute institutional priority, representing a critical payload capture and mandatory directive involving a high-importance mission allocation. The request must be treated as an urgent operational execution with an un-preemptable mission lock.
+
+Sensors and Physical Objectives: The primary sensor used for this task is VNIR (Multispectral Vegetation Analysis). The objective is to capture a high-resolution optical snapshot of the region using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance.
+
+Relative Timeframes: The data must be ready by the day after tomorrow in the evening at the latest, ensuring the products are ingested into the pipeline before this deadline.
+
+Final Request: "Capture high-resolution optical snapshots of Borgo Valsugana, Italy, using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance. This task is an absolute institutional priority, representing a critical payload capture and mandatory directive involving a high-importance mission allocation. The data must be ready by the day after tomorrow in the evening at the latest."

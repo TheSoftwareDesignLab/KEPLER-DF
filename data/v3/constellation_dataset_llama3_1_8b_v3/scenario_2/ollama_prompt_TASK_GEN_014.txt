@@ -1,0 +1,5 @@
+Tasking Request for Satellite Constellation Planner
+
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking involving the capture of an active radar scan using microwave surface imaging to pierce heavy weather and capture ground geometry. The target location is Tagliacozzo, Italia, where we need to conduct this mission allocation as part of our standard workflow update.
+
+The mission has a moderate importance level and should be executed within the next 48 hours. We aim to complete this task sometime today around mid-day, specifically during the afternoon.

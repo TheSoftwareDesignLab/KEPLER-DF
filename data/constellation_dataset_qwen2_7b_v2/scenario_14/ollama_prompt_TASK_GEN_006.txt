@@ -1,1 +1,8 @@
-Good day! We're looking to capture a high-resolution optical snapshot of Sungai Emang, Indonesia, using our VIS sensor. This daylight photography will serve as true-color visual documentation for our ongoing project. Given the importance of this task, we classify it as a low priority importance request with a flexible schedule for opportunistic capture. We understand that our deadline is set for the day after tomorrow in the morning, and we're treating this as a non-essential background filler task. Our aim is to ensure that the data products are ingested into the pipeline before we reach our strict delivery deadline set for the day after tomorrow in the morning. Thank you for your attention to this critical payload capture.
+Good day to our automated satellite constellation planner, we're looking to capture a high-resolution optical snapshot of Sintang, Indonesia, in the morning on the day after tomorrow. This task is tagged as a low priority importance request with a flexible schedule for opportunistic capture. We aim to document the region using clear daylight photography and true-color visual imagery to support our background survey efforts.
+
+The primary sensor involved will be a visible light imaging system, focusing on capturing high-quality daytime imagery of the area. We're not looking for any specific technical parameters or time slots beyond ensuring that the data products are ready by the specified day and time, which is in the morning on the day after tomorrow.
+
+We appreciate your attention to this task and look forward to receiving the data as soon as possible without altering the deadline set for our operational pipeline. Please note that this request carries a non-essential background filler task status and can be dropped or rescheduled at convenience if necessary. Thank you for your cooperation in handling this matter promptly.
+
+Best regards,
+[Your Name]

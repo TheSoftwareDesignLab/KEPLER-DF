@@ -1,0 +1,1 @@
+Hey, we need a quick opportunistic capture of an active radar scan over Norte city using microwave surface imaging to ensure we have cloud-penetrating data. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule at convenience, but we'd like the products ingested into the pipeline before four days during the afternoon.

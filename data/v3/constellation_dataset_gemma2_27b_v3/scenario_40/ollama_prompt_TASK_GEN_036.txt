@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution optical snapshot of Ecuatorial, Indonesia, tomorrow around mid-day. The objective is multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the vegetation NDVI index.

@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Majangkan, Indonesia. This is a routine monitoring task for cloud-penetrating capture and requires a strict delivery deadline set for tomorrow overnight at the latest.
+We need a standard operational tasking for active radar scan using microwave surface imaging over Majangkan, Indonesia. This is part of a routine monitoring and baseline pipeline tracking setup with fixed parameters. The data is needed by tomorrow in the evening at the latest.

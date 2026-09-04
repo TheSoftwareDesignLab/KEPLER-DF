@@ -1,14 +1,7 @@
-Hello automated satellite constellation planner,
+Good day, automated satellite constellation planner. We have a task for you that requires your immediate attention due to its low priority importance. Our mission involves capturing a multispectral vegetation analysis using VNIR sensors to assess the chlorophyll absorption level in the region of San Martín, Colombia. This task is part of our background survey and can be scheduled flexibly as a non-essential background filler task.
 
-I'm reaching out to request a low priority importance task for an opportunistic capture, which I'll label as a background survey. Our objective is to assess the health of vegetation in Colombia's San Martín region using near-infrared (NIR) sensors. The goal is to map water body boundaries and soil moisture levels for comprehensive analysis.
+Our objective is to obtain a detailed snapshot of the vegetation health and identify any potential anomalies that may indicate stress or disease in the plant life. We aim for high-resolution optical imagery that will provide us with clear visual documentation of the landscape during daylight hours, which will be crucial for our ongoing research on environmental conditions.
 
-We aim to capture high-quality data that will provide insights into the environmental conditions of the area. This task is part of our routine monitoring efforts and will contribute to our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+We would appreciate your assistance in delivering this data product by the time specified, which is four days from now, specifically during the afternoon period. This deadline is critical to ensure that we can integrate the data into our baseline pipeline tracking setup without any delays. Please note that there are no strict operational constraints regarding the exact time within the afternoon; however, we must adhere to this deadline to meet our internal processing requirements.
 
-The deadline for delivering the data products is set for four days from now, with a strict delivery deadline scheduled for the evening. We understand that this timeframe represents an operational deadline to deliver the data products to the user, not an orbital capture window.
-
-Please ensure that the products are ingested into our pipeline before the specified evening on the target day. I appreciate your attention to this task and look forward to receiving the necessary information about scheduling and any potential issues related to this request.
-
-Thank you for your cooperation.
-
-Best regards,
-[Your Name]
+Thank you for your understanding and prompt action in addressing this task. We look forward to receiving the data products as soon as possible so that we can continue our work on environmental monitoring without any interruptions.

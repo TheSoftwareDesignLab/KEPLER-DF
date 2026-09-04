@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot over Lamandau, Indonesia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters, so it falls under normal operational status. The imagery is needed by the afternoon in three days at the latest to ensure the products are ingested into the pipeline on time.

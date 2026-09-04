@@ -1,5 +1,14 @@
-Good day, satellite constellation planner. I'm reaching out from an absolute institutional priority regarding a critical payload capture task involving our Colombian assets, specifically focusing on Chima region. The urgency is paramount as we are tasked with thermal mapping of the area to detect any heat signatures or surface temperature profiles by the next day's overnight period at the latest. As this mission is bound by a contractual requirement, it's essential that we adhere to the strict deadline set for the target day and time.
+Good day to our satellite constellation planners,
 
-Our primary sensor will be our Thermal Infrared (TIR) equipment, which will capture thermal anomalies and map heat emissions with precision. The data products must be ingested into our pipeline before the specified target day and overnight period to ensure timely analysis and decision-making.
+We're requesting a mission allocation for an urgent operational tasking with high importance. Our focus is on capturing a thermal mapping of the region in Colombia, specifically the city of Chima. This involves observing heat signatures and surface temperature profiles for critical payload capture requirements.
 
-Please prioritize this task as it is of high importance and involves a binding contract requirement. We appreciate your swift attention and quick action in delivering the necessary data by the deadline. Thank you for your cooperation and understanding in this matter.
+Utilizing our thermal infrared (TIR) sensor, we aim to conduct an active radar scan using microwave surface imaging to penetrate heavy weather conditions and capture ground geometry. We're looking for a high-resolution optical snapshot as well, which will serve as daylight photography or clear optical imagery for our purposes.
+
+The deadline is set with strict urgency; we need the data products by the target day, in four days, in the evening at the latest. This is an absolute institutional priority and a binding contract requirement involving a critical payload capture. We're aware of the deadline constraints and will ensure that the products are ingested into the pipeline before the target day's evening timeframe.
+
+This request is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. It's a standard workflow update for our routine monitoring activities, but we emphasize the importance of adhering to this deadline due to its high priority level.
+
+Thank you for your attention and swift action in fulfilling this mission allocation.
+
+Best regards,
+Your Earth-observation mission operator

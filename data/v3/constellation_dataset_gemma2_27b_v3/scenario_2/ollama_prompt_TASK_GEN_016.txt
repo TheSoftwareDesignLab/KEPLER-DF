@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis. We need a high-resolution VNIR snapshot of El Litoral del San Juan, Colombia, sometime the day after tomorrow in the morning. The goal is to assess chlorophyll absorption levels and calculate the vegetation NDVI index.

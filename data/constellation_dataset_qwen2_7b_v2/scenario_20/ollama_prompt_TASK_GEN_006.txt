@@ -1,7 +1,12 @@
-Good morning! I'm reaching out with a standard operational tasking for our satellite constellation planner. Our priority is to capture thermal mapping data of Sungai Tapah, Indonesia, using our TIR sensor. We aim to gather critical information about heat signatures and surface temperature profiles in the region.
+Good day to our satellite constellation planners,
 
-Given the importance of this data for our baseline pipeline tracking, we require it by the day after tomorrow in the morning at the latest. This task is part of our normal operational status and represents a fixed parameter that is essential for our workflow update.
+We're looking to capture a thermal mapping of the region in Indonesia, specifically focusing on Sekadau. Our primary sensor requirement is Thermal Infrared (TIR), which will enable us to assess heat signatures and surface temperature profiles for critical anomaly detection needs.
 
-Please ensure that the products are ingested into our pipeline before the deadline set for the day after tomorrow in the morning. We appreciate your attention to this standard operational task and look forward to receiving the data promptly.
+Given the high importance of this task, we classify it as a medium priority operational tasking with standard parameters. We're aiming to have this data available by the day after tomorrow at the latest, ensuring that the products are ingested into our pipeline before the overnight period. This deadline is binding and represents our baseline pipeline tracking setup for normal operational status.
 
-Thank you for your cooperation and understanding in delivering this request with the utmost care and efficiency.
+Please note that this request carries a critical payload capture requirement, emphasizing its importance in our current workflow update. We appreciate your attention to this task and look forward to receiving the data products by the specified deadline.
+
+Thank you for your cooperation and understanding in meeting this priority level's requirements.
+
+Best regards,
+[Your Name]

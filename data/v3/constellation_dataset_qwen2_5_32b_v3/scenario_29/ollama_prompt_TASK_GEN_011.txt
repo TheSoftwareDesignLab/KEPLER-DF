@@ -1,0 +1,1 @@
+Hey, we need an opportunistic capture of the area around Norte city using microwave surface imaging to ensure cloud-penetrating capture. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule at convenience. We just want to make sure the data products are ingested into the pipeline before the overnight block the day after tomorrow.

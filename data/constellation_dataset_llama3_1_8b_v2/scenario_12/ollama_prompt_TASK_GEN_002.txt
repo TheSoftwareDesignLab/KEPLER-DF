@@ -1,3 +1,7 @@
-Translate the raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner:
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner:
 
-Capture thermal mapping data using active microwave surface imaging to detect heat signatures and surface temperature profiles in the region of Campania, specifically targeting the city of Napoli, Italia. This is an absolute institutional priority, binding contract requirement involving a critical payload capture, and must be executed with an urgent operational execution and un-preemptable mission lock. The data products are needed by the day after tomorrow in the morning at the latest.
+We require an absolute institutional priority tasking to capture high-resolution thermal mapping data using microwave surface imaging for heat signature detection and thermal anomaly mapping over Napoli, Italy. The region is a significant industrial hub in southern Italia, and this critical payload capture is essential for monitoring potential environmental hazards and optimizing resource allocation.
+
+This binding contract requirement must be executed with an urgent operational execution, as the data products are needed by the day after tomorrow in the morning at the latest to ensure timely decision-making and compliance with contractual obligations.
+
+Please allocate necessary assets and resources to prioritize this mission and deliver the thermal mapping data within the specified timeframe.

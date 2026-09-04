@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a commercial client, focusing on an active radar scan of the area around Ecuatorial, Indonesia. This mission involves capturing cloud-penetrating imagery to ensure we meet our baseline pipeline tracking setup with fixed parameters. The data products must be ready and ingested into the pipeline by the afternoon in three days.

@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot for daylight photography over Santa Rosa del Sur, Colombia. This is part of our standard operational tasking with fixed parameters, so it's important we keep to our normal operational status. The data products should be ready by around mid-day in three days to ensure they're ingested into the pipeline on time.

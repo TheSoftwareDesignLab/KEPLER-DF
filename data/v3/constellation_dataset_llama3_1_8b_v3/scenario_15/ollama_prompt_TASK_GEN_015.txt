@@ -1,0 +1,9 @@
+Tasking Request for Low-Priority Importance: Opportunistic NIR Reflection Capture
+
+We have a low-priority importance tasking request for opportunistic near-infrared reflection capture over Indonesia, specifically in Tanjung Jabung Timur. The goal is to conduct a non-essential background filler task with a flexible schedule for opportunistic capture. We're looking for a background survey or testbed tracking task that can be dropped or rescheduled at convenience.
+
+The target location details are as follows: we're focusing on Indonesia, with a specific interest in Tanjung Jabung Timur. This is a routine monitoring part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+We require a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation using near-infrared reflection to discriminate gradients. This will be an opportunistic capture, and we're flexible with the schedule.
+
+The tasking deadline is sometime today around mid-day, specifically in the morning. Please note that this is a non-essential background filler task, and we can drop or reschedule it at convenience if needed.

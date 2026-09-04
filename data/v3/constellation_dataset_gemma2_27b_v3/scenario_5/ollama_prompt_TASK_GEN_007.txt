@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for tomorrow overnight. I need multispectral vegetation analysis over Andina. This is part of a baseline pipeline tracking setup and requires fixed parameters representing normal operational status.

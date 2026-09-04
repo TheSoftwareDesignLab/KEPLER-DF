@@ -1,0 +1,1 @@
+We need a low priority background filler task for thermal mapping of Pianosa, Italy. This is an opportunistic capture for thermal anomaly detection sometime the day after tomorrow during the afternoon. Please drop or reschedule at convenience.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution, multispectral snapshot of the Ecuatorial region for vegetation analysis, specifically to calculate the NDVI index and surface reflectance.  Please schedule this as an un-preemptable mission lock sometime in three days during the overnight hours.

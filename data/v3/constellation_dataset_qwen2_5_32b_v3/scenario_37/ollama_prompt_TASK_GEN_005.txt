@@ -1,0 +1,1 @@
+We need to perform a near-infrared reflection scan over Norte, capturing water body boundaries and soil moisture levels. This is part of our standard operational tasking with fixed parameters, so it’s important we maintain normal operational status. The data products are needed by mid-day in three days at the latest.

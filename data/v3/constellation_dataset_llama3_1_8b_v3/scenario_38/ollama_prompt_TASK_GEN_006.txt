@@ -1,0 +1,1 @@
+Please task the satellite to conduct a thermal mapping operation in Indonesia, specifically in Gunung Mas, using the thermal infrared sensor. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission should be executed overnight, three days from now.

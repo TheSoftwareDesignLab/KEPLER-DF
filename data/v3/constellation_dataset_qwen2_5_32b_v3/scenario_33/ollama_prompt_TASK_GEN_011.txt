@@ -1,0 +1,1 @@
+We need to capture a thermal mapping of the region in Istarska županija, Hrvatska, as part of our routine monitoring setup. This is a standard operational tasking with fixed parameters and normal operational status. We aim to get the surface temperature profile for this area. Ensure the products are ingested into the pipeline before tonight at the latest.

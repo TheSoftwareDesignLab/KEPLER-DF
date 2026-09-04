@@ -1,0 +1,1 @@
+We need a standard operational tasking for a multispectral vegetation analysis over Northern Italy, specifically focusing on the chlorophyll absorption levels and NDVI index. This data is required with a strict delivery deadline set for around mid-day in three days. Please ensure this routine monitoring aligns with our baseline pipeline tracking setup.

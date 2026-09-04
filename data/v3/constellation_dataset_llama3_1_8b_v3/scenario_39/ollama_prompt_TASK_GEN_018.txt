@@ -1,0 +1,12 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner.
+
+We require an absolute institutional priority for thermal mapping to capture a heat signature in Indonesia, specifically in the city of Malinau. This is a critical payload capture that must be executed without delay or preemption. The mission must be completed during the afternoon of today.
+
+This task has a binding contract requirement and represents a mandatory directive for our operational workflow. It is essential that we obtain high-resolution thermal data to assess surface temperature profiles and detect thermal anomalies in this region.
+
+Please allocate the necessary assets and resources to ensure the timely completion of this task. We must capture this data within the next few hours to meet our contractual obligations and maintain our operational standards.
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+[Your Name]

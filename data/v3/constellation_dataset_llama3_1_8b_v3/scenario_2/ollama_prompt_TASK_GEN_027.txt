@@ -1,0 +1,3 @@
+Request to the automated satellite constellation planner: 
+
+We require a low priority importance task with a flexible schedule for opportunistic capture. The objective is to conduct a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation over the region of Indonesia, specifically focusing on the city of Pulang Pisau. This non-essential background filler task can be dropped or rescheduled at convenience and treated as a background survey or testbed tracking task. We aim to capture this data sometime today around mid-day.

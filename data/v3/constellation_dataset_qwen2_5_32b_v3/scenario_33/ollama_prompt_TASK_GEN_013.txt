@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping of Puerto Lleras, Colombia, to capture the heat signatures and surface temperature profiles. This is a non-essential background filler task, so feel free to drop or reschedule it at convenience. However, if possible, we'd like to have the data products ingested into the pipeline by the afternoon in four days.

@@ -1,1 +1,1 @@
-This is an absolute institutional priority tasking. We need a near-infrared reflection scan of Rionegro, Colombia, for water body boundary mapping and soil moisture assessment. This critical payload capture requires a high-resolution image with strict delivery deadline set for in three days around mid-day at the latest.
+This is a critical payload capture for our Colombian operations. We require near-infrared reflection data over Rionegro, Colombia. This is needed by in three days in the morning at the latest to ensure the products are ingested into the pipeline before then.

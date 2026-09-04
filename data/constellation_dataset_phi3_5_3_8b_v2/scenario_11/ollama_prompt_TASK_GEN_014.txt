@@ -1,3 +1,1 @@
-We need to schedule a standard operational tasking for Norte, where we'll be conducting multispectral vegetation analysis using near-infrared reflection. This routine monitoring is part of our baseline pipeline tracking and must be completed within three days overnight at the latest. Please ensure this data capture aligns with our normal workflow update schedule to maintain operational continuity.
-
-```prompt
+We have a standard operational tasking on our plate to conduct multispectral vegetation analysis in Norte using VNIR sensors. This routine monitoring is part of our baseline pipeline tracking, aimed at assessing the chlorophyll absorption level and calculating the NDVI index for surface reflectance. We need the data ready by three days from now, specifically in the evening timeframe. Please ensure that this task is integrated into our workflow update with fixed parameters to maintain our normal operational status.

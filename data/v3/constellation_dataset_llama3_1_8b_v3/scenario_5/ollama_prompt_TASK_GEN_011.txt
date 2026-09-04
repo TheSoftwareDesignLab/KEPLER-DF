@@ -1,0 +1,3 @@
+Tasking Request: Thermal Mapping of Norte Region
+
+We require a thermal mapping task to capture a heat signature and surface temperature profile in the Norte region. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The target window for this tasking is sometime in three days during the evening.

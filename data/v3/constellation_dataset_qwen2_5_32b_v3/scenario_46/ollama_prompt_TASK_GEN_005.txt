@@ -1,0 +1,1 @@
+We need to conduct a routine monitoring task over Norte, capturing near-infrared reflection for water body boundary mapping. This is part of our baseline pipeline tracking setup and should be scheduled for tomorrow during the afternoon.

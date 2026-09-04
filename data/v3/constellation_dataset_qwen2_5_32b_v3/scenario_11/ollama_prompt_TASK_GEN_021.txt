@@ -1,0 +1,1 @@
+We need an opportunistic near-inactive task to capture a cloud-penetrating radar scan over Bangka Selatan, Indonesia. This is a low priority importance request with a flexible schedule for background survey purposes. Feel free to drop or reschedule at convenience, but we'd like the data products ingested into the pipeline by the afternoon in three days.

@@ -1,1 +1,1 @@
-This is a standard operational tasking for a SAR active radar scan over La Cumbre, Colombia. We need cloud-penetrating capture of the ground geometry with a strict delivery deadline set for in four days overnight at the latest.
+This is a standard operational tasking for an active radar scan of La Cumbre, Colombia. We need cloud-penetrating capture using microwave surface imaging to assess ground geometry. Please ensure the products are ingested into the pipeline before in four days in the evening at the latest.

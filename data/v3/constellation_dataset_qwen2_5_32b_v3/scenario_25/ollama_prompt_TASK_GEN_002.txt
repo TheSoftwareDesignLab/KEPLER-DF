@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task coming up. We need an opportunistic active radar scan over Northern Italy to capture some cloud-penetrating imagery. This is more of a background survey, so feel free to drop or reschedule at convenience. Just make sure the products are ingested into the pipeline before tomorrow morning.

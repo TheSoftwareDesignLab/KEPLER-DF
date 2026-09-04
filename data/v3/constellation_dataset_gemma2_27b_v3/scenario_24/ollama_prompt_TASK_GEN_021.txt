@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active near-infrared reflection scan over Karang Asem, Indonesia sometime in three days during the afternoon. The goal is to map water body boundaries and assess soil moisture gradients in the region.

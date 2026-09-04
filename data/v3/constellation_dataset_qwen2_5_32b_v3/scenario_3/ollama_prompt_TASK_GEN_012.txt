@@ -1,0 +1,1 @@
+Hey, we need a low priority importance request for a thermal mapping of the area around Ecuatorial. This is just a background survey task, so feel free to drop or reschedule it at convenience. We're looking for a heat signature and surface temperature profile, but it's not critical. Just ensure the products are ingested into the pipeline before today in the evening.

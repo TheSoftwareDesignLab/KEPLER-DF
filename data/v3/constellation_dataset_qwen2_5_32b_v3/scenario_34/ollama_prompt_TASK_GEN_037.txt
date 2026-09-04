@@ -1,0 +1,1 @@
+We need a near-infrared reflection capture over Caño Flor, Colombia, to assess water body boundaries and soil moisture. This is part of our routine monitoring setup with fixed parameters, so it's considered normal operational status. The data products are needed by morning in four days at the latest.

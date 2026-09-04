@@ -1,14 +1,10 @@
-Hello Satellite Constellation Planner,
+Good morning! I'm reaching out to request a critical task for our Earth observation mission. We're focusing on thermal mapping for Norte, a region we're monitoring closely but don't have specific details about the country or city. The priority level is set at 'Low Importance', which means this task can be scheduled flexibly and doesn't require immediate attention.
 
-I'm reaching out to request a task involving thermal mapping of an area near Norte, which is located in an unspecified country. The region's specifics are not detailed, but we're focusing on capturing its heat signature for potential thermal anomalies or surface temperature profiles.
+Our primary sensor is 'TIR', aimed at capturing thermal data to identify heat signatures and surface temperature profiles. This will help us detect any thermal anomalies or map heat emissions efficiently. We're targeting the day after tomorrow with a strict delivery deadline set for morning time, ensuring the products are ingested into our pipeline before then.
 
-Given the nature of this request, I classify it as a low priority importance task. This means that while it's important, it can be scheduled flexibly and is treated as a background survey or testbed tracking task. We understand that there might be other tasks with higher priorities, so we're prepared to drop or reschedule this task at your convenience.
+This task can be considered as a 'background survey' or 'testbed tracking task'. It's not an urgent operational execution but should be carried out to support our ongoing monitoring activities. Please note that this request is non-essential and can be dropped or rescheduled at your convenience, treating it as a 'background filler task' in our workflow update.
 
-The primary sensor for this mission will be TIR, which will allow us to perform thermal mapping. This involves capturing the heat emission from the region, helping us identify any anomalies in temperature across its surface.
-
-Our deadline for receiving these data products is set for the day after tomorrow, with a strict delivery deadline of morning. We need to ensure that the products are ingested into our pipeline before this time frame ends. This is a critical aspect of our operational planning and will help us manage our workflows effectively.
-
-Thank you for your attention to this request. We appreciate your cooperation in meeting these requirements and look forward to receiving the data promptly.
+Thank you for your understanding and cooperation. We appreciate your flexibility and look forward to receiving the data products on schedule.
 
 Best regards,
 [Your Name]

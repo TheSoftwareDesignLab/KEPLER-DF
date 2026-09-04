@@ -1,0 +1,2 @@
+```prompt
+This is an absolute institutional priority to capture a high-resolution multispectral vegetation analysis snapshot of the region surrounding La Cumbre in Colombia using VNIR technology. We require a critical payload capture within the next day and a half during the afternoon for baseline pipeline tracking with fixed parameters representing normal operational status.

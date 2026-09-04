@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping of Paratebueno, Colombia, to capture the surface temperature profile. This is a non-essential background filler task that can be dropped or rescheduled at convenience, but we do need the data products by tomorrow overnight at the latest.

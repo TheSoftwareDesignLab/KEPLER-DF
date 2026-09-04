@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task that's more of a background survey. We need to capture some multispectral vegetation analysis over Norte city for assessing chlorophyll absorption levels and calculating an NDVI index. This can be opportunistic, so feel free to drop or reschedule at convenience, but we'd like the data products by tomorrow around mid-day if possible.

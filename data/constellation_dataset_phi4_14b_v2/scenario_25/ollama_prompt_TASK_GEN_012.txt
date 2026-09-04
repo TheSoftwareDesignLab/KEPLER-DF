@@ -1,3 +1,1 @@
-I have a low-priority task for you, and I'd appreciate your flexibility with scheduling. We're looking to conduct a multispectral vegetation analysis over Ecuatorial in Indonesia. The goal is to assess the chlorophyll absorption levels and calculate the NDVI index for this region. This is more of a background survey, so please feel free to drop or reschedule it at your convenience.
-
-We need the data products ingested into the pipeline before the day after tomorrow in the evening at the latest. Thank you!
+I'd like to submit a task request for an Earth-observation mission over Ecuatorial, Indonesia. This is a low-priority importance task with a flexible schedule, so feel free to drop or reschedule it at your convenience. We're looking for opportunistic capture of multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. Ideally, we'd like this to be completed the day after tomorrow around mid-day. Thank you!

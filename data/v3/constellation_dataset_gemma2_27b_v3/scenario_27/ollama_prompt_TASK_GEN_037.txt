@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis in La Macarena, Colombia. We need a high-resolution VNIR capture sometime tomorrow afternoon to assess chlorophyll absorption levels and calculate the NDVI index.

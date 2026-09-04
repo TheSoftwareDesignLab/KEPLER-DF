@@ -1,0 +1,1 @@
+We require a thermal mapping task for tomorrow evening, focusing on capturing a heat signature in Salazar, Colombia. This is a low priority importance request with a flexible schedule for opportunistic capture, so we can drop or reschedule at convenience if needed. The goal is to conduct a background survey using the thermal infrared sensor.

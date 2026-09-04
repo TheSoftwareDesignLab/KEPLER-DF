@@ -1,0 +1,1 @@
+This is a binding contract requirement for an immediate and critical payload capture. We need an active radar scan of Norte using microwave surface imaging sometime overnight in three days. This task requires an un-preemptable mission lock.

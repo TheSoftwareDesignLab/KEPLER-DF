@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Marciana Marina, Italia. We need a high-resolution snapshot sometime in the morning, four days from now. Please capture the necessary data for calculating a vegetation NDVI index and surface reflectance.

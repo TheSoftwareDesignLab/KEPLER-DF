@@ -1,0 +1,1 @@
+This is a low priority importance request for opportunistic capture of multispectral vegetation analysis data over Ábrego, Colombia.  We need a near-infrared reflection snapshot sometime tomorrow evening to assess chlorophyll absorption levels and calculate a vegetation NDVI index. Drop or reschedule at convenience; treat this as a non-essential background filler task.

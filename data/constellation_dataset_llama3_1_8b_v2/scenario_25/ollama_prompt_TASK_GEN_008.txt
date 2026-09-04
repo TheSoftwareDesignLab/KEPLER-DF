@@ -1,1 +1,7 @@
-We require a standard operational tasking for commercial tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The objective is to capture a high-resolution multispectral vegetation analysis using VNIR technology to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance over the region of Prati di Tivo in Italia. This tasking must be completed with a strict delivery deadline set for in four days in the evening at the latest.
+Tasking Request: VNIR Vegetation Analysis in Prati di Tivo, Italy
+
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters. This task involves a multispectral vegetation analysis to assess the chlorophyll absorption level and calculate the NDVI index and surface reflectance in the region of Prati di Tivo, Italy.
+
+The location details indicate that the task should focus on the area within the country of Italy, specifically in the city of Prati di Tivo. This request is a commercial tasking with normal operational status, and we expect the data products to be ingested into our pipeline before in four days overnight.
+
+This tasking is a standard operational requirement, and we expect the delivery of high-quality data products according to our operational protocols. Please ensure that the data is ready by in four days overnight at the latest.

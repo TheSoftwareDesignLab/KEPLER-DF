@@ -1,8 +1,12 @@
-Good day to you! I hope this message finds you well. I'm reaching out as an Earth-observation mission operator who requires your assistance in capturing a high-resolution optical snapshot of a specific location for our ongoing project. The region we're focusing on is in the beautiful country of Italia, specifically in the city of Norte. Our objective is to gather clear optical imagery to document this area during daylight hours.
+Good day to our satellite constellation planners,
 
-As this task carries low priority importance, we understand that it might be scheduled as a flexible background filler task. However, we kindly request your team to prioritize this task slightly higher than usual due to its significance for our project's progress. We aim to ensure that the data products are ingested into our pipeline before the strict delivery deadline set for the day after tomorrow around mid-day.
+I'm reaching out with a task request for an Earth observation mission that requires your expertise and coordination. Our objective is to capture a high-resolution optical snapshot of a specific location in Italia, particularly the region around Norte City, which holds significant importance for our ongoing project.
 
-I appreciate your understanding and flexibility in scheduling this task. If there are any issues or if you need additional information, please feel free to reach out. Thank you very much for your cooperation and support!
+For this mission, we're utilizing a VIS sensor to obtain clear daylight photography, aiming to gather true-color visual documentation that will help us understand the landscape and environmental conditions. The imagery collected should be as detailed and accurate as possible, ensuring that it captures the essence of the region without any obstructions from clouds or other atmospheric phenomena.
+
+The operational urgency for this task is high; we need the data products by the day after tomorrow, around mid-day, with a strict delivery deadline set for that time. This request falls under our low priority importance category, but it's crucial for our background survey and testbed tracking task. We understand that there might be flexibility in scheduling, allowing us to drop or reschedule this mission at your convenience if necessary.
+
+Thank you for your attention to this matter. We appreciate your cooperation and look forward to receiving the data products that will contribute to our project's success.
 
 Best regards,
 [Your Name]

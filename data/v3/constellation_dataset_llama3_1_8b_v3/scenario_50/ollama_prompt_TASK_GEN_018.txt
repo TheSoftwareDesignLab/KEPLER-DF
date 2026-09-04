@@ -1,0 +1,1 @@
+Tasking Request: High-resolution multispectral vegetation analysis for baseline pipeline tracking in Indonesia. We require a standard operational tasking with fixed parameters for normal operational status, capturing a high-quality VNIR snapshot of the Bukit Berantai region in the evening of the day after tomorrow.

@@ -1,0 +1,1 @@
+We need a standard operational tasking to capture an active radar scan over Florida, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The data products must be ready by tomorrow overnight at the latest.

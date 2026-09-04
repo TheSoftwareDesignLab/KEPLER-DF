@@ -1,0 +1,1 @@
+We need to schedule a near-infrared reflection capture over Rapolano Terme, Italy, for a routine monitoring task. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products are needed by around mid-day in four days at the latest.

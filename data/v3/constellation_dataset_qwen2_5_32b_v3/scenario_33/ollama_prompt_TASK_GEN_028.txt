@@ -1,0 +1,1 @@
+We need a standard operational tasking to capture an active radar scan of Puerto Wilches, Colombia, using microwave surface imaging. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products must be ready by the morning in three days to ensure they are ingested into the pipeline on time.

@@ -1,0 +1,1 @@
+We need to perform a standard operational tasking for a commercial client, focusing on a high-quality active radar scan over Kutai Kartanegara in Indonesia. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products must be ready by the overnight block in three days at the latest.

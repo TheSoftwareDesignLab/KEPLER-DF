@@ -1,9 +1,18 @@
-Good day, automated satellite constellation planner. I'm reaching out on behalf of an Earth-observation mission with a high importance task to be executed in the near future. Our objective is to capture thermal mapping data for the region surrounding Ecuatorial City, located within Indonesia's vast territory. This area requires a detailed heat signature and surface temperature profile for critical analysis.
+```prompt
+---
 
-Our priority is marked as 'High Importance', which means this mission is an absolute institutional priority and part of a binding contract requirement involving a critical payload capture. We require this data to be available by the evening on the day that is three days ahead, ensuring it's ingested into our pipeline before the deadline is met.
+**Earth Observation Mission Task Request**
 
-For this task, we are employing thermal sensors (TIR) to gather thermal images that will help us in detecting heat anomalies and mapping heat emissions accurately. The imagery captured should provide us with a comprehensive view of the region's thermal characteristics.
+---
 
-Please note that this mission has a strict deadline due to operational constraints and represents a baseline pipeline tracking setup with fixed parameters, reflecting our normal operational status. We are looking forward to your immediate attention and cooperation in executing this task as per our requirements.
+We are urgently requesting an absolute institutional priority task to capture a critical payload involving thermal mapping of the Ecuatorial region in Indonesia. This mission is part of a binding contract requirement that necessitates an un-preemptable execution schedule with strict parameters set for data delivery.
 
-Thank you for your understanding and swift action in fulfilling this request.
+The primary sensor to be utilized is the TIR (Thermal Infrared), which will provide us with a detailed heat signature and surface temperature profile, essential for thermal anomaly detection and mapping heat emissions in the region. The operational objective here involves assessing the thermal dynamics of the area for critical decision-making purposes.
+
+The deadline for delivering this data product is set for three days from now, during the afternoon period. This means we need the data by the latest point of the night before that day. We are looking to ensure that these products are ingested into our pipeline before the specified target day and time to meet our operational requirements.
+
+---
+
+**End of Task Request**
+
+---

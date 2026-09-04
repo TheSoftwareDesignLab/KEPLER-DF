@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for an active radar scan over Indonesia, near the city of Ecuatorial. This is part of our baseline pipeline tracking with fixed parameters, so it's important we maintain normal operational status. The data products are needed by around mid-day in three days, so please ensure they're ingested into the pipeline before then.

@@ -1,0 +1,1 @@
+This is an absolute institutional priority and a mandatory directive for a critical payload capture. We need an active radar scan of Bojayá (Bellavista) in Colombia to pierce through any weather conditions and capture the ground geometry. This data is needed by tonight at the latest, so ensure it's ingested into the pipeline before then.

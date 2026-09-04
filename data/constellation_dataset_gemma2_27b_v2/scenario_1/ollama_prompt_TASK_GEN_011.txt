@@ -1,1 +1,1 @@
-I need a standard operational tasking for an active radar scan of Grottaferrata, Italia. This is part of a routine monitoring workflow update with fixed parameters for cloud-penetrating capture needed by tomorrow overnight at the latest.
+This is a low priority importance request for an opportunistic capture of Grottaferrata, Italia using active radar scanning.  I need this microwave surface imaging data ingested into the pipeline before tomorrow's overnight block at the latest. Drop or reschedule at convenience if needed, as it's a non-essential background filler task.

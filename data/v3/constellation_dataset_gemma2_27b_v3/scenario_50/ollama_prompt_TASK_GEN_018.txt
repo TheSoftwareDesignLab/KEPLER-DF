@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Bukit Berantai, Indonesia. We need to capture a high-resolution VNIR image of the area sometime in four days during the morning for calculating vegetation indices and surface reflectance.

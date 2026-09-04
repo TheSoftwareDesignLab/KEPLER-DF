@@ -1,0 +1,1 @@
+We need to execute a standard operational tasking for a high-resolution optical snapshot over Castello Tesino, Italia. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products are needed by in four days in the morning at the latest.

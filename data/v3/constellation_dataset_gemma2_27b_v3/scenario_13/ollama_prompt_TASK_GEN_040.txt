@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis in La Isla, Colombia. We need a high-resolution VNIR capture sometime in three days around mid-day to assess chlorophyll absorption levels and calculate the vegetation NDVI index in that area.

@@ -1,0 +1,1 @@
+We need a thermal mapping of Agrado, Colombia, to capture the surface temperature profile. This is a low priority importance request with a flexible schedule for an opportunistic capture. Ensure the products are ingested into the pipeline before around mid-day the day after tomorrow. Feel free to drop or reschedule at convenience if other tasks take precedence.

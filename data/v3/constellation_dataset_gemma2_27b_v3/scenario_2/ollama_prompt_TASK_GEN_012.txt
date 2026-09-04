@@ -1,0 +1,1 @@
+We need a low priority importance SAR capture for an area near Ecuatorial, Indonesia. Ideally, this would be a non-essential background filler task that can be dropped or rescheduled at convenience. We're looking for a sometime in three days during the evening capture to get a cloud-penetrating image of the ground geometry.

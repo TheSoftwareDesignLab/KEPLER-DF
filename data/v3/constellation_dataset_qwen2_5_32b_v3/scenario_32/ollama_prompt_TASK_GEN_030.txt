@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request coming in. We need an opportunistic high-resolution optical snapshot of the area around Singkep Barat, Indonesia. This is more of a background survey task, so feel free to drop or reschedule it at convenience. Just make sure the data products are ingested into the pipeline before overnight on the day after tomorrow.

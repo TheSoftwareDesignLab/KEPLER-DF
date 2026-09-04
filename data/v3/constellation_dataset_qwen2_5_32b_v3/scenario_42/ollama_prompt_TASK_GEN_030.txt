@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of Banyuasin, Indonesia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters and normal operational status. The data products are needed by tomorrow overnight at the latest to ensure they are ingested into the pipeline on time.

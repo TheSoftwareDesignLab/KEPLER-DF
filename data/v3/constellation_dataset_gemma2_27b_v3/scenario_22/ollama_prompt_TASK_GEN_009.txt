@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis snapshot of Koto XI Tarusan, Indonesia. Specifically, we require an NDVI index and surface reflectance calculation.  Target this capture sometime in the evening, three days from now.

@@ -1,1 +1,12 @@
-Good morning! I'm reaching out to request a high-resolution optical snapshot of Calenzana, France, using our visible light sensor. This is a low priority importance task aimed at capturing clear daylight photography and true-color visual documentation of the region's landscape. We're looking for this imagery by the day after tomorrow in the morning, ensuring the products are ingested into our pipeline before then. As this is a non-essential background filler task, we can drop or reschedule it at your convenience if needed. Thank you for your attention to this request.
+Good day to our satellite constellation planning team,
+
+We're reaching out with a task request for an Earth observation mission, focusing on capturing high-resolution optical imagery of Calenzana, France. This is a flexible schedule request, classified as a low priority importance task, which we're treating as a non-essential background filler task. We understand that this might not be the most urgent mission on your list, but we'd appreciate it if you could schedule this as a background survey or testbed tracking task.
+
+Our objective is to obtain a clear optical snapshot of the region for daylight photography and true-color visual documentation. The primary sensor involved will be our VIS (visual imaging system), which will provide us with detailed images to assess the landscape and urban areas in Calenzana.
+
+The deadline for this task is set for the day after tomorrow, with a strict delivery deadline to ensure the products are ingested into our pipeline before the morning of that day. This means we need the data by the time the sun rises on the day after tomorrow.
+
+Thank you for considering our request. We look forward to your confirmation and any updates on the status of this mission allocation.
+
+Best regards,
+[Your Name]

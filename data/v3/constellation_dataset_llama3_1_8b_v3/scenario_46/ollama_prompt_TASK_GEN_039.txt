@@ -1,0 +1,1 @@
+Please conduct a thermal mapping task using the TIR sensor over Tanjung Jabung Barat, Indonesia, as part of our routine monitoring baseline pipeline tracking setup. This is a standard operational tasking with fixed parameters representing normal operational status, and it's essential for our commercial tasking requirements. The mission should be executed tomorrow morning.

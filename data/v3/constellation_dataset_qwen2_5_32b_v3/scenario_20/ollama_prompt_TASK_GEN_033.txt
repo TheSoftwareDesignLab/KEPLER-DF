@@ -1,0 +1,1 @@
+We need an opportunistic active radar scan over Tungkal Ilir, Indonesia, to capture cloud-penetrating imagery. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. However, we'd like the data products to be ingested into the pipeline before three days overnight.

@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for an opportunistic capture over Merlino, Italia. We're looking to get an active radar scan for cloud-penetrating capture in this area. This is more of a background survey task, so feel free to drop or reschedule at convenience, but ideally, we'd like the data products ingested into the pipeline before overnight in three days.

@@ -1,0 +1,7 @@
+Translate the following raw physical simulation metadata into a single, highly realistic, and conversational English request:
+
+To capture a high-resolution thermal map of the region in Italia, specifically focusing on the area around Gamberale, we require an active thermal scan using microwave surface imaging. This task is part of our standard operational tasking and represents a commercial tasking within our baseline pipeline tracking setup with fixed parameters indicating normal operational status.
+
+We need to complete this task tomorrow evening, as it is a routine monitoring part of our workflow update. The mission allocation authority and asset contractual value for this task are moderate, but we must still ensure that the thermal mapping captures a clear surface temperature profile and detects any thermal anomalies in the area.
+
+Please allocate the necessary resources to execute this task with high priority, but also be flexible with the schedule if needed. If possible, please capture the data during the evening tomorrow, but do not delay the task if it cannot be completed within the specified timeframe.

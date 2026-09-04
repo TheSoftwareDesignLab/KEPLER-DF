@@ -1,1 +1,10 @@
-We're looking to capture a high-resolution optical snapshot of Pradis di Sopra / Pradis Dadalt, located in the beautiful country of Italia. As this is a low priority importance task, we'll treat it as an opportunistic background filler survey with a flexible schedule for capturing the scene's true-color visual documentation. We aim to deliver these images by the day after tomorrow, in the evening, ensuring they're ingested into our pipeline before then. This request serves as a non-essential background task that can be dropped or rescheduled at convenience if needed.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a high-resolution optical snapshot of the beautiful region of Pradis di Sopra / Pradis Dadalt, located in the charming country of Italia. Our objective is to capture clear daylight imagery and true-color visual documentation of this picturesque area during the afternoon session on the day after tomorrow.
+
+This task carries low priority importance, hence we're treating it as a flexible schedule "background survey" or "testbed tracking task". We understand that there might be opportunities for rescheduling or dropping this request at your convenience. The deadline is set strictly by the target day and diurnal period provided - ensuring the products are ingested into the pipeline before the afternoon session of the day after tomorrow.
+
+Thank you for your attention, and we look forward to your confirmation.
+
+Best regards,
+[Your Name]

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Ecuatorial, Indonesia sometime in the morning, four days from now.  The objective is cloud-penetrating capture using microwave surface imaging.

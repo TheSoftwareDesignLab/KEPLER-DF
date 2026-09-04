@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active near-infrared reflection scan of Kutai Barat, Indonesia sometime in three days during the evening. This will be used for water body boundary mapping and soil moisture assessment in the region.  Please prioritize this as an un-preemptable mission lock.

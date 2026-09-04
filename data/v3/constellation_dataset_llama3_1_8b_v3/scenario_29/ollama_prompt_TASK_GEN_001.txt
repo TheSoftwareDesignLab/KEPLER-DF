@@ -1,0 +1,5 @@
+Tasking Request: Routine Monitoring of Vegetation Health in Moravia, Colombia
+
+We require a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate a vegetation NDVI index for soil moisture assessment. This is part of our standard operational tasking and baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The target location is Moravia in Colombia, and we aim to capture this data sometime today around mid-day. This is a standard operational tasking with a commercial tasking priority, and we expect a routine monitoring outcome as part of our ongoing workflow update.

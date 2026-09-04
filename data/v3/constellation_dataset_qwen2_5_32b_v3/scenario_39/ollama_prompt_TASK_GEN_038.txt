@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for some opportunistic high-resolution optical snapshot captures over Casalbuttano ed Uniti in Italia. This is more of a background survey task, so feel free to drop or reschedule at convenience. We're looking to have the data products ingested into the pipeline before around mid-day the day after tomorrow.

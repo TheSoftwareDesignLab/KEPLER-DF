@@ -1,0 +1,1 @@
+Hey, we need an opportunistic VNIR capture over Puerto López in Colombia. This is a low priority importance task, so feel free to drop or reschedule it at convenience. We're looking to assess the chlorophyll absorption levels and calculate the NDVI index for the area. Just make sure the products are ingested into the pipeline by the evening of the day after tomorrow.

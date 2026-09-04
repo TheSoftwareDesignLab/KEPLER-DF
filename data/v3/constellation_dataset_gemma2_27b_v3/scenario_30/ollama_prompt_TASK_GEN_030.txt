@@ -1,0 +1,1 @@
+This is a low priority importance request for a non-essential background filler task.  We need an opportunistic capture of multispectral vegetation analysis over Ecuatorial, Indonesia sometime tomorrow evening. The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index in the region. Please drop or reschedule at convenience.

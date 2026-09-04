@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request:
+
+We need to capture a high-resolution optical snapshot for daylight photography and true-color visual documentation of the region in Indonesia, specifically Rokan Hilir city, using multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance. This is an absolute institutional priority, a binding contract requirement involving a critical payload capture, and a mandatory directive for urgent operational execution and un-preemptable mission lock. We must accomplish this task in two days during the afternoon.

@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Sari-Solenzara, France. We need a high-resolution capture of the area sometime in the morning three days from now to assess chlorophyll absorption levels and calculate a vegetation NDVI index.

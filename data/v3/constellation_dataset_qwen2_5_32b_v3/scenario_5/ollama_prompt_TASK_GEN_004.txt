@@ -1,0 +1,1 @@
+We need an opportunistic active radar scan over Turbo, Colombia, to capture some cloud-penetrating imagery. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. However, if possible, we'd like the data products ingested into the pipeline during the afternoon today.

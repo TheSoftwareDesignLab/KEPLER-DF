@@ -1,0 +1,1 @@
+We need a standard operational tasking for a multispectral vegetation analysis over Ecuatorial, Indonesia. This is part of our baseline pipeline tracking setup with fixed parameters to assess chlorophyll absorption levels and calculate the NDVI index. Ensure the products are ingested into the pipeline before tomorrow during the afternoon.

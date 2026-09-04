@@ -1,0 +1,1 @@
+Please task the satellite to conduct a thermal mapping mission in La Macarena, Colombia, capturing a heat signature and surface temperature profile overnight tomorrow. This is a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

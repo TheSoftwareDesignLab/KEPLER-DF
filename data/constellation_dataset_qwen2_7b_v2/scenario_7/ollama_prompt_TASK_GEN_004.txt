@@ -1,5 +1,6 @@
-Hello there! I'm reaching out to request a critical task for our Earth observation mission. We're looking to capture thermal mapping data using the TIR sensor for a location in Huasanó, Colombia. This area is of high importance, so please consider this as a binding contract requirement involving a mandatory directive.
+Good day to you! I'm reaching out for a low priority importance task that needs to be handled as soon as possible. We're looking to capture a thermal mapping of an area in Huasanó, Colombia, using our TIR sensor. The goal is to assess heat signatures and map surface temperature profiles across the region. This request falls under the category of a non-essential background filler task.
 
-We aim to gather detailed information about heat signatures and surface temperature profiles to detect any thermal anomalies. The purpose is to ensure that our data products are ingested into the pipeline before the deadline set for [target_day] in the evening at the latest. This task falls under our low priority importance, but we kindly request that you treat it as a background survey or testbed tracking task.
+The deadline for delivering this data product is set for three days from now, during the afternoon period. We aim to ensure that the thermal mapping products are ingested into our pipeline before the specified time frame. Please note that this is an urgent operational execution and can be dropped or rescheduled at your convenience if needed. Thank you for your attention to this matter.
 
-We appreciate your understanding and flexibility regarding this request. If there's any need to drop or reschedule, please do so at your convenience. Thank you for your attention to this matter.
+Best regards,
+[Your Name]

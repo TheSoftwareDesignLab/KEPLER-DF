@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a high-resolution active radar scan over Murindó, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products are needed by the overnight block the day after tomorrow at the latest.

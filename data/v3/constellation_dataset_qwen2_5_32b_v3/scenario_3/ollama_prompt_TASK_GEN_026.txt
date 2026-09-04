@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of Castifao, France, for standard operational tasking. This is part of our baseline pipeline tracking setup with fixed parameters, so it's important to maintain normal operational status. The data products are needed by the evening in four days at the latest.

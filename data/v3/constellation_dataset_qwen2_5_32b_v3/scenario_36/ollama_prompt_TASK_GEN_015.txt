@@ -1,0 +1,1 @@
+We need a near-infrared reflection scan for soil moisture assessment in Ketapang, Indonesia. This is part of our routine monitoring and has fixed parameters for normal operational status. The data products are needed by tomorrow around mid-day at the latest.

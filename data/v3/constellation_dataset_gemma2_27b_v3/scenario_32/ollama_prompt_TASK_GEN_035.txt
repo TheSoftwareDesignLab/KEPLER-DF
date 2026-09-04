@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis snapshot of Basaluzzo, Italia. Specifically, we need to assess chlorophyll absorption levels and calculate the vegetation NDVI index sometime in four days during the afternoon.

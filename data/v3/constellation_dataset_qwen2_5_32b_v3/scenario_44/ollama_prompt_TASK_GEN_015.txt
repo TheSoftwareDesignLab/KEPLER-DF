@@ -1,0 +1,1 @@
+We need to conduct a routine monitoring task over Banyuasin, Indonesia, using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index. This is part of our baseline pipeline tracking with fixed parameters, representing normal operational status. The data products must be ready by the day after tomorrow around mid-day at the latest.

@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis in San Vicente del Caguán, Colombia. We need a high-resolution capture of chlorophyll absorption levels and surface reflectance sometime tomorrow morning.

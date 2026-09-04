@@ -1,10 +1,9 @@
-Hello there,
+Good day, automated satellite constellation planner. I'm reaching out to request a mission allocation for an urgent task that requires your immediate attention. Our operational guidelines dictate that this request is of high importance, necessitating an authoritative and explicit approach.
 
-I'm reaching out to request a specific task for our automated satellite constellation planner. Our objective is to capture detailed radar imagery of a location in Colombia, specifically in Baraya, using an active SAR sensor. This mission aims to provide us with a comprehensive view of the region's ground geometry, penetrating through any heavy weather conditions that might be present.
+We are looking to capture a detailed radar scan using our active SAR technology. The objective here is to gather comprehensive microwave surface imaging data that can penetrate heavy weather conditions or reveal ground geometry with precision. This task is akin to capturing a cloud-penetrating snapshot of the region we're focusing on, which is the city of Baraya in Colombia.
 
-Given the importance of this request, I would like to classify it as a low priority task, allowing for flexible scheduling and treating it as a background survey or testbed tracking task. However, we do emphasize its significance by setting a deadline: we need the data products by the target day at the latest, with a strict delivery deadline set for four days from now, ensuring the products are ingested into our pipeline before the overnight period.
+Baraya, known for its rich cultural heritage and vibrant landscapes, presents a unique opportunity for us to utilize this technology effectively. The operational parameters are set within our guidelines, with a strict deadline for data delivery. We need the raw data by the evening of the target day, which is four days from now, ensuring that the products are ingested into our pipeline before then.
 
-Thank you for your attention to this matter. We appreciate your cooperation in meeting these requirements and look forward to receiving the valuable insights provided by your satellite constellation.
+This request aligns with our standard operational tasks but carries a high level of importance due to its nature. As such, we consider this a binding contract requirement involving a critical payload capture. We understand the urgency and the need for un-preemptable mission lock, which is why we're prioritizing this task above others.
 
-Best regards,
-[Your Name]
+Thank you for your attention to this matter. We look forward to your confirmation of this mission allocation. Please let us know if any adjustments are needed or if there's anything else you require from our side to ensure a smooth operation.

@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping task for Carepa, Colombia. This is a non-essential background filler task that can be dropped or rescheduled at convenience. We just need to capture the surface temperature profile and ensure the products are ingested into the pipeline by the evening of the day after tomorrow.

@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Puerto Gaitán, Colombia. We need a high-resolution VNIR snapshot sometime tomorrow evening to assess chlorophyll absorption levels and calculate the NDVI index for this region.

@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request:
+
+We need to execute an absolute institutional priority mission to capture a thermal mapping of the heat signature in Tempio Pausania, Italia, using microwave surface imaging to pierce through heavy weather and capture ground geometry. This is a critical payload capture that must be executed as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission must be completed tomorrow morning, specifically during the morning hours.

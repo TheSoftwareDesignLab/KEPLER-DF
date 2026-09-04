@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task for an opportunistic near-infrared reflection capture over Villavieja, Colombia. This is a non-essential background filler task where we can drop or reschedule at convenience, but if it aligns with the satellite's path, it would be great to get some water body boundary mapping done. Needed by tonight at the latest.

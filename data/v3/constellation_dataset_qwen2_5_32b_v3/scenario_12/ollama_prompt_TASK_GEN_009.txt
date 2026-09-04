@@ -1,0 +1,1 @@
+We need to grab an opportunistic active radar scan over Rokan Hulu, Indonesia, for some background survey work. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule at convenience. We just want to ensure the products are ingested into the pipeline before the overnight period the day after tomorrow.

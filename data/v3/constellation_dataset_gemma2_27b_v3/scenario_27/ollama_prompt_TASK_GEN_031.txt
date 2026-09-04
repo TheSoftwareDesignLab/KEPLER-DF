@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution optical snapshot of Vereda Comogó, Colombia, sometime the day after tomorrow around mid-day.  Please ensure this tasking is un-preemptable and executed with the highest operational priority.

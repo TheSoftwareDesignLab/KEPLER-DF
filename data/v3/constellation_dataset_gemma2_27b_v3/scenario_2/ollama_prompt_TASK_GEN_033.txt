@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Ecuatorial, Indonesia during the afternoon in three days. This mission requires an un-preemptable mission lock and urgent operational execution.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a near-infrared reflection scan of Yondó, Colombia sometime the day after tomorrow during the afternoon. This task requires an un-preemptable mission lock.

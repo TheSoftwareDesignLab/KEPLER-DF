@@ -1,0 +1,7 @@
+Tasking Request for VNIR Multispectral Vegetation Analysis in Indonesia
+
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking with a standard workflow update, and we need to capture high-resolution multispectral data over the region of Indonesia, specifically focusing on the city of Ecuatorial.
+
+The objective is to assess the chlorophyll absorption level and calculate the vegetation NDVI index and surface reflectance using near-infrared reflection. This will aid in discriminating gradients and providing valuable insights into the local ecosystem.
+
+We need this task to be executed as soon as possible, ideally tomorrow morning, with a specific focus on capturing data during the evening hours. Please ensure that the mission allocation priority is set accordingly, and we appreciate your prompt attention to this matter.

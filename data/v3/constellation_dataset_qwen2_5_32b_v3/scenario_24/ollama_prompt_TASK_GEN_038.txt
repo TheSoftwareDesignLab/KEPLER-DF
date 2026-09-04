@@ -1,0 +1,1 @@
+Hey, we've got a low-priority background survey task that's come up. We need to capture some thermal mapping for Norte, focusing on the surface temperature profile. This is just a filler task, so if something more urgent comes up, feel free to drop or reschedule it at convenience. The data products should be ready by tomorrow overnight at the latest.

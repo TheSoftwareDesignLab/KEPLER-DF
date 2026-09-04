@@ -1,1 +1,9 @@
-We're looking to capture a high-resolution optical snapshot of the region around Lentigione, Italy, for daylight photography purposes. This will involve assessing clear optical imagery and true-color visual documentation of the area. As this is marked as a low priority importance request, we'll treat it as a flexible schedule task with a 'drop or reschedule at convenience' approach. We aim to deliver the data products by the day after tomorrow overnight at the latest, ensuring they are ingested into our pipeline before that deadline. This will serve as a non-essential background survey to gather information on the region's landscape and urban features for our background tracking task.
+Good day, automated satellite constellation planner. I'm reaching out with a task that requires your immediate attention. Our objective is to capture a high-resolution optical snapshot of the region known as Lentigione, located in the beautiful country of Italia. This daylight photography will serve to document our surroundings with clarity and detail, providing us with true-color visual information essential for our operations.
+
+Given its priority level of Low Importance, this task can be considered a flexible schedule background filler task. We understand that it might be opportunistically captured at your convenience without compromising the integrity of our regular workflow updates. 
+
+We're aiming to receive the data products by the day after tomorrow, with a strict delivery deadline set for overnight, ensuring they are ingested into our pipeline before the said time. This deadline is crucial for us to process and utilize the information effectively.
+
+Please note that this request involves the primary sensor VIS, which will provide us with clear optical imagery. We're looking forward to your expertise in capturing this essential data without altering or extending the deadline.
+
+Thank you for your attention to this matter. We appreciate your timely response and look forward to the successful completion of this task.

@@ -1,0 +1,1 @@
+We require a low priority importance request for opportunistic capture with a flexible schedule. Task this as a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey to track vegetation health in Bukit Telago, Indonesia overnight tomorrow.

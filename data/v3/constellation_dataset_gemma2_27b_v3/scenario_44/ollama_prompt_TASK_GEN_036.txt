@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Kapuas, Indonesia. We need a high-resolution VNIR scan of the region tomorrow overnight to assess chlorophyll absorption levels and calculate the NDVI index.

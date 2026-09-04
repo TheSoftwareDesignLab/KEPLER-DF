@@ -1,0 +1,2 @@
+Tasking Request for Baseline Pipeline Tracking: 
+We require a standard operational tasking with fixed parameters to capture a high-resolution multispectral vegetation analysis, assessing chlorophyll absorption levels and calculating a vegetation NDVI index and surface reflectance. This will be conducted in Norte during the afternoon of the day after tomorrow.

@@ -1,0 +1,1 @@
+We need a low priority importance background survey over Indragiri Hilir, Indonesia. This is an opportunistic capture task where we can drop or reschedule at convenience. The objective is to conduct multispectral vegetation analysis for assessing chlorophyll absorption levels and calculating the NDVI index. Ensure the products are ingested into the pipeline before this evening.

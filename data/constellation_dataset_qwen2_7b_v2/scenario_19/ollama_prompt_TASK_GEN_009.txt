@@ -1,16 +1,14 @@
-```prompt
-Good day, automated satellite constellation planner. I'm reaching out to request a critical payload capture from our constellation for an absolute institutional priority task. This involves thermal mapping of Indonesia's equatorial region, which is of paramount importance due to its unique geographical characteristics and potential for significant environmental changes.
+Good day to our automated satellite constellation planner,
 
-Our primary sensor requirement is the TIR (Thermal Infrared) instrument, enabling us to capture detailed heat signatures across the region during the afternoon hours on tomorrow's day. This task comes with a strict delivery deadline set for tomorrow afternoon at the latest, ensuring the products are ingested into our pipeline before then.
+We're reaching out with an urgent operational request, flagged as 'High Importance', concerning our critical payload capture mission. This task is a binding contract requirement that involves capturing thermal mapping data for a specific location in Indonesia, specifically the city of Ecuatorial.
 
-The country of focus is Indonesia, with a particular emphasis on its equatorial city, Ecuatorial. We aim to gather comprehensive data on surface temperature profiles and thermal anomalies across various landscapes, including urban areas, forests, and water bodies, to facilitate critical decision-making processes in environmental management and policy formulation.
+Our objective is to gather detailed thermal information about the area during the afternoon on 'tomorrow'. We're focusing on identifying heat signatures and surface temperature profiles for potential thermal anomalies or emissions. Our goal is to ensure that these data products are ingested into our pipeline before 'tomorrow' during the overnight block, adhering strictly to our deadline.
 
-This request is classified as an urgent operational execution with an un-preemptable mission lock, reflecting the high importance of this task. We understand the need for a highly accurate and detailed dataset that can provide valuable insights into the region's thermal dynamics and potential hotspots.
+We trust your automated system will prioritize this request, utilizing its advanced capabilities to execute an active radar scan using microwave surface imaging technology. This will allow us to penetrate heavy weather conditions and capture ground geometry accurately for our needs.
 
-Please proceed with the necessary preparations to ensure our satellite assets are allocated accordingly to meet these requirements. Your expertise in scheduling and optimizing our constellation's operations will be crucial in fulfilling this binding contract requirement.
+Please confirm receipt of this 'High Importance' task allocation and assure us that it will be given the utmost priority in your scheduling process. We're looking forward to receiving the data products that will provide valuable insights into our operational objectives.
 
-Thank you for your attention to this matter, and we look forward to receiving the data products by tomorrow afternoon as specified. If there are any questions or concerns regarding the operational parameters or deadlines, please feel free to reach out directly.
+Thank you for your swift attention and cooperation in fulfilling this critical mission.
 
 Best regards,
 [Your Name]
-Earth-observation Mission Operator

@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a high-resolution active radar scan over Gigante, Colombia. This is part of our baseline pipeline tracking setup and requires fixed parameters for cloud-penetrating capture. The data products must be ready by the overnight period in three days at the latest.

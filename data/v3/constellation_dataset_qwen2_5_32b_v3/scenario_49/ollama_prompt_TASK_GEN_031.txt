@@ -1,0 +1,1 @@
+We need to execute a routine monitoring task over Andina. The objective is to capture near-infrared reflection for water body boundary mapping and soil moisture assessment. This is part of our baseline pipeline tracking with fixed parameters, so it's a standard operational tasking. We're looking to gather this data sometime today in the morning.

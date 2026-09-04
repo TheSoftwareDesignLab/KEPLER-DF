@@ -1,0 +1,1 @@
+We need to capture a high-resolution optical snapshot of the Ecuatorial region during the afternoon the day after tomorrow as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters, so please ensure the products are ingested into the pipeline before then.

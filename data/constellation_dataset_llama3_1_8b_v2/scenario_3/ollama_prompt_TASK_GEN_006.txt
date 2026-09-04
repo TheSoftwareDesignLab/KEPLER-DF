@@ -1,1 +1,5 @@
-Please task the satellite constellation to capture a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation of the region of Tanjung Saleh in Indonesia. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The products are needed by tomorrow during the afternoon at the latest.
+Tasking Request: High-Resolution Optical Snapshot for Indonesia's Tanjung Saleh Region
+
+We require a standard operational tasking for high-resolution optical snapshot capture in the region of Indonesia, specifically focusing on the area around Tanjung Saleh. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The goal is to obtain clear optical imagery and true-color visual documentation using daylight photography.
+
+The data must be ready by tomorrow evening at the latest, ensuring the products are ingested into the pipeline before this deadline. Please allocate necessary resources for this routine monitoring task.

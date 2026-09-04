@@ -1,0 +1,5 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
+
+We require an absolute institutional priority for a critical payload capture involving multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance. The mission must be executed in Norte, with the primary objective being a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation.
+
+The tasking is a binding contract requirement with an urgent operational execution and un-preemptable mission lock. We need this to be completed tomorrow morning, specifically during the morning hours.

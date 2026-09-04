@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for near-infrared reflection imaging over the city of Norte. This is part of a routine monitoring workflow and requires fixed parameters for normal operational status. The capture window is the day after tomorrow, overnight.

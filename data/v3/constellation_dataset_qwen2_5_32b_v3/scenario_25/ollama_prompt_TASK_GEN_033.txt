@@ -1,0 +1,1 @@
+We need to capture a near-infrared reflection of the area around Ulu Rawas, Indonesia, to map water body boundaries and assess soil moisture. This is part of our routine monitoring setup with fixed parameters, representing normal operational status. The data products are needed by the overnight block in three days at the latest.

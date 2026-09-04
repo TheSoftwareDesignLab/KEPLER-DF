@@ -1,0 +1,1 @@
+Hey, we need a low-priority background survey over El Retorno, Colombia. Specifically, we're looking at thermal mapping to capture the surface temperature profile. This is more of a testbed tracking task, so feel free to drop or reschedule it at convenience. Just make sure the products are ingested into the pipeline by the day after tomorrow in the evening.

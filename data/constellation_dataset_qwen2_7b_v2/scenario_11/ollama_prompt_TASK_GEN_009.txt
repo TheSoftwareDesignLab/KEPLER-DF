@@ -1,7 +1,10 @@
-Good day! We're looking to gather thermal mapping data from Indonesia, specifically focusing on Kutai Timur region. Our priority for this task is medium importance, meaning it's part of our standard operational pipeline tracking with fixed parameters representing normal operational status.
+Good day, automated satellite constellation planner. I'm reaching out to request a highly detailed thermal mapping mission for an area of interest in Indonesia, specifically in Kutai Timur. Our priority is medium importance, which means that this tasking should be treated as a standard operational tasking with fixed parameters, representing our normal baseline pipeline tracking setup.
 
-Our main objective is to conduct a TIR (Thermal Infrared) scan to capture heat signatures and surface temperature profiles for the area. This will help us detect thermal anomalies and map heat emissions accurately.
+The primary sensor we require is the Thermal Infrared Radiometer (TIR). The goal here is to capture thermal anomalies and map heat emissions across the region. This mission aims to provide critical insights into surface temperature profiles, which will be invaluable for various applications such as urban planning, environmental monitoring, and disaster response.
 
-We're targeting this task for three days from today, with a strict delivery deadline set for during the afternoon on that day. This data is crucial for our baseline pipeline tracking setup and must be ingested into the pipeline before the specified time to ensure timely processing and analysis.
+Given our operational guidelines, we must adhere to a strict deadline for data availability. We need this mission's data products by the target day, which is in three days, around mid-day at the latest. This ensures that the information can be ingested into our pipeline before the set deadline.
 
-Thank you for your attention to this request. We appreciate your cooperation in meeting these operational guidelines and ensuring the data meets our quality standards.
+Thank you for your attention and swift action on this request. We appreciate your commitment to delivering high-quality data that meets our operational standards.
+
+Best regards,
+[Your Name]

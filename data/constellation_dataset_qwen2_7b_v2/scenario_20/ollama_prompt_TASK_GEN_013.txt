@@ -1,10 +1,12 @@
-Hello Satellite Constellation Planner,
+Good day,
 
-I'm reaching out with a task request for an Earth observation mission focusing on Colombia, specifically in the region of Sabana de Torres. Our objective is to capture high-resolution optical imagery during daylight hours, providing clear visual documentation and true-color images of the area. This is a low priority importance request, allowing for flexible scheduling and treating it as a background survey or testbed tracking task.
+I'm reaching out to request a mission to capture high-resolution optical imagery of Colombia, specifically focusing on the city of Sabana de Torres. This task is categorized as a low priority importance request and can be scheduled with a flexible timeline.
 
-We aim to complete this mission by ingesting the data products into our pipeline no later than three days from now, specifically during the afternoon period. This deadline is strict and cannot be extended; we're looking to ensure that all captured data meets our operational standards for visual observation without compromising other critical tasks.
+Our objective is to obtain a clear optical snapshot for daylight photography or true-color visual documentation that will help us assess the landscape and urban development in the area. We aim to gather data using our VIS sensor, which is designed to provide detailed imagery under various weather conditions.
 
-Thank you for your attention to this request. We appreciate your cooperation in meeting these requirements as part of our ongoing baseline pipeline tracking setup.
+The deadline for this task is set for three days from today, with a strict delivery deadline of during the afternoon. This means we need the data products ingested into our pipeline before the end of the day on that specific date.
+
+This request falls under the scope of a background survey task and can be adjusted as needed to fit within our operational schedule or rescheduled at convenience if necessary. We appreciate your understanding and look forward to your response.
 
 Best regards,
 [Your Name]

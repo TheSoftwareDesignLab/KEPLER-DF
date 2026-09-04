@@ -1,9 +1,5 @@
-Good day, automated satellite constellation planner. I'm requesting an operational task for a thermal mapping mission involving Indonesia's Ecuatorial region. Our priority level is medium importance, indicating this is part of our standard baseline pipeline tracking setup with fixed parameters.
+Good morning, automated satellite constellation planner. I'm reaching out on behalf of our Earth observation mission to request a highly important task for tomorrow night. Our focus is on thermal mapping in Indonesia, specifically near the equator, where we're keen on capturing the heat signature and surface temperature profile of the region. This is crucial for detecting any thermal anomalies that might indicate issues like forest fires or urban heat islands.
 
-The primary sensor to be utilized in this mission will be the TIR sensor, which we aim to use for capturing detailed thermal anomalies and surface temperature profiles. This will allow us to assess heat emissions and conduct comprehensive thermal mapping without any interference from atmospheric conditions.
+Given the nature of our request, it's classified as a medium importance task with standard operational parameters. We're looking to ensure that the data products are ingested into our pipeline before the day after tomorrow's overnight period. Our priority is to have this information available for analysis as soon as possible, as it plays a key role in our baseline pipeline tracking.
 
-We're setting a strict deadline for the data products to be delivered by the day after tomorrow overnight. This means that all captured data must be ready for ingestion into our pipeline before the specified time on the day after tomorrow.
-
-Please ensure this mission is executed with professional diligence, as it's an essential part of our operational status but falls under the category of a standard tasking request. We appreciate your attention to these guidelines and look forward to receiving the high-quality thermal mapping data products by the deadline.
-
-Thank you for your cooperation in this matter.
+We appreciate your attention to this matter and look forward to receiving the results by the deadline set for us. Thank you for your understanding and cooperation in this endeavor.

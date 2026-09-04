@@ -1,0 +1,1 @@
+We need to capture a near-infrared reflection over Andina, Colombia, for water body boundary mapping and soil moisture assessment. This is part of our standard operational tasking with fixed parameters, so it's a normal workflow update. The data products are needed by today in the evening at the latest.

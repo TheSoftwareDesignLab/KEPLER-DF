@@ -1,0 +1,1 @@
+We'd like to schedule a low priority importance task for opportunistic capture, with a flexible schedule. The goal is to conduct a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance in Mapiripán, Colombia. This should be done around mid-day the day after tomorrow.

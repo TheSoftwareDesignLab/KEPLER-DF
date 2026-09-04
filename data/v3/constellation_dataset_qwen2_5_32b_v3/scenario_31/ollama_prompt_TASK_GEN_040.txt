@@ -1,0 +1,1 @@
+We need to set up a routine monitoring task for thermal mapping in Toledo, Colombia. This is part of our baseline pipeline tracking with fixed parameters, so it’s important we capture the surface temperature profile as per our normal operational status. We’re looking to have this data ready by the day after tomorrow in the evening at the latest.

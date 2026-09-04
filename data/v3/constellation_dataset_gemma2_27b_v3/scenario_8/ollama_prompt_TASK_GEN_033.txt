@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an overnight near-infrared reflection scan of Bukit Mabong, Malaysia sometime tomorrow. This task requires an un-preemptable mission lock for the duration of the capture.

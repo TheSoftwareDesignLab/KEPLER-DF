@@ -1,0 +1,1 @@
+Hey, we need to do a low priority importance thermal mapping over Norte, France. It's just a background survey task that we can drop or reschedule at convenience, but if possible, could you ensure the products are ingested into the pipeline before four days from now during the afternoon? Thanks!

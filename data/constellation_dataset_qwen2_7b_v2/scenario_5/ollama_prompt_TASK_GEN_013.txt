@@ -1,9 +1,11 @@
-Good day to our satellite constellation planners,
+Good day to all satellite planners and mission operators. We're looking to capture a high-resolution optical snapshot of Andina, Colombia, using our VIS sensor for daylight photography. This is an absolute institutional priority; we need this imagery by tomorrow's overnight block at the latest. It's a critical payload capture that involves a binding contract requirement, so please treat this as an urgent operational execution and ensure the data products are ingested into the pipeline before we hit our deadline.
 
-Our Earth observation mission is seeking a highly prioritized task that aligns with our institutional binding contract requirements. We aim to capture a detailed and comprehensive view of Andina, Colombia, in the morning of the following day. Our objective is to secure a high-resolution optical snapshot for daylight photography, providing clear visual documentation of the region. This is an absolute necessity for our baseline pipeline tracking setup.
+This request is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're dealing with a standard workflow update here, but for this specific task, we need your full attention to meet the high importance level. We understand that this might require some flexibility in scheduling, so please consider this as a low priority importance request with a flexible schedule for opportunistic capture.
 
-We are looking for thermal mapping capabilities as well, to capture the heat signature and surface temperature profile of Andina. This will aid us in detecting any thermal anomalies and mapping heat emissions accurately. Our priority level indicates a mandatory directive that needs to be executed with urgency and without any preemption.
+If possible, we would like to see a heat signature and surface temperature profile of Andina, Colombia, using our TIR sensor. This thermal mapping will help us detect any thermal anomalies and map heat emissions accurately. The deadline is set for tomorrow's overnight block, so please ensure that the data products are ready by then.
 
-To ensure optimal operational efficiency, we request the data products to be ingested into our pipeline before tomorrow's overnight block. The deadline for delivery is set for the morning of the following day, as per our operational guidelines. We appreciate your attention to this critical payload capture and look forward to receiving the data promptly.
+Lastly, we're also interested in conducting a multispectral vegetation analysis to assess chlorophyll absorption levels or calculate a vegetation NDVI index using our VNIR sensor. This task will help us understand surface reflectance and provide valuable insights into the health of the vegetation in Andina.
 
-Thank you for your cooperation and understanding in meeting these requirements.
+Please note that this request is non-essential background filler, so it can be dropped or rescheduled at your convenience if it conflicts with other higher priority tasks. We appreciate your understanding and prompt attention to this matter.
+
+Thank you for your cooperation and quick response. Let's work together to meet these critical deadlines and deliver the best possible data products to our users.

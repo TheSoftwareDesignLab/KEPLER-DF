@@ -1,0 +1,1 @@
+We need to conduct a low priority importance thermal mapping task in Colombia, specifically in Paratebueno. We're looking for a heat signature and surface temperature profile using a thermal camera sometime today around mid-day, as part of our routine monitoring and baseline pipeline tracking setup with fixed parameters representing normal operational status.

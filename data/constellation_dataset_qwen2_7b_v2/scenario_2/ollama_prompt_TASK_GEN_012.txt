@@ -1,8 +1,7 @@
-Good day, automated satellite constellation planner. I'm reaching out with a request for an operational tasking involving the acquisition of data from a high-priority mission. The objective is to capture a detailed image of a specific area in Indonesia, focusing on the city of Sanggau. We're utilizing our advanced SAR technology to perform an active radar scan, which will allow us to penetrate through any cloud cover and obtain precise ground geometry information.
+Good day, satellite constellation planner. I'm reaching out with a task request for an operational mission involving the Indonesian region, specifically focusing on Sanggau city. Our priority is set at low importance, which means this request can be accommodated as a flexible schedule task or a background survey that fits into our current workflow.
 
-The urgency here is paramount; we need this data by the day after tomorrow, specifically in the evening, at the latest. This request carries a low priority importance but requires a flexible schedule for opportunistic capture. It's essentially a background survey task that can be adjusted according to our operational needs without compromising critical workflows.
+The primary sensor for this mission will be an active radar scan using microwave surface imaging technology. The goal here is to capture cloud-penetrating imagery that will provide us with detailed ground geometry information, essential for our ongoing projects in the area. This task requires us to assess the landscape and infrastructure accurately, which makes the SAR sensor perfectly suited for our needs.
 
-Please ensure that the products are ingested into our pipeline before we reach the deadline set for the day after tomorrow, in the evening. This will allow us to process and analyze the data efficiently, contributing to our ongoing monitoring efforts without disrupting our baseline pipeline tracking setup. Thank you for your attention and swift action on this matter.
+We are aiming to receive this data by the day after tomorrow, with a strict delivery deadline set for the evening period. This means that we need the products ingested into our pipeline before the day after tomorrow's night time block. Our objective is to ensure that all necessary data is available as per the deadline, without any extensions.
 
-Best regards,
-[Your Name]
+Thank you for your attention and cooperation in fulfilling this request. We appreciate your efforts in aligning with our operational guidelines and ensuring that this mission meets our requirements efficiently.

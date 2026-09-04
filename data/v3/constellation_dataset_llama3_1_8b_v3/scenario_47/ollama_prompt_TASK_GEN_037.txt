@@ -1,0 +1,1 @@
+Please execute a standard operational tasking for thermal mapping to capture a heat signature and surface temperature profile over San Martín, Colombia, as part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a routine monitoring request that should be completed in three days during mid-day.

@@ -1,0 +1,1 @@
+Obtain a high-resolution optical snapshot for daylight photography of the region of Lento, France, which is a standard operational tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This task should be completed sometime today around mid-day.

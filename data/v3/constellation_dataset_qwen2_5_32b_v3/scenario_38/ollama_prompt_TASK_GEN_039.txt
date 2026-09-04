@@ -1,0 +1,1 @@
+This is an absolute institutional priority. We need a critical payload capture of the Amborawang Laut area in Indonesia, focusing on multispectral vegetation analysis to assess the chlorophyll absorption levels and calculate the NDVI index. This data must be ingested into the pipeline before the afternoon in four days, as per our binding contract requirement.

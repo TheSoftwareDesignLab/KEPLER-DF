@@ -1,0 +1,1 @@
+Hey, we need a low priority importance request for a multispectral vegetation analysis over Kutai Timur, Indonesia. This is just a background survey task, so feel free to drop or reschedule it at convenience. We're looking to assess the chlorophyll absorption level and calculate an NDVI index. The data should be ready by the day after tomorrow in the morning at the latest.

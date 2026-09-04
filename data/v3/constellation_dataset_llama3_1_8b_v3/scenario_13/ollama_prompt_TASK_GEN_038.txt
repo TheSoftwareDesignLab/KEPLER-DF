@@ -1,0 +1,5 @@
+Tasking Request for Satellite Constellation Planner:
+
+We require an active radar scan using microwave surface imaging to capture a cloud-penetrating snapshot of the ground geometry in the region of Italy, specifically focusing on the area around Nizza Monferrato. This is a standard operational tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The mission allocation priority for this tasking is medium importance, and we expect it to be executed as soon as possible, ideally sometime today around mid-day or at the latest tomorrow morning. The sensor data will be used for routine monitoring purposes.

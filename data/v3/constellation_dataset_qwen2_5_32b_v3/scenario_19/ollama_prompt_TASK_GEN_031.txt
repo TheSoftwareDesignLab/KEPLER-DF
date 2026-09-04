@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task for a near-infrared reflection capture over Sácama, Colombia. This is just a background survey to assess soil moisture and water body boundaries. It's pretty flexible, so feel free to drop or reschedule at convenience. Just make sure the data products are ingested into the pipeline before tomorrow overnight.

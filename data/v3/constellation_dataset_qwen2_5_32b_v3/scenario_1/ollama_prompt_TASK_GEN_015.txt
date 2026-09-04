@@ -1,0 +1,1 @@
+We need to schedule a routine monitoring task for an active radar scan over Kutai Kartanegara, Indonesia. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products must be ready by in the morning in three days to ensure they are ingested into the pipeline on time.

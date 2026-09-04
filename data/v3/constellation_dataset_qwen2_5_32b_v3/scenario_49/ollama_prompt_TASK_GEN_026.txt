@@ -1,0 +1,1 @@
+I need a standard operational tasking for an active radar scan over Norte city. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to capture this overnight tomorrow.

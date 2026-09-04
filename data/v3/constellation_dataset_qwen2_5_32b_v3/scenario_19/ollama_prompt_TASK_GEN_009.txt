@@ -1,0 +1,1 @@
+We need to execute a standard operational tasking for a commercial client. The objective is to capture an active radar scan over Indonesia, near Ecuatorial, using microwave surface imaging to ensure cloud-penetrating capture. This data is needed by the afternoon in three days at the latest, so please set this up as part of our baseline pipeline tracking with fixed parameters.

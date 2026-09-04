@@ -1,0 +1,1 @@
+We need to capture a high-resolution optical snapshot over Cubarral, Colombia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters, so please ensure the products are ingested into the pipeline by the day after tomorrow in the morning at the latest.

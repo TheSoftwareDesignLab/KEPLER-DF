@@ -1,0 +1,1 @@
+We need a thermal mapping of Medellín, Colombia, to capture the heat signatures and surface temperature profiles. This is part of our standard operational tasking and falls under our baseline pipeline tracking setup with fixed parameters. The data products are needed by the overnight period the day after tomorrow at the latest.

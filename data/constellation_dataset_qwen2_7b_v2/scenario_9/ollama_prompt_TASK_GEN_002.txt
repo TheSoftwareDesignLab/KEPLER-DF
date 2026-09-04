@@ -1,8 +1,9 @@
-Good day! I'm reaching out to request a high-resolution optical snapshot for daylight photography purposes in Norte, located in a region that remains unnamed. This task is a low priority importance "background survey" and can be scheduled with flexibility as a "non-essential background filler task". The primary sensor required is VIS, aiming to capture clear optical imagery and true-color visual documentation.
+Good day, automated satellite constellation planner. I'm reaching out to request a task for an Earth observation mission that involves capturing high-resolution optical imagery of Norte city in the region. This is a low priority importance request with flexible scheduling requirements, as it's part of our background survey tasks.
 
-The deadline for delivering this data product is set for the target day, which is four days from now, with a strict delivery deadline needed by that evening at the latest. This timeframe ensures that the products are ingested into our pipeline before the target day's overnight block. Kindly note that this request carries no urgency beyond the operational deadline and can be dropped or rescheduled as convenience dictates.
+Our objective is to obtain a clear optical snapshot of the city during daylight hours, which will serve as true-color visual documentation for our ongoing project. We aim to assess the urban landscape and gather detailed information about the area using this imagery.
 
-Thank you for your attention to this matter, and I look forward to your confirmation of receipt. Should there be any questions or further details needed, please don't hesitate to reach out. 
+This task falls under priority level 1, which means it's a non-essential background filler task that we can drop or reschedule at convenience. However, given the nature of our operations, we would appreciate if you could treat this request as a low-priority background survey task.
 
-Best regards,
-[Your Name]
+We require the data products to be ingested into our pipeline before the target day in four days, specifically by the evening period. This deadline is crucial for our internal processes and should not be extended under any circumstances.
+
+Thank you for your attention to this matter. We look forward to receiving the requested imagery that will contribute to our understanding of Norte city's landscape and urban development.

@@ -1,0 +1,1 @@
+We need an opportunistic near-infrared reflection capture over Uribe, Colombia, to assess water body boundaries and soil moisture. This is a low-priority background task, so feel free to drop or reschedule it at convenience, but we'd like the data products ingested into the pipeline during the afternoon of the day after tomorrow.

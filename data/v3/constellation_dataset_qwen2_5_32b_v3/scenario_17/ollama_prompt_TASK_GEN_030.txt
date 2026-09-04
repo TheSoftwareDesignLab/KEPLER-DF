@@ -1,0 +1,1 @@
+We need a thermal mapping of Sumber Jaya, Indonesia, to capture the surface temperature profile and any thermal anomalies. This is part of our standard operational tasking with fixed parameters, representing normal operational status. The data products are needed by overnight in four days at the latest, so please ensure they are ingested into the pipeline before then.

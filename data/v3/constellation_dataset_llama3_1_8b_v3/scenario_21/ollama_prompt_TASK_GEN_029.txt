@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for satellite tasking.
+
+We require an absolute institutional priority for thermal mapping in the region of Italia, specifically in Gottolengo. This involves capturing a heat signature and surface temperature profile using microwave surface imaging to detect thermal anomalies and map heat emissions. We need this critical payload capture to be executed as a binding contract requirement with an urgent operational execution and un-preemptable mission lock. Please task the satellite for thermal mapping in three days, specifically overnight, to ensure we capture the required data within the designated timeframe.

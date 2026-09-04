@@ -1,14 +1,5 @@
-Hello automated satellite constellation planner,
+We're looking to capture a detailed radar scan of Mariana Páez, located in Antiguo ETCR La Guajira, Colombia. The region we're focusing on is marked for its unique geographical features and potential environmental significance. Given the importance of this task, we classify it as a standard operational tasking with fixed parameters. We aim to gather comprehensive microwave surface imaging data that can penetrate through any heavy weather conditions, providing us with a clear picture of the ground geometry.
 
-I'm reaching out to request a standard operational tasking involving our satellite constellation. We aim to capture an active radar scan using microwave surface imaging technology for cloud-penetrating capture and ground geometry assessment.
+Our primary objective is to ensure that the SAR data is ready for analysis by tomorrow morning at the latest. This deadline is strictly set to meet our baseline pipeline tracking setup requirements, maintaining normal operational status and ensuring that all operations are conducted within the standard workflow updates framework. We're looking forward to receiving the data products before the target day's morning period, as this will enable us to efficiently process and integrate them into our systems.
 
-Our focus is on the region of Colombia, specifically the city of Antiguo ETCR La Guajira, also known as "Mariana Páez". Given the importance of this task, we classify it with medium priority level, emphasizing its role as a standard operational tasking or commercial tasking part of our baseline pipeline tracking setup.
-
-We require fixed parameters for this mission, representing normal operational status and a routine monitoring activity. This task is essential for maintaining our baseline pipeline tracking and ensuring that all necessary data is captured within the standard workflow update.
-
-The deadline for delivering the data products is set for today, around mid-day, with a strict delivery deadline of [target_day] [target_diurnal_period]. We aim to ensure that the products are ingested into the pipeline before this time frame.
-
-Thank you for your attention and cooperation in fulfilling this request. We appreciate your quick response and look forward to receiving the data as soon as possible.
-
-Best regards,
-[Your Name]
+With this task being of medium importance, we prioritize its execution without compromising the quality or integrity of the data. Our team is committed to delivering accurate and reliable SAR imagery that will contribute significantly to our ongoing research and monitoring activities in the area.

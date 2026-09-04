@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an overnight thermal mapping of Norte sometime today to capture a surface temperature profile.

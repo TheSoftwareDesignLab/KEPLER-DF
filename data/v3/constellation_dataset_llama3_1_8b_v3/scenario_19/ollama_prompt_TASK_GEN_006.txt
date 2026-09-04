@@ -1,0 +1,1 @@
+We have a low priority importance task for opportunistic capture, requiring a flexible schedule. We'd like to conduct a multispectral vegetation analysis using VNIR to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance in Indonesia, specifically in Benteng Hulu, sometime today around mid-day.

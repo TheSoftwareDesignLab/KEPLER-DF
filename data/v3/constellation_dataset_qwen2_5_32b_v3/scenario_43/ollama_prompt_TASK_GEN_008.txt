@@ -1,0 +1,1 @@
+We need to schedule a thermal mapping task over Bedonia, Italia. This is part of our standard operational tasking and falls under our baseline pipeline tracking setup with fixed parameters. The aim is to capture the surface temperature profile for this area. Ensure the products are ingested into the pipeline by in four days in the morning at the latest.

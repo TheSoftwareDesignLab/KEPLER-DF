@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis of Lugo, Italia sometime in three days during the morning.  The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index for this region.

@@ -1,7 +1,12 @@
-Good day, satellite constellation planner. We are tasked with an absolute institutional priority involving a critical payload capture for our client in Italia, specifically near the city of Norte. Our mission is to obtain thermal mapping data using a TIR sensor, aiming for a heat signature and surface temperature profile essential for thermal anomaly detection and heat emission mapping.
+Good day to all mission operators and satellite planners. I'm reaching out with an urgent request on behalf of our institution, which has a binding contract requirement for critical payload capture. Our priority level stands at 'High Importance', marking this as an absolute institutional priority.
 
-We require this highly detailed and accurate imagery by the next day, specifically during the overnight period, ensuring that our products are ingested into the pipeline before the deadline set for the target day. This task is part of a binding contract requirement with significant asset contractual value, emphasizing the urgency and importance of this mission.
+Our objective is to conduct thermal mapping using our TIR sensor, focusing on capturing heat signatures and surface temperature profiles. We're looking for high-resolution optical snapshots that provide true-color visual documentation of the area in question. This mission aims to assess thermal anomalies and map heat emissions accurately.
 
-Please prioritize this request as it involves a high-resolution optical snapshot for daylight photography, clear optical imagery, and true-color visual documentation. We understand the complexity of capturing this data under challenging conditions, hence the use of an active radar scan with microwave surface imaging capabilities to pierce through heavy weather and capture ground geometry.
+The geographical context involves a location in 'Italia', specifically in the 'Norte' region. Our target day is in four days, with a strict delivery deadline set for that evening. We need the data products ingested into our pipeline before then, ensuring timely availability for further analysis.
 
-This task is essential for our client's operational needs and must be executed with utmost precision and efficiency. We appreciate your attention to detail and prompt action in fulfilling this critical requirement. Thank you for your cooperation and swift response.
+Please note that this request carries a high level of importance and urgency, necessitating an "urgent operational execution" and an "un-preemptable mission lock". We're looking to capture this data in a manner that reflects our commitment to providing critical information on time.
+
+Thank you for your attention and swift action in fulfilling this request. Let's work together to ensure this mission is successfully executed and meets all the required standards.
+
+Best regards,
+[Your Name]

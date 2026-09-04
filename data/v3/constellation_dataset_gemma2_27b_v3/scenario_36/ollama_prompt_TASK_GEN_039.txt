@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Berau, Indonesia. We need a high-resolution VNIR capture sometime tomorrow morning to assess chlorophyll absorption levels and calculate a vegetation NDVI index for the region.

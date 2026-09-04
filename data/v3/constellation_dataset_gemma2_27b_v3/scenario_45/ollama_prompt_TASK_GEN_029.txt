@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Aglientu, Italia. We need a high-resolution snapshot to assess chlorophyll absorption levels and calculate the NDVI index sometime tonight.

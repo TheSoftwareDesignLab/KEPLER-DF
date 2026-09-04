@@ -1,0 +1,1 @@
+We need to set up a standard operational tasking for a multispectral vegetation analysis over Montecristo, Colombia. This involves assessing the chlorophyll absorption levels and calculating the NDVI index. The data products are needed by the day after tomorrow around mid-day at the latest, so let's ensure everything is in line with our baseline pipeline tracking setup.

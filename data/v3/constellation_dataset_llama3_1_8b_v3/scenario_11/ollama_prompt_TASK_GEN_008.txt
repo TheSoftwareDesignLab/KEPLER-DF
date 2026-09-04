@@ -1,0 +1,9 @@
+Tasking Request for Thermal Mapping in Norte, Brazil
+
+We require a low priority importance task with a flexible schedule for opportunistic capture. This is a non-essential background filler task where we can drop or reschedule at convenience. We're looking to conduct a thermal mapping survey in the region of Norte, Brazil.
+
+The objective is to capture a heat signature and surface temperature profile using thermal mapping. We'll be conducting this task in three days during the evening, when the area will be relatively clear for optimal data collection.
+
+Please allocate a satellite asset with a thermal sensor to capture high-resolution thermal imagery of the region. This is a background survey task, and we're open to flexible scheduling to accommodate the satellite's operational constraints.
+
+Thank you for your assistance in this matter.

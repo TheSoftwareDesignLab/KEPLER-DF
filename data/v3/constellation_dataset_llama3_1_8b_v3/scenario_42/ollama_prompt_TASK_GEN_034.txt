@@ -1,0 +1,1 @@
+We need to schedule a low priority importance task for opportunistic capture with a flexible schedule. We're looking for a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance in Vista Hermosa, Colombia sometime around mid-day in three days during the evening.

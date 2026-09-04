@@ -1,0 +1,1 @@
+Hey, we need an opportunistic VNIR capture over Tatau, Malaysia for a low priority importance task. This is more of a background survey to assess the chlorophyll absorption levels and calculate the NDVI index. It's flexible, so feel free to drop or reschedule at convenience, but we'd like the data products ingested into the pipeline before overnight in three days.

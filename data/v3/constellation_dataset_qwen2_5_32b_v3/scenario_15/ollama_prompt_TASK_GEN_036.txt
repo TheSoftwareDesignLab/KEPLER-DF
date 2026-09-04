@@ -1,0 +1,1 @@
+We need to schedule a routine monitoring task for a multispectral vegetation analysis over Ecuatorial, Indonesia. This is part of our baseline pipeline tracking setup and requires capturing the chlorophyll absorption levels with fixed parameters. The data products are needed by the day after tomorrow overnight at the latest.

@@ -1,0 +1,1 @@
+We need a standard operational tasking for an active radar scan over Norte, France, to capture cloud-penetrating imagery as part of our baseline pipeline tracking. This is a fixed parameter requirement and should be treated as normal operational status. The data products must be ready by the overnight block the day after tomorrow at the latest.

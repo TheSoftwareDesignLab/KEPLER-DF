@@ -1,0 +1,1 @@
+Capture a thermal mapping of the region around Norte for a low priority importance task with a flexible schedule for opportunistic capture. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey. We need to do this sometime today around mid-day.

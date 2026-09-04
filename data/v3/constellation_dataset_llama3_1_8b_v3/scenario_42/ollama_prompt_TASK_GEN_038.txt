@@ -1,0 +1,1 @@
+We need to schedule a low priority importance task for a thermal mapping mission in Italia, specifically in Alessandria. We're looking for a flexible schedule with opportunistic capture, treating this as a background survey or testbed tracking task. We'd like to conduct the thermal anomaly detection and heat signature mapping sometime today around mid-day, during the daytime.

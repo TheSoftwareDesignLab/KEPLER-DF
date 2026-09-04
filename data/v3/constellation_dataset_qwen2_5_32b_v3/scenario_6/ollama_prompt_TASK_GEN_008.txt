@@ -1,0 +1,1 @@
+We need a standard operational tasking for an active radar scan over Compiano, Italia. This is part of our baseline pipeline tracking with fixed parameters, so we're looking at a normal operational status. We need the cloud-penetrating capture to be completed and ready by in four days in the morning at the latest.

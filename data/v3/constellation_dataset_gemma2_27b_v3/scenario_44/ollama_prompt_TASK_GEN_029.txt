@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Bassiano, Italia. We need a high-resolution capture of the area sometime the day after tomorrow during the overnight hours. The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index.

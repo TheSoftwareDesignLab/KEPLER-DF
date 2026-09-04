@@ -1,0 +1,1 @@
+We need to conduct an opportunistic active radar scan over Melawi, Indonesia, capturing cloud-penetrating imagery. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. However, we aim to have the data products ingested into the pipeline by the day after tomorrow during the afternoon.

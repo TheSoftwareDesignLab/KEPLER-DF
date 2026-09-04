@@ -1,0 +1,1 @@
+Schedule a low priority background survey for thermal mapping sometime the day after tomorrow in the morning. We need to capture a heat signature over Coyaima, Colombia. This is a non-essential background filler task and can be dropped or rescheduled at convenience.

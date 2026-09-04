@@ -1,0 +1,1 @@
+We need a standard operational tasking to capture an active radar scan over Norte, focusing on cloud-penetrating capture. This is part of our baseline pipeline tracking with fixed parameters and should be treated as normal operational status. The data products are needed by the evening in three days at the latest.

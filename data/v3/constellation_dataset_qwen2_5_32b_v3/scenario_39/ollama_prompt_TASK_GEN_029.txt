@@ -1,0 +1,1 @@
+We need a low priority importance request for a background survey of Buccinasco, Italia. This is an opportunistic capture task where we can drop or reschedule at convenience. The goal is to conduct a multispectral vegetation analysis to assess the chlorophyll absorption level and calculate the NDVI index. We need the data by the overnight period in three days.

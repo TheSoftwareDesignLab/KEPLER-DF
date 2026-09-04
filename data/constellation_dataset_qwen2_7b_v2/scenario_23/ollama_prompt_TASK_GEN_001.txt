@@ -1,5 +1,8 @@
-Good day, automated satellite constellation planner. I'm reaching out to request a task for an operational mission that involves capturing near-infrared (NIR) data from Colombia, specifically in the city of Simití. This is a standard operational tasking that falls under our baseline pipeline tracking, with fixed parameters representing our normal operational status.
+Good day, satellite constellation planner. I'm reaching out with a standard operational tasking request for an upcoming mission involving a near-infrared (NIR) sensor. Our focus is on Colombia, specifically the city of Simití, where we aim to capture essential data by the target day, which is in four days, with a strict delivery deadline set for that evening.
 
-Our priority level is set at medium importance, which means this request is part of our routine monitoring activities and should be handled as such - it's not an urgent or critical payload capture but rather a standard workflow update. We aim to ensure the products are ingested into our pipeline before the strict delivery deadline set for in four days, in the evening.
+Our primary objective is to gather valuable information about water body boundaries and soil moisture conditions through this NIR sensor. We're looking for detailed near-infrared reflection data to help us map these elements accurately. The importance of this task is medium, as it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
 
-Please note that this task carries no extended deadlines and falls under our baseline pipeline tracking setup with normal operational status. We appreciate your attention to this request and look forward to receiving the data products by their respective deadlines. Thank you for your cooperation and understanding.
+We understand the urgency of this request and will ensure that the data products are ingested into the pipeline before the target day at the latest. Please note that we're treating this as a non-essential background filler task, which means there's flexibility in scheduling should any other higher priority tasks arise. Thank you for your attention to this matter.
+
+Best regards,
+[Your Name]

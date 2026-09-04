@@ -1,0 +1,1303 @@
+{
+  "metadata": {
+    "total_satellites": 8,
+    "total_ground_stations": 3,
+    "total_target_tasks": 40,
+    "anchored_tle_epoch_utc": "2026-07-06 13:29:45"
+  },
+  "satellites": [
+    {
+      "norad_id": 44387,
+      "name": "METEOR-M2 2",
+      "tle_line1": "1 44387U 19038A   26187.56233103  .00000069  00000+0  49545-4 0  9999",
+      "tle_line2": "2 44387  98.9158 175.1344 0001215  18.8050 341.3172 14.24371468364053",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "NIR",
+        "VIS",
+        "TIR"
+      ],
+      "ssr_capacity_mb": 1024000.0,
+      "sensor_generation_rates": {
+        "NIR": 20.0,
+        "VIS": 40.0,
+        "TIR": 12.0
+      },
+      "downlink_rate_mb_s": 2.0
+    },
+    {
+      "norad_id": 35951,
+      "name": "DMSP 5D-3 F18 (USA 210)",
+      "tle_line1": "1 35951U 09057A   26187.37576054  .00000213  00000+0  13314-3 0  9995",
+      "tle_line2": "2 35951  98.9048 168.1040 0010704 190.6126 169.4823 14.14907510862304",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "SAR",
+        "VIS",
+        "TIR"
+      ],
+      "ssr_capacity_mb": 512000.0,
+      "sensor_generation_rates": {
+        "SAR": 80.0,
+        "VIS": 40.0,
+        "TIR": 12.0
+      },
+      "downlink_rate_mb_s": 2.0
+    },
+    {
+      "norad_id": 29522,
+      "name": "DMSP 5D-3 F17 (USA 191)",
+      "tle_line1": "1 29522U 06050A   26187.47386065  .00000057  00000+0  51804-4 0  9997",
+      "tle_line2": "2 29522  98.7382 193.6494 0010237   7.9468 352.1866 14.14995793 15157",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "SAR",
+        "NIR",
+        "VNIR"
+      ],
+      "ssr_capacity_mb": 128000.0,
+      "sensor_generation_rates": {
+        "SAR": 80.0,
+        "NIR": 20.0,
+        "VNIR": 35.0
+      },
+      "downlink_rate_mb_s": 45.0
+    },
+    {
+      "norad_id": 43013,
+      "name": "NOAA 20 (JPSS-1)",
+      "tle_line1": "1 43013U 17073A   26187.38506616  .00000063  00000+0  50828-4 0  9993",
+      "tle_line2": "2 43013  98.7772 126.6773 0001045 131.5855 228.5410 14.19515335447197",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "VNIR",
+        "VIS",
+        "SAR"
+      ],
+      "ssr_capacity_mb": 32000.0,
+      "sensor_generation_rates": {
+        "VNIR": 35.0,
+        "VIS": 40.0,
+        "SAR": 80.0
+      },
+      "downlink_rate_mb_s": 2.0
+    },
+    {
+      "norad_id": 37849,
+      "name": "SUOMI NPP",
+      "tle_line1": "1 37849U 11061A   26187.51272841  .00000070  00000+0  54374-4 0  9997",
+      "tle_line2": "2 37849  98.7955 128.2571 0000569 281.4680  78.6432 14.19521359761184",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "VIS",
+        "NIR"
+      ],
+      "ssr_capacity_mb": 512000.0,
+      "sensor_generation_rates": {
+        "VIS": 40.0,
+        "NIR": 20.0
+      },
+      "downlink_rate_mb_s": 45.0
+    },
+    {
+      "norad_id": 28054,
+      "name": "DMSP 5D-3 F16 (USA 172)",
+      "tle_line1": "1 28054U 03048A   26187.49567321  .00000024  00000+0  36009-4 0  9992",
+      "tle_line2": "2 28054  98.9886 211.4512 0008217  92.4361  70.5157 14.14484828172210",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "SAR",
+        "VIS"
+      ],
+      "ssr_capacity_mb": 128000.0,
+      "sensor_generation_rates": {
+        "SAR": 80.0,
+        "VIS": 40.0
+      },
+      "downlink_rate_mb_s": 45.0
+    },
+    {
+      "norad_id": 57401,
+      "name": "TIANMU-1 09",
+      "tle_line1": "1 57401U 23101C   26187.60589551  .00005471  00000+0  19039-3 0  9998",
+      "tle_line2": "2 57401  97.2526 237.0033 0004754  84.0572 276.1210 15.30088863164613",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "TIR",
+        "VIS",
+        "VNIR"
+      ],
+      "ssr_capacity_mb": 128000.0,
+      "sensor_generation_rates": {
+        "TIR": 12.0,
+        "VIS": 40.0,
+        "VNIR": 35.0
+      },
+      "downlink_rate_mb_s": 2.0
+    },
+    {
+      "norad_id": 58661,
+      "name": "TIANMU-1 20",
+      "tle_line1": "1 58661U 23208B   26187.58159097  .00006624  00000+0  20976-3 0  9993",
+      "tle_line2": "2 58661  97.4459 304.6414 0005735 247.8451 112.2183 15.33071886140396",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "VNIR",
+        "VIS"
+      ],
+      "ssr_capacity_mb": 128000.0,
+      "sensor_generation_rates": {
+        "VNIR": 35.0,
+        "VIS": 40.0
+      },
+      "downlink_rate_mb_s": 45.0
+    }
+  ],
+  "ground_stations": [
+    {
+      "id": "kyung_hee_university_ground_station",
+      "name": "Kyung Hee University Ground Station",
+      "latitude": 37.2361653,
+      "longitude": 127.1891246,
+      "elevation_m": 99.0,
+      "bands_supported": [
+        "S"
+      ]
+    },
+    {
+      "id": "itaboraí_teleport",
+      "name": "Itaboraí Teleport",
+      "latitude": -22.7472462,
+      "longitude": -42.8584458,
+      "elevation_m": 34.0,
+      "bands_supported": [
+        "Ka"
+      ]
+    },
+    {
+      "id": "glonass_ground_control_station",
+      "name": "GLONASS Ground Control Station",
+      "latitude": 55.7568721,
+      "longitude": 37.6150527,
+      "elevation_m": 149.0,
+      "bands_supported": [
+        "S",
+        "X"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "task_id": "TASK_GEN_001",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 21,
+      "deadline_s": 167169,
+      "coordinates": [
+        [
+          7.409966410841193,
+          -77.11284454496268
+        ],
+        [
+          7.409966410841193,
+          -76.88312770823188
+        ],
+        [
+          7.090833073286063,
+          -76.88312770823188
+        ],
+        [
+          7.090833073286063,
+          -77.11284454496268
+        ],
+        [
+          7.409966410841193,
+          -77.11284454496268
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_002",
+      "region_tag": "italia_centro_norte",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 555,
+      "deadline_s": 59317,
+      "coordinates": [
+        [
+          44.12788708289299,
+          13.107998491030708
+        ],
+        [
+          44.12788708289299,
+          13.474777719129348
+        ],
+        [
+          43.78605672111923,
+          13.474777719129348
+        ],
+        [
+          43.78605672111923,
+          13.107998491030708
+        ],
+        [
+          44.12788708289299,
+          13.107998491030708
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_003",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 126,
+      "deadline_s": 287682,
+      "coordinates": [
+        [
+          0.10808468211757384,
+          115.15413023995004
+        ],
+        [
+          0.10808468211757384,
+          115.43211935102602
+        ],
+        [
+          -0.13943150673969118,
+          115.43211935102602
+        ],
+        [
+          -0.13943150673969118,
+          115.15413023995004
+        ],
+        [
+          0.10808468211757384,
+          115.15413023995004
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_004",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 562,
+      "deadline_s": 106901,
+      "coordinates": [
+        [
+          2.2009901284869007,
+          -72.12733041239684
+        ],
+        [
+          2.2009901284869007,
+          -71.90203877902118
+        ],
+        [
+          1.8369563872416117,
+          -71.90203877902118
+        ],
+        [
+          1.8369563872416117,
+          -72.12733041239684
+        ],
+        [
+          2.2009901284869007,
+          -72.12733041239684
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_005",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 213,
+      "deadline_s": 277521,
+      "coordinates": [
+        [
+          46.10007624012374,
+          12.590678513014966
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_006",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 519,
+      "deadline_s": 260918,
+      "coordinates": [
+        [
+          0.8984019089256319,
+          105.91924420784093
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_007",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 581,
+      "deadline_s": 106418,
+      "coordinates": [
+        [
+          3.2220368624767817,
+          -73.42629232328831
+        ],
+        [
+          3.2220368624767817,
+          -73.32142895838733
+        ],
+        [
+          2.9078565057396712,
+          -73.32142895838733
+        ],
+        [
+          2.9078565057396712,
+          -73.42629232328831
+        ],
+        [
+          3.2220368624767817,
+          -73.42629232328831
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_008",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 500,
+      "deadline_s": 107704,
+      "coordinates": [
+        [
+          43.86517584920195,
+          13.993216794827354
+        ],
+        [
+          43.86517584920195,
+          14.156193782242322
+        ],
+        [
+          43.57037202987095,
+          14.156193782242322
+        ],
+        [
+          43.57037202987095,
+          13.993216794827354
+        ],
+        [
+          43.86517584920195,
+          13.993216794827354
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_009",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 363,
+      "deadline_s": 95732,
+      "coordinates": [
+        [
+          1.701163768115697,
+          118.01237094159772
+        ],
+        [
+          1.701163768115697,
+          118.38399147996755
+        ],
+        [
+          1.575501544551933,
+          118.38399147996755
+        ],
+        [
+          1.575501544551933,
+          118.01237094159772
+        ],
+        [
+          1.701163768115697,
+          118.01237094159772
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_010",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 286,
+      "deadline_s": 173011,
+      "coordinates": [
+        [
+          2.0156778040641763,
+          -75.4994008879742
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_011",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 34,
+      "deadline_s": 278966,
+      "coordinates": [
+        [
+          45.01053379817075,
+          10.036571519147078
+        ],
+        [
+          45.01053379817075,
+          10.217810224044534
+        ],
+        [
+          44.797847140594364,
+          10.217810224044534
+        ],
+        [
+          44.797847140594364,
+          10.036571519147078
+        ],
+        [
+          45.01053379817075,
+          10.036571519147078
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_012",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 3,
+      "task_type": "point",
+      "release_time_s": 205,
+      "deadline_s": 90544,
+      "coordinates": [
+        [
+          -1.306764791108529,
+          108.58784438772376
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_013",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 317,
+      "deadline_s": 177672,
+      "coordinates": [
+        [
+          5.438627811214757,
+          -76.93909903336446
+        ],
+        [
+          5.438627811214757,
+          -76.74107648172871
+        ],
+        [
+          5.143230625559803,
+          -76.74107648172871
+        ],
+        [
+          5.143230625559803,
+          -76.93909903336446
+        ],
+        [
+          5.438627811214757,
+          -76.93909903336446
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_014",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 365,
+      "deadline_s": 69277,
+      "coordinates": [
+        [
+          43.16181253952922,
+          8.383235555220507
+        ],
+        [
+          43.16181253952922,
+          8.609480109331026
+        ],
+        [
+          42.922037876629744,
+          8.609480109331026
+        ],
+        [
+          42.922037876629744,
+          8.383235555220507
+        ],
+        [
+          43.16181253952922,
+          8.383235555220507
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_015",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 2,
+      "task_type": "point",
+      "release_time_s": 409,
+      "deadline_s": 66036,
+      "coordinates": [
+        [
+          -2.062083519500985,
+          110.58383240651789
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_016",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "point",
+      "release_time_s": 363,
+      "deadline_s": 105236,
+      "coordinates": [
+        [
+          6.006127001233847,
+          -76.62566969113612
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_017",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 73,
+      "deadline_s": 94667,
+      "coordinates": [
+        [
+          44.700082570876994,
+          12.324597594192426
+        ],
+        [
+          44.700082570876994,
+          12.597245201563773
+        ],
+        [
+          44.43891509634397,
+          12.597245201563773
+        ],
+        [
+          44.43891509634397,
+          12.324597594192426
+        ],
+        [
+          44.700082570876994,
+          12.324597594192426
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_018",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 433,
+      "deadline_s": 52054,
+      "coordinates": [
+        [
+          -0.29886128113090615,
+          111.1910131676715
+        ],
+        [
+          -0.29886128113090615,
+          111.36158067585656
+        ],
+        [
+          -0.5712287797727726,
+          111.36158067585656
+        ],
+        [
+          -0.5712287797727726,
+          111.1910131676715
+        ],
+        [
+          -0.29886128113090615,
+          111.1910131676715
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_019",
+      "region_tag": "colombia_andina",
+      "priority": 3,
+      "task_type": "polygon",
+      "release_time_s": 424,
+      "deadline_s": 20604,
+      "coordinates": [
+        [
+          6.588732924108265,
+          -77.0556723747418
+        ],
+        [
+          6.588732924108265,
+          -76.67870722063533
+        ],
+        [
+          6.270869101142854,
+          -76.67870722063533
+        ],
+        [
+          6.270869101142854,
+          -77.0556723747418
+        ],
+        [
+          6.588732924108265,
+          -77.0556723747418
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_020",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 144,
+      "deadline_s": 60462,
+      "coordinates": [
+        [
+          45.13515495171404,
+          12.15606756008657
+        ],
+        [
+          45.13515495171404,
+          12.54447150094476
+        ],
+        [
+          44.823932500955564,
+          12.54447150094476
+        ],
+        [
+          44.823932500955564,
+          12.15606756008657
+        ],
+        [
+          45.13515495171404,
+          12.15606756008657
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_021",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 3,
+      "task_type": "point",
+      "release_time_s": 434,
+      "deadline_s": 321235,
+      "coordinates": [
+        [
+          0.5911573994480155,
+          110.26885388218128
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_022",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 524,
+      "deadline_s": 118099,
+      "coordinates": [
+        [
+          7.48432118179575,
+          -73.22640990333875
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_023",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 85,
+      "deadline_s": 174155,
+      "coordinates": [
+        [
+          41.38264864283644,
+          7.631852787277742
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_024",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 348,
+      "deadline_s": 223859,
+      "coordinates": [
+        [
+          2.816384077517061,
+          109.95920674151714
+        ],
+        [
+          2.816384077517061,
+          110.29290026630602
+        ],
+        [
+          2.5707211727806647,
+          110.29290026630602
+        ],
+        [
+          2.5707211727806647,
+          109.95920674151714
+        ],
+        [
+          2.816384077517061,
+          109.95920674151714
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_025",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 459,
+      "deadline_s": 311764,
+      "coordinates": [
+        [
+          5.409820336727427,
+          -76.82533537491005
+        ],
+        [
+          5.409820336727427,
+          -76.58797858521058
+        ],
+        [
+          5.2559666799985125,
+          -76.58797858521058
+        ],
+        [
+          5.2559666799985125,
+          -76.82533537491005
+        ],
+        [
+          5.409820336727427,
+          -76.82533537491005
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_026",
+      "region_tag": "italia_centro_norte",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 217,
+      "deadline_s": 342113,
+      "coordinates": [
+        [
+          42.66504887392275,
+          8.379783154343523
+        ],
+        [
+          42.66504887392275,
+          8.660717780781473
+        ],
+        [
+          42.405189690725514,
+          8.660717780781473
+        ],
+        [
+          42.405189690725514,
+          8.379783154343523
+        ],
+        [
+          42.66504887392275,
+          8.379783154343523
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_027",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 336,
+      "deadline_s": 226302,
+      "coordinates": [
+        [
+          1.4572720386468294,
+          101.98884839301888
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_028",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 440,
+      "deadline_s": 154119,
+      "coordinates": [
+        [
+          5.504129746943459,
+          -72.68196780580551
+        ],
+        [
+          5.504129746943459,
+          -72.47075678456262
+        ],
+        [
+          5.206559539267126,
+          -72.47075678456262
+        ],
+        [
+          5.206559539267126,
+          -72.68196780580551
+        ],
+        [
+          5.504129746943459,
+          -72.68196780580551
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_029",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 42,
+      "deadline_s": 315792,
+      "coordinates": [
+        [
+          43.95415342176333,
+          8.070512014618917
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_030",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 358,
+      "deadline_s": 75056,
+      "coordinates": [
+        [
+          0.14886409582269972,
+          115.0232021545256
+        ],
+        [
+          0.14886409582269972,
+          115.13981782792116
+        ],
+        [
+          -0.14761675405510838,
+          115.13981782792116
+        ],
+        [
+          -0.14761675405510838,
+          115.0232021545256
+        ],
+        [
+          0.14886409582269972,
+          115.0232021545256
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_031",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 510,
+      "deadline_s": 116102,
+      "coordinates": [
+        [
+          6.60646429200142,
+          -76.58424863045937
+        ],
+        [
+          6.60646429200142,
+          -76.1990419486236
+        ],
+        [
+          6.364357758949708,
+          -76.1990419486236
+        ],
+        [
+          6.364357758949708,
+          -76.58424863045937
+        ],
+        [
+          6.60646429200142,
+          -76.58424863045937
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_032",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "point",
+      "release_time_s": 516,
+      "deadline_s": 287308,
+      "coordinates": [
+        [
+          46.456415472453244,
+          14.164724432024467
+        ]
+      ],
+      "sensor_requirements": [
+        "VIS"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_033",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 355,
+      "deadline_s": 149628,
+      "coordinates": [
+        [
+          -2.8123289735115047,
+          111.74565951155314
+        ],
+        [
+          -2.8123289735115047,
+          111.93817879707315
+        ],
+        [
+          -3.1419378619334837,
+          111.93817879707315
+        ],
+        [
+          -3.1419378619334837,
+          111.74565951155314
+        ],
+        [
+          -2.8123289735115047,
+          111.74565951155314
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_034",
+      "region_tag": "colombia_andina",
+      "priority": 3,
+      "task_type": "polygon",
+      "release_time_s": 67,
+      "deadline_s": 173940,
+      "coordinates": [
+        [
+          2.5615581233122784,
+          -75.2126756356162
+        ],
+        [
+          2.5615581233122784,
+          -74.89075196257474
+        ],
+        [
+          2.461294489445435,
+          -74.89075196257474
+        ],
+        [
+          2.461294489445435,
+          -75.2126756356162
+        ],
+        [
+          2.5615581233122784,
+          -75.2126756356162
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_035",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 108,
+      "deadline_s": 147859,
+      "coordinates": [
+        [
+          43.62368404573303,
+          12.343696132223144
+        ],
+        [
+          43.62368404573303,
+          12.640936505843797
+        ],
+        [
+          43.378996876119615,
+          12.640936505843797
+        ],
+        [
+          43.378996876119615,
+          12.343696132223144
+        ],
+        [
+          43.62368404573303,
+          12.343696132223144
+        ]
+      ],
+      "sensor_requirements": [
+        "NIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_036",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 2,
+      "task_type": "point",
+      "release_time_s": 351,
+      "deadline_s": 162198,
+      "coordinates": [
+        [
+          2.763687476949726,
+          107.36965121576256
+        ]
+      ],
+      "sensor_requirements": [
+        "TIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_037",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 598,
+      "deadline_s": 290769,
+      "coordinates": [
+        [
+          7.9393928757486085,
+          -77.02430937647225
+        ],
+        [
+          7.9393928757486085,
+          -76.75670427371804
+        ],
+        [
+          7.835239539859708,
+          -76.75670427371804
+        ],
+        [
+          7.835239539859708,
+          -77.02430937647225
+        ],
+        [
+          7.9393928757486085,
+          -77.02430937647225
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_038",
+      "region_tag": "italia_centro_norte",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 463,
+      "deadline_s": 112040,
+      "coordinates": [
+        [
+          41.35647858178609,
+          11.894404216405151
+        ],
+        [
+          41.35647858178609,
+          12.265881284302237
+        ],
+        [
+          41.247247281805045,
+          12.265881284302237
+        ],
+        [
+          41.247247281805045,
+          11.894404216405151
+        ],
+        [
+          41.35647858178609,
+          11.894404216405151
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_039",
+      "region_tag": "indonesia_ecuatorial",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 540,
+      "deadline_s": 55492,
+      "coordinates": [
+        [
+          2.0792550642179854,
+          117.39019012532637
+        ],
+        [
+          2.0792550642179854,
+          117.56671016150676
+        ],
+        [
+          1.778099902667421,
+          117.56671016150676
+        ],
+        [
+          1.778099902667421,
+          117.39019012532637
+        ],
+        [
+          2.0792550642179854,
+          117.39019012532637
+        ]
+      ],
+      "sensor_requirements": [
+        "VNIR"
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_040",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 488,
+      "deadline_s": 189233,
+      "coordinates": [
+        [
+          3.3443047929479084,
+          -72.14874871051671
+        ],
+        [
+          3.3443047929479084,
+          -72.0239083012566
+        ],
+        [
+          3.1385250281053727,
+          -72.0239083012566
+        ],
+        [
+          3.1385250281053727,
+          -72.14874871051671
+        ],
+        [
+          3.3443047929479084,
+          -72.14874871051671
+        ]
+      ],
+      "sensor_requirements": [
+        "SAR"
+      ]
+    }
+  ]
+}

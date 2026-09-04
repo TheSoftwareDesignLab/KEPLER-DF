@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis snapshot of Ecuatorial, Indonesia. The target window is in three days overnight. Please prioritize this task for immediate execution and un-preemptable mission lock.

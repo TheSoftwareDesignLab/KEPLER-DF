@@ -1,8 +1,13 @@
-Good day, satellite constellation planner. I'm reaching out with a request for an operational task that involves capturing a high-resolution optical snapshot of Pura Sajau, Indonesia, using our visible light sensor (VIS). This is a low priority importance task, which means it can be scheduled flexibly and treated as a background survey or testbed tracking task.
+Hello Satellite Constellation Planner,
 
-The primary objective here is to obtain clear optical imagery that can serve as true-color visual documentation for our purposes. We aim to gather this data during the afternoon of the day after tomorrow. This deadline is crucial and must not be exceeded; hence, the products need to be ready by then, ensuring they are ingested into our pipeline before the day after tomorrow's overnight block.
+I'm reaching out with an important task for your team, involving a high-resolution optical snapshot of the region in Indonesia, specifically focusing on the city of Pura Sajau. This is a low priority importance request, but I want to ensure you understand its context and urgency.
 
-Thank you for your attention to this matter. Kindly let me know if you require any further details or have any questions about this task.
+The primary sensor we're utilizing for this mission is the VIS sensor, which will provide us with clear optical imagery during daylight hours. Our goal is to capture detailed visual documentation that can be used for various applications such as land use monitoring and environmental assessment.
+
+Please note, this request falls under a flexible schedule, meaning it's more of a background survey or testbed tracking task. We're not in a rush, but we would appreciate receiving the data products by the day after tomorrow around mid-day at the latest. This deadline is crucial for us to integrate the information into our baseline pipeline tracking setup.
+
+Thank you for your attention and cooperation in fulfilling this task. If there are any questions or adjustments needed, please feel free to reach out.
 
 Best regards,
+
 [Your Name]

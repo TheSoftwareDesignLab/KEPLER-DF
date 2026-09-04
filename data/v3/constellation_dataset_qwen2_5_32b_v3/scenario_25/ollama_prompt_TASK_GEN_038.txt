@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot over Chiusa di Pesio, Italy, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters, so it's important to ensure the products are ingested into the pipeline before the evening in three days.

@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping task over La Argentina, Colombia. This is a non-essential background filler task that can be dropped or rescheduled at convenience. The thermal data should capture the heat signature and surface temperature profile of the area, but it's not critical. We just need it by tomorrow overnight at the latest.

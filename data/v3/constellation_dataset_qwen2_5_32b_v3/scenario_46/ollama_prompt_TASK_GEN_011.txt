@@ -1,0 +1,1 @@
+I need a standard operational tasking to capture a multispectral vegetation analysis over Norte. This should be part of our baseline pipeline tracking with fixed parameters for normal operational status. The goal is to assess the chlorophyll absorption level and calculate the NDVI index. We're looking to have this done in three days during the evening.

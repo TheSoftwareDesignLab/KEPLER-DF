@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Prado, Colombia. We need a high-resolution capture of the region's chlorophyll absorption levels and NDVI index sometime in three days during the overnight hours.

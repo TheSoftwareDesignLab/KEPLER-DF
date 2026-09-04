@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request:
+
+We require an absolute institutional priority for a thermal mapping task in Uribe, Colombia, using active thermal imaging to capture a heat signature and surface temperature profile. This mission must be executed during the afternoon of the day after tomorrow, specifically overnight. The task is a binding contract requirement involving a critical payload capture, and it represents a mandatory directive with an urgent operational execution and un-preemptable mission lock.

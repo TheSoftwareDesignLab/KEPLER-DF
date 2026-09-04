@@ -1,13 +1,7 @@
-Hello Satellite Constellation Planner,
+Good day, automated satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that's of low priority importance. This is a background survey task that doesn't require immediate attention or any rush in execution. We're looking to capture the thermal signature of a specific location using a near-infrared sensor.
 
-I'm reaching out to request a low-priority importance task for an opportunistic survey in Indonesia, specifically focusing on the region around Ecuatorial City. The mission involves conducting a multispectral vegetation analysis using VNIR sensors to assess chlorophyll absorption levels and calculate the NDVI index for the area.
+The target area is located in Indonesia, specifically near a city known as Ecuatorial. Our goal here is to gather data about soil moisture levels and water body boundaries through near-infrared reflection analysis. This will help us understand the environmental conditions without altering the natural landscape.
 
-The objective is to capture detailed information about the vegetation health and land use patterns, which will serve as a background survey for our ongoing research project. Given that this task doesn't have a strict deadline urgency, we can schedule it with a flexible timeframe, allowing us to drop or reschedule it at our convenience if needed.
+Our deadline for this task is set three days from now, with a strict delivery deadline being overnight on that day. We want to ensure that the products are ingested into our pipeline before the specified time frame ends. This task doesn't involve any critical payload capture or mandatory directives; it's more of a flexible schedule opportunity that we can drop or reschedule as per convenience.
 
-We're aiming to gather the data by the end of three days, ensuring that the products are ingested into our pipeline before the target day's morning period. This will allow us to analyze the collected data promptly and integrate it into our ongoing studies without missing any critical deadlines.
-
-Thank you for your understanding and cooperation in scheduling this task according to our operational guidelines. We look forward to receiving the data as soon as possible.
-
-Best regards,
-
-[Your Name]
+Thank you for your attention and cooperation in fulfilling this request.

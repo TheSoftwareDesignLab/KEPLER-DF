@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task for a thermal mapping of Podenzano, Italia. It's a non-essential background filler task where we're looking to capture the surface temperature profile. You can drop or reschedule this at convenience, but we need the data products ingested into the pipeline by tomorrow during the afternoon at the latest.

@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for a commercial tasking in Ecuatorial. The objective is to perform an active radar scan to capture cloud-penetrating imagery. This should be executed in three days during the morning, as part of our baseline pipeline tracking setup with fixed parameters.

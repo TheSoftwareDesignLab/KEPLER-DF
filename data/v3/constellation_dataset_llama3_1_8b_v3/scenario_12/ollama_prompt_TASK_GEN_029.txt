@@ -1,0 +1,5 @@
+Tasking Request: Thermal Mapping in Italia
+
+We require a thermal mapping task to capture the heat signature and surface temperature profile of the region, specifically focusing on the area around Aldein - Aldino in Italia. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The mission allocation priority for this task is medium importance, and we need to execute it tomorrow during the afternoon. We are looking for a high-resolution thermal snapshot to assess and document the thermal anomalies and heat emissions in the area.

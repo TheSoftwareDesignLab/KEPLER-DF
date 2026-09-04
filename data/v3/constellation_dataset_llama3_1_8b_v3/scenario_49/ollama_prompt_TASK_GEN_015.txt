@@ -1,0 +1,1 @@
+Please conduct a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status, for routine monitoring of Malaysia's Belaga region. We require an active radar scan using microwave surface imaging to capture cloud-penetrating capture during the afternoon in three days.

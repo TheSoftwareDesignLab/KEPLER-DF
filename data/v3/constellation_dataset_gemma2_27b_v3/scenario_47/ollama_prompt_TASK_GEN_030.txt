@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution VNIR multispectral snapshot of Murung Raya, Indonesia, specifically for vegetation analysis and NDVI index calculation.  Please schedule this task for sometime in four days during the afternoon.

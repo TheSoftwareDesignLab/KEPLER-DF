@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for near-infrared reflection capture over Cimitarra, Colombia. This is part of a routine monitoring workflow update and requires fixed parameters for normal operational status. We need this data sometime in three days during the overnight hours.

@@ -1,0 +1,1 @@
+We need to perform a thermal mapping of the region around Ecuatorial, Indonesia, capturing the surface temperature profile. This is part of our standard operational tasking and falls under our baseline pipeline tracking setup with fixed parameters. Ensure the products are ingested into the pipeline by the day after tomorrow in the morning at the latest.

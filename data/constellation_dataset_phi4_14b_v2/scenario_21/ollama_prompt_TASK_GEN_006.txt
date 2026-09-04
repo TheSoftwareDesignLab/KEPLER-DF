@@ -1,3 +1,1 @@
-I have a low-priority task for you, and I'm hoping it can be slotted in at your convenience. We're looking to capture thermal mapping data over Banting, Malaysia, focusing on heat signatures and surface temperature profiles. This is more of a background survey or testbed tracking task, so feel free to drop or reschedule it if needed.
-
-We'd like the data delivered by the day after tomorrow morning at the latest. Thanks for accommodating this flexible schedule!
+I'd like to submit a low-priority task for an opportunistic capture of thermal mapping data over Banting, Malaysia. This is a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. The objective is to capture a heat signature and surface temperature profile, which will be helpful for thermal anomaly detection. Ideally, this should be done the day after tomorrow, specifically overnight. Thank you!

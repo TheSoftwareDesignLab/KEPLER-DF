@@ -1,0 +1,7 @@
+Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Colombia
+
+We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking involving the capture of high-resolution optical snapshots using daylight photography to document true-color visual scenes.
+
+The target location is the urban center of Calahorra, Colombia, where we aim to capture clear optical imagery for a comprehensive visual documentation. We need this tasking to be executed as part of our standard operational workflow update, with a flexible schedule allowing for opportunistic capture.
+
+The mission allocation priority for this tasking is medium importance, and we require the task to be completed in three days during the morning hours. This will enable us to integrate the captured imagery into our ongoing monitoring efforts and support our operational objectives.

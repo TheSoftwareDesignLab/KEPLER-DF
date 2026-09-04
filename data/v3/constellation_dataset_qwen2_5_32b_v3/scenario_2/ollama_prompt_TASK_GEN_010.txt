@@ -1,0 +1,1 @@
+We need to perform a standard operational tasking for a routine monitoring setup in Pácora, Colombia. This involves capturing a cloud-penetrating radar scan of the area to ensure we have clear surface imaging. The data products are needed by morning in four days, so please ensure they are ingested into the pipeline before then.

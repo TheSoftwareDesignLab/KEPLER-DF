@@ -1,0 +1,1 @@
+We need to conduct a thermal mapping of the area around Lodè, Italia, to capture the surface temperature profile and detect any thermal anomalies. This is part of our routine monitoring setup with fixed parameters, representing normal operational status. The data products must be ready by the overnight period the day after tomorrow at the latest.

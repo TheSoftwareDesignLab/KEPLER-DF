@@ -1,5 +1,12 @@
-Good day, satellite constellation planner. I'm reaching out with a task request for an operational priority level of low importance, which involves capturing a thermal mapping dataset using our active radar scan capabilities, specifically designed to assess surface temperature profiles and identify thermal anomalies. This mission is part of a flexible schedule background survey, intended to provide insights into heat emissions across the region.
+Good day to our automated satellite constellation planners,
 
-Our geographic context is centered around Colombia, with a particular focus on the city of Génova. The data collection should be executed as soon as possible, with a strict delivery deadline set for today around mid-day, ensuring the products are ingested into our pipeline before the day ends. This task doesn't require immediate attention but serves as an essential background filler for our ongoing monitoring activities.
+We're reaching out with a low priority importance task that requires your immediate attention. Our mission involves capturing high-resolution optical snapshots of a specific location in Colombia, focusing on the city of Génova. The primary sensor for this operation will be an active radar scan using microwave surface imaging technology. Our goal is to pierce through heavy weather conditions and capture ground geometry with precision.
 
-Thank you for your understanding and cooperation in fulfilling this request.
+This task falls under our baseline pipeline tracking setup, representing normal operational status with fixed parameters. We're not looking for anything too urgent; it's more of a routine monitoring activity that fits into our workflow update. The request is straightforward: we need you to perform this task today, preferably in the morning, ensuring the data products are ingested into our pipeline before the day ends.
+
+We appreciate your flexibility and understanding on this one. If there are any issues or if you need more information, feel free to reach out. Your cooperation ensures that our non-essential background survey can be completed efficiently.
+
+Thank you for your time and attention to detail.
+
+Best regards,
+Your Earth-observation Mission Operator

@@ -1,0 +1,1 @@
+We need an opportunistic near-infrared reflection capture over Niviano, Italia, to assess water body boundaries or soil moisture levels. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule it at convenience. However, if possible, we'd like the data products ingested into the pipeline by the day after tomorrow in the morning.

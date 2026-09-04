@@ -1,3 +1,1 @@
-I have a low-priority task for your consideration. We're interested in capturing thermal mapping data over the region of Apartadó, Colombia. The goal is to observe heat signatures and surface temperature profiles, which could be useful for detecting thermal anomalies. This request is quite flexible, so please feel free to drop or reschedule it at your convenience.
-
-The data products are needed by the day after tomorrow in the evening at the latest, ensuring they're ingested into the pipeline before that time. Thank you!
+I'd like to submit a low-priority task for thermal mapping over the area around Apartadó, Colombia. This is a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. The goal is to capture a heat signature or surface temperature profile, which will be useful for detecting any thermal anomalies. Ideally, we'd like this to be done sometime the day after tomorrow around mid-day. Thank you!

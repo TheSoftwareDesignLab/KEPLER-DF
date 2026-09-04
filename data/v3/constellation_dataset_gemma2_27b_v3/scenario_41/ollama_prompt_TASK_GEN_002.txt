@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for an active radar scan of Norte overnight. This is a routine monitoring task as part of our baseline pipeline tracking setup.

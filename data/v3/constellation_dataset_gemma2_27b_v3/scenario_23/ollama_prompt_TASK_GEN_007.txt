@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for multispectral vegetation analysis over San Pablo, Colombia. We need a clear VNIR capture sometime the day after tomorrow during the overnight hours. This is part of our baseline pipeline tracking with fixed parameters for routine monitoring.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active thermal mapping scan of a location in Norte, France. The target window is tomorrow morning.

@@ -1,0 +1,1 @@
+Hey, we need a low priority importance thermal mapping of Castrocielo, Italy. This is just a background survey task, so feel free to drop or reschedule it at convenience. We're looking to capture the heat signatures and surface temperature profiles there. Make sure the data products are ingested into the pipeline before overnight in three days.

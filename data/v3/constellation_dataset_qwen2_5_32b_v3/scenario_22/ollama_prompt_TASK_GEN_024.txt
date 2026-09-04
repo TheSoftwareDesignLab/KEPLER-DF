@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for some opportunistic near-infrared reflection capture over Sijunjung, Indonesia. This is more of a background survey task, so feel free to drop or reschedule at convenience. We're looking to get some water body boundary mapping done. Just make sure the data products are ingested into the pipeline before three days overnight.

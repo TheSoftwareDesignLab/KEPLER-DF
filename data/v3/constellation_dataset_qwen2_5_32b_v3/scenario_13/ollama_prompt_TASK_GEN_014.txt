@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for a high-resolution active radar scan over Medelana, Italia. This is part of our baseline pipeline tracking and requires fixed parameters for cloud-penetrating capture. The data products must be ready by the day after tomorrow in the evening at the latest.

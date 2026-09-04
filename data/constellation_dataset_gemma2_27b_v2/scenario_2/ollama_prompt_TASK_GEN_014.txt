@@ -1,1 +1,1 @@
-This is an absolute institutional priority tasking. We require a high-resolution optical snapshot of the city of Norte. This critical payload capture must be completed and delivered with a strict delivery deadline set for tomorrow in the morning at the latest.
+This is an absolute institutional priority tasking. We require a high-resolution optical snapshot of Norte, needed by tomorrow overnight at the latest. Ensure this critical payload capture is ingested into the pipeline before that deadline.

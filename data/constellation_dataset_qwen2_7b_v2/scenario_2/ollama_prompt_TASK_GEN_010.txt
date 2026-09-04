@@ -1,12 +1,8 @@
-Hello Satellite Constellation Planner,
+Good day, satellite constellation planner. I'm reaching out with a task that requires your immediate attention due to its low priority importance and flexible schedule nature. Our mission involves conducting a near-infrared reflection survey in Cimitarra, Colombia, which is part of our background survey tasks. We aim to assess soil moisture levels by capturing the near-infrared reflection from the area.
 
-I'm reaching out with a task request for an Earth-observation mission that aims to capture essential data using our Near-Infrared (NIR) sensor. The geographical context involves Colombia, specifically the city of Cimitarra. This request is classified as a low priority importance task, indicating that it's part of a flexible schedule and can be considered a non-essential background filler task.
+The operational context here is that we're looking for high-quality data products that will help us understand the moisture content of the soil in this region. We're targeting today's morning period, meaning the data needs to be ready and available by the time the day breaks tomorrow. This task is not urgent as it falls under our non-essential background filler tasks, but we appreciate your quick response to ensure that the data is ingested into our pipeline before the deadline.
 
-Our goal is to obtain a near-infrared reflection for water body boundary mapping or soil moisture assessment to discriminate gradients in the region. The primary objective is to gather critical information that will help us understand the environmental conditions accurately.
-
-Given the urgency of this request, we need the data by today's morning at the latest. This deadline is crucial as it ensures the products are ingested into our pipeline before the day ends. We're treating this task as a testbed tracking task that can be dropped or rescheduled at convenience if necessary.
-
-Thank you for your attention to this matter, and we look forward to your confirmation of the mission allocation.
+Please note that this request does not require any pre-emptive action or immediate attention due to its nature. We understand that your resources might be allocated elsewhere, and we're willing to drop or reschedule this task at your convenience. Thank you for your cooperation and understanding in managing this task within our baseline pipeline tracking setup.
 
 Best regards,
 [Your Name]

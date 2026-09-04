@@ -1,0 +1,4 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission:
+
+Task Request: 
+Capture high-resolution optical snapshots of vegetation health in Norte city using multispectral analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. This is an absolute institutional priority, binding contract requirement involving a critical payload capture. Execute this task as soon as possible tomorrow morning during the afternoon.

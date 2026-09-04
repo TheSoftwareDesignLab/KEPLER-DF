@@ -1,0 +1,1 @@
+Please conduct a thermal mapping task over Monterrey, Colombia, using our TIR sensor. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission allocation priority for this task is medium importance, and we require the data to be captured sometime today during the afternoon.

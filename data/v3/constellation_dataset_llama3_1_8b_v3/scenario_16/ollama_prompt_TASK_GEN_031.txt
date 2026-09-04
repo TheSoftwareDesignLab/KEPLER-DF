@@ -1,0 +1,2 @@
+prompt
+We have a low priority importance request for a thermal mapping task using our TIR sensor. We'd like to capture a heat signature in El Retorno, Colombia sometime today around mid-day. This is a non-essential background filler task with a flexible schedule for opportunistic capture. Please drop or reschedule at convenience.

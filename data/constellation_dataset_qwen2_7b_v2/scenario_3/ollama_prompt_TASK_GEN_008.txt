@@ -1,12 +1,5 @@
-Hello Satellite Constellation Planner,
+Good day, automated satellite constellation planner. I'm reaching out with a low priority importance task that's due to be completed in three days around mid-day. The mission involves capturing a multispectral vegetation analysis over the beautiful region of Italia, specifically in the charming town of Gazzola. Our goal is to assess the chlorophyll absorption levels and calculate the NDVI index for the area to understand surface reflectance patterns.
 
-I'm reaching out to request a task for an Earth observation mission that's set to capture critical data on vegetation health and land use in Gazzola, Italia. Given the importance of this task, I'd classify it as having medium priority, meaning it's part of our standard operational pipeline but still carries significant value.
+This task falls under our background survey category and doesn't require an immediate response; however, it's important that we capture this data efficiently so it can be integrated into our baseline pipeline tracking setup. We're looking for standard operational parameters with fixed settings that represent our normal operational status.
 
-The primary sensor we're utilizing for this mission is the VNIR (Visible Near-Infrared) camera, which will allow us to conduct a multispectral vegetation analysis. This means we'll be assessing the chlorophyll absorption levels and calculating the NDVI (Normalized Difference Vegetation Index) as well as surface reflectance data. Our goal is to provide high-resolution optical imagery that can clearly document the landscape during daylight hours.
-
-The deadline for this request is set for three days from now, with a strict delivery deadline of 'during the afternoon'. We aim to ensure that the products are ingested into our pipeline before the specified time, meeting our baseline tracking requirements and maintaining normal operational status.
-
-Thank you for your attention to this task. We appreciate your cooperation in meeting these important deadlines.
-
-Best regards,
-[Your Name]
+Please note that the deadline for delivering the data products is set for the target day around mid-day, and we aim to ensure these products are ingested into our pipeline before then. If possible, we would appreciate any flexibility you can offer to accommodate this task within your schedule. Thank you for your attention and cooperation.

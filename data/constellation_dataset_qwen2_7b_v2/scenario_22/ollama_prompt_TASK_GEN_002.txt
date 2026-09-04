@@ -1,11 +1,5 @@
-Good day, satellite constellation planner. I'm reaching out with a request for an operational tasking that involves capturing a high-resolution optical snapshot of Frabosa Sottana, located in beautiful Italia. This is a low priority importance request, meaning it's more of a flexible schedule background survey rather than an urgent mission lock.
+Good day, satellite constellation planners. I'm reaching out with a task request for an Earth observation mission that requires your immediate attention. The objective is to capture a high-resolution optical snapshot of Frabosa Sottana, which is located in the beautiful country of Italia. This request falls under the category of a low priority importance task, so please schedule it as a flexible background survey or testbed tracking task.
 
-Our goal is to obtain clear daylight photography that serves as true-color visual documentation for our purposes. We're interested in capturing the essence of this picturesque location, ensuring that the imagery we receive is detailed and informative.
+We're aiming for daylight photography that will serve as true-color visual documentation of the area. The imagery should be clear and detailed enough to provide an excellent overview of the landscape in Frabosa Sottana. We understand this request might not be at the top of your priority list, but we kindly ask that you accommodate it within your operational schedules without causing any inconvenience.
 
-This task falls under our 'background survey' category, which means it can be scheduled as per your operational convenience. We understand that resources might be allocated to higher priority tasks first, so please consider this request as a non-essential background filler task.
-
-We're looking for thermal mapping data as well, which will help us identify heat signatures and surface temperature profiles. This is crucial for our ongoing projects, and we appreciate the flexibility in scheduling this task.
-
-Our deadline for receiving these data products is set for tomorrow's overnight block. We need to ensure that the products are ingested into our pipeline before that time, as per our operational guidelines.
-
-Thank you for your attention to this matter. Please let us know if there are any questions or clarifications needed regarding this request. We appreciate your cooperation and look forward to a successful mission execution.
+We're targeting delivery by tomorrow, specifically in the evening block. This deadline is crucial as it ensures the products are ingested into our pipeline before the day ends. We appreciate your understanding and cooperation in meeting this requirement. Thank you for your attention to this matter.

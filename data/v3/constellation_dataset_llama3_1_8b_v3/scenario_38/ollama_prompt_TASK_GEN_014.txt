@@ -1,0 +1,2 @@
+Task Request: 
+We need a low priority importance request for a flexible schedule to capture an opportunistic multispectral vegetation analysis of the region in Norte. The goal is to assess the chlorophyll absorption level and calculate the NDVI index for surface reflectance, using a near-infrared reflection technique to discriminate gradients. This is a non-essential background filler task, so please drop or reschedule at convenience. Capture sometime today around mid-day.

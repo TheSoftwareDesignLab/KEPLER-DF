@@ -1,0 +1,1 @@
+We have a low priority importance request for a multispectral vegetation analysis snapshot over Simacota, Colombia. This is a non-essential background filler task that can be dropped or rescheduled at convenience. Ideally, we'd like to capture this sometime in three days around mid-day.

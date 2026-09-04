@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution VNIR multispectral snapshot of Ecuatorial, Indonesia. The target window is in four days around mid-day.

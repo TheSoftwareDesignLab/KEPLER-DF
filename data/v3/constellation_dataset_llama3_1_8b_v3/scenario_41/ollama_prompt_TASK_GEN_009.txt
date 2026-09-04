@@ -1,0 +1,7 @@
+Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Indonesia
+
+We require a standard operational tasking with fixed parameters to capture high-resolution optical imagery of the region. The location details indicate that we are targeting the country of Indonesia, specifically focusing on the city of Ecuatorial. We need to acquire clear optical imagery for true-color visual documentation within the next 24 hours, with the optimal capture window being overnight tomorrow.
+
+This tasking is part of our baseline pipeline tracking setup and represents normal operational status. It is a routine monitoring task that aligns with our commercial tasking requirements.
+
+Please ensure that the satellite constellation planner allocates the necessary resources to meet this request and execute the mission according to the specified parameters.

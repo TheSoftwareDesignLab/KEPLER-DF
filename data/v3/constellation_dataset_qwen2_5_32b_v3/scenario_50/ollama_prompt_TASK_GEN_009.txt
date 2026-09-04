@@ -1,0 +1,1 @@
+We need to set up a routine monitoring task for a baseline pipeline tracking setup in Ecuatorial. The objective is to capture near-infrared reflection for water body boundary mapping in three days during the morning. This is part of our normal operational status, so please configure it with the fixed parameters as usual.

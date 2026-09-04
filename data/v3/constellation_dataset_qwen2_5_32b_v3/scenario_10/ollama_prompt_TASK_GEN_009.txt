@@ -1,0 +1,1 @@
+Hey system, we've got a low priority importance task coming up. We need a thermal mapping of Tanah Grogot in Indonesia to capture the surface temperature profile. This is more of a background survey, so feel free to drop or reschedule at convenience. Just make sure the products are ingested into the pipeline before morning in three days.

@@ -1,9 +1,12 @@
-Good day to all satellite planners,
+Good day to all satellite planners and operators,
 
-I'm reaching out with a task request that's part of our standard operational pipeline tracking setup. We're looking to capture a high-resolution optical snapshot of the city of Zipaquirá, located in Colombia, using our VIS sensor. The goal is to obtain clear daylight photography and true-color visual documentation of the area.
+I'm reaching out with a standard operational tasking for our automated satellite constellation planner. Our mission involves capturing high-resolution optical imagery of a specific location in Colombia, specifically the city of Zipaquirá. This is part of a baseline pipeline tracking setup that requires us to maintain normal operational status.
 
-This request carries medium importance as it's a routine monitoring task that is part of our baseline workflow updates. We aim to ensure that the data products are ingested into our pipeline before the deadline set for the target day, which is in four days, with the strict delivery deadline being in the evening at the latest.
+The primary sensor we're utilizing is a VIS (visual imaging system), aiming to gather daylight photography, clear optical imagery, and true-color visual documentation of the region. We're targeting this capture to happen in four days, with a strict delivery deadline set for the evening at the latest. This means ensuring that the products are ingested into our pipeline before the day ends.
 
-Please prioritize this request and allocate necessary assets accordingly. We appreciate your cooperation and understanding in meeting these requirements.
+This request carries medium importance and represents a standard operational tasking that involves fixed parameters. We're looking to maintain normal operational status without any preemptions or drop-offs in this workflow update.
 
-Thank you for your attention to this matter.
+Thank you for your attention and swift action on this matter.
+
+Best regards,
+[Your Name]

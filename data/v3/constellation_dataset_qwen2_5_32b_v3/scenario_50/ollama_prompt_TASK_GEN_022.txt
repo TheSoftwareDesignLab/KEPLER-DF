@@ -1,0 +1,1 @@
+We need to set up a standard operational tasking for thermal mapping in Andina. The goal is to capture the surface temperature profile in the evening tomorrow as part of our baseline pipeline tracking setup.

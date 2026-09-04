@@ -1,0 +1,1 @@
+We need a low priority importance request for thermal mapping in Apartadó, Colombia. This is a non-essential background filler task where we can drop or reschedule at convenience. The goal is to capture the heat signature and surface temperature profile of the area. Ensure the products are ingested into the pipeline before evening in three days.

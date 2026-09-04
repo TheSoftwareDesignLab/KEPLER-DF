@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral vegetation analysis of the area around Piedras, Colombia. Specifically, we need to assess chlorophyll absorption levels and calculate the vegetation NDVI index. This tasking needs to be completed in three days during the afternoon.

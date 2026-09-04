@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a near-infrared reflection scan of Fidenza, Italia sometime in three days around mid-day. The objective is to map the water body boundaries and assess soil moisture gradients in the region.

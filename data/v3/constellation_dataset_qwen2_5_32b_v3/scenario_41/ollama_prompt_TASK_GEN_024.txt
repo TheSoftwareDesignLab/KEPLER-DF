@@ -1,0 +1,1 @@
+We need to schedule a routine monitoring task for an active radar scan over Indonesia, near the city of Ecuatorial. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products must be ready by overnight in three days at the latest.

@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a routine monitoring setup in Kapuas, Indonesia. The goal is to perform an active radar scan using microwave surface imaging to capture cloud-penetrating imagery of the area. This data is needed by tomorrow around mid-day at the latest to ensure it's ingested into our baseline pipeline tracking setup.

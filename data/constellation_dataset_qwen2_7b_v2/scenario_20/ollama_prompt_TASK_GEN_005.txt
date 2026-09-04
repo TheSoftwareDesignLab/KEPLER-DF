@@ -1,10 +1,7 @@
-Good day, satellite constellation planner. I'm reaching out with a standard operational tasking for our automated mission allocation system. We're looking to capture high-resolution optical imagery of Pavullo nel Frignano, located in the beautiful region of Italia. This request is classified as medium importance and involves a critical payload capture for our baseline pipeline tracking setup. 
+Good day to our automated satellite constellation planners. We're looking at a task that's been prioritized as medium importance, involving an active radar scan using microwave surface imaging for cloud-penetrating capture. The mission is part of our baseline pipeline tracking setup with fixed parameters, representing normal operational status.
 
-We aim to conduct a near-infrared reflection survey to map water body boundaries and assess soil moisture levels, which is essential for environmental monitoring and agricultural planning. Our operational deadline is set with strict urgency: we need the data products by the target day, in three days, at the latest during the overnight period.
+Our objective is to capture thermal mapping data, which will help us identify heat signatures and surface temperature profiles, crucial for detecting thermal anomalies and mapping heat emissions. We're focusing on a specific area in the beautiful region of Italia, specifically the charming city of Pavullo nel Frignano.
 
-This task represents a routine monitoring activity that's part of our normal operational status. We have fixed parameters to ensure accurate and reliable data collection, which will contribute to our standard workflow updates. Due to its nature, this request falls under the category of non-essential background filler tasks, which can be dropped or rescheduled at convenience if necessary.
+We require this data by the target day, which is three days from now, with a strict delivery deadline set for overnight. This means that the products must be ingested into our pipeline before the end of the night on the target day to ensure timely processing and analysis.
 
-Thank you for your attention to this matter. Please proceed with the mission allocation according to these guidelines and ensure that the products are ingested into the pipeline before the deadline set for the target day's overnight period.
-
-Best regards,
-[Your Name]
+Please note, this task has a deadline constraint that cannot be altered or extended. We appreciate your attention to these details as we aim to maintain our operational standards and contractual obligations. Thank you for your cooperation in delivering this mission with the utmost priority and efficiency.

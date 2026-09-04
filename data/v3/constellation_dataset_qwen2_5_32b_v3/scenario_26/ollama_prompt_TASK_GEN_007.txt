@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of the area around Úmbita, Colombia, for a low priority importance request. This is a flexible schedule task where we can drop or reschedule at convenience if needed. However, we do need to ensure the products are ingested into the pipeline before tomorrow during the afternoon.

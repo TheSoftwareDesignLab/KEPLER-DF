@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a multispectral vegetation analysis over Ovindoli, Italia. This involves assessing chlorophyll absorption levels and calculating the NDVI index. The data products are needed by around mid-day in four days, ensuring they are ingested into the pipeline before that time.

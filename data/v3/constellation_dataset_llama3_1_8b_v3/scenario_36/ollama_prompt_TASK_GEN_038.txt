@@ -1,0 +1,2 @@
+prompt
+I'd like to schedule a low priority importance task for opportunistic capture, with a flexible schedule. We'll be conducting a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the NDVI index and surface reflectance. The target location is in Norte, and we're aiming for sometime today around mid-day. This is a non-essential background filler task, so feel free to drop or reschedule at convenience.

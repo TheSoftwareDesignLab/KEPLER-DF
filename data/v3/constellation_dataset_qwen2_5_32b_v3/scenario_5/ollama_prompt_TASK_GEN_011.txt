@@ -1,0 +1,1 @@
+We need to perform a thermal mapping task over Norte, capturing the surface temperature profile. This is part of our routine monitoring setup with fixed parameters and represents normal operational status. The data products must be ready by four days from now overnight at the latest.

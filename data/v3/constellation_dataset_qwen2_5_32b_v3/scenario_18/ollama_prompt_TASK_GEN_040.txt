@@ -1,0 +1,1 @@
+Hey, we need a low priority importance thermal mapping task for Coyaima, Colombia. It's a non-essential background filler task where we can drop or reschedule at convenience. The goal is to capture the heat signature and surface temperature profile of the area. We just need the data by the day after tomorrow in the morning at the latest.

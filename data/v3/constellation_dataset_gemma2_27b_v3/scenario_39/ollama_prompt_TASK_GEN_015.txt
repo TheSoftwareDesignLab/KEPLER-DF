@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution VNIR multispectral scan over Koto Rantang, Indonesia. Specifically, we're looking to assess chlorophyll absorption levels and calculate the vegetation NDVI index. This tasking needs to be completed the day after tomorrow in the morning.

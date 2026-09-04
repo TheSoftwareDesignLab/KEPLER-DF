@@ -1,7 +1,5 @@
-Hello there! I'm reaching out with a task request for an automated satellite constellation planner, focusing on an operational need in the realm of Earth observation. Our objective is to capture highly realistic imagery using the SAR sensor, which involves active radar scanning and microwave surface imaging techniques to penetrate heavy weather conditions or capture ground geometry details.
+Good day, automated satellite constellation planner. I'm reaching out on behalf of our Earth observation mission to arrange a critical SAR (Synthetic Aperture Radar) data capture operation. We're focusing on Sesquilé, Colombia, aiming for high-resolution microwave surface imaging around mid-day in three days. Our objective is to penetrate heavy weather conditions and capture ground geometry with precision.
 
-We're looking at a location in Colombia, specifically in the city of Sesquilé, aiming for a clear operational snapshot that serves as daylight photography, true-color visual documentation, or a comprehensive optical image. This request carries a low priority importance, allowing for a flexible schedule and treating it as a non-essential background filler task. Our operator has explicitly noted to drop or reschedule at convenience, considering it as an opportunistic survey or testbed tracking task.
+This task carries a low priority importance, allowing us to drop or reschedule it as per our operational convenience. However, we do need the data by the target day at the latest; hence, please ensure that the products are ingested into our pipeline before the deadline set for mid-day on the specified day. We appreciate your understanding and cooperation in meeting this requirement.
 
-The deadline is set with urgency, requiring the data products to be ingested into our pipeline before the target day, which is in three days during the afternoon. This ensures that we meet our operational needs without any extensions or alterations to this strict deadline. 
-
-If you could provide us with this information, we would greatly appreciate it. Thank you for your attention and cooperation!
+Thank you for your attention to this matter.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a multispectral vegetation analysis of Perugia, Italia. Specifically, we require high-resolution imagery for assessing chlorophyll absorption levels and calculating the NDVI index. Please schedule this tasking for three days from now, overnight.

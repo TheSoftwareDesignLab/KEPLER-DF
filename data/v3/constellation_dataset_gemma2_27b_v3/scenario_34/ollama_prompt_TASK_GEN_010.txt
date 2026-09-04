@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over El Tambo, Colombia. We need a high-resolution VNIR capture sometime tomorrow morning to assess chlorophyll absorption levels and calculate the vegetation NDVI index in that region.

@@ -1,0 +1,3 @@
+Tasking Request for Opportunistic NIR Capture in Italy
+
+We're requesting a low-priority importance task with a flexible schedule for opportunistic capture. We'd like to conduct a near-infrared reflection survey over Civitella Alfedena, Italia, sometime today around mid-day. This will be a non-essential background filler task where we can drop or reschedule at convenience. The goal is to assess soil moisture and discriminate gradients in the region.

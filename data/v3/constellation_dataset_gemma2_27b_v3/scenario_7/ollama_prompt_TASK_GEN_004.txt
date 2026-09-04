@@ -1,0 +1,1 @@
+This is a low priority importance request for opportunistic capture. We need a cloud-penetrating capture of Puerto López, Colombia using an active radar scan sometime in four days overnight.  Feel free to drop or reschedule at convenience; this is a non-essential background filler task for a testbed tracking setup.

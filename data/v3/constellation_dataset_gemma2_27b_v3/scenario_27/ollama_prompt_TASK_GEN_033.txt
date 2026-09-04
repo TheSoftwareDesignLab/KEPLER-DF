@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for an active radar scan of Mahato, Indonesia. We need cloud-penetrating capture using microwave surface imaging sometime tomorrow around mid-day. This is part of our baseline pipeline tracking with fixed parameters.

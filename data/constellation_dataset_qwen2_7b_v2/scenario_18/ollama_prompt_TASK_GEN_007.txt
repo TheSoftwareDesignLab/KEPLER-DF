@@ -1,10 +1,12 @@
-Good day to our automated satellite constellation planner,
+Good day to our satellite constellation planners. We're looking at an operational task for tomorrow morning, targeted towards Planadas, Colombia, utilizing high-resolution optical imagery for daylight photography purposes. The primary sensor involved is VIS, aiming to capture clear optical imagery and true-color visual documentation of the region.
 
-We're looking to capture a high-resolution optical snapshot of Planadas, Colombia for daylight photography purposes. Our intention is to obtain clear optical imagery and true-color visual documentation of the region to support our ongoing monitoring efforts in this area. Given its importance, we classify this task as medium priority.
+This request falls under medium importance, as part of our standard operational tasks with fixed parameters representing normal operational status. We're not looking for any rush in this task but need it to be part of our baseline pipeline tracking setup. This is a routine monitoring activity that's essential for our ongoing commercial tasking and workflow updates.
 
-Our target day is tomorrow, with the requirement that the data be ready around mid-day at the latest. This deadline is crucial for ensuring timely data availability and integration into our baseline pipeline tracking setup.
+Please ensure that the data products are ready by tomorrow morning, which marks the strict delivery deadline set for us. We appreciate your team's coordination and timely execution to meet this deadline, ensuring the products are ingested into our pipeline before the specified time.
 
-We appreciate your team's expertise and look forward to receiving the data products by tomorrow's mid-day slot.
+Thank you for your attention to this matter. We look forward to receiving the data as per our request. Should there be any questions or adjustments needed, please feel free to communicate directly with us. Your assistance in making this happen will greatly contribute to our operational efficiency and customer satisfaction.
 
 Best regards,
+
 [Your Name]
+[Your Position]

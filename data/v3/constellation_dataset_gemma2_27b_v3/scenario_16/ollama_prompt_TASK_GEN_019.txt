@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture over Granada, Colombia. We need an active radar scan of the city sometime in the evening three days from now.

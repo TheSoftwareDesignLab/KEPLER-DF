@@ -1,0 +1,1 @@
+We need to set up a standard operational tasking for thermal mapping in Sonsón, Colombia. This involves capturing the surface temperature profile and identifying any thermal anomalies. The data products are needed by morning in three days, so ensure they are ingested into the pipeline before then.

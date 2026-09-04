@@ -1,13 +1,1 @@
-Hello constellation planner,
-
-I'm reaching out to request a critical payload capture task for our Earth observation mission. Our focus is on Indonesia, specifically in the equatorial region, where we aim to gather thermal mapping data to detect heat signatures and map surface temperature profiles. This request is of high importance due to its impact on understanding local climate patterns.
-
-We require this "heat signature" analysis by the day after tomorrow, with a strict delivery deadline set for overnight. This data will be essential for our baseline pipeline tracking setup, as it represents a normal operational status update and will help us assess thermal anomalies and heat emissions accurately.
-
-Please note that this task is a low priority importance request, allowing for flexible scheduling to accommodate any necessary rescheduling or dropping at your convenience. We appreciate your understanding in this matter.
-
-Thank you for your attention to this background survey task. We look forward to receiving the data products before the deadline so they can be ingested into our pipeline efficiently.
-
-Best regards,
-
-[Your Name]
+Please capture a thermal mapping of the Ecuatorial region in Indonesia using the TIR sensor. Our objective is to assess surface temperature profiles and detect any thermal anomalies. This task is considered a low priority importance request, allowing for flexible scheduling. We aim to have these data products ready by the day after tomorrow overnight at the latest. Please note that this task is treated as a non-essential background filler task and can be dropped or rescheduled at convenience. Thank you for your attention to this background survey.

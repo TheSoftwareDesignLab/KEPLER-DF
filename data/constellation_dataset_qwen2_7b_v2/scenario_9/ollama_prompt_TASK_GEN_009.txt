@@ -1,5 +1,14 @@
-Good day, automated satellite constellation planner. I'm reaching out with a task request that's quite important to our operational pipeline. We're looking to capture thermal data on a critical payload in Indonesia, specifically around the equatorial region of Ecuatorial city. The objective is to perform thermal mapping, which involves capturing heat signatures and surface temperature profiles for this area. This task is of low priority importance, so we're treating it as a flexible schedule background survey or testbed tracking task.
+Hello there,
 
-The deadline for delivering these data products is set for three days from now, with the strictest requirement being that they must be ingested into our pipeline before the overnight period on that target day. We understand this might not be the most urgent task in your queue, but it's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+I'm reaching out with a task request that I hope you can accommodate in your schedule. Our mission involves capturing thermal data for Indonesia, specifically focusing on the Ecuatorial city, aiming to gather insights into heat signatures and surface temperature profiles. This task is classified as low priority importance but requires our attention to ensure it fits seamlessly into your operational pipeline.
 
-Thank you for your attention to this request. If there are any questions or adjustments needed based on your operational constraints, please let us know. We appreciate your cooperation and look forward to receiving the data products as per the outlined specifications.
+We're looking to conduct this observation using thermal imaging sensors (TIR), which will help us assess heat emissions and detect any anomalies in the region. The primary objective is to gather this data promptly for a comprehensive analysis, ensuring that we capture the essence of the thermal dynamics within the next three days, specifically overnight.
+
+To meet our operational guidelines, I've structured this request considering the geographical context, mission allocation priority, sensors and physical objectives, as well as relative timeframes. We understand the urgency involved in delivering this data by the deadline set for target_day and target_diurnal_period, which is crucial for our ongoing projects.
+
+Please note that this task might be considered a non-essential background filler task, where we're flexible with scheduling. However, it's important to us that you prioritize this request within your workflow updates or baseline pipeline tracking setup, treating it as a standard operational tasking.
+
+Thank you for considering our request. We appreciate your cooperation and look forward to collaborating on this opportunity.
+
+Best regards,
+[Your Name]

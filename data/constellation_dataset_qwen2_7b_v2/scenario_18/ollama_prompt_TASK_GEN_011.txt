@@ -1,1 +1,12 @@
-Good day to our satellite constellation planners. We're looking to capture a high-resolution optical snapshot of Norte, focusing on daylight photography and true-color visual documentation. This is a low priority importance request with a flexible schedule for opportunistic capture. We aim to deliver this data by the target day, which is in four days, with a strict delivery deadline set for overnight at the latest. Ensuring the products are ingested into the pipeline before that time frame is crucial. This task serves as a non-essential background filler task and can be dropped or rescheduled at convenience if necessary. Thank you for your attention to this background survey request.
+Hello Satellite Constellation Planner,
+
+I'm reaching out to request a high-resolution optical snapshot of Norte, which is located in an undisclosed region. This daylight photography will serve as true-color visual documentation for our ongoing project, capturing the essence of the area's natural beauty under clear skies.
+
+Given its low priority importance, this task can be scheduled with a flexible schedule, allowing for opportunistic capture at your convenience. We understand that this request might not have an immediate impact on our operational status but will serve as a background survey to gather preliminary data.
+
+We aim to receive the data products by the target day, which is in four days, with a strict delivery deadline set for overnight. This ensures the products are ingested into our pipeline before the mentioned time frame.
+
+Thank you for your attention and understanding. We appreciate your cooperation in meeting this request within the specified timeframe.
+
+Best regards,
+[Your Name]

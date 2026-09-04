@@ -1,0 +1,1 @@
+Hey, we need a low priority importance request for a multispectral vegetation analysis over Sotará, Colombia. This is more of a background survey task where we can drop or reschedule at convenience. We're looking to assess the chlorophyll absorption level and calculate the NDVI index. Make sure the data products are ingested into the pipeline by the afternoon in three days.

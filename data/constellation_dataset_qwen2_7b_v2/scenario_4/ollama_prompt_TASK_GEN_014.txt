@@ -1,5 +1,11 @@
-We're looking to capture a critical thermal mapping of the region in Italia, specifically focusing on the area around Norte. This is an absolute institutional priority involving a mandatory directive for capturing heat signatures and surface temperature profiles. We need this data by the evening three days from now, ensuring that the products are ingested into our pipeline before then. This task is part of a baseline pipeline tracking setup with fixed parameters representing normal operational status.
+Good day, automated satellite constellation planner. I'm reaching out to request a high-priority task that involves thermal mapping for a critical payload capture. The mission is of utmost importance and falls under a binding contract requirement involving an urgent operational execution.
 
-To achieve this, we'll be utilizing our thermal imaging sensor (TIR) to conduct comprehensive thermal mapping. The goal is to assess heat emissions and detect any thermal anomalies in the region. Our high-resolution optical snapshot will provide clear thermal imagery that will help us understand the heat patterns and temperature profiles of the area.
+Our focus area is the region of Italia, specifically in Norte, where we aim to capture detailed thermal signatures during the afternoon on the target day which is in three days. This task requires us to observe the heat emissions from the surface accurately and efficiently.
 
-Please ensure that the data is ready for delivery by the evening on the specified target day, as this deadline cannot be extended. This task is a standard operational tasking with high importance, and we're treating it as a binding contract requirement involving a critical payload capture. Let's proceed with the execution to meet our deadline and deliver the required data products.
+Given that this request carries a high level of importance, it's essential that we adhere to strict operational guidelines. We're looking for an active radar scan using microwave surface imaging capabilities to pierce through heavy weather conditions and capture ground geometry with precision.
+
+The deadline for delivering the data products is set for the target day during the afternoon at the latest. Our priority is ensuring that these products are ingested into the pipeline before the deadline, which is a critical aspect of our baseline pipeline tracking setup.
+
+Please note that this task is part of our standard operational tasks and represents a commercial tasking with fixed parameters indicating normal operational status. However, due to its high importance, we're treating it as an absolute institutional priority requiring immediate attention.
+
+Thank you for your understanding and swift action in fulfilling this request. We appreciate your cooperation in ensuring the timely delivery of these essential data products.

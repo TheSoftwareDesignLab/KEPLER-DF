@@ -1,0 +1,1 @@
+We need an opportunistic active radar scan over Palermo, Colombia, to capture some cloud-penetrating imagery. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule it at convenience. However, we'd like the data products ingested into the pipeline by morning in three days.

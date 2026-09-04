@@ -1,10 +1,12 @@
-Hello there,
+Hello automated satellite constellation planner,
 
-I'm reaching out to request a high-resolution optical snapshot of Suka Maju, Indonesia, for daylight photography purposes. This task is classified as a low priority importance request with a flexible schedule for opportunistic capture. We're looking to assess the clear optical imagery and true-color visual documentation of this area.
+I'm reaching out to request a task for an Earth observation mission that needs to be completed in three days, specifically by the evening. The objective is to capture a high-resolution optical snapshot of Suka Maju, located in Indonesia, for daylight photography purposes. We're looking for clear, true-color visual documentation that will help us understand the landscape and its features under natural light conditions.
 
-In three days, specifically overnight, we need these data products by our deadline. This request falls under our background survey category, where we can drop or reschedule it at convenience if needed. We aim to capture the essence of Suka Maju's landscape in a non-essential background filler task for our operational pipeline tracking.
+As this request falls under priority level 1, it's considered a low importance task with a flexible schedule for opportunistic capture. We understand that it might be scheduled as a background survey or testbed tracking task, but we still appreciate your attention to ensure the data is available by our deadline.
 
-Thank you for your attention to this matter. We appreciate your cooperation and understanding regarding our deadline constraints.
+We're particularly interested in obtaining this imagery without any delays and would like to emphasize that it's crucial for our ongoing project. Our team will appreciate your cooperation in delivering these products before the set deadline so they can be efficiently integrated into our baseline pipeline tracking setup.
+
+Thank you for your understanding and prompt action on this matter. We look forward to receiving the data by the evening of the target day, which is three days from now.
 
 Best regards,
-Your Earth-observation Mission Operator
+[Your Name]

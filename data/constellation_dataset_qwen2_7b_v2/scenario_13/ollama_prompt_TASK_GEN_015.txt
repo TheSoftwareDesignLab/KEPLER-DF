@@ -1,11 +1,5 @@
-Hello satellite constellation planner,
+Good day, satellite constellation planner. I'm reaching out to request a mission for capturing high-resolution optical imagery of Bulungan, Indonesia, using our visible light sensor. The operation is classified as a low priority importance task, which means we're looking for a flexible schedule that allows us to drop or reschedule the mission at your convenience. Our goal is to obtain clear daylight photography and true-color visual documentation to support our background survey efforts.
 
-I'm reaching out to request a high-resolution optical snapshot of the region in Indonesia, specifically focusing on the city of Bulungan. We're looking for daylight photography or clear optical imagery that captures the true colors of the area. This task is classified as a low priority importance request with a flexible schedule for opportunistic capture. We're treating it as a background survey or testbed tracking task.
+The deadline for delivering this data product is set for four days from now, with the strict requirement that the products must be ingested into our pipeline by around mid-day on that target day. This ensures we have ample time to process and analyze the images before they're needed.
 
-The deadline for this data product is set for four days from now, during the afternoon period. It's crucial that we receive these images by then to ensure they can be ingested into our pipeline before the specified time frame ends. Please note that this request does not require an urgent operational execution, but it's still important for our ongoing monitoring activities.
-
-Thank you for your attention and cooperation in fulfilling this task.
-
-Best regards,
-
-[Your Name]
+Thank you for your attention to this matter. We appreciate your cooperation in meeting our operational guidelines and ensuring the mission is carried out according to the specified parameters.

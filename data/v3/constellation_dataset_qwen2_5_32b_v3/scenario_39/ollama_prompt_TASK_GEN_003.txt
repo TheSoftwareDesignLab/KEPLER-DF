@@ -1,0 +1,1 @@
+We need to capture a high-resolution optical snapshot over Ecuatorial, Indonesia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters and represents our normal operational status. The data products must be ready by the overnight block in three days, ensuring they are ingested into the pipeline on time.

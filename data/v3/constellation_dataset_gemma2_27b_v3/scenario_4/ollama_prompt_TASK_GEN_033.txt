@@ -1,0 +1,1 @@
+This is a standard operational tasking for near-infrared reflection capture over Ecuatorial. We need this as part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. Please schedule this sometime in four days overnight for near-infrared reflection, ideal for water body boundary mapping and soil moisture assessment.

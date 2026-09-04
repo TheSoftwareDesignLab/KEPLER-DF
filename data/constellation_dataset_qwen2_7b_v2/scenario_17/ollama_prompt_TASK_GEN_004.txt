@@ -1,10 +1,12 @@
-Hello automated satellite constellation planner,
+Hello there,
 
-I'm reaching out to request a task for a low priority importance mission, which involves capturing data using a VNIR sensor. This sensor will be used for multispectral vegetation analysis, aiming to assess the chlorophyll absorption level and calculate the NDVI index along with surface reflectance in Colombia, specifically in the city of Caramanta. The goal is to gather high-resolution optical snapshots as daylight photography or true-color visual documentation.
+I'm reaching out to request a low-priority importance task that involves capturing a multispectral vegetation analysis using our VNIR sensor. The goal is to assess the chlorophyll absorption level and calculate the NDVI index for a specific area in Colombia, specifically focusing on the city of Caramanta. This is akin to taking a detailed snapshot of the region's vegetation health through daylight photography.
 
-Given the nature of this task being a non-essential background filler, we understand that it can be dropped or rescheduled at convenience if necessary. However, for the purpose of this request, we are looking forward to obtaining the data products by the target day, which is in three days, during the afternoon at the latest. This deadline is strictly set for our operational pipeline tracking purposes.
+Given our operational guidelines, I understand this task falls under the "flexible schedule" category, which means it's treated as a background survey or testbed tracking task. We are explicitly noting that this request can be dropped or rescheduled at our convenience.
 
-Thank you for your understanding and cooperation in fulfilling this task.
+As for the timing, we're aiming to have these data products ready by three days from now, ideally around mid-day. This deadline is crucial for us to ensure they are ingested into our pipeline before the set time, adhering to our strict operational guidelines without altering or extending this deadline.
+
+Thank you for your understanding and cooperation in this matter. We appreciate your support in fulfilling this task efficiently and effectively.
 
 Best regards,
 [Your Name]

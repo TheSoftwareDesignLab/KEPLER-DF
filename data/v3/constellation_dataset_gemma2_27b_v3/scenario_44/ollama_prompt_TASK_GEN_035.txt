@@ -1,0 +1,1 @@
+This is a low priority importance request for opportunistic capture. We need a near-infrared reflection scan of Lecco, Italia sometime the day after tomorrow around mid-day. This is a non-essential background filler task and can be dropped or rescheduled at convenience. Consider it a background survey or testbed tracking task.

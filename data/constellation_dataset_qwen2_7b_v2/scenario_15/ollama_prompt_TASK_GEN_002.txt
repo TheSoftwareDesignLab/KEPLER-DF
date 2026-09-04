@@ -1,10 +1,5 @@
-Good morning, satellite constellation planner. I'm reaching out with a low priority importance task for you to consider. It's an opportunistic capture that doesn't have any rigid deadlines attached to it, just something to keep in the background for when we have some spare capacity.
+Good day, automated satellite constellation planner. I'm reaching out to request a low priority importance task for an opportunistic capture of a high-resolution optical snapshot using the VNIR sensor. Our objective is to assess chlorophyll absorption levels and calculate the vegetation NDVI index in the region encompassing the country of Italia, specifically focusing on the city of Norte. This will help us understand surface reflectance patterns in the area.
 
-We're looking at a specific region in Italy, near a city called Norte. Our objective is to conduct a multispectral vegetation analysis using VNIR sensors. The goal here is to assess the chlorophyll absorption level across various areas, which will help us calculate the NDVI index and understand surface reflectance patterns.
+The operational deadline for this task is set for the day after tomorrow, with a strict delivery deadline by overnight. We're looking to capture this data as part of a non-essential background survey or testbed tracking task that can be dropped or rescheduled at convenience. Your flexibility in scheduling will greatly aid our background analysis efforts.
 
-The deadline for this task is set for the day after tomorrow, with a strict delivery deadline that we need to adhere to in the morning. We're not looking for any rush or urgency; just ensure the products are ingested into our pipeline before then. This will serve as a testbed tracking task for us, allowing us to monitor and gather data without impacting our core operations.
-
-Thank you for your attention to this background survey request. We appreciate your flexibility in scheduling this task based on your operational capacity. Looking forward to receiving the results by the deadline set.
-
-Best regards,
-[Your Name]
+Thank you for your attention and cooperation in fulfilling this request.

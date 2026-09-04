@@ -1,0 +1,1 @@
+Schedule a standard operational tasking for near-infrared reflection imaging over Cascia, Italia. This is part of our baseline pipeline tracking setup and requires fixed parameters for normal operational status. The target window is the day after tomorrow, specifically in the morning.

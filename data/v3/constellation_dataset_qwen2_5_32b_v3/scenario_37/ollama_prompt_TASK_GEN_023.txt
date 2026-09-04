@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance task that's more of a background survey. We need a thermal mapping of Norte to capture the surface temperature profile. This is pretty flexible and can be opportunistic, so feel free to drop or reschedule at convenience. Just make sure the products are ingested into the pipeline before tomorrow evening.

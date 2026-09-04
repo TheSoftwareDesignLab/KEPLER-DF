@@ -1,0 +1,2 @@
+Translate the thermal mapping metadata into a realistic English request.
+We need to capture a heat signature and surface temperature profile of the area in Indonesia, specifically in the city of Ecuatorial, using a thermal infrared sensor. This is a low priority importance request with a flexible schedule for opportunistic capture. We can drop or reschedule at convenience, treating it as a background survey or testbed tracking task. The target window is sometime today around mid-day.

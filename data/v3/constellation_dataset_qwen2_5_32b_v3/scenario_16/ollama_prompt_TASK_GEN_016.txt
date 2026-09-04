@@ -1,0 +1,1 @@
+Hey, we need an opportunistic active radar scan over Neiva, Colombia. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. The goal here is to capture some cloud-penetrating imagery. We're looking to have the data products ingested into the pipeline before morning in three days.

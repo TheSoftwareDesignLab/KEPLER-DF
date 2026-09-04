@@ -1,16 +1,7 @@
-Hello there,
+Good day, satellite constellation planner. I'm reaching out with a task request for an Earth observation mission that's quite important to our operations. We're looking at a thermal mapping operation in Indonesia, specifically in the city of Bengkalis. Our primary sensor requirement is TIR, which we'll use for capturing heat signatures and surface temperature profiles.
 
-I'm reaching out from the Earth observation mission control to request your assistance in capturing thermal data for a location in Indonesia. Specifically, we're looking at Bengkalis city. Our objective is to gather detailed information on heat signatures and surface temperatures across the region.
+This task is classified as a low priority importance request, meaning it doesn't have a strict deadline for execution but should be scheduled according to our flexible timeline. We're aiming to capture this data in three days by the evening at the latest. This thermal mapping will help us identify any potential hotspots or anomalies that could indicate issues with infrastructure or environmental conditions in Bengkalis.
 
-With this task, we're placing a low priority importance on the request, indicating that it's more of a background survey or testbed tracking task. We understand that there might be flexibility in scheduling, so you can drop or reschedule it at your convenience if necessary.
+Please ensure that you have all the necessary resources allocated for this task and that the data products are ready for ingestion into our pipeline before the target day's evening timeframe. We appreciate your cooperation and look forward to receiving the results as soon as possible.
 
-The operational deadline for delivering these data products is set for three days from now, with the strict delivery deadline being overnight. We aim to ensure that the thermal mapping data is ingested into our pipeline before this time frame ends.
-
-For this mission, we'll be utilizing our TIR (Thermal Infrared) sensor, which will allow us to capture thermal anomalies and map heat emissions across the region. This technology is crucial for understanding local temperature profiles and identifying any unusual heat sources that might be of interest.
-
-Please note that we're looking for a high-resolution thermal snapshot that can provide insights into the thermal dynamics of the area. This data will help us in monitoring environmental conditions, detecting hotspots, or assessing the impact of various factors on the local climate.
-
-Thank you for considering our request. We appreciate your expertise and look forward to receiving the data products as per the outlined specifications.
-
-Best regards,
-[Your Name]
+Thank you, and I'll be available for any further clarifications or adjustments needed.

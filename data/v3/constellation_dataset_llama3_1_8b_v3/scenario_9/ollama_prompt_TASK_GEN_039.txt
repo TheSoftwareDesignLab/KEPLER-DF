@@ -1,0 +1,9 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for a thermal mapping mission.
+
+The task is an absolute institutional priority to capture a heat signature and surface temperature profile over the region of Kapuas, Indonesia. We require a high-resolution thermal snapshot for daylight photography, clear optical imagery, or true-color visual documentation within the next three days, specifically during the morning hours. The mission must be executed as a critical payload capture and mandatory directive, with an urgent operational execution and un-preemptable mission lock.
+
+This request is part of a baseline pipeline tracking setup with fixed parameters representing normal operational status and standard workflow updates. The thermal mapping objective is to assess heat emissions and detect thermal anomalies over the region, which will provide valuable insights for our operational planning and decision-making processes.
+
+Please allocate necessary resources and assets to ensure the timely execution of this mission. We expect a high-quality thermal dataset with accurate temperature profiles and heat signatures to support our operational requirements.
+
+Note: This request has a flexible schedule for opportunistic capture, and we can drop or reschedule it at convenience if needed.

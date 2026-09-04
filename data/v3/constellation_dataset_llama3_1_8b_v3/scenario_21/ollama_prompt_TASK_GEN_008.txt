@@ -1,0 +1,1 @@
+We need to schedule a low-priority importance task for opportunistic capture, with a flexible schedule for a multispectral vegetation analysis using VNIR. We're looking at a region in northern Italy, and we want to conduct this survey sometime today around mid-day. It's a non-essential background filler task, so feel free to drop or reschedule at convenience.

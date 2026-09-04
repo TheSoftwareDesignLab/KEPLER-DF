@@ -1,1 +1,1 @@
-This is a standard operational tasking for a high-resolution optical snapshot of Mapiripán, Colombia. We need clear optical imagery of the area with a strict delivery deadline set for tomorrow overnight at the latest.
+This is a standard operational tasking for a high-resolution optical snapshot of Mapiripán, Colombia. We need this imagery ingested into the pipeline before tomorrow evening at the latest.

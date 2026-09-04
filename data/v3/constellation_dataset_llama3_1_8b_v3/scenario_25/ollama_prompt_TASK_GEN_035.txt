@@ -1,0 +1,1 @@
+We need a low priority importance request for a thermal mapping task using the TIR sensor. The location is in Norte, and we'd like to capture this sometime today around mid-day, preferably in the morning. This is a non-essential background filler task with a flexible schedule for opportunistic capture, so feel free to drop or reschedule at convenience.

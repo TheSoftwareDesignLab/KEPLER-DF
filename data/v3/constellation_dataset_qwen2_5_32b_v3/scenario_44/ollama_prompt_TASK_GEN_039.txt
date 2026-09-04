@@ -1,0 +1,1 @@
+We need a low priority importance thermal mapping task for Indonesia, specifically around Ecuatorial. This is more of a background survey or testbed tracking task, so feel free to drop or reschedule it at convenience. However, we do need the data products ingested into the pipeline by the afternoon in four days.

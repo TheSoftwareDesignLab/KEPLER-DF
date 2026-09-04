@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request coming in for an opportunistic capture over Correggio, Italy. We're looking to get a cloud-penetrating radar scan of the area. This is more of a background survey task, so feel free to drop or reschedule it at convenience, but if possible, we'd like to have the data products ingested into the pipeline by morning in four days.

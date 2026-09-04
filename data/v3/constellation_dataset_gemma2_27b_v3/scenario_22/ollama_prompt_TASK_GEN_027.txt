@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an immediate and un-preemptable mission lock to acquire thermal mapping data over Sekadau, Indonesia. The target window is in four days during the afternoon.

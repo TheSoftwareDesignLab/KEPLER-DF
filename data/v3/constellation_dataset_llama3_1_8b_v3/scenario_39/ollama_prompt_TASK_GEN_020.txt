@@ -1,0 +1,1 @@
+We have a low priority importance request for a thermal mapping task, treating it as a non-essential background filler task where we can drop or reschedule at convenience. We're looking to capture a heat signature and surface temperature profile in Vallecorsa, Italy overnight tomorrow using our thermal imaging capabilities.

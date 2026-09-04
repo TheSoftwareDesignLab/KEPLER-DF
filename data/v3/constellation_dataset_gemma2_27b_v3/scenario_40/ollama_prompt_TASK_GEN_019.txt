@@ -1,0 +1,1 @@
+This is a standard operational tasking for thermal mapping of San Vicente del Caguán, Colombia. We require a heat signature capture sometime in the evening, three days from now.

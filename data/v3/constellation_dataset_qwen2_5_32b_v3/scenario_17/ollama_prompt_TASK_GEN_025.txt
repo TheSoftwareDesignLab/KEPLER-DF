@@ -1,0 +1,1 @@
+Hey, we need a low priority importance multispectral vegetation analysis over Cubará, Colombia. This is a non-essential background filler task, so feel free to drop or reschedule it at convenience. We're looking to assess the chlorophyll absorption level and calculate the NDVI index. Make sure the data products are ingested into the pipeline by morning in four days.

@@ -1,0 +1,1 @@
+We need to set up a routine monitoring task for multispectral vegetation analysis over Ecuatorial, focusing on assessing the chlorophyll absorption levels and calculating the NDVI index. This is part of our baseline pipeline tracking with fixed parameters, representing normal operational status. We're looking to capture this data in three days during mid-day.

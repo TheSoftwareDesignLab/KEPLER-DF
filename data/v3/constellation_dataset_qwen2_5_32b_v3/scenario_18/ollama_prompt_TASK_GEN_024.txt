@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a multispectral vegetation analysis over Bukit Mabong, Malaysia. This involves assessing chlorophyll absorption levels and calculating the NDVI index. The data products must be ready by tomorrow's overnight block at the latest, ensuring they are ingested into the pipeline as part of our baseline monitoring setup.

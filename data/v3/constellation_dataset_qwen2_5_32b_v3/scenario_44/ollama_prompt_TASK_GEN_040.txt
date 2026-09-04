@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for an active radar scan over Sotará, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The data products must be ready by the evening in three days, ensuring they are ingested into the pipeline before then.

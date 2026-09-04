@@ -1,0 +1,1 @@
+We need a flexible schedule for an opportunistic thermal mapping task in Colombia, specifically in Lejanías, sometime today around mid-day. This is a low priority importance request where we can drop or reschedule at convenience, treating it as a background survey task with a thermal anomaly detection objective using the TIR sensor.

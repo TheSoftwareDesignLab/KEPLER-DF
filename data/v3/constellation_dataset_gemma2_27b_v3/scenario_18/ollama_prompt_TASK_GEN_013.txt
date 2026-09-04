@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral snapshot of Supatá, Colombia, for vegetation analysis. Specifically, we need to calculate the NDVI index and surface reflectance. Please schedule this task sometime today around mid-day.

@@ -1,0 +1,5 @@
+Tasking Request: High-resolution near-infrared reflection for vegetation analysis in Italia.
+
+We require a standard operational tasking for commercial tasking, part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a routine monitoring task for multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index and surface reflectance. The target location is in Italia, specifically in the city of Norte.
+
+Please capture this data using near-infrared reflection sometime today around mid-day, as part of our normal operational workflow update.

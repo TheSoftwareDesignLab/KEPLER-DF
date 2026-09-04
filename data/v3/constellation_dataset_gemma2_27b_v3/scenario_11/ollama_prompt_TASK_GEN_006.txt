@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. I need a high-resolution optical snapshot of Kampung Kolong 2, Malaysia, sometime tomorrow afternoon.  This task has an un-preemptable mission lock.

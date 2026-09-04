@@ -1,12 +1,13 @@
-Hello satellite constellation planner,
+Good day to our satellite constellation planners,
 
-I'm reaching out to request a high-resolution optical snapshot of the region around Saas-Almagell, Schweiz/Suisse/Svizzera/Svizra. Our mission involves capturing clear daylight imagery for the purpose of true-color visual documentation. We're utilizing near-infrared (NIR) sensors for this task.
+We're reaching out with a standard operational tasking request for a near-infrared (NIR) scan of a region in the picturesque Swiss Alps, specifically focusing on the charming town of Saas-Almagell. Our mission allocation is marked as medium importance, implying that while it's not an urgent matter, it does require attention within our baseline pipeline tracking setup.
 
-Our priority is medium importance, indicating that this task falls under standard operational tasks with fixed parameters representing normal operational status. It's part of our baseline pipeline tracking setup. We understand that the deadline for delivering the data products is set for the day after tomorrow, around mid-day, and we need these data by then at the latest.
+Our primary objective is to capture thermal mapping data for this area, aiming to assess soil moisture and water body boundaries using the unique properties of near-infrared reflection. This task will help us understand the environmental conditions of the region in detail.
 
-The goal here is to map water body boundaries and assess soil moisture levels using near-infrared reflection capabilities. This will help us discriminate gradients and provide valuable insights into environmental conditions in the area.
+We're targeting a specific day, which is the day after tomorrow, with a strict delivery deadline set for that day's morning block. The products we receive must be ingested into our pipeline before the morning hours on that day to ensure timely analysis and feedback.
 
-Thank you for your attention to this request, and we look forward to receiving the data products in time for our analysis.
+Thank you for your attention to this request. We appreciate your expertise in delivering high-quality data products that will support our ongoing monitoring efforts in the region.
 
 Best regards,
-[Your Name]
+
+[Your Mission Operator]

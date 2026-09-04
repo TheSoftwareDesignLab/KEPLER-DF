@@ -1,0 +1,1 @@
+We need to conduct a standard operational tasking for a high-resolution active radar scan over Norte city. This is part of our baseline pipeline tracking with fixed parameters, so we're looking at a normal operational status. The data products must be ready by today in the evening at the latest.

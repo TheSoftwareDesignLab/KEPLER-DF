@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Valle de San Juan, Colombia. We need a high-resolution capture of the area sometime the day after tomorrow morning to assess chlorophyll absorption levels and calculate the vegetation NDVI index.

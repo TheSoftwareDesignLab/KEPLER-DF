@@ -1,12 +1,7 @@
-Good day to all satellite planners and mission operators,
+Good day to all satellite planners and mission operators. I'm reaching out with a task that requires your immediate attention due to its high importance. Our client has requested an active radar scan using microwave surface imaging technology for a critical payload capture operation. The geographical context involves the picturesque region of Italia, specifically the charming town of Burzanella, where we aim to capture essential ground geometry details through cloud-penetrating capture.
 
-I'm reaching out with a task request that requires your immediate attention. We're looking to capture high-resolution data for a critical payload in the region of Burzanella, located within the beautiful landscape of Italia. The primary sensor we're utilizing is an advanced SAR system, enabling us to perform active radar scans and penetrate through any cloud cover or challenging weather conditions to capture essential ground geometry.
+The operational objective is to ensure that this task is treated as a non-essential background filler task with a flexible schedule for opportunistic capture. We understand that this might be considered a background survey or testbed tracking task, and we appreciate your cooperation in treating it accordingly.
 
-Our priority level is set at "low importance," meaning that while this task is not urgent, it's still a part of our baseline pipeline tracking setup. We understand that flexibility in scheduling is key here, allowing for a "non-essential background filler task" that can be dropped or rescheduled as per your convenience. The goal is to conduct this survey as a "background survey" or "testbed tracking task," ensuring that we're observing the area with the utmost care and precision.
+Our deadline for the data products is set strictly by the target day 'in three days' at the latest, with a strict delivery deadline for 'overnight'. This means that we need to ensure the products are ingested into the pipeline before the target day's overnight block. We kindly request your understanding and prompt action to meet this deadline.
 
-We need this data by our target day, which is in three days, with the strict delivery deadline set for the morning of that day. This means that the products must be ingested into our pipeline before the night falls on the target day. We're not looking to extend this deadline; it's a clear and firm requirement that we must adhere to.
-
-Thank you for your understanding and swift action in fulfilling this request. We appreciate your commitment to operational excellence and look forward to receiving the data products as per our guidelines.
-
-Best regards,
-Your Earth-observation mission operator
+Thank you for your attention to this matter, and we look forward to your swift response.

@@ -1,0 +1,2 @@
+prompt
+We need a flexible schedule for an opportunistic capture of a multispectral vegetation analysis in Colombia, specifically in Nuevo Belén de Bajirá. The goal is to assess the chlorophyll absorption level and calculate the NDVI index and surface reflectance using near-infrared reflection. This is a low priority importance request with a flexible schedule, so we can drop or reschedule at convenience if needed. We're looking to capture this data sometime in three days during the overnight period.

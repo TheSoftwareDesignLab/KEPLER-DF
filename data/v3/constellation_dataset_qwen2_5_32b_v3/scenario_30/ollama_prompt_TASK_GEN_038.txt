@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of the northern region in Italy, specifically focusing on the city of Norte. This is part of our standard operational tasking with fixed parameters, representing normal operational status. The data products are needed by morning in four days to ensure they are ingested into the pipeline on time.

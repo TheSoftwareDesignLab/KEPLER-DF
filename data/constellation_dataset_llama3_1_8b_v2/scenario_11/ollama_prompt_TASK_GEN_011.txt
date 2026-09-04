@@ -1,1 +1,5 @@
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The objective is to capture a multispectral vegetation analysis using high-resolution optical snapshot capabilities for daylight photography, clear optical imagery, or true-color visual documentation in the region of Tagliole, Italia. This task should be completed with a strict delivery deadline set for in three days during the afternoon at the latest.
+Tasking Request: Routine Monitoring of Vegetation Health in Northern Italy
+
+We require a high-resolution optical snapshot of the Tagliole region in northern Italy, utilizing multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index. This task is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The data must be ready by in three days during the afternoon at the latest, ensuring the products are ingested into the pipeline before then.

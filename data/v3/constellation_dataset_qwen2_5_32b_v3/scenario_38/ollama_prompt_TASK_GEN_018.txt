@@ -1,0 +1,1 @@
+Hey, we need a near-infrared reflection capture over Ecuatorial, Indonesia to map water body boundaries and assess soil moisture. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. We just need the data to be ready for ingestion into the pipeline during the afternoon the day after tomorrow.

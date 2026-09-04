@@ -1,0 +1,1 @@
+We need to set up a standard operational tasking for a routine monitoring mission in Norte. This involves capturing a cloud-penetrating radar scan overnight in three days. It's part of our baseline pipeline tracking setup, so let's make sure we hit the fixed parameters as per normal operational status.

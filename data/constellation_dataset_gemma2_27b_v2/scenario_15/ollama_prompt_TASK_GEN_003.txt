@@ -1,1 +1,1 @@
-Schedule a standard operational tasking for an active radar scan of Ecuatorial. I need a cloud-penetrating capture with microwave surface imaging, ensuring the products are ingested into the pipeline before the day after tomorrow overnight at the latest.
+This is a standard operational tasking for an active radar scan using microwave surface imaging over Ecuatorial. We need this cloud-penetrating capture by the day after tomorrow in the evening at the latest.

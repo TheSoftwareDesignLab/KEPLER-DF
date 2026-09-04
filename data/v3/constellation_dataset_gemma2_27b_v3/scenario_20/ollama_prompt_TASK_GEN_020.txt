@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis. We need a high-resolution VNIR scan over the city of Norte sometime in three days during the overnight hours.

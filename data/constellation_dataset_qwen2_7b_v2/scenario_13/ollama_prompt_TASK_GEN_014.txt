@@ -1,12 +1,10 @@
-Greetings to our automated satellite constellation planner,
+Good day, satellite constellation planner. I'm reaching out to request an operational tasking for a low priority importance mission allocation. We're looking to capture a high-resolution optical snapshot of Norte, a region in our coverage area, for daylight photography purposes. Our goal is to assess clear optical imagery and gather true-color visual documentation of the area.
 
-I'm reaching out with a task request for an Earth observation mission. Our objective is to capture a high-resolution optical snapshot of Norte, focusing on daylight photography and clear optical imagery to document the area accurately.
+This request falls under a flexible schedule and is treated as a non-essential background filler task with no strict deadline constraints. However, we kindly ask that you treat it with due importance, considering it part of our baseline pipeline tracking setup with fixed parameters representing normal operational status or a workflow update.
 
-Given its low priority importance, this request carries a flexible schedule for opportunistic capture. We explicitly note that it's a non-essential background filler task that can be dropped or rescheduled at convenience. This background survey aims to provide valuable visual documentation without immediate urgency.
+We aim to have the data products ready by the target day, which is in three days, during the afternoon at the latest. This ensures they are ingested into our pipeline before the deadline set for that day's afternoon period. Kindly note that we're not altering or extending this deadline; it's a strict operational requirement.
 
-We're targeting delivery by the day following our request, specifically during the afternoon timeframe, ensuring the products are ingested into the pipeline before then. This aligns with our operational guidelines for relative timeframes, emphasizing the deadline as a strict upper limit for data availability.
-
-Thank you for your attention and assistance in fulfilling this task.
+Thank you for your attention to this matter and your cooperation in ensuring our mission is carried out efficiently and according to our guidelines.
 
 Best regards,
 [Your Name]

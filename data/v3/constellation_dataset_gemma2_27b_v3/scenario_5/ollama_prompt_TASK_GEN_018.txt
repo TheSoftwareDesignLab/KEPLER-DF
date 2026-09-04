@@ -1,0 +1,1 @@
+This is a standard operational tasking for an active radar scan using microwave surface imaging over Ecuatorial, Indonesia. The goal is to capture a cloud-penetrating image of the ground geometry sometime in three days during the afternoon.

@@ -16,7 +16,7 @@ def _discover_and_parse_metrics(data_root_str: str = "data") -> Dict[str, Dict[s
     print(f"[DEBUG] Checking data folder at: {root_path.resolve()}")
     
     if not root_path.exists():
-        fallback_path = (pathlib.Path(__file__).resolve().parent.parent / "data").resolve()
+        fallback_path = (pathlib.Path(__file__).resolve().parent.parent / "data/v3").resolve()
         print(f"[DEBUG] Path '{data_root_str}' not found. Trying fallback path: {fallback_path}")
         root_path = fallback_path
 
@@ -72,7 +72,7 @@ def _discover_and_parse_metrics(data_root_str: str = "data") -> Dict[str, Dict[s
     return model_metrics
 
 
-def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "utilities/output/model_accuracy_comparison.png") -> None:
+def generate_metrics_chart(data_dir: str = "data/v3/", output_image_path: str = "utilities/output/model_accuracy_comparison_larger.png") -> None:
     raw_data = _discover_and_parse_metrics(data_dir)
     
     if not raw_data:
@@ -114,7 +114,7 @@ def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "uti
         ax.bar_label(rects, padding=4, fmt="%.1f%%", fontsize=8.5, fontweight="bold")
 
     ax.set_ylabel("Semantic Matching Accuracy (%)", fontsize=11, fontweight="bold")
-    ax.set_title("KEPLER Dataset Factory - LLM Semantic Generation Accuracy by Category", fontsize=13, fontweight="bold", pad=15)
+    ax.set_title("KEPLER Dataset Factory - LLM Semantic Generation Accuracy by Category - Larger Dataset", fontsize=13, fontweight="bold", pad=15)
     
 
     ax.set_xticks(x)
@@ -127,7 +127,7 @@ def generate_metrics_chart(data_dir: str = "data", output_image_path: str = "uti
 
     out_path = pathlib.Path(output_image_path)
     if not out_path.is_absolute() and not pathlib.Path("utilities").exists():
-        out_path = (pathlib.Path(__file__).resolve().parent / "output" / "model_accuracy_comparison.png").resolve()
+        out_path = (pathlib.Path(__file__).resolve().parent / "output" / "model_accuracy_comparison_larger.png").resolve()
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     

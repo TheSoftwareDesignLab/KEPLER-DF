@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for a thermal mapping task over Bobbio, Italy. It's a non-essential background filler task where we're capturing the heat signature and surface temperature profile. We can drop or reschedule this at convenience, but if it happens, we'd need the data by tomorrow evening at the latest.

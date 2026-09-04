@@ -1,0 +1,1 @@
+Hey, we need an opportunistic near-inactive capture over Norte using microwave surface imaging to ensure we get a cloud-penetrating snapshot. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule at convenience, but ideally, we'd like the data products ingested into the pipeline by the day after tomorrow in the morning.

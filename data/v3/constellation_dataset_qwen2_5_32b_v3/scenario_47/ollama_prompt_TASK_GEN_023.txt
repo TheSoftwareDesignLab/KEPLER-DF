@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for thermal mapping in Norte. This is part of our routine monitoring and involves capturing the surface temperature profile. We're looking to execute this in three days during the morning. Please ensure this aligns with our baseline pipeline tracking setup.

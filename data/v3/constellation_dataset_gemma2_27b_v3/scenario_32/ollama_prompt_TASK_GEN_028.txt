@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis in Cabrera, Colombia. We need a high-resolution snapshot to assess chlorophyll absorption levels and calculate the vegetation NDVI index sometime tomorrow afternoon.

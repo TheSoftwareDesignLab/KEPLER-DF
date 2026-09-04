@@ -1,0 +1,7 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
+
+We need to capture a high-resolution optical snapshot for daylight photography in the region of Indonesia, specifically in the city of Ecuatorial. This is an absolute institutional priority, as it involves a critical payload capture and mandatory directive for urgent operational execution. We require a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index and surface reflectance.
+
+Please allocate the necessary resources and assets for this mission with a flexible schedule for opportunistic capture. The operator notes that this is a non-essential background filler task, where it can be dropped or rescheduled at convenience, treating it as a background survey or testbed tracking task.
+
+The deadline for this task is sometime today around mid-day. Please ensure that the mission is executed within this timeframe.

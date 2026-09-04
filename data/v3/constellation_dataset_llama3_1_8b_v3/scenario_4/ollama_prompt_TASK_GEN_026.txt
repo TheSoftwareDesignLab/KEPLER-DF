@@ -1,0 +1,5 @@
+Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Northern Italy
+
+We require a standard operational tasking for high-resolution optical snapshot capture using daylight photography to document true-color visual scenes. The target location is in the region of North, Italia. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The task should be executed sometime today around mid-day.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of San Colombano al Lambro, Italia, tomorrow during the afternoon.  Please ensure an un-preemptable mission lock for this tasking.

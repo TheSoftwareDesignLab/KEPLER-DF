@@ -1,0 +1,2 @@
+Request for low-priority importance NIR sensor tasking: 
+We need to conduct an opportunistic near-infrared reflection capture sometime today around mid-day, focusing on the Norte region. This is a non-essential background filler task with a flexible schedule, so please drop or reschedule at convenience if needed.

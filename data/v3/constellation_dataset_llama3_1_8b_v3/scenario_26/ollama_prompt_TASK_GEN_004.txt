@@ -1,0 +1,3 @@
+Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner:
+
+We require an absolute institutional priority to execute a thermal mapping mission in Colombia, specifically targeting the Carmen del Darién (Curbaradó) region. The objective is to capture a high-resolution heat signature and surface temperature profile using active microwave surface imaging, which will enable us to detect and map thermal anomalies and heat emissions. This critical payload capture is a binding contract requirement and must be executed as soon as possible, ideally tomorrow morning in the evening.

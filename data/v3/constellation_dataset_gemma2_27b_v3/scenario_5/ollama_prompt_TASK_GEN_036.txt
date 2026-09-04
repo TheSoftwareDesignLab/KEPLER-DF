@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a near-infrared reflection scan of Basa Ampek Balai Tapan, Indonesia, sometime the day after tomorrow morning.  The data is needed for water body boundary mapping and soil moisture assessment. Please prioritize this task and lock in the schedule.

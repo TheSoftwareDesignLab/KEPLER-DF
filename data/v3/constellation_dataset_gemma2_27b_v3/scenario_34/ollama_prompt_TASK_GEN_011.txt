@@ -1,0 +1,1 @@
+We need a low priority background filler task for thermal mapping around Norte sometime the day after tomorrow around mid-day. Drop or reschedule at convenience, it's just a non-essential testbed tracking task.

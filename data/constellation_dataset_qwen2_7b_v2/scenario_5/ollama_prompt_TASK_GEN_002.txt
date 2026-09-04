@@ -1,3 +1,12 @@
-Good day to our satellite constellation planners. We're tasked with a low priority importance request, which involves capturing a thermal mapping of the region named "Poggi del Sasso" in Italia using an active radar scan with microwave surface imaging capabilities. This task aims to assess heat signatures and surface temperature profiles for potential thermal anomalies or emission detection.
+Good day to all satellite planners and mission operators,
 
-Our deadline is set for the day after tomorrow, with a strict delivery deadline by the overnight period. We're looking for high-quality data products that can be ingested into our pipeline before this time frame. Please ensure we receive these data in time to meet our operational needs. Thank you for your attention and cooperation.
+I'm reaching out with a task request that's of low priority importance, which means it can be scheduled flexibly or even dropped if needed. I'm looking for an opportunity to capture a thermal mapping task using our SAR sensor, focusing on a specific region in Italia, specifically the area around Poggi del Sasso.
+
+Our primary goal is to gather data that will help us understand heat signatures and surface temperature profiles, which can be crucial for various applications such as environmental monitoring or agricultural assessments. This request doesn't carry an urgent deadline; instead, we aim to have the data products ingested into our pipeline by the day after tomorrow, with a strict delivery deadline set for the overnight period of that day.
+
+Please note that this task is considered a background survey or testbed tracking task and should not affect any higher-priority missions. We appreciate your understanding and flexibility in scheduling this request according to your operational constraints.
+
+Thank you for your attention and cooperation.
+
+Best regards,
+[Your Name]

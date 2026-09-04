@@ -1,0 +1,1 @@
+We need an opportunistic active radar scan over Paipa, Colombia, to capture some cloud-penetrating imagery. This is a low priority importance request with a flexible schedule, so feel free to drop or reschedule at convenience. We just want to ensure the products are ingested into the pipeline before tomorrow evening.

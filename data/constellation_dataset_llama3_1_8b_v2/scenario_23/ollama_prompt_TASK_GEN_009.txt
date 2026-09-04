@@ -1,16 +1,1 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the Earth-observation mission operator:
-
-{
-  "primary_sensor": "VNIR",
-  "location_details": {
-    "country": "Indonesia",
-    "city": "Ecuatorial"
-  },
-  "priority_level": 3,
-  "target_day": "the day after tomorrow",
-  "target_diurnal_period": "in the evening"
-}
-
-Here is your final request:
-
-"Capture a high-resolution multispectral vegetation analysis of the Ecuatorial region in Indonesia, focusing on chlorophyll absorption levels and NDVI index, by the evening of the day after tomorrow. This is an absolute institutional priority, representing a critical payload capture and mandatory directive for our baseline pipeline tracking setup with fixed parameters, ensuring normal operational status and workflow update."
+We require a high-priority tasking for a critical payload capture involving multispectral vegetation analysis using VNIR sensors over Indonesia, specifically in the city of Ecuatorial. This standard operational tasking is a binding contract requirement and an absolute institutional priority, necessitating a mandatory directive for urgent operational execution and un-preemptable mission lock. The data products must be delivered by the day after tomorrow in the evening at the latest, ensuring they are ingested into the pipeline before this strict deadline.

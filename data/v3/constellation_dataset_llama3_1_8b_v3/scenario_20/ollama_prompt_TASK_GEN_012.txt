@@ -1,0 +1,3 @@
+Tasking Request: Routine Monitoring for Baseline Pipeline Tracking
+
+We require a standard operational tasking for routine monitoring of the Murung Raya region in Indonesia. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture a high-resolution active radar scan using microwave surface imaging to pierce heavy weather and capture ground geometry, specifically during the afternoon of the day after tomorrow.

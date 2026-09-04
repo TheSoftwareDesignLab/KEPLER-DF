@@ -1,0 +1,1 @@
+Hey, we need a high-resolution optical snapshot of the area around Ecuatorial in Indonesia. This is a low priority importance request, so feel free to drop or reschedule it at convenience. We just want to use this as a background survey task. Make sure the data products are ingested into the pipeline before evening today.

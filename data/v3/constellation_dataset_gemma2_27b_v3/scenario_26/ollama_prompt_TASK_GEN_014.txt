@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active thermal mapping scan of the region around Norte, Italia.  The target window for this mandatory directive is in three days during the morning.

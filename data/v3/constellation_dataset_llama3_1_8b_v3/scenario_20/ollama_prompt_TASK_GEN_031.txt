@@ -1,0 +1,5 @@
+Tasking Request for Routine Monitoring: Colombia's Yarumal Region
+
+We require a standard operational tasking for routine monitoring of the Yarumal region in Colombia. This involves a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the NDVI index, as well as surface reflectance. The task is classified as a commercial tasking and part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+The mission allocation priority for this tasking is medium importance. We aim to capture the data sometime today around mid-day, specifically during the overnight period. Please ensure that the satellite resources are allocated accordingly to meet this requirement.

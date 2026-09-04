@@ -1,8 +1,10 @@
-Good day, satellite constellation planner. I'm reaching out to request a critical task for an Earth observation mission that needs to be executed with utmost importance. Our focus is on thermal mapping of the region around Paimadó, Colombia, using our high-priority TIR sensor. This involves capturing detailed heat signatures and surface temperature profiles across the area to identify any thermal anomalies or emissions.
+Good day, satellite constellation planner. I'm requesting a task to capture thermal mapping data for a critical payload in Colombia, specifically in the region of Paimadó. This mission is of low importance and flexibility is key here. We aim to assess heat signatures and surface temperature profiles for this area. 
 
-Given the urgency, we require these data products by tomorrow evening at the latest, ensuring they are ingested into our pipeline before then. This task is a non-essential background filler, which can be dropped or rescheduled at your convenience if there's a more pressing operational need. 
+The primary sensor required is Thermal Infrared (TIR) for this purpose. The goal is to gather data that will help us detect thermal anomalies and map heat emissions accurately. This task is part of a background survey, focusing on environmental monitoring.
 
-Please note that this request carries low priority importance, but it's still essential for our ongoing research and monitoring efforts. We appreciate your understanding and prompt attention to this matter. Thank you for your cooperation in ensuring these observations are captured within the specified timeframe.
+Please note, the deadline for delivering these data products is set for tomorrow evening. We need the thermal mapping results by then to ensure they are ingested into our pipeline before the specified time. This request aligns with our non-essential background filler tasks and can be dropped or rescheduled at convenience if needed. 
+
+Thank you for your attention, and I look forward to your confirmation on this task.
 
 Best regards,
 [Your Name]

@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of the area around Sipí, Colombia, for a low priority importance request. This is more of a background survey or testbed tracking task, so feel free to drop or reschedule it at convenience. However, if possible, we'd like the data products ingested into the pipeline by tomorrow around mid-day.

@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of Gordona, Italia sometime in four days around mid-day.  The microwave surface imaging will allow us to pierce any potential cloud cover and capture detailed ground geometry.

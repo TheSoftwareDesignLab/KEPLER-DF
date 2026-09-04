@@ -1,0 +1,1 @@
+Hey, we need a low priority importance request for a thermal mapping of the area around Ecuatorial, Indonesia. This is more of a background survey task, so feel free to drop or reschedule it at convenience. However, if possible, we'd like to have the data products ingested into the pipeline by the day after tomorrow in the morning.

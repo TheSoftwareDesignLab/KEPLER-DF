@@ -1,0 +1,1 @@
+We need to schedule a standard operational tasking for an active radar scan over La Aguada, Venezuela. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The data products must be ready by the day after tomorrow in the evening at the latest.

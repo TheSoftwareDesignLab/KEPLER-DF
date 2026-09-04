@@ -1,0 +1,1 @@
+Hey, we need to get a thermal mapping of the area around Ecuatorial, Indonesia. This is a low priority importance task with a flexible schedule, so feel free to drop or reschedule it at convenience. We just want to capture the heat signature for some background survey work. Make sure the data products are ingested into the pipeline during the afternoon in three days.

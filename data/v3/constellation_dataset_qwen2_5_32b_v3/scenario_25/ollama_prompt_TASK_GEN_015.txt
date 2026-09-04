@@ -1,0 +1,1 @@
+We need a high-resolution optical snapshot of Bukit Mabong, Malaysia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters and represents normal operational status. The data products must be ready by the overnight period in three days to ensure they are ingested into the pipeline on time.

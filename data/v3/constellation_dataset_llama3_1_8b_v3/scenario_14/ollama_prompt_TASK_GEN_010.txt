@@ -1,0 +1,1 @@
+We need to schedule a low priority importance task for opportunistic capture with a flexible schedule. The mission objective is to conduct thermal mapping to capture a heat signature and surface temperature profile over San José del Guaviare in Colombia, using an active thermal scan. This should be done sometime today around mid-day.

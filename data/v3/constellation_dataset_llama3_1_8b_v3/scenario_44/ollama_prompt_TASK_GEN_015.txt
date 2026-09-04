@@ -1,0 +1,9 @@
+Tasking Request for VNIR Multispectral Vegetation Analysis in Banyuasin, Indonesia
+
+This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We require a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance in Banyuasin, Indonesia.
+
+The location details indicate that we are targeting the region of Banyuasin in Indonesia. This is a routine monitoring task with a flexible schedule for opportunistic capture.
+
+We need this tasking to be completed sometime today around mid-day, specifically during the evening hours. This will allow us to capture the necessary data and meet our operational requirements.
+
+Please confirm receipt and execution of this tasking request.

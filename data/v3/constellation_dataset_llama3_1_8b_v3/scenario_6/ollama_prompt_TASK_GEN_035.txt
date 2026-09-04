@@ -1,0 +1,1 @@
+We need to allocate a low priority importance task for an opportunistic capture, with a flexible schedule, for a background survey or testbed tracking task. We're looking for an active radar scan using microwave surface imaging to pierce heavy weather and capture ground geometry in Cerasa, Italy, sometime today around mid-day.

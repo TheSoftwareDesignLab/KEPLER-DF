@@ -1,12 +1,5 @@
-Good day to our automated satellite constellation planner,
+Good day to our automated satellite constellation planner. Our mission operator here requires a highly detailed SAR scan of the region around Sizzano, Italia, for an important thermal mapping task. We're looking to capture microwave surface images that can penetrate heavy weather conditions and provide us with ground geometry data. The primary objective is to identify heat signatures and detect any thermal anomalies in the area.
 
-I'm reaching out from our Earth-observation mission team with a task request that's been flagged as a low priority importance, which means we're looking for a flexible schedule and opportunistic capture of the data. We're focusing on an active radar scan using microwave surface imaging to capture ground geometry, piercing through heavy weather conditions.
+Given the nature of this task, we classify it as a low priority importance request, allowing for flexible scheduling. However, we do emphasize the need for this tasking to be completed within the strict deadline set for three days from now, with the data products needed by the overnight period at the latest. We are treating this as a background survey task that can be dropped or rescheduled at our convenience.
 
-Our target location is in Italia, specifically the city of Sizzano, where we aim to gather detailed information about the region's landscape. The request is for a "standard operational tasking" or "routine monitoring" part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-We're setting a strict delivery deadline for the products ingested into our pipeline before the target day, which is in three days, with a specific diurnal period marked as "overnight". This means we need the data ready by tomorrow's overnight block to ensure it aligns with our operational workflow.
-
-Thank you for your attention and support in fulfilling this task. We appreciate your cooperation in meeting our deadline.
-
-Best regards,
-[Your Team]
+Thank you for your attention to this matter. We appreciate your support in ensuring that our satellite constellation meets these operational guidelines and delivers the required data products within the specified timeframe. Please let us know if you need any further information or adjustments to this request.

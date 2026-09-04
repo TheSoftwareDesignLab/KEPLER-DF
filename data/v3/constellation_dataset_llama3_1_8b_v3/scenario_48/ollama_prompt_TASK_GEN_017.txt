@@ -1,0 +1,5 @@
+Tasking Request: High-Resolution Optical Snapshot for Norte Region
+
+We require a high-resolution optical snapshot of the Norte region to capture clear optical imagery during the afternoon today. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
+
+Please allocate necessary assets and execute this tasking according to our commercial tasking requirements.

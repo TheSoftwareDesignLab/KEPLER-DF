@@ -1,0 +1,1 @@
+We need to capture a near-infrared reflection over Vezzolacca, Italia, for water body boundary mapping. This is part of our routine monitoring and falls under the baseline pipeline tracking setup with fixed parameters. Ensure the products are ingested into the pipeline before tomorrow evening at the latest.

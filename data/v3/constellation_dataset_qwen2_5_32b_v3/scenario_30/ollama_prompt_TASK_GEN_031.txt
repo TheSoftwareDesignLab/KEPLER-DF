@@ -1,0 +1,1 @@
+We need to conduct a thermal mapping task over Cabecera municipal Caicedonia in Colombia. This is part of our routine monitoring setup with fixed parameters and represents normal operational status. The goal is to capture the heat signature and surface temperature profile of the area. Ensure the products are ingested into the pipeline before three days overnight.

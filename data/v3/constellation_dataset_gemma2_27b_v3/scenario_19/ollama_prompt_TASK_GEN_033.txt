@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a high-resolution multispectral snapshot of Ecuatorial, Indonesia, specifically for vegetation analysis.  The target window is the day after tomorrow in the evening.

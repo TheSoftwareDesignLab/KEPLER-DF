@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis over Ecuatorial, Indonesia. We need a high-resolution VNIR scan of the region sometime the day after tomorrow during the overnight hours.

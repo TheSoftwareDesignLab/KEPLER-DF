@@ -1,0 +1,1 @@
+This is a low priority importance task for opportunistic capture. We need a multispectral vegetation analysis snapshot of Buccinasco, Italia sometime in three days during the overnight hours.  The goal is to assess chlorophyll absorption levels and calculate a vegetation NDVI index. Feel free to drop or reschedule this at your convenience.

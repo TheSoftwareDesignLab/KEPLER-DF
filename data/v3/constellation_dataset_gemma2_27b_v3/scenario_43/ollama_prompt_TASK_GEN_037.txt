@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need an active radar scan of El Castillo, Colombia, sometime the day after tomorrow around mid-day.  The target area requires cloud-penetrating capture, so please use microwave surface imaging for this task.

@@ -1,0 +1,3 @@
+Tasking Request: Opportunistic SAR Scan in Norte
+
+We're requesting an opportunistic active radar scan using microwave surface imaging to capture cloud-penetrating capture in Norte. This is a low priority importance task with a flexible schedule for opportunistic capture, so feel free to drop or reschedule at convenience if needed. We'd like to conduct this background survey sometime today around mid-day.

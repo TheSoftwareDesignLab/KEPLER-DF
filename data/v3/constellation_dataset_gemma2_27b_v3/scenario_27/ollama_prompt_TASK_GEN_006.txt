@@ -1,0 +1,1 @@
+This is a binding contract requirement for a critical payload capture. We need a near-infrared reflection scan of Ecuatorial, Indonesia sometime in three days during the afternoon. This data is essential for water body boundary mapping and soil moisture assessment in the region.

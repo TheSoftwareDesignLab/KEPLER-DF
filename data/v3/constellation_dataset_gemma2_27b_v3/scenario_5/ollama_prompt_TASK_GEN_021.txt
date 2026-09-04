@@ -1,0 +1,1 @@
+This is a standard operational tasking for multispectral vegetation analysis in Ecuatorial, Indonesia. I need a high-resolution VNIR scan sometime in four days during the overnight hours to assess chlorophyll absorption levels and calculate the vegetation NDVI index.

@@ -1,0 +1,1 @@
+We need a thermal mapping of Corrales, Colombia, capturing the surface temperature profile and thermal anomaly detection. This is part of our standard operational tasking with fixed parameters, ensuring normal operational status. The data products must be ready by tomorrow evening at the latest.

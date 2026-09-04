@@ -1,0 +1,1 @@
+Please conduct a thermal mapping task as part of our routine monitoring and baseline pipeline tracking setup, focusing on capturing a heat signature and surface temperature profile over the region of Bukit Mabong in Malaysia. This is a standard operational tasking with fixed parameters representing normal operational status, to be executed sometime today around mid-day.

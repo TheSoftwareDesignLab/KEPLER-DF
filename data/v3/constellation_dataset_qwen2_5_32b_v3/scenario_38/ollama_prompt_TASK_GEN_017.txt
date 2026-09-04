@@ -1,0 +1,1 @@
+Hey, we need a low priority importance background survey using multispectral vegetation analysis to assess chlorophyll absorption levels in Norte. This is a non-essential task, so feel free to drop or reschedule it at convenience. Just make sure the data products are ingested into the pipeline before mid-day in three days.

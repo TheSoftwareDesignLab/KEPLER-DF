@@ -1,0 +1,1 @@
+Hey, we've got a low priority importance request for an opportunistic capture using microwave surface imaging over Norte, Italia. This is more of a background survey task, so feel free to drop or reschedule it at convenience. However, if possible, we'd like the data products ingested into the pipeline before four days in the morning. Thanks!

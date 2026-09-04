@@ -1,0 +1,1 @@
+We need to capture a high-resolution optical snapshot of Pesisir Selatan, Indonesia, as part of our standard operational tasking. This is a routine monitoring activity with fixed parameters and represents our normal operational status. The imagery is needed by the afternoon in three days at the latest, so please ensure the products are ingested into the pipeline before then.

@@ -1,0 +1,1 @@
+We need a thermal mapping of San Martín, Colombia, to capture the surface temperature profile. This is part of our standard operational tasking with fixed parameters, so it's important we maintain normal operational status. The data products are needed by tomorrow evening at the latest.

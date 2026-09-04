@@ -1,0 +1,6 @@
+```prompt
+Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Indonesia
+
+We require a standard operational tasking for a commercial satellite imaging mission to capture high-resolution optical snapshots of the region around Ecuatorial, Indonesia. This is a routine monitoring task part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission must be executed within the next three days during the afternoon hours, specifically around mid-day. We need clear optical imagery for true-color visual documentation.
+
+This is a standard operational tasking and should be treated as such. Please ensure that all necessary protocols are followed to guarantee the success of this mission.

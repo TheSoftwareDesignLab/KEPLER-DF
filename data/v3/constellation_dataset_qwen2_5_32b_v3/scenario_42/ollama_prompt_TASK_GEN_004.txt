@@ -1,0 +1,1 @@
+We need a low priority importance task for a thermal mapping of Rioblanco, Colombia. This is a non-essential background filler task where we can drop or reschedule at convenience. The goal is to capture the heat signature and surface temperature profile. We just need the data by the day after tomorrow overnight at the latest.

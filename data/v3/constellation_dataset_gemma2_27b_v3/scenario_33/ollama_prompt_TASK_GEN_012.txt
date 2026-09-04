@@ -1,0 +1,1 @@
+Schedule a low priority background filler task for thermal mapping sometime in three days during the overnight hours. We need to capture the heat signature of the area around Renggiang, Indonesia.  Feel free to drop or reschedule this at your convenience; it's non-essential.
