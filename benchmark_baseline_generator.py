@@ -28,8 +28,8 @@ def get_base_config():
                 "X": {"weight": 0.6, "min_elevation_deg": 8.0, "max_slant_range_km": 2200.0, "downlink_rate_mb_s": 45.0},
                 "S": {"weight": 0.2, "min_elevation_deg": 5.0, "max_slant_range_km": 2600.0, "downlink_rate_mb_s": 2.0},
             },
-            "min_sensors_per_sat": 2,
-            "max_sensors_per_sat": 3
+            "min_sensors_per_sat": 1,
+            "max_sensors_per_sat": 2
         },
         "task_generation": {
             "polygon_ratio": 0.6,
