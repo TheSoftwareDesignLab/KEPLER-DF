@@ -72,7 +72,7 @@ def _discover_and_parse_metrics(data_root_str: str = "data") -> Dict[str, Dict[s
     return model_metrics
 
 
-def generate_metrics_chart(data_dir: str = "data/v3/", output_image_path: str = "utilities/output/model_accuracy_comparison_larger.png") -> None:
+def generate_metrics_chart(data_dir: str = "data/", output_image_path: str = "utilities/output/model_accuracy_comparison.png") -> None:
     raw_data = _discover_and_parse_metrics(data_dir)
     
     if not raw_data:
@@ -111,23 +111,23 @@ def generate_metrics_chart(data_dir: str = "data/v3/", output_image_path: str = 
             edgecolor="black",
             linewidth=0.8
         )
-        ax.bar_label(rects, padding=4, fmt="%.1f%%", fontsize=8.5, fontweight="bold")
+        ax.bar_label(rects, padding=4, fmt="%.1f%%", fontsize=10, fontweight="bold")
 
-    ax.set_ylabel("Semantic Matching Accuracy (%)", fontsize=11, fontweight="bold")
-    ax.set_title("KEPLER Dataset Factory - LLM Semantic Generation Accuracy by Category - Larger Dataset", fontsize=13, fontweight="bold", pad=15)
+    ax.set_ylabel("Semantic Matching Accuracy (%)", fontsize=18, fontweight="bold")
+    ax.set_title("KEPLER Dataset Factory - LLM Semantic Generation Accuracy by Category - Larger Dataset", fontsize=20, fontweight="bold", pad=15)
     
 
     ax.set_xticks(x)
-    ax.set_xticklabels(categories, fontsize=11, fontweight="bold")
+    ax.set_xticklabels(categories, fontsize=18, fontweight="bold")
     
     ax.set_ylim(0, 110)
     ax.grid(axis="y", linestyle="--", alpha=0.5, zorder=0)
     ax.set_axisbelow(True)
-    ax.legend(loc="lower left", frameon=True, shadow=False, facecolor="#f8f9f9", edgecolor="#d5dbdb")
+    ax.legend(loc="lower left", fontsize=18, frameon=True, shadow=False, facecolor="#f8f9f9", edgecolor="#d5dbdb")
 
     out_path = pathlib.Path(output_image_path)
     if not out_path.is_absolute() and not pathlib.Path("utilities").exists():
-        out_path = (pathlib.Path(__file__).resolve().parent / "output" / "model_accuracy_comparison_larger.png").resolve()
+        out_path = (pathlib.Path(__file__).resolve().parent / "output" / "model_accuracy_comparison.png").resolve()
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     

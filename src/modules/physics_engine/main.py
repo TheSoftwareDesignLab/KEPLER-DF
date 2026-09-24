@@ -3,11 +3,15 @@ import pathlib
 from datetime import datetime, timezone
 from src.core.datatypes import CollectedContext
 from .pass_calculator import compute_target_passes, compute_infrastructure_passes
+from .kml_generator import generate_simulation_kml
 
 __all__ = ["physics_engine_main"]
 
 
 def _export_physics_report(all_infra_passes: list, all_target_passes: list, context: CollectedContext, simulation_start_utc: datetime, simulation_end_utc: datetime, output_path: str) -> None:
+    """
+    Exports the physical report of the calculated passes to a JSON file.
+    """
     path = pathlib.Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -39,8 +43,14 @@ def physics_engine_main(
     output_path: str = "data/physics_passes_report.json",
     step_seconds: int = 20,
     min_duration: int = 5,
-    max_duration: int = 30
+    max_duration: int = 30,
+    export_kml: bool = False,
+    kml_output_path: str = ""
 ) -> None:
+    """
+    Main function of the physics engine that orchestrates the calculation of infrastructure
+    and target passes, and optionally exports the active passes KML visualization.
+    """
     t0_naive = simulation_start_utc.astimezone(timezone.utc).replace(tzinfo=None)
     tf_naive = simulation_end_utc.astimezone(timezone.utc).replace(tzinfo=None)
 
@@ -88,3 +98,12 @@ def physics_engine_main(
         simulation_end_utc=tf_naive,
         output_path=output_path
     )
+
+    if export_kml and kml_output_path:
+        print(f"[PHYSICS ENGINE] Generating Trajectories KML at {kml_output_path}...")
+        generate_simulation_kml(
+            context=context,
+            all_infra_passes=all_infra_passes,
+            all_target_passes=all_target_passes,
+            output_path=kml_output_path
+        )

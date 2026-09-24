@@ -11,13 +11,9 @@ except ImportError:
 
 from src.modules.data_collector.main import data_collector_main
 from src.modules.physics_engine.main import physics_engine_main
-from src.modules.prompt_factory.main import prompt_factory_main
 
 
 def load_config(config_path: str) -> dict:
-    """
-    Load the project's YAML configuration file.
-    """
     if not yaml_available:
         raise ImportError("The 'pyyaml' package is required to parse YAML configurations. Run 'pip install pyyaml'.")
     p = pathlib.Path(config_path)
@@ -31,9 +27,6 @@ def load_config(config_path: str) -> dict:
 
 
 def load_semantic_categories(categories_path: str) -> dict:
-    """
-    Upload the JSON file containing the semantic categories and anchor text.
-    """
     p = pathlib.Path(categories_path)
     if not p.exists():
         print(f"[WARNING] Semantic categories file not found at: {categories_path}. Using default values.")
@@ -43,9 +36,6 @@ def load_semantic_categories(categories_path: str) -> dict:
 
 
 def validate_config_bounds_sanity(task_cfg: dict) -> None:
-    """
-    Verify that the configuration limits and time frames are logically consistent.
-    """
     min_release = task_cfg.get("min_release_delay")
     max_release = task_cfg.get("max_release_delay")
     min_lifetime = task_cfg.get("min_lifetime")
@@ -73,12 +63,13 @@ def main():
     print("Launching Kepler: DatasetFactory...")
     print("===================================")
     
-    CONFIG_FILE = "config.yaml"
+    CONFIG_FILE = sys.argv[1] if len(sys.argv) > 1 else "config.yaml"
     CATEGORIES_FILE = "semantic_categories.json"
+    
+    print(f"[INIT] Using configuration file: {CONFIG_FILE}")
     
     try:
         cfg = load_config(CONFIG_FILE)
-        sem_categories = load_semantic_categories(CATEGORIES_FILE)
         
         sim_cfg = cfg.get("simulation", {})
         pay_cfg = cfg.get("payload", {})
@@ -92,6 +83,10 @@ def main():
         base_seed = sim_cfg.get("seed", 42)
         semantic_enabled = sim_cfg.get("semantic_enabled", True)
         
+        constellation_type = sim_cfg.get("constellation_type", "Arbitrary")
+        walker_params = sim_cfg.get("walker_params")
+        export_kml_visualization = sim_cfg.get("export_kml_visualization", False)
+        
         bands_config = pay_cfg.get("bands_config", {})
         sensor_constraints = pay_cfg.get("sensor_constraints", {})
         
@@ -101,7 +96,13 @@ def main():
         
         print(f"[DATASET] Parent Dataset Directory: 'data/{dataset_name}'")
         print(f"[DATASET] Total iterations to generate: {num_scenarios}")
-        print(f"[CONFIG] Semantic Prompt Phase Enabled: {semantic_enabled}\n")
+        print(f"[CONFIG] Constellation Mode: {constellation_type}")
+        print(f"[CONFIG] Semantic Prompt Phase Enabled: {semantic_enabled}")
+        print(f"[CONFIG] 3D KML Visualization Enabled: {export_kml_visualization}\n")
+
+        if semantic_enabled:
+            sem_categories = load_semantic_categories(CATEGORIES_FILE)
+            from src.modules.prompt_factory.main import prompt_factory_main
 
         for idx in range(1, num_scenarios + 1):
             scenario_folder_name = f"scenario_{idx}"
@@ -144,13 +145,16 @@ def main():
                 "max_sensors_per_sat": pay_cfg.get("max_sensors_per_sat", 2),
                 "priority_weights": task_cfg.get("priority_weights"),  
                 "seed": current_seed,
-                "output_path": str(scenario_report_path)
+                "output_path": str(scenario_report_path),
+                "constellation_type": constellation_type,
+                "walker_params": walker_params
             }
             
-            if sim_cfg.get("sat_group_name"):
-                collector_kwargs["sat_group_name"] = sim_cfg.get("sat_group_name")
-            else:
-                collector_kwargs["sat_file_path"] = path_cfg.get("sat_file_path")
+            if constellation_type == "Arbitrary":
+                if sim_cfg.get("sat_group_name"):
+                    collector_kwargs["sat_group_name"] = sim_cfg.get("sat_group_name")
+                else:
+                    collector_kwargs["sat_file_path"] = path_cfg.get("sat_file_path")
                 
             context = data_collector_main(**collector_kwargs)
             
@@ -163,7 +167,7 @@ def main():
             print(f"[TIME] Simulation Start (t0): {t0.strftime('%Y-%m-%d %H:%M:%S %Z')}")
             print(f"[TIME] Calculated Simulation End (tf): {tf.strftime('%Y-%m-%d %H:%M:%S %Z')}")
             print(f"[TIME] Active Planning Horizon Window: {total_required_duration_s / 3600:.2f} hours")
-            print(f"[TIME] Request Generation Reference (wall-clock): " + f"{generation_now_utc.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+            print(f"[TIME] Request Generation Reference (wall-clock): {generation_now_utc.strftime('%Y-%m-%d %H:%M:%S %Z')}")
             
             if semantic_enabled:
                 print("\nExecuting Semantic Prompt Generation Phase (Ollama Inferences & Semantic Embedding Validation)...")
@@ -190,6 +194,7 @@ def main():
             print("\nExecuting Phase 2: Physics Matrix Propagation & Target Intersection...")
             
             physics_report_path = scenario_dir / "physics_passes_report.json"
+            kml_output_path = scenario_dir / "constellation_3D.kml"
             
             physics_engine_main(
                 context=context,
@@ -200,7 +205,9 @@ def main():
                 output_path=str(physics_report_path), 
                 step_seconds=20,
                 min_duration=collector_kwargs["min_duration"],
-                max_duration=collector_kwargs["max_duration"]
+                max_duration=collector_kwargs["max_duration"],
+                export_kml=export_kml_visualization,
+                kml_output_path=str(kml_output_path)
             )
             
             print(f"Iteration '{scenario_folder_name}' processed and isolated.")

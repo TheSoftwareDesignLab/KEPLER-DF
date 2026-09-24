@@ -93,6 +93,8 @@ def data_collector_main(
     max_lifetime: int = 7200,
     sat_file_path: Optional[str] = None,
     sat_group_name: Optional[str] = None,
+    constellation_type: str = "Arbitrary",          
+    walker_params: Optional[Dict[str, Any]] = None, 
     gs_file_path: str = "data/ground_station.csv",
     sensor_weights: Optional[List[float]] = None,
     band_weights_map: Optional[dict] = None,  
@@ -105,7 +107,14 @@ def data_collector_main(
 ) -> CollectedContext:
     user_allowed_bands = list(band_weights_map.keys()) if band_weights_map else ["S", "X", "Ka"]
     
-    raw_satellites = load_and_sample_satellites(file_path=sat_file_path, group_name=sat_group_name, k=sat_k, seed=seed)
+    raw_satellites = load_and_sample_satellites(
+            file_path=sat_file_path,
+            group_name=sat_group_name,
+            k=sat_k,
+            seed=seed,
+            constellation_type=constellation_type, 
+            walker_params=walker_params            
+        )
 
     ground_stations = load_and_sample_stations(
         file_path=gs_file_path, 

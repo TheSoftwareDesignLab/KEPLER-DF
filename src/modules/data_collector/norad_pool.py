@@ -1,8 +1,9 @@
 import pathlib
 import random
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 from src.core.datatypes import SatelliteConfig
 from .celestrak_handler import fetch_celestrak_metadata, fetch_group_from_celestrak
+from .walker_factory import build_walker_constellation
 
 __all__ = ["load_and_sample_satellites"]
 
@@ -68,52 +69,85 @@ def load_and_sample_satellites(
     group_name: Optional[str] = None,
     k: Optional[int] = None,
     seed: Optional[int] = None,
-    custom_satellites: Optional[List[SatelliteConfig]] = None
+    custom_satellites: Optional[List[SatelliteConfig]] = None,
+    constellation_type: str = "Arbitrary",
+    walker_params: Optional[Dict[str, Any]] = None
 ) -> List[SatelliteConfig]:
     """
-    Loads real satellite orbital data strictly driven by user configuration inputs.
+    Loads real or synthetic satellite orbital data driven by user configuration inputs.
 
-    Queries CelesTrak live catalogs or extracts tracking identifiers from a local file,
-    subsequently filtering the target pool to retain only valid LEO operational assets 
-    before performing a reproducible stochastic sampling of scale 'k'.
+    Supports live CelesTrak catalog queries, local ID flat files, custom collections,
+    or procedurally generated Walker Delta and Walker Star LEO constellations. Assets
+    are filtered to ensure strict LEO orbital limits before applying reproducible stochastic sampling.
 
     Args:
         file_path: Optional local path string pointing to a flat file registry of NORAD pool IDs.
-        group_name: Optional specific string matching a standard CelesTrak constellation constellation group.
+        group_name: Optional specific string matching a standard CelesTrak constellation group.
         k: Explicit size of the final stochastically sampled satellite array.
         seed: Explicit integer used to anchor the random state for experimental reproducibility.
         custom_satellites: Optional pre-configured list of satellite structures bypassing external queries.
+        constellation_type: Constellation architecture selector. Options are "Arbitrary" (default),
+            "Walker Delta", or "Walker Star".
+        walker_params: Dictionary of geometric parameters required when constellation_type is not "Arbitrary".
+            Must include integer keys 't', 'p', and 'f'. Optional keys include 'altitude_km', 'inc', and 'base_id'.
 
     Returns:
         A reproducibly sampled list of configured LEO SatelliteConfig instances.
 
     Raises:
-        ValueError: If parameters are mismatched, if 'k' is omitted, or if the filtered LEO pool is empty.
+        ValueError: If parameters are mismatched, required Walker keys are missing,
+            'k' is omitted or out of bounds, or if the filtered LEO pool is empty.
         RuntimeError: If live network metadata extraction protocols fail for a targeted tracking ID.
     """
-    if custom_satellites is not None:
-        raw_pool = custom_satellites
-    elif file_path is not None:
-        local_ids = _read_local_file(file_path)
-        raw_pool = []
-        for norad_id in local_ids:
-            metadata = fetch_celestrak_metadata(norad_id)
-            if metadata:
-                raw_pool.append(
-                    SatelliteConfig(
-                        norad_id=metadata["norad_id"],
-                        name=metadata["name"],
-                        tle_line1=metadata["tle_line1"],
-                        tle_line2=metadata["tle_line2"]
-                    )
-                )
-            else:
-                raise RuntimeError(f"Failed to fetch metadata from CelesTrak for target NORAD ID: {norad_id}")
-    elif group_name is not None:
-        raw_pool = fetch_group_from_celestrak(group_name)
-    else:
-        raise ValueError("User must explicitly provide either 'custom_satellites', 'file_path', or 'group_name'.")
+    raw_pool: List[SatelliteConfig] = []
 
+  
+    if constellation_type in ("Walker Delta", "Walker Star"):
+        if not walker_params:
+            raise ValueError(f"'{constellation_type}' requires 'walker_params' dictionary.")
+
+        missing_keys = [key for key in ("t", "p", "f") if key not in walker_params]
+        if missing_keys:
+            raise ValueError(f"Missing required walker parameters for '{constellation_type}': {missing_keys}")
+
+        raw_pool = build_walker_constellation(
+            constellation_type=constellation_type,
+            t=int(walker_params["t"]),
+            p=int(walker_params["p"]),
+            f=int(walker_params["f"]),
+            altitude_km=float(walker_params.get("altitude_km", 550.0)),
+            inc=float(walker_params.get("inc", 53.0)),
+            base_id=int(walker_params.get("base_id", 90000))
+        )
+
+
+    elif constellation_type == "Arbitrary":
+        if custom_satellites is not None:
+            raw_pool = custom_satellites
+        elif file_path is not None:
+            local_ids = _read_local_file(file_path)
+            raw_pool = []
+            for norad_id in local_ids:
+                metadata = fetch_celestrak_metadata(norad_id)
+                if metadata:
+                    raw_pool.append(
+                        SatelliteConfig(
+                            norad_id=metadata["norad_id"],
+                            name=metadata["name"],
+                            tle_line1=metadata["tle_line1"],
+                            tle_line2=metadata["tle_line2"]
+                        )
+                    )
+                else:
+                    raise RuntimeError(f"Failed to fetch metadata from CelesTrak for target NORAD ID: {norad_id}")
+        elif group_name is not None:
+            raw_pool = fetch_group_from_celestrak(group_name)
+        else:
+            raise ValueError("User must explicitly provide either 'custom_satellites', 'file_path', or 'group_name'.")
+    else:
+        raise ValueError(f"Unsupported constellation_type: '{constellation_type}'. Valid options: 'Arbitrary', 'Walker Delta', 'Walker Star'.")
+
+   
     final_pool = [sat for sat in raw_pool if _is_strict_leo(sat.tle_line2)]
 
     if k is None:
